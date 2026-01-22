@@ -1689,6 +1689,89 @@ export const products: Product[] = [
         comment: "Lavender Jones é braba! Perfeita pro dia a dia, foco sem ansiedade. Top demais mano!"
       }
     ]
+  },
+  {
+    id: "27",
+    name: "Chronic Thunder",
+    slug: "chronic-thunder",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Chronic Thunder! Tem uma tempestade no horizonte e a Chronic Thunder é perfeita para uma tarde aconchegante em casa. Esta indica proporciona um body high intenso, feita para ficar na cama e assistir a tempestade passar. O medley de frutas com berries e frutas tropicais dá a essa sessão um final doce. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento, Body High intenso",
+      "Sabor: Berries, Frutas tropicais, Doce",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/chronic-thunder-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcos R.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, essa Chronic Thunder é braba demais! Sabor de berries com frutas tropicais, tô derretido no sofá!"
+      },
+      {
+        id: "r2",
+        author: "Letícia M.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Indica perfeita pra dia de chuva! Body high intenso, fiquei de boa curtindo série. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Felipe S.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Essa indica é sinistro mano! Me deixou super relaxado, perfeita pra descansar. Sabor tropical brabo!"
+      },
+      {
+        id: "r4",
+        author: "Camila T.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Chronic Thunder virou minha favorita! Efeito pesado mas gostoso, tô trincando na cama assistindo filme."
+      },
+      {
+        id: "r5",
+        author: "Bruno K.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Mano, o sabor de berries é autêntico! Body high intenso, perfeita pro fim de semana. Qualidade braba!"
+      },
+      {
+        id: "r6",
+        author: "Juliana L.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Essa indica é diferenciada! Me deixou super relaxada, vibe muito boa pra tarde aconchegante."
+      },
+      {
+        id: "r7",
+        author: "Rafael P.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Entrega rápida e produto lacrado! Chronic Thunder é suave demais, recomendo pra relaxar!"
+      },
+      {
+        id: "r8",
+        author: "Amanda G.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Sabor de frutas tropicais com berries é surreal mano! Brisa pesada mas muito boa!"
+      }
+    ]
   }
 ];
 
