@@ -2174,6 +2174,62 @@ export const products: Product[] = [
         comment: "Sativa das antigas! Vape muito prático e sabor de frutas tropicais é viciante. Me deixa feliz e produtivo, mó vibe!"
       }
     ]
+  },
+  {
+    id: "35",
+    name: "Berry White AIO Vape",
+    slug: "berry-white-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Berry White é uma strain indica com uma variedade de sabores de frutas vermelhas como mirtilo e morango, complementados por notas cítricas e um toque de terra. Suave e saboroso, é perfeito para uma pausa no meio do dia. Coloque um Barry White pra tocar e acenda um Berry White Jeeter para um código de trapaça nas vibes! Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 90% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Relaxado, Feliz",
+      "Sabor: Mirtilo, Morango, Cítrico, Terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-berry-white-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 4,
+    reviews: [
+      {
+        id: "r1",
+        author: "Vinícius P.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano, Berry White é sinistro! Sabor de frutas vermelhas delicioso, me deixou super relaxado e feliz. Perfeito pra fim de tarde!"
+      },
+      {
+        id: "r2",
+        author: "Larissa M.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Caraca, que indica top! Gosto de morango e mirtilo é autêntico. Relaxei total depois de um dia corrido. Recomendo demais!"
+      },
+      {
+        id: "r3",
+        author: "Eduardo R.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Curti muito o sabor frutado! Indica suave que relaxa sem nocautear. Boa pra ver série e ficar de boa no sofá."
+      },
+      {
+        id: "r4",
+        author: "Beatriz F.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Berry White virou minha favorita! Vape prático, sabor incrível e efeito relaxante na medida. Tô viciada!"
+      }
+    ]
   }
 ];
 
