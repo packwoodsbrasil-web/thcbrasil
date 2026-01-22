@@ -2363,6 +2363,76 @@ export const products: Product[] = [
         comment: "Granddaddy Purp é clássico por um motivo! Vape sinistro, sabor de grape candy e brisa eufórica. Mó vibe!"
       }
     ]
+  },
+  {
+    id: "38",
+    name: "Watermelon ZKZ AIO Vape",
+    slug: "watermelon-zkz-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Watermelon ZKZ é um cruzamento indica da extremamente popular Zkittlez e Watermelon. Oferece um aroma vibrante de frutas mistas e um perfil de sabor de dar água na boca com um final suculento de melancia. Marcante e saboroso, Watermelon ZKZ é uma escolha sólida quando é hora de relaxar e desligar. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 90% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Feliz, Relaxado",
+      "Sabor: Melancia, Frutas mistas, Doce",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-watermelon-zkz-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Matheus F.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, Watermelon ZKZ é braba demais! Sabor de melancia suculento, me deixou super feliz e relaxado. Indica perfeita!"
+      },
+      {
+        id: "r2",
+        author: "Camila R.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Caraca, que vape delicioso! Gosto de watermelon é autêntico, parece bala de melancia. Relaxei total no fim do dia!"
+      },
+      {
+        id: "r3",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Zkittlez + Watermelon = combinação perfeita! Esse AIO Vape é muito saboroso e o efeito é na medida. Top demais!"
+      },
+      {
+        id: "r4",
+        author: "Isabela L.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Curti muito o sabor frutado! Indica suave que deixa feliz e relaxado. Boa pra ver filme e descansar."
+      },
+      {
+        id: "r5",
+        author: "Rafael T.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Watermelon ZKZ virou minha favorita! Vape prático, sabor de melancia incrível e brisa boa. Recomendo!"
+      },
+      {
+        id: "r6",
+        author: "Amanda C.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Esse vape é sinistro! Sabor de frutas mistas com melancia dominante. Me deixou super de boa, mó vibe!"
+      }
+    ]
   }
 ];
 
