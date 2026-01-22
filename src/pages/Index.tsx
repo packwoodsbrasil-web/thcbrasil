@@ -26,9 +26,8 @@ const Index = () => {
                 Produtos Premium THC
               </span>
               <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in drop-shadow-2xl" style={{ animationDelay: '0.1s', textShadow: '2px 2px 8px rgba(0,0,0,0.8)' }}>
-                Jeeter Juice
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 mt-2">
-                  Brasil
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-green-500">
+                  Jeeter Juice
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-white font-medium mb-10 animate-fade-in drop-shadow-lg" style={{ animationDelay: '0.2s', textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
