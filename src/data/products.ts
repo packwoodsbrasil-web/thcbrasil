@@ -1424,6 +1424,88 @@ export const products: Product[] = [
         comment: "A melhor opção para quem busca energia e bom humor. Recomendo!"
       }
     ]
+  },
+  {
+    id: "24",
+    name: "Slurricane",
+    slug: "slurricane",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Slurricane! Esta indica doce e frutada vem acompanhada de um toque de especiarias. O perfil de sabor é um furacão delicioso com sua inalação doce e açucarada de berry e exalação de frutas tropicais picantes e terra. Slurricane proporciona um body high intenso e efeitos edificantes. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Body High, Edificante, Relaxamento",
+      "Sabor: Berry doce, Frutas tropicais, Terra picante",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/slurricane-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Gustavo R.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, essa Slurricane é braba demais! Sabor de berry doce com toque tropical, tô no mundão!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda L.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Indica perfeita pra relaxar! Body high intenso mas me deixou de bom humor. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Bruno M.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Sabor de furacão de frutas mano! Tragada suave e a brisa vem forte no corpo. Qualidade braba!"
+      },
+      {
+        id: "r4",
+        author: "Juliana S.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Essa indica é sinistro! Me deixou super relaxada mas ainda animada. Perfeita pro fim do dia."
+      },
+      {
+        id: "r5",
+        author: "Rafael T.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Slurricane virou minha favorita! Sabor doce com toque de terra, muito suave. Tô trincando!"
+      },
+      {
+        id: "r6",
+        author: "Amanda K.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Brisa edificante mesmo sendo indica. Me deixou feliz e relaxada, vibe muito boa!"
+      },
+      {
+        id: "r7",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Mano, o sabor de berry é autêntico demais! Entrega rápida e produto lacrado. Recomendo!"
+      },
+      {
+        id: "r8",
+        author: "Carla F.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Essa Slurricane é diferenciada! Sabor tropical com especiarias, braba demais!"
+      }
+    ]
   }
 ];
 
