@@ -1217,6 +1217,89 @@ export const products: Product[] = [
         comment: "Recomendo para quem quer relaxar sem perder a clareza mental. Muito boa!"
       }
     ]
+  },
+  {
+    id: "22",
+    name: "Mac N Cookies",
+    slug: "mac-n-cookies",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Mac N Cookies! Esta strain híbrida equilibrada foi criada através do cruzamento das clássicas Miracle Alien Cookies (MAC) x Alien Cheese. Famosa por seu sabor único e super delicioso, Mac N Cookies é perfeita para amantes de híbridas que apreciam alto nível de potência. Possui um sabor doce e cremoso de queijo acentuado por toques de cookies de nozes e terra apimentada. O aroma é mais intenso, com notas gasosas pungentes acentuadas por ervas picantes e queijo cremoso. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (Equilibrada)",
+      "Genética: Miracle Alien Cookies (MAC) x Alien Cheese",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Euforia, Relaxamento, Elevação do humor",
+      "Sabor: Queijo cremoso, Cookies de nozes, Terra apimentada",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/mac-n-cookies-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas R.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "O sabor de queijo cremoso com cookies é surreal! Nunca experimentei nada igual."
+      },
+      {
+        id: "r2",
+        author: "Bianca M.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Efeito eufórico mas relaxante ao mesmo tempo. Equilíbrio perfeito!"
+      },
+      {
+        id: "r3",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "A genética MAC x Alien Cheese é sensacional. Sabor único no mercado."
+      },
+      {
+        id: "r4",
+        author: "Camila S.",
+        rating: 5,
+        date: "2025-11-18",
+        comment: "Me deixa relaxada e feliz. Perfeita para o fim do dia."
+      },
+      {
+        id: "r5",
+        author: "Diego L.",
+        rating: 5,
+        date: "2025-11-05",
+        comment: "O aroma é intenso e diferenciado. Notas gasosas com toque de ervas. Top!"
+      },
+      {
+        id: "r6",
+        author: "Mariana F.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Produto chegou perfeito e lacrado. Efeito muito consistente."
+      },
+      {
+        id: "r7",
+        author: "Rafael T.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Para quem gosta de sabores complexos, essa é imperdível. Muito potente!"
+      },
+      {
+        id: "r8",
+        author: "Isabela C.",
+        rating: 5,
+        date: "2025-09-30",
+        comment: "A melhor híbrida que já experimentei. O sabor de queijo é suave mas presente."
+      }
+    ]
   }
 ];
 
