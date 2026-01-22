@@ -382,6 +382,61 @@ export const products: Product[] = [
         comment: "Nossa foi minha primeira compra e precisava deixar minha avaliação, experiência única, senti o corpo derreter de tanto relaxamento!"
       }
     ]
+  },
+  {
+    id: "8",
+    name: "Sugar Melon",
+    slug: "sugar-melon",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Sugar Melon! Esta híbrida equilibrada com 92% de THC oferece o melhor dos dois mundos. Com sabor refrescante e adocicado de melão, proporciona uma experiência que expande tanto a mente quanto o corpo. Perfeita para quem não quer sativas muito estimulantes nem indicas pesadas. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 92% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Clareza mental, Relaxamento corporal, Equilibrado",
+      "Sabor: Melão adocicado, Refrescante",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/sugar-melon-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 11,
+    reviews: [
+      {
+        id: "r1",
+        author: "Daniel O.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Vale a pena experimentar, as híbridas são mais intensas. Quem quiser sentir tanto o corpo como a mente expandir, vai nessa!"
+      },
+      {
+        id: "r2",
+        author: "Rafael I.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Excelente alternativa para quem não quer sativas muito estimulantes nem indicas pesadas."
+      },
+      {
+        id: "r3",
+        author: "Paula D.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Gosto muito dessa híbrida, dá pra sentir o equilíbrio perfeito entre indica e sativa."
+      },
+      {
+        id: "r4",
+        author: "Lucas F.",
+        rating: 5,
+        date: "2025-11-02",
+        comment: "Chapa bem, poucos tragos, não fica cheiro. Gostei!"
+      }
+    ]
   }
 ];
 
