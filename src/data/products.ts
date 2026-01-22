@@ -18,7 +18,7 @@ export const products: Product[] = [
       "Certificado: Preserve The Terps™ Verified",
       "Origem: Jeeter - Califórnia, EUA"
     ],
-    images: ["/images/blue-banana-1.jpg"],
+    images: ["/images/blue-banana-1.webp"],
     category: "Canetas",
     inStock: true,
     rating: 4.9,
