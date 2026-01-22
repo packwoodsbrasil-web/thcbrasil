@@ -2615,6 +2615,76 @@ export const products: Product[] = [
         comment: "Esse vape é sinistro! Sabor de sol e cítricos, brisa alegre e motivadora. Recomendo demais pra quem curte sativa!"
       }
     ]
+  },
+  {
+    id: "42",
+    name: "OG Kush AIO Vape",
+    slug: "og-kush-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "OG Kush é a lendária strain que definiu a cena californiana e continua sendo referência mundial. Este vape All-in-One Live Resin captura o perfil clássico de combustível, pinho e limão que tornou a OG Kush famosa. Uma indica potente perfeita para relaxar no fim do dia, com efeitos que promovem calma profunda e satisfação. Vape descartável completo com tecnologia Live Resin 100% Full Spectrum.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 93% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: 100% Full Spectrum Live Resin",
+      "Efeitos principais: Relaxado, Feliz, Sonolento",
+      "Sabor: Combustível, Pinho, Limão, Terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-og-kush-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcelo R.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Mano, OG Kush é lendária por um motivo! Sabor de combustível e pinho clássico. Indica nocaute, dormi que nem pedra!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Caraca, que vape brabo! OG Kush autêntico, sabor terroso com limão. Me deixou super relaxada e feliz. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Bruno L.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "OG Kush nunca decepciona! Esse Live Resin é outro nível. Potência absurda, perfeito pra insônia. Recomendo!"
+      },
+      {
+        id: "r4",
+        author: "Juliana T.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Melhor indica que já experimentei! OG Kush clássico com sabor de combustível. Relaxamento profundo garantido!"
+      },
+      {
+        id: "r5",
+        author: "Carlos M.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Esse vape é sinistro! OG Kush da Califórnia legítima. Brisa pesada mas gostosa, mó vibe de night cap!"
+      },
+      {
+        id: "r6",
+        author: "Amanda F.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "OG Kush virou minha favorita! Vape prático, sabor icônico e efeito potente. Qualidade braba da Jeeter!"
+      }
+    ]
   }
 ];
 
