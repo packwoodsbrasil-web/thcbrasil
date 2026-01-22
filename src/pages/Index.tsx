@@ -52,7 +52,7 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {categories.map((category) => {
                 const categoryImages: Record<string, string> = {
-                  'Canetas': '/images/category-vapes.jpg',
+                  'Canetas': '/images/category-canetas.webp',
                   'Vapes': '/images/category-vapes.jpg',
                   'Comestíveis': '/images/category-candies.jpg',
                   'Kits': '/images/category-kits.png',
