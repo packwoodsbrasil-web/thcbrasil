@@ -2993,6 +2993,69 @@ export const products: Product[] = [
         comment: "Perfeito pra quem não quer fumar! Sabor gostoso demais e efeito controlado. Recomendo muito!"
       }
     ]
+  },
+  {
+    id: "48",
+    name: "Coned THC - Milk Chocolate",
+    slug: "coned-thc-milk-chocolate",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Coned THC Milk Chocolate - cone de wafer recheado com chocolate ao leite infusionado com THC. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada unidade entrega uma dosagem consistente, sabor marcante de chocolate ao leite e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 200mg THC total",
+      "Formato: Cone de Wafer com Chocolate",
+      "Sabor: Milk Chocolate (Chocolate ao Leite)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/coned-milk-chocolate-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcos T.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano, esse cone é muito bom! Chocolate cremoso e a brisa vem suave. Virou meu edible favorito!"
+      },
+      {
+        id: "r2",
+        author: "Letícia A.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Que delícia! Parece aqueles cones de sorvete mas com chocolate. Efeito demorou mas valeu muito!"
+      },
+      {
+        id: "r3",
+        author: "Gabriel F.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Curti demais o formato! Chocolate ao leite perfeito e efeito relaxante. Super discreto pra usar!"
+      },
+      {
+        id: "r4",
+        author: "Isabela M.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Gostoso demais! Só queria que viesse mais unidades. Mas a qualidade é top, recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Cone de chocolate chapante! Melhor edible que já provei. Sabor incrível e efeito prolongado!"
+      }
+    ]
   }
 ];
 
