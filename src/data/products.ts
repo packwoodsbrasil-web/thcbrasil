@@ -1506,6 +1506,97 @@ export const products: Product[] = [
         comment: "Essa Slurricane é diferenciada! Sabor tropical com especiarias, braba demais!"
       }
     ]
+  },
+  {
+    id: "25",
+    name: "Forbidden Gelato",
+    slug: "forbidden-gelato",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Forbidden Gelato! Esta indica foi criada cruzando Gelato #33 com Forbidden Fruit. O nome pode dizer 'proibido', mas você vai querer mais depois do primeiro trago. Forbidden Gelato tem um sabor doce de limão e berry com notas de pinho. Seu aroma é igualmente doce com notas de lavanda, cítrico e berry. Esta strain proporciona um efeito eufórico e edificante. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Genética: Gelato #33 x Forbidden Fruit",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Euforia, Relaxamento, Edificante",
+      "Sabor: Limão doce, Berry, Notas de pinho",
+      "Aroma: Lavanda, Cítrico, Berry",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/forbidden-gelato-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Pedro R.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, essa Forbidden Gelato é sinistro! Sabor de berry com limão, tô no mundão relaxado e feliz!"
+      },
+      {
+        id: "r2",
+        author: "Mariana L.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Braba demais! A genética Gelato #33 x Forbidden Fruit é perfeita. Brisa eufórica e suave!"
+      },
+      {
+        id: "r3",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Indica top demais! Me deixou relaxado mas ainda animado. Sabor de lavanda é diferenciado, tô trincando!"
+      },
+      {
+        id: "r4",
+        author: "Camila S.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "Essa é proibida mesmo mano, vicia! Sabor doce com toque de pinho, muito suave na tragada."
+      },
+      {
+        id: "r5",
+        author: "Lucas K.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Forbidden Gelato virou minha favorita! Efeito edificante mesmo sendo indica. Qualidade braba!"
+      },
+      {
+        id: "r6",
+        author: "Amanda T.",
+        rating: 5,
+        date: "2025-11-15",
+        comment: "Aroma de lavanda com berry é surreal mano! Brisa boa pra curtir o fim de semana."
+      },
+      {
+        id: "r7",
+        author: "Rafael P.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Mano, o sabor cítrico com berry é autêntico! Entrega rapidona e produto lacrado. Recomendo!"
+      },
+      {
+        id: "r8",
+        author: "Juliana F.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Essa indica é diferente de tudo! Me deixou eufórica e relaxada, vibe muito boa!"
+      },
+      {
+        id: "r9",
+        author: "Bruno G.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Forbidden Gelato é braba! Sabor de limão doce com notas de pinho, top demais mano!"
+      }
+    ]
   }
 ];
 
