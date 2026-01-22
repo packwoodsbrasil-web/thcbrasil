@@ -3617,6 +3617,78 @@ export const products: Product[] = [
         comment: "Boa goma pra quem quer se divertir! Sabor gostoso e efeito leve mas marcante!"
       }
     ]
+  },
+  {
+    id: "57",
+    name: "Gomas Delta 9 - Strawberry Shortcake - 300mg",
+    slug: "gomas-delta9-strawberry-shortcake-300mg",
+    price: 64.90,
+    originalPrice: 99.90,
+    description: "Gomas Delta 9 Strawberry Shortcake da Delta Munchies com 300mg de THC total (10mg THC + 10mg CBD por goma, 20 unidades). Formulação sativa exclusiva para good vibes e energia de fim de semana! Cada goma combina Delta 9 THC com CBD para uma experiência equilibrada e elevadora de humor. Sabor doce de morango com bolo, feitas com frutas reais, veganas e sem glúten. Perfeita para dias de 'no plans, all vibes'!",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 10mg CBD por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Strawberry Shortcake (Morango com Bolo)",
+      "Efeitos principais: Sweet Mood Boost, Weekend Energy",
+      "Tipo: Sativa - Good Vibes",
+      "Formulação: Delta 9 + CBD",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-strawberry-shortcake-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Larissa M.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Strawberry Shortcake é a goma mais gostosa que já provei! Sabor de morango com bolo incrível. Brisa suave e feliz!"
+      },
+      {
+        id: "r2",
+        author: "Rafael S.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Good Vibes de verdade! Perfeita pro fim de semana. Me deixa animado mas relaxado ao mesmo tempo!"
+      },
+      {
+        id: "r3",
+        author: "Beatriz T.",
+        rating: 5,
+        date: "2026-01-04",
+        comment: "Curti demais essa goma! O equilíbrio de THC com CBD é perfeito. Sem paranoia, só felicidade!"
+      },
+      {
+        id: "r4",
+        author: "Lucas C.",
+        rating: 4,
+        date: "2025-12-27",
+        comment: "Sabor de shortcake muito bom! Goma vegana e sem glúten. Efeito mood boost garantido!"
+      },
+      {
+        id: "r5",
+        author: "Fernanda R.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Minha favorita da linha! Sabor delicioso e efeito leve. Perfeita pra dias de preguiça!"
+      },
+      {
+        id: "r6",
+        author: "Gustavo A.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Weekend Energy é real! Me deixa de bom humor o dia todo. Sabor de morango top demais!"
+      }
+    ]
   }
 ];
 
