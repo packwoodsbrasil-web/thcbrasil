@@ -55,7 +55,7 @@ const Index = () => {
                   'Canetas': '/images/category-vapes.jpg',
                   'Vapes': '/images/category-vapes.jpg',
                   'Comestíveis': '/images/category-candies.jpg',
-                  'Kits': '/images/kit-sunrise-sativa-1.webp',
+                  'Kits': '/images/category-kits.png',
                 };
                 const bgImage = categoryImages[category];
                 
