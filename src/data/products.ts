@@ -7,8 +7,9 @@ export const products: Product[] = [
     slug: "blue-banana",
     price: 299.90,
     originalPrice: 349.90,
-    description: "Dê uma mordida na Blue Banana! Esta indica complexa apresenta um delicioso perfil de sabor terroso de banana, como se você estivesse afundando os dentes em uma banana madura. A Blue Banana proporciona um efeito que vai chegando aos poucos, oferecendo foco e relaxamento corporal profundo. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    description: "Dê uma mordida na Blue Banana! Esta indica complexa apresenta um delicioso perfil de sabor terroso de banana, como se você estivesse afundando os dentes em uma banana madura. A Blue Banana proporciona um efeito que vai chegando aos poucos, oferecendo foco e relaxamento corporal profundo. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta. Produto com alta concentração de THC.",
     details: [
+      "⚠️ Alta concentração de THC",
       "Tipo: Indica",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
