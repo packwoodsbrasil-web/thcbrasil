@@ -3689,6 +3689,78 @@ export const products: Product[] = [
         comment: "Weekend Energy é real! Me deixa de bom humor o dia todo. Sabor de morango top demais!"
       }
     ]
+  },
+  {
+    id: "58",
+    name: "Gomas Delta 9 - Pink Lemonade - 300mg",
+    slug: "gomas-delta9-pink-lemonade-300mg",
+    price: 64.90,
+    originalPrice: 99.90,
+    description: "Gomas Delta 9 Pink Lemonade da Delta Munchies com 300mg de THC total (10mg THC + 10mg CBD por goma, 20 unidades). Formulação híbrida exclusiva para good vibes e boost de humor instantâneo! Cada goma combina Delta 9 THC com CBD para uma experiência equilibrada e edificante. Sabor cítrico refrescante de limonada rosa, feitas com frutas reais, veganas e sem glúten. Transforma qualquer momento no melhor momento do seu dia!",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 10mg CBD por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Pink Lemonade (Limonada Rosa)",
+      "Efeitos principais: Sweet Mood Boost, Bliss, Good Vibes",
+      "Tipo: Hybrid - Good Vibes",
+      "Formulação: Delta 9 + CBD",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-pink-lemonade-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Mariana C.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Pink Lemonade é sensacional! Sabor cítrico refrescante e brisa equilibrada. Virou minha favorita!"
+      },
+      {
+        id: "r2",
+        author: "Bruno T.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Good Vibes garantido! Essa goma transforma qualquer dia ruim em ótimo. Sabor incrível!"
+      },
+      {
+        id: "r3",
+        author: "Juliana S.",
+        rating: 5,
+        date: "2026-01-03",
+        comment: "Curti demais o equilíbrio de THC com CBD! Mood boost sem exageros. Perfeita pro dia a dia!"
+      },
+      {
+        id: "r4",
+        author: "Ricardo M.",
+        rating: 4,
+        date: "2025-12-26",
+        comment: "Sabor de limonada rosa muito gostoso! Goma híbrida equilibrada. Recomendo pra iniciantes!"
+      },
+      {
+        id: "r5",
+        author: "Camila R.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Pink Lemonade é a definição de bliss! Me deixa feliz e relaxada ao mesmo tempo. Top!"
+      },
+      {
+        id: "r6",
+        author: "Felipe L.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Melhor goma híbrida que já provei! Sabor refrescante e efeito perfeito. Vegana ainda!"
+      }
+    ]
   }
 ];
 
