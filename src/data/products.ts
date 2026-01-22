@@ -2867,6 +2867,69 @@ export const products: Product[] = [
         comment: "Banana ZKZ virou minha favorita! Vape prático, sabor de banana incrível e efeito relaxante. Top!"
       }
     ]
+  },
+  {
+    id: "46",
+    name: "Biscoitos de THC - Birthday Cake - 200mg",
+    slug: "biscoitos-thc-birthday-cake-200mg",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Biscoitos de THC Birthday Cake com 200mg de THC total. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada unidade entrega uma dosagem consistente, sabor marcante de bolo de aniversário e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 200mg THC total",
+      "Formato: Biscoitos",
+      "Sabor: Birthday Cake (Bolo de Aniversário)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/biscoitos-birthday-cake-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "José F.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Apetitosos e chapantes! Já vou na quinta compra, indico pra todos! Sabor incrível de bolo de aniversário!"
+      },
+      {
+        id: "r2",
+        author: "Luiz S.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Mano, que biscoito gostoso! Efeito demorou uns 40 minutos mas quando bateu, foi braba. Durou a noite toda!"
+      },
+      {
+        id: "r3",
+        author: "Amanda C.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Melhor edible que já provei! Dose certinha e sabor de birthday cake perfeito. Super discreto pra usar!"
+      },
+      {
+        id: "r4",
+        author: "Carlos R.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "Curti demais! Perfeito pra quem não curte fumar. Efeito suave no começo e vai crescendo. Relaxamento total!"
+      },
+      {
+        id: "r5",
+        author: "Beatriz M.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Biscoito delicioso e efeito prolongado! Ótimo pra fim de semana. Vou comprar mais com certeza!"
+      }
+    ]
   }
 ];
 
