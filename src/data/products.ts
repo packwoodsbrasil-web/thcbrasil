@@ -61,6 +61,60 @@ export const products: Product[] = [
         comment: "Pô, comprei pra testar a marca e curti demais! O vapor é suave, não arranha a garganta. A onda é boa, deixa chapado mas funcional. Já vou pedir mais!"
       }
     ]
+  },
+  {
+    id: "2",
+    name: "Cherry Punch",
+    slug: "cherry-punch",
+    price: 299.90,
+    originalPrice: 349.90,
+    description: "Cherry Punch! Esta híbrida equilibrada oferece um sabor doce e frutado de cereja madura com notas sutis de terra. A Cherry Punch proporciona uma experiência relaxante e eufórica, perfeita para momentos de descontração. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento, Euforia",
+      "Sabor: Cereja doce, frutado",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/cherry-punch-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 38,
+    reviews: [
+      {
+        id: "r1",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Que sabor incrível! Parece mesmo cereja de verdade. A brisa é super equilibrada, deixa relaxado mas ainda funcional. Amei demais!"
+      },
+      {
+        id: "r2",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Produto top demais! O vapor é suave e o gosto é sensacional. Perfeito pra curtir um som ou ver uma série. Recomendo muito!"
+      },
+      {
+        id: "r3",
+        author: "Carla M.",
+        rating: 4,
+        date: "2026-01-14",
+        comment: "Gostei bastante, a qualidade é evidente. O sabor de cereja é bem autêntico. Só queria que tivesse mais opções de tamanho."
+      },
+      {
+        id: "r4",
+        author: "Diego R.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Minha híbrida favorita! Equilibra bem o relaxamento com um up de criatividade. Live Resin faz toda a diferença no sabor!"
+      }
+    ]
   }
 ];
 
