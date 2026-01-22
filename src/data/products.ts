@@ -1300,6 +1300,102 @@ export const products: Product[] = [
         comment: "A melhor híbrida que já experimentei. O sabor de queijo é suave mas presente."
       }
     ]
+  },
+  {
+    id: "23",
+    name: "Lemon Drop",
+    slug: "lemon-drop",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Lemon Drop! Esta strain híbrida com dominância sativa possui um aroma deliciosamente frutado e cítrico, com sabor igualmente agradável. O nome fala por si só - tem um incrível sabor doce de limão e tropical. Perfeita para quem busca uma experiência eufórica e energizante. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (Dominância Sativa)",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Euforia, Energia, Elevação do humor",
+      "Sabor: Limão doce, Tropical, Cítrico",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/lemon-drop-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 10,
+    reviews: [
+      {
+        id: "r1",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Sabor incrível de limão! Muito refrescante e o efeito é super energizante."
+      },
+      {
+        id: "r2",
+        author: "Letícia M.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Perfeita para o dia. Me deixa eufórica e produtiva sem ansiedade."
+      },
+      {
+        id: "r3",
+        author: "Gabriel S.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "O aroma cítrico é muito agradável. Uma das melhores híbridas sativa-dominant."
+      },
+      {
+        id: "r4",
+        author: "Natália P.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "Sabor tropical delicioso! Parece mesmo uma balinha de limão."
+      },
+      {
+        id: "r5",
+        author: "André L.",
+        rating: 5,
+        date: "2025-11-08",
+        comment: "Efeito eufórico muito bom. Ótima para atividades sociais."
+      },
+      {
+        id: "r6",
+        author: "Juliana K.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Produto chegou rápido e lacrado. Qualidade impecável como sempre."
+      },
+      {
+        id: "r7",
+        author: "Marcos F.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "O sabor de limão é autêntico e natural. Live Resin de qualidade!"
+      },
+      {
+        id: "r8",
+        author: "Camila T.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Minha favorita para dias de praia. Leve e refrescante!"
+      },
+      {
+        id: "r9",
+        author: "Roberto G.",
+        rating: 5,
+        date: "2025-09-25",
+        comment: "Excelente para quem gosta de sabores cítricos. Muito suave."
+      },
+      {
+        id: "r10",
+        author: "Fernanda A.",
+        rating: 5,
+        date: "2025-09-15",
+        comment: "A melhor opção para quem busca energia e bom humor. Recomendo!"
+      }
+    ]
   }
 ];
 
