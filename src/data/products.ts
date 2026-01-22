@@ -117,6 +117,61 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "4",
+    name: "Cosmos",
+    slug: "cosmos",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Cosmos! Esta híbrida equilibrada apresenta efeitos balanceados que inclinam ligeiramente mais para o lado corporal, fazendo a brisa ser fora deste mundo. Seu sabor único de alho tem notas terrosas e picantes, reminiscente de uma refeição saborosa que é perfeita para completar tarefas físicas. O cosmos pode parecer fora de alcance, mas este não é. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Foco, Relaxamento, Edificante",
+      "Sabor: Alho, Terroso, Picante",
+      "Linhagem: Frank's Gift x The Dawgfather",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/cosmos-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.7,
+    reviewCount: 28,
+    reviews: [
+      {
+        id: "r1",
+        author: "Ricardo A.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano, essa Cosmos é diferenciada! O sabor de alho parece estranho mas é muito bom, tipo uma refeição gourmet. A brisa é super equilibrada, me deixou focado e relaxado ao mesmo tempo!"
+      },
+      {
+        id: "r2",
+        author: "Beatriz M.",
+        rating: 4,
+        date: "2026-01-15",
+        comment: "Curti bastante! O sabor é bem único, terroso com um toque picante. Perfeita pra fazer as tarefas de casa sem ficar muito chapada. Qualidade top!"
+      },
+      {
+        id: "r3",
+        author: "Felipe G.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Essa híbrida é incrível! Me deixou super produtivo mas ao mesmo tempo relaxado. O sabor é diferente de tudo que já experimentei. Jeeter nunca decepciona!"
+      },
+      {
+        id: "r4",
+        author: "Carolina P.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Cosmos virou minha favorita pra dias de limpeza em casa! A brisa é funcional e o sabor terroso é muito gostoso. Super recomendo!"
+      }
+    ]
+  },
+  {
     id: "2",
     name: "Cherry Punch",
     slug: "cherry-punch",
