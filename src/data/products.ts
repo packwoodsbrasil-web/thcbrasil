@@ -3320,8 +3320,8 @@ export const products: Product[] = [
     id: "53",
     name: "Gomas Delta 9 - Euphoria - 300mg",
     slug: "gomas-delta9-euphoria-300mg",
-    price: 79.90,
-    originalPrice: 119.90,
+    price: 64.90,
+    originalPrice: 99.90,
     description: "Gomas Delta 9 Euphoria da Delta Munchies com 300mg de THC total (10mg THC + 5mg CBD + 5mg THCV por goma, 20 unidades). Formulação exclusiva para euforia e energia social! Cada goma combina Delta 9 THC com CBD e THCV para uma experiência balanceada e funcional. Sabor Kiwi Burst refrescante, feitas com frutas reais, veganas e sem glúten. Testadas em laboratório terceirizado para garantir qualidade e segurança.",
     details: [
       "Alta concentração de canabinoides",
