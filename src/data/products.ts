@@ -615,6 +615,61 @@ export const products: Product[] = [
         comment: "Poucos falam dessa mas é disparado a melhor, me deixa mais desperto e animado, sem me deixar agitado!"
       }
     ]
+  },
+  {
+    id: "13",
+    name: "Kish",
+    slug: "kish",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Kish! Esta indica relaxante com 91,2% de THC proporciona uma sensação de conforto total, corpo solto e respiração mais calma. Perfeita para desacelerar após um dia agitado, oferece relaxamento profundo sem deixar 'chapado demais'. Ideal para momentos de pausa, sofá e zero pressa. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91,2% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento profundo, Conforto, Desaceleração",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/kish-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 10,
+    reviews: [
+      {
+        id: "r1",
+        author: "Bernardo K.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "A sensação foi de conforto total, corpo solto e respiração mais calma. Muito boa pra relaxar mesmo 10/10!"
+      },
+      {
+        id: "r2",
+        author: "Juliana M.",
+        rating: 5,
+        date: "2025-12-24",
+        comment: "A sensação principal foi de desacelerar! Gostei bastante da minha primeira compra, chegou no prazo!"
+      },
+      {
+        id: "r3",
+        author: "Gabriel J.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Mesmo sendo potente, não me deixou 'chapado demais', só confortável."
+      },
+      {
+        id: "r4",
+        author: "Gabriely B.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "É aquele tipo de experiência que pede sofá, conforto e zero pressa."
+      }
+    ]
   }
 ];
 
