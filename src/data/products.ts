@@ -437,6 +437,61 @@ export const products: Product[] = [
         comment: "Chapa bem, poucos tragos, não fica cheiro. Gostei!"
       }
     ]
+  },
+  {
+    id: "9",
+    name: "Durban Poison",
+    slug: "durban-poison",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Durban Poison! Esta sativa pura com 93,9% de THC é uma das mais potentes do catálogo. Originária da África do Sul, é conhecida por seus efeitos energizantes e criativos. Perfeita para usar durante o dia sem atrapalhar a rotina, oferece clareza mental e estímulo criativo. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 93,9% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Clareza mental, Criatividade, Energia",
+      "Sabor: Terpenos naturais, Terroso",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/durban-poison-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Joana C.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Gosto bastante da Durban pois me ajuda muito no lado criativo, uso pra estudar e parece que expande a mente de uma forma bizarra de boa!"
+      },
+      {
+        id: "r2",
+        author: "Amanda A.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Minha primeira compra foi um sucesso, o envio chegou no prazo exato, atendimento muito atencioso. A Durban é minha favorita!"
+      },
+      {
+        id: "r3",
+        author: "Jhonatan O.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "No começo veio aquele pico de clareza e depois relaxou numa vibe tranquila. 10 de 10!"
+      },
+      {
+        id: "r4",
+        author: "Cristiano M.",
+        rating: 5,
+        date: "2025-11-29",
+        comment: "Senti um estímulo mental que me ajudou a pensar em soluções e depois acalmar o corpo na sequência. Top demais!"
+      }
+    ]
   }
 ];
 
