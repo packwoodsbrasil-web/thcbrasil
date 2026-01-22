@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Jeeter Juice BR Logo" className="h-18 w-auto object-contain" />
+              <img src={logo} alt="Jeeter Juice BR Logo" className="h-36 w-auto object-contain" />
               <span className="font-bold text-xl bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 bg-clip-text text-transparent">
                 Jeeter Juice
               </span>
