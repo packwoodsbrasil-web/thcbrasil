@@ -21,10 +21,6 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/60" />
           <div className="container relative py-24 md:py-40">
             <div className="max-w-2xl text-center mx-auto">
-              <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/80 backdrop-blur-sm text-sm font-bold mb-8 animate-fade-in shadow-lg">
-                <Sparkles className="h-4 w-4" />
-                Live Resin Premium
-              </span>
               <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
                 <span className="text-white drop-shadow-[0_0_30px_rgba(255,215,0,0.8)]" style={{ textShadow: '0 0 40px rgba(255,215,0,0.9), 0 0 80px rgba(255,215,0,0.5), 2px 2px 4px rgba(0,0,0,0.9)' }}>
                   Jeeter Juice
