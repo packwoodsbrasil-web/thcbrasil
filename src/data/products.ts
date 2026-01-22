@@ -3394,6 +3394,78 @@ export const products: Product[] = [
         comment: "Boa goma pra quem quer se divertir! Sabor top e efeito social. Recomendo pra festas e rolês!"
       }
     ]
+  },
+  {
+    id: "54",
+    name: "Gomas Delta 9 - Midnight Berry - 300mg",
+    slug: "gomas-delta9-midnight-berry-300mg",
+    price: 64.90,
+    originalPrice: 99.90,
+    description: "Gomas Delta 9 Midnight Berry da Delta Munchies com 300mg de THC total (10mg THC + 5mg CBD + 5mg CBN por goma, 20 unidades). Formulação exclusiva para relaxamento profundo e sono reparador! Cada goma combina Delta 9 THC com CBD e CBN para uma experiência indica relaxante. Sabor de frutas vermelhas escuras, feitas com frutas reais, veganas e sem glúten. Perfeitas para quem quer dormir mais rápido e acordar sem ressaca.",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 5mg CBD + 5mg CBN por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Midnight Berry (Frutas Vermelhas)",
+      "Efeitos principais: Relaxamento, Sono Profundo, Descanso",
+      "Tipo: Indica - Sweet Dreams",
+      "Formulação: Delta 9 + CBD + CBN",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-midnight-berry-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Patricia S.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Finalmente uma goma que me faz dormir de verdade! O CBN junto com THC é perfeito. Acordo renovada!"
+      },
+      {
+        id: "r2",
+        author: "Ricardo M.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Midnight Berry é braba demais pra insônia! Sabor de frutas vermelhas muito bom. Durmo que nem pedra!"
+      },
+      {
+        id: "r3",
+        author: "Amanda T.",
+        rating: 5,
+        date: "2026-01-03",
+        comment: "Melhor goma pra dormir que já testei! O efeito indica é suave mas eficiente. Sem ressaca no outro dia!"
+      },
+      {
+        id: "r4",
+        author: "Bruno C.",
+        rating: 4,
+        date: "2025-12-26",
+        comment: "Boa goma pra relaxar no fim do dia! Sabor gostoso e efeito calmante. Recomendo pra quem tem ansiedade!"
+      },
+      {
+        id: "r5",
+        author: "Letícia R.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Sweet Dreams mesmo! Durmo muito melhor desde que comecei a usar. Vegana ainda por cima. Top!"
+      },
+      {
+        id: "r6",
+        author: "Felipe A.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "A combinação de THC com CBN é genial! Relaxa sem deixar grogue. Melhor noite de sono da vida!"
+      }
+    ]
   }
 ];
 
