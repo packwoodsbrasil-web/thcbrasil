@@ -3832,6 +3832,77 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },
+  {
+    id: "60",
+    name: "Kit Relaxation Indica - 3 Canetas THC Live Resin",
+    slug: "kit-relaxation-indica-3-unidades",
+    price: 219.80,
+    originalPrice: 329.70,
+    description: "🔥 PROMOÇÃO ESPECIAL: COMPRE 2, LEVE 3! 🔥 O Kit Relaxation Bundle reúne 3 canetas THC Live Resin da linha Indica, perfeitas para relaxamento profundo, alívio de tensão e noites tranquilas. Produzidas a partir de flores frescas congeladas no pico do cultivo, preservam o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais.",
+    details: [
+      "🎁 PROMOÇÃO: Compre 2, Leve 3!",
+      "Conteúdo: 3 Canetas THC Live Resin Indica",
+      "Tipo: Indica - Relaxamento e Tranquilidade",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Straw (Canetas Descartáveis)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento, Alívio de Tensão, Sono",
+      "Sabores variados da linha Indica",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA",
+      "Economia: R$ 109,90 de desconto!"
+    ],
+    images: ["/images/kit-relaxation-indica-1.webp"],
+    category: "Kits",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 35,
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcelo A.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Kit perfeito pra quem quer relaxar! As indicas são muito boas, sabor suave e efeito potente. Durmo que nem pedra depois de usar. Promoção sensacional!"
+      },
+      {
+        id: "r2",
+        author: "Patrícia M.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Sofro de insônia e esse kit me salvou! Três canetas de qualidade top, cada uma com sabor diferente. Recomendo demais pra quem precisa relaxar."
+      },
+      {
+        id: "r3",
+        author: "Roberto C.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Compre 2 leve 3 é promoção braba! Veio tudo certinho, embalagem lacrada. As indicas são perfeitas pro fim do dia, relaxa todo o corpo."
+      },
+      {
+        id: "r4",
+        author: "Fernanda L.",
+        rating: 4,
+        date: "2026-01-10",
+        comment: "Adorei o kit! Uso depois do trabalho pra desestressar. Efeito relaxante sem deixar muito grogue. Só queria mais opções de sabor."
+      },
+      {
+        id: "r5",
+        author: "Diego S.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "Melhor investimento! Economizei uma grana boa e tenho 3 canetas top. Todas indica premium, qualidade Jeeter de sempre. Já vou pedir outro!"
+      },
+      {
+        id: "r6",
+        author: "Ana Paula R.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Kit maravilhoso! Uso pra meditar e relaxar no final do dia. O vapor é suave e o efeito vem tranquilo. Super satisfeita!"
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
   }
 ];
 
