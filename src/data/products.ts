@@ -1772,6 +1772,96 @@ export const products: Product[] = [
         comment: "Sabor de frutas tropicais com berries é surreal mano! Brisa pesada mas muito boa!"
       }
     ]
+  },
+  {
+    id: "28",
+    name: "Sunshine",
+    slug: "sunshine",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Bom dia, Sunshine! Vamos começar o dia com essa sativa poderosa que vai te dar energia da melhor forma possível. Com sabor de creme de laranja e um toque de terra, essa strain não só tem um sabor único, como também proporciona uma brisa positiva e edificante. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 92% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Edificante, Euforia, Felicidade",
+      "Sabor: Creme de laranja, Terroso",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/sunshine-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, essa Sunshine é braba demais! Sabor de creme de laranja, acordei e já tô no pique pro dia!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda L.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Sativa perfeita pra manhã! Me deixou super animada e feliz. Sabor diferenciado, top demais!"
+      },
+      {
+        id: "r3",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Essa sativa é sinistro mano! Brisa edificante e positiva, perfeita pra começar o dia trincando!"
+      },
+      {
+        id: "r4",
+        author: "Camila S.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Sunshine virou minha favorita! Efeito feliz e eufórico, vibe muito boa pra curtir o mundão."
+      },
+      {
+        id: "r5",
+        author: "Bruno K.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Mano, o sabor de laranja cremosa é surreal! Me deixou super disposto, qualidade braba!"
+      },
+      {
+        id: "r6",
+        author: "Juliana T.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Essa sativa é diferenciada! Toque terroso com creme de laranja, suave demais na tragada."
+      },
+      {
+        id: "r7",
+        author: "Rafael P.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Entrega rápida e produto lacrado! Sunshine é perfeita pro dia a dia, recomendo demais!"
+      },
+      {
+        id: "r8",
+        author: "Amanda G.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Bom dia mesmo mano! Essa sativa me deixa feliz e produtiva, braba demais!"
+      },
+      {
+        id: "r9",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Sabor único de creme de laranja! Brisa positiva e edificante, tô rachando de rir aqui!"
+      }
+    ]
   }
 ];
 
