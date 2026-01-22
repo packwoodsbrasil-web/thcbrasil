@@ -172,6 +172,54 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "5",
+    name: "CTF",
+    slug: "ctf",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "CTF! Esta híbrida equilibrada é perfeita para quem busca uma experiência completa. Com 90,3% de THC, oferece potência e sabor real em formato prático. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 90,3% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento, Euforia, Equilibrado",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/ctf-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 3,
+    reviews: [
+      {
+        id: "r1",
+        author: "Enzo P.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Show!! Me deixou bem relaxado em 2 tragos, envio tudo ok!"
+      },
+      {
+        id: "r2",
+        author: "Mariana L.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Comprei por indicação e chegou tudo certinho, é bem boa em poucos tragos já sente o THC."
+      },
+      {
+        id: "r3",
+        author: "Caique W.",
+        rating: 5,
+        date: "2025-10-23",
+        comment: "Envio rápido, chegou tudo lacrado, podem ir sem medo galera! Essa híbrida é muito boa!"
+      }
+    ]
+  },
+  {
     id: "2",
     name: "Cherry Punch",
     slug: "cherry-punch",
