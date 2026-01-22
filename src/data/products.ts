@@ -3245,6 +3245,76 @@ export const products: Product[] = [
         comment: "Goma de maçã chapante! Sabor autêntico e efeito duradouro. Já pedi mais!"
       }
     ]
+  },
+  {
+    id: "52",
+    name: "Gomas THC - Georgia Peach - 300mg",
+    slug: "gomas-thc-georgia-peach-300mg",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Gomas THC Georgia Peach com 300mg de THC total (10mg por goma, 30 unidades). Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada goma entrega uma dosagem consistente, sabor doce e suculento de pêssego da Georgia e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg por goma)",
+      "Formato: Gomas (30 unidades)",
+      "Sabor: Georgia Peach (Pêssego da Georgia)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/gomas-georgia-peach-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Renata L.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Mano, essas gomas de pêssego são braba demais! Sabor suculento e brisa suave. Virou minha favorita!"
+      },
+      {
+        id: "r2",
+        author: "Gabriel T.",
+        rating: 5,
+        date: "2026-01-09",
+        comment: "Georgia Peach é top! Goma doce na medida e efeito relaxante. Demorou uns 40 min pra bater mas valeu!"
+      },
+      {
+        id: "r3",
+        author: "Amanda C.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Curti o sabor de pêssego! Bem autêntico. Edible bom pra quem não curte fumar. Recomendo!"
+      },
+      {
+        id: "r4",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Caraca, que goma deliciosa! Pêssego natural demais. 10mg por goma é perfeito pra controlar a dose!"
+      },
+      {
+        id: "r5",
+        author: "Juliana F.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Georgia Peach virou meu edible do dia a dia! Sabor incrível e efeito prolongado. Top demais!"
+      },
+      {
+        id: "r6",
+        author: "Pedro R.",
+        rating: 4,
+        date: "2025-11-28",
+        comment: "Boa goma de pêssego! Sabor suave e brisa tranquila. Vem 30 unidades, rende bastante!"
+      }
+    ]
   }
 ];
 
