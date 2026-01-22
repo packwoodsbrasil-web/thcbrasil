@@ -3761,10 +3761,81 @@ export const products: Product[] = [
         comment: "Melhor goma híbrida que já provei! Sabor refrescante e efeito perfeito. Vegana ainda!"
       }
     ]
+  },
+  {
+    id: "59",
+    name: "Kit Sunrise Sativa - 3 Canetas THC Live Resin",
+    slug: "kit-sunrise-sativa-3-unidades",
+    price: 219.80,
+    originalPrice: 329.70,
+    description: "🔥 PROMOÇÃO ESPECIAL: COMPRE 2, LEVE 3! 🔥 O Kit Sunrise Sativa reúne 3 canetas THC Live Resin da linha Sativa, perfeitas para quem busca energia, foco e criatividade. Produzidas a partir de flores frescas congeladas no pico do cultivo, preservam o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais.",
+    details: [
+      "🎁 PROMOÇÃO: Compre 2, Leve 3!",
+      "Conteúdo: 3 Canetas THC Live Resin Sativa",
+      "Tipo: Sativa - Energia e Criatividade",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Straw (Canetas Descartáveis)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energia, Foco, Criatividade, Euforia",
+      "Sabores variados da linha Sativa",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA",
+      "Economia: R$ 109,90 de desconto!"
+    ],
+    images: ["/images/kit-sunrise-sativa-1.webp"],
+    category: "Kits",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 28,
+    reviews: [
+      {
+        id: "r1",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, que promoção insana! Paguei por 2 e levei 3, não tem como reclamar. Qualidade Jeeter de sempre, as sativas são perfeitas pra dar aquele gás no dia!"
+      },
+      {
+        id: "r2",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Kit perfeito pra quem curte sativa! Comprei pra dividir com as amigas e amamos. Sabores diferentes e efeito top. Super vale a promoção!"
+      },
+      {
+        id: "r3",
+        author: "Ricardo M.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Compre 2 leve 3 é brabo demais! Economizei uma grana e ainda tenho estoque pra um tempão. Todas as canetas vieram perfeitas, embalagem lacrada."
+      },
+      {
+        id: "r4",
+        author: "Juliana C.",
+        rating: 4,
+        date: "2026-01-12",
+        comment: "Adorei o kit! As sativas me deixam super produtiva, uso pra trabalhar em casa. Só queria poder escolher os sabores, mas veio tudo bom!"
+      },
+      {
+        id: "r5",
+        author: "Gustavo P.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Melhor custo-benefício do site! Já é a segunda vez que compro esse kit. Entrega rápida e discreta. Recomendo demais!"
+      },
+      {
+        id: "r6",
+        author: "Carla F.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Presente perfeito! Dei pra mim mesma de aniversário haha. Três sativas lindas, cada uma com sabor diferente. Amando!"
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
   }
 ];
 
-export const categories: string[] = ["Canetas", "Vapes", "Comestíveis"];
+export const categories: string[] = ["Canetas", "Vapes", "Comestíveis", "Kits"];
 
 export const getProductBySlug = (slug: string): Product | undefined => {
   return products.find((product) => product.slug === slug);
