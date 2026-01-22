@@ -11,6 +11,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Indica",
+      "Potência: 90% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -72,6 +73,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Sativa",
+      "Potência: 91% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -126,6 +128,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida",
+      "Potência: 89% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -257,6 +260,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida",
+      "Potência: 90% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -1166,6 +1170,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida (Equilibrada)",
+      "Potência: 91% THC",
       "Genética: Sunset Sherbet x Octane",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
@@ -1256,6 +1261,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida (Equilibrada)",
+      "Potência: 92% THC",
       "Genética: Miracle Alien Cookies (MAC) x Alien Cheese",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
@@ -1339,6 +1345,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida (Dominância Sativa)",
+      "Potência: 90% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -1435,6 +1442,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Indica",
+      "Potência: 91% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
@@ -1517,6 +1525,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Indica",
+      "Potência: 90% THC",
       "Genética: Gelato #33 x Forbidden Fruit",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
@@ -1608,6 +1617,7 @@ export const products: Product[] = [
     details: [
       "Alta concentração de THC",
       "Tipo: Sativa",
+      "Potência: 92% THC",
       "Formato: Disposable Straw (Caneta Descartável)",
       "Conteúdo: 500mg (0.018oz)",
       "Extração: 100% Live Resin",
