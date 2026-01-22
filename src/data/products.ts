@@ -836,6 +836,138 @@ export const products: Product[] = [
         comment: "Foi meu primeiro uso e realmente o azedinho do limão é uma delícia, senti um misto de sensação tanto relax como uma vontade de dançar! Vale a pena!"
       }
     ]
+  },
+  {
+    id: "18",
+    name: "Sour Tangie",
+    slug: "sour-tangie",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Sour Tangie! Esta sativa potente com 94,8% de THC é uma das mais intensas da linha Jeeter Juice. Desenvolvida para quem busca energia, foco e criatividade. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor cítrico autêntico de tangerina, vapor suave e efeito consistente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 94,8% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energia, Foco, Criatividade, Euforia",
+      "Sabor: Tangerina azeda, Cítrico",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/sour-tangie-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 15,
+    reviews: [
+      {
+        id: "r1",
+        author: "Franco N.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Ya he comprado en la frontera antes y llegó a tiempo, el servicio fue muy bueno, gracias Jeeter."
+      },
+      {
+        id: "r2",
+        author: "Martina Z.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Lo compré en Brasil y lo probé en fiestas, bailé mucho, es una gran experiencia. 10"
+      },
+      {
+        id: "r3",
+        author: "Ravi I.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Mesmo com 94% de THC, achei o efeito muito controlado. Não dá ansiedade, só energia boa."
+      },
+      {
+        id: "r4",
+        author: "Renan G.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Gostei muito da estabilidade do efeito. Não tem pico estranho, é bem progressivo."
+      },
+      {
+        id: "r5",
+        author: "Miguel V.",
+        rating: 5,
+        date: "2025-11-13",
+        comment: "Chegou hoje, dei uns tragos e gostei bastante! Atendimento no whats foi muito esclarecedor! 10⭐️⭐️⭐️⭐️⭐️"
+      },
+      {
+        id: "r6",
+        author: "Sandra E.",
+        rating: 5,
+        date: "2025-11-04",
+        comment: "Pra quem prefere sativas puras e energéticas, essa é perfeita. Vão sem medo kkkk envio chega sim"
+      },
+      {
+        id: "r7",
+        author: "Benjamim O.",
+        rating: 5,
+        date: "2025-11-02",
+        comment: "A Jeeter mantém padrão premium perceptível desde a primeira tragada."
+      },
+      {
+        id: "r8",
+        author: "Julio P.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Me despertou uma euforia clara e positiva, sem ansiedade. O envio foi ok! Já estou na terceira compra somente da tangie, minha favorita!"
+      },
+      {
+        id: "r9",
+        author: "Ravi W.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Sim sim a melhor que temos, podem falar o que for da jeeter mas já usei outras e é limpa, não fica aquela sensação pesada no corpo, sou cliente fiel!"
+      },
+      {
+        id: "r10",
+        author: "Vinicius A.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Segunda compra e chegou lacrada!!! Excelente opção para criatividade!!! Uso para trabalhar kkk e acreditem me ajuda muito no foco, já tive várias ideias depois de usar!!!"
+      },
+      {
+        id: "r11",
+        author: "Ana Carolina H.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "É a mais intensa, já experimentei outras sativas da jeeter e essa é a melhor. Recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Renata Q.",
+        rating: 5,
+        date: "2025-10-09",
+        comment: "Perfil terpênico limpo, sem gosto artificial ou químico, isso fez o diferencial, totalmente diferente das outras marcas."
+      },
+      {
+        id: "r13",
+        author: "Kleiton T.",
+        rating: 5,
+        date: "2025-10-06",
+        comment: "Na minha humilde opinião é a mais forte da linha juice, quem quiser algo intenso essa é a certa!"
+      },
+      {
+        id: "r14",
+        author: "Dara C.",
+        rating: 5,
+        date: "2025-10-04",
+        comment: "Ideal pra quem busca algo com intuito em foco e energia. O envio foi dentro do prazo dado, chegou lacrado."
+      },
+      {
+        id: "r15",
+        author: "Natan M.",
+        rating: 5,
+        date: "2025-10-01",
+        comment: "A potência de 94,8% é sentida, mas muito bem controlada."
+      }
+    ]
   }
 ];
 
