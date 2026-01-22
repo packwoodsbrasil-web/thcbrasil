@@ -272,6 +272,61 @@ export const products: Product[] = [
         comment: "Minha híbrida favorita! Equilibra bem o relaxamento com um up de criatividade. Live Resin faz toda a diferença no sabor!"
       }
     ]
+  },
+  {
+    id: "6",
+    name: "Sour Strawberry",
+    slug: "sour-strawberry",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Sour Strawberry! Esta híbrida equilibrada com 91,3% de THC é perfeita para quem busca uma experiência completa e balanceada. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor autêntico de morango azedo, vapor suave e efeito consistente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 91,3% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Clareza mental, Relaxamento corporal, Equilibrado",
+      "Sabor: Morango azedo, Frutado",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/sour-strawberry-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 18,
+    reviews: [
+      {
+        id: "r1",
+        author: "Aline C.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Ótima para uso social, não deixa aquela sensação pesada. Sou do RS e chegou tudo certinho."
+      },
+      {
+        id: "r2",
+        author: "Juliana Z.",
+        rating: 5,
+        date: "2025-11-20",
+        comment: "Minha preferida, já provei outras mas essa é muito boa!! Bem equilibrada."
+      },
+      {
+        id: "r3",
+        author: "Gabriel K.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "É bem equilibrada, sente a mente e o corpo. Retirei nos correios e foi bem de boa. Indico usar mais pela noite."
+      },
+      {
+        id: "r4",
+        author: "Breno C.",
+        rating: 5,
+        date: "2025-11-16",
+        comment: "Ótima opção para uso social ou criativo. Recomendo 10/10!"
+      }
+    ]
   }
 ];
 
