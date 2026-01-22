@@ -2804,6 +2804,69 @@ export const products: Product[] = [
         comment: "OG Lime virou minha favorita! Vape prático, sabor fresco de limão e efeito equilibrado. Qualidade Jeeter top!"
       }
     ]
+  },
+  {
+    id: "45",
+    name: "Banana ZKZ AIO Vape",
+    slug: "banana-zkz-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Banana ZKZ é um cruzamento indica delicioso entre Banana OG e Zkittlez, criando um perfil de sabor único que combina banana cremosa com notas de frutas tropicais e doces. Este vape All-in-One Live Resin entrega um sabor rico e suave, perfeito para relaxar no fim do dia. Uma indica que promove relaxamento profundo e sono tranquilo. Vape descartável completo com tecnologia Live Resin 100% Full Spectrum.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 89% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: 100% Full Spectrum Live Resin",
+      "Efeitos principais: Relaxado, Sonolento, Feliz",
+      "Sabor: Banana cremosa, Frutas tropicais, Doce",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-banana-zkz-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Gustavo M.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, Banana ZKZ é demais! Sabor de banana cremosa com Zkittlez. Indica nocaute, perfeita pra dormir!"
+      },
+      {
+        id: "r2",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-01-13",
+        comment: "Caraca, que vape delicioso! Gosto de banana tropical é viciante. Me deixou super relaxada e feliz!"
+      },
+      {
+        id: "r3",
+        author: "Bruno R.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "Banana + Zkittlez = combinação perfeita! Esse Live Resin é outro nível. Relaxamento profundo garantido!"
+      },
+      {
+        id: "r4",
+        author: "Natália S.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Curti muito o sabor doce! Indica suave que ajuda a relaxar e dormir bem. Boa pra fim de noite."
+      },
+      {
+        id: "r5",
+        author: "Pedro T.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Banana ZKZ virou minha favorita! Vape prático, sabor de banana incrível e efeito relaxante. Top!"
+      }
+    ]
   }
 ];
 
