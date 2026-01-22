@@ -2496,6 +2496,62 @@ export const products: Product[] = [
         comment: "Esse vape é sinistro! Sabor de flores silvestres com cítrico, brisa eufórica e relaxante. Recomendo demais!"
       }
     ]
+  },
+  {
+    id: "40",
+    name: "Ultra OG AIO Vape",
+    slug: "ultra-og-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Ultra OG é uma híbrida premium que combina o melhor das genéticas OG. Este vape All-in-One Live Resin entrega um perfil de sabor clássico de pinho, limão e terra, característico das melhores OGs da Califórnia. Uma escolha sólida para quem busca potência e sabor autêntico em um formato prático e discreto. Vape descartável completo com tecnologia Live Resin.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 92% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Live Resin",
+      "Efeitos principais: Relaxado, Focado",
+      "Sabor: Pinho, Limão, Terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-ultra-og-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 4,
+    reviews: [
+      {
+        id: "r1",
+        author: "Fernando L.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Mano, Ultra OG é braba demais! Sabor de pinho e limão clássico das OGs. Híbrida equilibrada, me deixou relaxado e focado!"
+      },
+      {
+        id: "r2",
+        author: "Juliana M.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Caraca, que vape top! Live Resin faz toda diferença no sabor. OG autêntico, brisa limpa e potente. Recomendo!"
+      },
+      {
+        id: "r3",
+        author: "Marcos T.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "Ultra OG nunca decepciona! Esse AIO Vape é muito prático e o sabor terroso com pinho é incrível. Top demais!"
+      },
+      {
+        id: "r4",
+        author: "Carolina S.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Gostei do sabor clássico OG! Híbrida que funciona bem pra qualquer hora. Formato discreto e conveniente."
+      }
+    ]
   }
 ];
 
