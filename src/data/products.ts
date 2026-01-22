@@ -2034,6 +2034,69 @@ export const products: Product[] = [
         comment: "Blue Dream nunca falha! Esse AIO Vape é muito prático e o sabor é autêntico. Me deixou super uplifted e happy!"
       }
     ]
+  },
+  {
+    id: "33",
+    name: "Bubba G AIO Vape",
+    slug: "bubba-g-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Bubba Gum é uma popular strain indica com genética que acredita-se ser um cruzamento desconhecido de Indiana Bubble Gum. Esta strain tem um sabor super doce de chiclete de frutas vermelhas com um toque herbal condimentado na exalação. O aroma é de ervas florais e kush terroso com um tom pesado de chiclete que adoça quanto mais você dá tragadas. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 90% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Relaxado, Feliz",
+      "Sabor: Chiclete, Frutas vermelhas, Herbal",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-bubba-g-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Fernando A.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, esse Bubba G é demais! Indica perfeita pra relaxar no fim do dia. Sabor de chiclete é viciante, onda tranquila e feliz!"
+      },
+      {
+        id: "r2",
+        author: "Patricia L.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Caraca, que vape top! O sabor de bubblegum é surreal, parece chiclete de verdade. Me deixou super relaxada, dormi que nem uma pedra!"
+      },
+      {
+        id: "r3",
+        author: "Marcos T.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Curti demais! Indica potente com sabor doce. Perfeito pra maratonar série no sofá. Só queria que viesse com mais carga!"
+      },
+      {
+        id: "r4",
+        author: "Isabela R.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Bubba G virou minha favorita! Efeito relaxante perfeito pra ansiedade, e o sabor de chiclete é nostálgico demais!"
+      },
+      {
+        id: "r5",
+        author: "Diego C.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Vape sinistro! Formato All-in-One muito prático, sabor de bubblegum com toque herbal. Recomendo pra quem quer relaxar!"
+      }
+    ]
   }
 ];
 
