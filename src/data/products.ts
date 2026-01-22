@@ -2028,6 +2028,89 @@ export const products: Product[] = [
         comment: "Sabor doce de sobremesa é surreal mano! Brisa energética, braba demais essa indica!"
       }
     ]
+  },
+  {
+    id: "31",
+    name: "Nebula",
+    slug: "nebula",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Explore nossa galáxia infinita com Nebula! Esta strain híbrida proporciona uma brisa equilibrada perfeita para qualquer momento do dia, especialmente quando você quer ficar focado e ainda assim elevado. Com notas doces e herbais que lembram balas de arco-íris azedas, você pode ter certeza que cada brisa vai te elevar às estrelas e além. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 91% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energético, Foco, Elevado",
+      "Sabor: Doce, Herbal, Balas azedas",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/nebula-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, essa Nebula é braba demais! Híbrida equilibrada, perfeita pra ficar focado e chapado ao mesmo tempo!"
+      },
+      {
+        id: "r2",
+        author: "Marina L.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Híbrida perfeita! Sabor de bala azeda é surreal, me deixou produtiva e feliz. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "André S.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Essa híbrida é sinistro mano! Sabor doce herbal e brisa equilibrada. Qualidade braba!"
+      },
+      {
+        id: "r4",
+        author: "Beatriz T.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Nebula virou minha favorita! Efeito focado e elevado, vibe galáctica demais!"
+      },
+      {
+        id: "r5",
+        author: "Gustavo K.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "Mano, o sabor de rainbow belts é insano! Me deixou energético e focado, tô trincando!"
+      },
+      {
+        id: "r6",
+        author: "Daniela L.",
+        rating: 5,
+        date: "2025-11-08",
+        comment: "Essa híbrida é diferente de tudo! Boa pra qualquer hora do dia. Recomendo demais!"
+      },
+      {
+        id: "r7",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Entrega rápida e produto lacrado! Nebula é perfeita pra quem quer equilíbrio!"
+      },
+      {
+        id: "r8",
+        author: "Vanessa G.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Sabor de balas azedas é surreal mano! Brisa equilibrada, braba demais essa híbrida!"
+      }
+    ]
   }
 ];
 
