@@ -526,6 +526,61 @@ export const products: Product[] = [
         comment: "Recomendo pra uso em festas, o corpo responde mais que a mente, dá uma sensação boa de expansão do corpo. Muito boa!"
       }
     ]
+  },
+  {
+    id: "11",
+    name: "Papaya #5",
+    slug: "papaya-5",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Papaya #5! Esta indica potente com 92,5% de THC oferece uma experiência de relaxamento profundo. O sabor tropical e frutado é suave e agradável. Perfeita para quem está migrando de flor para vape, com vapor consistente que não causa tosse excessiva. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 92,5% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento mental, Relaxamento corporal",
+      "Sabor: Tropical, Frutado",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/papaya-5-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Gabriel F.",
+        rating: 5,
+        date: "2025-12-16",
+        comment: "É uma indica boa, senti a mente relaxar primeiro depois o corpo, foi uma boa experiência! Recomendo!"
+      },
+      {
+        id: "r2",
+        author: "Angelo J.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Quase ninguém fala da Papaya mas é muito boa, já provei outra indica e incrível que essa senti mais o corpo relaxar."
+      },
+      {
+        id: "r3",
+        author: "Davi G.",
+        rating: 5,
+        date: "2025-11-11",
+        comment: "Ótima opção para quem está migrando de flor para vape."
+      },
+      {
+        id: "r4",
+        author: "Ruan A.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Comparando com outras marcas, a Jeeter se destaca pela consistência do vapor. Não causa tosse excessiva, mesmo em puxadas longas."
+      }
+    ]
   }
 ];
 
