@@ -675,8 +675,8 @@ export const products: Product[] = [
     id: "16",
     name: "Kush Breath",
     slug: "kush-breath",
-    price: 129.90,
-    originalPrice: 199.99,
+    price: 109.90,
+    originalPrice: 159.90,
     description: "Kush Breath! Esta indica potente com 91,5% de THC é desenvolvida para quem busca o máximo da experiência canábica em formato prático. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
     details: [
       "Alta concentração de THC",
