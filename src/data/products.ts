@@ -1157,64 +1157,64 @@ export const products: Product[] = [
         id: "r1",
         author: "Rodrigo P.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Híbrida perfeita! Relaxa sem deixar sonolento demais. O sabor cremoso é incrível."
+        date: "2026-01-20",
+        comment: "Mano, essa híbrida é braba demais! Relaxa na medida certa sem dar aquele sono. Sabor cremoso top!"
       },
       {
         id: "r2",
         author: "Amanda L.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "O equilíbrio entre indica e sativa é exato. Criatividade + relaxamento na medida certa."
+        date: "2026-01-15",
+        comment: "Equilíbrio perfeito entre indica e sativa. Tô trincando aqui com muita criatividade!"
       },
       {
         id: "r3",
         author: "Felipe M.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "O sabor de berry com o final cremoso é sensacional. Uma das melhores híbridas que já experimentei."
+        date: "2026-01-08",
+        comment: "Sabor de berry com final cremoso é surreal mano. Melhor híbrida que já experimentei, braba!"
       },
       {
         id: "r4",
         author: "Carolina R.",
         rating: 5,
-        date: "2025-11-20",
-        comment: "Perfeita para noites criativas. Me ajuda muito quando preciso trabalhar em projetos artísticos."
+        date: "2025-12-20",
+        comment: "Top demais pra noites criativas! Me ajuda muito quando preciso trabalhar em projetos artísticos."
       },
       {
         id: "r5",
         author: "Bruno S.",
         rating: 5,
-        date: "2025-11-10",
-        comment: "O aroma terroso com toque cítrico é muito agradável. Qualidade Jeeter de sempre."
+        date: "2025-12-10",
+        comment: "Aroma terroso com toque cítrico é muito suave. Qualidade Jeeter de sempre, brabo!"
       },
       {
         id: "r6",
         author: "Juliana T.",
         rating: 5,
-        date: "2025-10-25",
-        comment: "Efeito duradouro e consistente. Não precisa de muitas puxadas para sentir o efeito."
+        date: "2025-11-25",
+        comment: "Brisa duradoura e consistente. Poucas tragadas já bate legal, tô rachando aqui!"
       },
       {
         id: "r7",
         author: "Marcelo K.",
         rating: 5,
-        date: "2025-10-15",
-        comment: "Entrega rápida e produto lacrado. A Hi-Octane é realmente especial!"
+        date: "2025-11-15",
+        comment: "Entrega rapidona e produto lacrado. A Hi-Octane é braba demais, recomendo!"
       },
       {
         id: "r8",
         author: "Fernanda G.",
         rating: 5,
-        date: "2025-10-08",
-        comment: "Genética excelente! Sunset Sherbet + Octane = combinação perfeita."
+        date: "2025-11-08",
+        comment: "Genética top! Sunset Sherbet + Octane = combinação perfeita mano."
       },
       {
         id: "r9",
         author: "Ricardo A.",
         rating: 5,
-        date: "2025-09-28",
-        comment: "Recomendo para quem quer relaxar sem perder a clareza mental. Muito boa!"
+        date: "2025-10-28",
+        comment: "Suave demais pra relaxar sem perder a clareza mental. Vibe muito boa!"
       }
     ]
   },
@@ -1247,57 +1247,57 @@ export const products: Product[] = [
         id: "r1",
         author: "Lucas R.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "O sabor de queijo cremoso com cookies é surreal! Nunca experimentei nada igual."
+        date: "2026-01-18",
+        comment: "Mano, sabor de queijo cremoso com cookies é surreal! Nunca experimentei nada igual, brabo demais!"
       },
       {
         id: "r2",
         author: "Bianca M.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Efeito eufórico mas relaxante ao mesmo tempo. Equilíbrio perfeito!"
+        date: "2026-01-10",
+        comment: "Brisa eufórica mas relaxante ao mesmo tempo. Equilíbrio perfeito, tô rachando aqui!"
       },
       {
         id: "r3",
         author: "Pedro H.",
         rating: 5,
-        date: "2025-11-25",
-        comment: "A genética MAC x Alien Cheese é sensacional. Sabor único no mercado."
+        date: "2026-01-02",
+        comment: "A genética MAC x Alien Cheese é braba! Sabor único no mercado, top demais."
       },
       {
         id: "r4",
         author: "Camila S.",
         rating: 5,
-        date: "2025-11-18",
-        comment: "Me deixa relaxada e feliz. Perfeita para o fim do dia."
+        date: "2025-12-18",
+        comment: "Me deixa relaxada e feliz. Perfeita pra curtir o fim do dia, vibe muito boa!"
       },
       {
         id: "r5",
         author: "Diego L.",
         rating: 5,
-        date: "2025-11-05",
-        comment: "O aroma é intenso e diferenciado. Notas gasosas com toque de ervas. Top!"
+        date: "2025-12-05",
+        comment: "Aroma intenso e diferenciado mano. Notas gasosas com toque de ervas, suave demais!"
       },
       {
         id: "r6",
         author: "Mariana F.",
         rating: 5,
-        date: "2025-10-22",
-        comment: "Produto chegou perfeito e lacrado. Efeito muito consistente."
+        date: "2025-11-22",
+        comment: "Chegou perfeito e lacrado. Brisa muito consistente, tô trincando!"
       },
       {
         id: "r7",
         author: "Rafael T.",
         rating: 5,
-        date: "2025-10-12",
-        comment: "Para quem gosta de sabores complexos, essa é imperdível. Muito potente!"
+        date: "2025-11-12",
+        comment: "Pra quem curte sabores complexos, essa é imperdível mano. Muito potente, braba!"
       },
       {
         id: "r8",
         author: "Isabela C.",
         rating: 5,
-        date: "2025-09-30",
-        comment: "A melhor híbrida que já experimentei. O sabor de queijo é suave mas presente."
+        date: "2025-10-30",
+        comment: "Melhor híbrida que já experimentei! O sabor de queijo é suave mas presente, top demais."
       }
     ]
   },
@@ -1329,70 +1329,70 @@ export const products: Product[] = [
         id: "r1",
         author: "Thiago R.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Sabor incrível de limão! Muito refrescante e o efeito é super energizante."
+        date: "2026-01-18",
+        comment: "Mano, esse sabor de limão é brabo demais! Tragada suave e a brisa vem leve, top pra curtir o mundão."
       },
       {
         id: "r2",
         author: "Letícia M.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "Perfeita para o dia. Me deixa eufórica e produtiva sem ansiedade."
+        date: "2026-01-12",
+        comment: "Tô rachando de rir com os amigos, essa Lemon Drop é perfeita pra social. Vibe muito boa!"
       },
       {
         id: "r3",
         author: "Gabriel S.",
         rating: 5,
-        date: "2025-11-30",
-        comment: "O aroma cítrico é muito agradável. Uma das melhores híbridas sativa-dominant."
+        date: "2026-01-05",
+        comment: "Brisa leve e refrescante, mano. Aroma cítrico top demais, parece que tô na praia trincando."
       },
       {
         id: "r4",
         author: "Natália P.",
         rating: 5,
-        date: "2025-11-22",
-        comment: "Sabor tropical delicioso! Parece mesmo uma balinha de limão."
+        date: "2025-12-28",
+        comment: "Sabor tropical brabo! Parece balinha de limão mesmo, suave demais na garganta."
       },
       {
         id: "r5",
         author: "André L.",
         rating: 5,
-        date: "2025-11-08",
-        comment: "Efeito eufórico muito bom. Ótima para atividades sociais."
+        date: "2025-12-15",
+        comment: "Efeito eufórico sem paranoia, mano. Fiquei de boa curtindo a vibe o dia todo."
       },
       {
         id: "r6",
         author: "Juliana K.",
         rating: 5,
-        date: "2025-10-28",
-        comment: "Produto chegou rápido e lacrado. Qualidade impecável como sempre."
+        date: "2025-11-28",
+        comment: "Chegou rapidão e lacrado. Qualidade braba como sempre, Jeeter nunca decepciona!"
       },
       {
         id: "r7",
         author: "Marcos F.",
         rating: 5,
-        date: "2025-10-18",
-        comment: "O sabor de limão é autêntico e natural. Live Resin de qualidade!"
+        date: "2025-11-18",
+        comment: "Live Resin de respeito! Sabor de limão autêntico, tô trincando aqui mano."
       },
       {
         id: "r8",
         author: "Camila T.",
         rating: 5,
-        date: "2025-10-05",
-        comment: "Minha favorita para dias de praia. Leve e refrescante!"
+        date: "2025-11-05",
+        comment: "Minha favorita pra ir pra praia! Brisa leve e refrescante, top demais."
       },
       {
         id: "r9",
         author: "Roberto G.",
         rating: 5,
-        date: "2025-09-25",
-        comment: "Excelente para quem gosta de sabores cítricos. Muito suave."
+        date: "2025-10-25",
+        comment: "Suave demais mano, pra quem curte cítrico é a melhor opção. Recomendo!"
       },
       {
         id: "r10",
         author: "Fernanda A.",
         rating: 5,
-        date: "2025-09-15",
+        date: "2025-10-15",
         comment: "A melhor opção para quem busca energia e bom humor. Recomendo!"
       }
     ]
