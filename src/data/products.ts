@@ -30,7 +30,7 @@ export const products: Product[] = [
         author: "Lucas M.",
         rating: 5,
         date: "2026-01-18",
-        comment: "Mano, essa parada é sinistro demais! O gosto de banana é suave, não é artificial. Bati duas e já tava no mundão, super relaxado. Recomendo demais, mó qualidade!"
+        comment: "Mano, essa parada é sinistro demais! O gosto de banana é suave, não é artificial. Dei dois tragos e já tava no mundão, super relaxado. Recomendo demais, mó qualidade!"
       },
       {
         id: "r2",
