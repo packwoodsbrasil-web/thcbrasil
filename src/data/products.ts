@@ -3119,6 +3119,69 @@ export const products: Product[] = [
         comment: "Cone perfeito! Sabor de morango autêntico e efeito prolongado. Já virou meu edible favorito!"
       }
     ]
+  },
+  {
+    id: "50",
+    name: "Coned THC - Mint Chip",
+    slug: "coned-thc-mint-chip",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Coned THC Mint Chip - cone de wafer recheado com chocolate e menta infusionado com THC. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada unidade entrega uma dosagem consistente, sabor refrescante de menta com pedaços de chocolate e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 200mg THC total",
+      "Formato: Cone de Wafer com Chocolate",
+      "Sabor: Mint Chip (Menta com Chocolate)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/coned-mint-chip-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Ricardo L.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Menta com chocolate é a melhor combinação! Cone refrescante e brisa relaxante. Curti demais!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda M.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Mint Chip virou meu favorito! Sabor refrescante e pedacinhos de chocolate. Efeito prolongado!"
+      },
+      {
+        id: "r3",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Mano, que cone delicioso! Menta na medida certa com chocolate. Perfeito pra relaxar no fim do dia!"
+      },
+      {
+        id: "r4",
+        author: "Juliana C.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Sabor muito bom! Refrescante e doce ao mesmo tempo. Edible top pra quem não fuma!"
+      },
+      {
+        id: "r5",
+        author: "Diego R.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Cone de menta chapante! Sabor incrível e efeito duradouro. Já pedi mais pra ter em casa!"
+      }
+    ]
   }
 ];
 
