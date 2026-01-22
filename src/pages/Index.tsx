@@ -53,7 +53,7 @@ const Index = () => {
               {categories.map((category) => {
                 const categoryImages: Record<string, string> = {
                   'Canetas': '/images/category-canetas.webp',
-                  'Vapes': '/images/category-vapes.jpg',
+                  'Vapes': '/images/category-vapes.png',
                   'Comestíveis': '/images/category-candies.jpg',
                   'Kits': '/images/category-kits.png',
                 };
