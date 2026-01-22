@@ -327,6 +327,61 @@ export const products: Product[] = [
         comment: "Ótima opção para uso social ou criativo. Recomendo 10/10!"
       }
     ]
+  },
+  {
+    id: "7",
+    name: "Harambe",
+    slug: "harambe",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Harambe! Esta indica potente com 91,5% de THC é perfeita para relaxamento profundo e alívio do estresse. Conhecida como 'Gorila Blue', oferece um efeito corporal intenso que ajuda a desligar após um dia pesado. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91,5% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento profundo, Alívio de estresse, Sono",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/harambe-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 10,
+    reviews: [
+      {
+        id: "r1",
+        author: "Alex J.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "É bem relaxante, quem busca algo pra dormir é a boa!"
+      },
+      {
+        id: "r2",
+        author: "Kevin A.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Foi minha primeira compra com a Jeeter, a caneta é bem leve e discreta, dei uns 4 tragos e senti bater forte, vou comprar mais vezes."
+      },
+      {
+        id: "r3",
+        author: "Victor S.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Consegui tratar minha insônia com a Harambe, poucos tragos já sente bater bem limpo."
+      },
+      {
+        id: "r4",
+        author: "Cinthia L.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Nossa foi minha primeira compra e precisava deixar minha avaliação, experiência única, senti o corpo derreter de tanto relaxamento!"
+      }
+    ]
   }
 ];
 
