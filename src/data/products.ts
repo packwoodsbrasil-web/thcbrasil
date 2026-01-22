@@ -968,6 +968,89 @@ export const products: Product[] = [
         comment: "A potência de 94,8% é sentida, mas muito bem controlada."
       }
     ]
+  },
+  {
+    id: "19",
+    name: "Super Silver Haze",
+    slug: "super-silver-haze",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Super Silver Haze! Esta sativa lendária com 93,8% de THC é conhecida mundialmente por seus efeitos energizantes e criativos. Desenvolvida para quem busca clareza mental, foco e inspiração. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando vapor suave e efeito consistente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 93,8% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Clareza mental, Foco, Criatividade, Energia",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/super-silver-haze-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "Fiz uma compra teste pq fiquei com receio, mas me surpreendi quando chegou kkkk. Vou comprar mais vezes."
+      },
+      {
+        id: "r2",
+        author: "Tomas M.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Primeira compra e chegou lacrada, o cuidado do envio foi muito seguro, atendimento top! Já provei e me surpreendi, poucos tragos já senti bater bem limpo. Comprarei mais vezes com ctz!"
+      },
+      {
+        id: "r3",
+        author: "Francisco V.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Uso pra trabalhar com criação e essa caneta virou minha preferida. Foco, ideias fluem."
+      },
+      {
+        id: "r4",
+        author: "Brendon K.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "A ativação é rápida, mas não agressiva, não deixa o corpo pesado. Em poucos minutos já bate aquela clareza mental boa pra trabalhar ou criar, bem sativa mesmo."
+      },
+      {
+        id: "r5",
+        author: "Bento R.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Uso sativas há anos e a Silver Haze me surpreendeu. Efeito limpo, cabeça clara e zero peso no corpo. Dá pra usar tranquilamente durante o dia."
+      },
+      {
+        id: "r6",
+        author: "Julia A.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Ah minha favorita, me despertou uma sensação de alegria, a mente tive várias ideias, uso às vezes pra estudar e acreditem me ajuda muito, deixa esperta não sei expressar em palavras. 10/10000"
+      },
+      {
+        id: "r7",
+        author: "Francielle S.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Já tinha ouvido falar da silver mas realmente é melhor do que esperava! 10 de 10!"
+      },
+      {
+        id: "r8",
+        author: "Yuri S.",
+        rating: 5,
+        date: "2025-10-07",
+        comment: "Produto chegou lacrado e em perfeito estado!!!"
+      }
+    ]
   }
 ];
 
