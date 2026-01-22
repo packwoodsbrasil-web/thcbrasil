@@ -3538,6 +3538,85 @@ export const products: Product[] = [
         comment: "Goma híbrida muito boa! Sabor de manga delicioso e efeito equilibrado. Recomendo!"
       }
     ]
+  },
+  {
+    id: "56",
+    name: "Gomas Delta 9 - Blue Dream - 300mg",
+    slug: "gomas-delta9-blue-dream-300mg",
+    price: 64.90,
+    originalPrice: 99.90,
+    description: "Gomas Delta 9 Blue Dream da Delta Munchies com 300mg de THC total (10mg THC + 5mg CBD + 5mg THCV por goma, 20 unidades). Formulação sativa exclusiva para euforia e risadas garantidas! Cada goma combina Delta 9 THC com CBD e THCV para ativar o modo 'go-mode' e encontrar graça em tudo. Sabor de mirtilo intenso, feitas com frutas reais, veganas e sem glúten. Certified Laugh Factory!",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 5mg CBD + 5mg THCV por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Blue Dream (Mirtilo)",
+      "Efeitos principais: Euforia, Risadas, Energia Feel-Good",
+      "Tipo: Sativa - Playful",
+      "Formulação: Delta 9 + CBD + THCV",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-blue-dream-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Marcos V.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Blue Dream é garantia de risadas! Sabor de mirtilo muito gostoso e brisa eufórica. Perfeita pra rolês!"
+      },
+      {
+        id: "r2",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Mano, essa goma é braba! Me deixa super animada e sociável. Certified Laugh Factory mesmo!"
+      },
+      {
+        id: "r3",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2026-01-03",
+        comment: "Curti demais o efeito sativa! THCV dá aquela energia boa sem paranoia. Sabor top!"
+      },
+      {
+        id: "r4",
+        author: "Juliana M.",
+        rating: 4,
+        date: "2025-12-26",
+        comment: "Blue Dream virou minha favorita! Goma de qualidade e efeito feel-good. Recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Fernando C.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Playful é o nome certo! Me deixa de bom humor o dia todo. Sabor de mirtilo incrível!"
+      },
+      {
+        id: "r6",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Melhor goma sativa que já provei! Euforia pura e risadas garantidas. Top demais!"
+      },
+      {
+        id: "r7",
+        author: "Pedro H.",
+        rating: 4,
+        date: "2025-12-02",
+        comment: "Boa goma pra quem quer se divertir! Sabor gostoso e efeito leve mas marcante!"
+      }
+    ]
   }
 ];
 
