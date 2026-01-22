@@ -670,6 +670,82 @@ export const products: Product[] = [
         comment: "Usei num domingo à tarde e foi incrível! Maratonei uma série inteira super de boa. Recomendo!"
       }
     ]
+  },
+  {
+    id: "16",
+    name: "Kush Breath",
+    slug: "kush-breath",
+    price: 129.90,
+    originalPrice: 199.99,
+    description: "Kush Breath! Esta indica potente com 91,5% de THC é desenvolvida para quem busca o máximo da experiência canábica em formato prático. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91,5% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento profundo, Conforto, Descanso mental",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/kush-breath-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Hugo D.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "É aquele tipo de experiência que pede tipo, conforto não sei explicar kkkk mas foi uma onda boa! Envio tudo ok glr"
+      },
+      {
+        id: "r2",
+        author: "Luis O.",
+        rating: 5,
+        date: "2025-12-08",
+        comment: "Realmente é uma indica com potencial em relaxar tá, percebi que ajuda bastante quando estou mais tenso ou com o corpo cansado."
+      },
+      {
+        id: "r3",
+        author: "Otavio H.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Dá pra perceber que o óleo é bem refinado tipo a qualidade em si, fazia tempo que não pegava algo bom assim."
+      },
+      {
+        id: "r4",
+        author: "Ana Paula C.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Gente fiquei sim com receio de n chegar mas acreditem chegou hahaha uma indica bem boa pra quem quer sentir a mente desligar"
+      },
+      {
+        id: "r5",
+        author: "José A.",
+        rating: 5,
+        date: "2025-11-02",
+        comment: "Vapor limpo, sem aspereza na garganta, sinal claro de boa filtragem e destilado refinado."
+      },
+      {
+        id: "r6",
+        author: "Julia M.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "A mente ficou mais leve, sem aquela correria de pensamentos, já usei de outras marcas e me dava ansiedade, mas essa foi a primeira que não deu. Quem busca algo pra se desligar de verdade essa é perfeita..."
+      },
+      {
+        id: "r7",
+        author: "Denis A.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Minha avaliação geral Sabor:⭐️⭐️⭐️⭐️ Alto:⭐️⭐️⭐️⭐️⭐️ Custo-benefício:⭐️⭐️⭐️⭐️⭐️"
+      }
+    ]
   }
 ];
 
