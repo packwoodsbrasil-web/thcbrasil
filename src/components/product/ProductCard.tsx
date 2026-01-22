@@ -27,7 +27,7 @@ export function ProductCard({ product }: ProductCardProps) {
       )}
 
       {/* Image */}
-      <Link to={`/produto/${product.slug}`} className="block aspect-square overflow-hidden" onClick={() => window.scrollTo(0, 0)}>
+      <Link to={`/produto/${product.slug}`} className="block aspect-square overflow-hidden">
         <img
           src={product.images[0]}
           alt={product.name}
@@ -43,7 +43,7 @@ export function ProductCard({ product }: ProductCardProps) {
         </span>
 
         {/* Name */}
-        <Link to={`/produto/${product.slug}`} onClick={() => window.scrollTo(0, 0)}>
+        <Link to={`/produto/${product.slug}`}>
           <h3 className="font-semibold mt-1 line-clamp-2 group-hover:text-primary transition-colors">
             {product.name}
           </h3>
