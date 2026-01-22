@@ -2433,6 +2433,69 @@ export const products: Product[] = [
         comment: "Esse vape é sinistro! Sabor de frutas mistas com melancia dominante. Me deixou super de boa, mó vibe!"
       }
     ]
+  },
+  {
+    id: "39",
+    name: "Blue ZKZ AIO Vape",
+    slug: "blue-zkz-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Blue ZKZ é um cruzamento indica de Blue Diamond e Zkittlez. Esta flor vibrante apresenta um perfil de terpenos marcante de cítricos azedos, terra doce e flores silvestres. Conhecida por seu aroma e sabor ricos, Blue ZKZ é uma strain relaxante que define o tom para uma noite tranquila. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Relaxado, Eufórico",
+      "Sabor: Cítrico azedo, Terra doce, Flores silvestres",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-blue-zkz-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Diego M.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, Blue ZKZ é demais! Sabor de cítrico com flores é único, me deixou super relaxado e eufórico. Indica top!"
+      },
+      {
+        id: "r2",
+        author: "Gabriela S.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Caraca, que vape incrível! Zkittlez + Blue Diamond = combinação perfeita. Relaxei total pra uma noite tranquila!"
+      },
+      {
+        id: "r3",
+        author: "Lucas R.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Curti o sabor diferenciado! Cítrico azedo com toque floral. Indica boa pra descansar no fim do dia."
+      },
+      {
+        id: "r4",
+        author: "Natália T.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Blue ZKZ virou minha favorita! Vape prático, sabor rico e efeito relaxante na medida. Mó vibe!"
+      },
+      {
+        id: "r5",
+        author: "Pedro A.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Esse vape é sinistro! Sabor de flores silvestres com cítrico, brisa eufórica e relaxante. Recomendo demais!"
+      }
+    ]
   }
 ];
 
