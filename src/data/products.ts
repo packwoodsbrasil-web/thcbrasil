@@ -3318,7 +3318,7 @@ export const products: Product[] = [
   },
   {
     id: "53",
-    name: "Gomas Delta 9 - Euphoria - 300mg",
+    name: "Delta 9 THC - Kiwi Burst - 300mg",
     slug: "gomas-delta9-euphoria-300mg",
     price: 64.90,
     originalPrice: 99.90,
@@ -3397,7 +3397,7 @@ export const products: Product[] = [
   },
   {
     id: "54",
-    name: "Gomas Delta 9 - Midnight Berry - 300mg",
+    name: "Delta 9 THC - Midnight Berry - 300mg",
     slug: "gomas-delta9-midnight-berry-300mg",
     price: 64.90,
     originalPrice: 99.90,
@@ -3469,7 +3469,7 @@ export const products: Product[] = [
   },
   {
     id: "55",
-    name: "Gomas Delta 9 - Mango Crush - 300mg",
+    name: "Delta 9 THC - Mango Crush - 300mg",
     slug: "gomas-delta9-mango-crush-300mg",
     price: 64.90,
     originalPrice: 99.90,
@@ -3541,7 +3541,7 @@ export const products: Product[] = [
   },
   {
     id: "56",
-    name: "Gomas Delta 9 - Blue Dream - 300mg",
+    name: "Delta 9 THC - Blue Dream - 300mg",
     slug: "gomas-delta9-blue-dream-300mg",
     price: 64.90,
     originalPrice: 99.90,
@@ -3620,7 +3620,7 @@ export const products: Product[] = [
   },
   {
     id: "57",
-    name: "Gomas Delta 9 - Strawberry Shortcake - 300mg",
+    name: "Delta 9 THC - Strawberry Shortcake - 300mg",
     slug: "gomas-delta9-strawberry-shortcake-300mg",
     price: 64.90,
     originalPrice: 99.90,
@@ -3692,7 +3692,7 @@ export const products: Product[] = [
   },
   {
     id: "58",
-    name: "Gomas Delta 9 - Pink Lemonade - 300mg",
+    name: "Delta 9 THC - Pink Lemonade - 300mg",
     slug: "gomas-delta9-pink-lemonade-300mg",
     price: 64.90,
     originalPrice: 99.90,
