@@ -2685,6 +2685,69 @@ export const products: Product[] = [
         comment: "OG Kush virou minha favorita! Vape prático, sabor icônico e efeito potente. Qualidade braba da Jeeter!"
       }
     ]
+  },
+  {
+    id: "43",
+    name: "Jack Herer AIO Vape",
+    slug: "jack-herer-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Jack Herer é uma das strains mais icônicas do mundo, nomeada em homenagem ao famoso ativista e autor do livro 'The Emperor Wears No Clothes'. Este vape All-in-One Live Resin captura o perfil clássico de pinho, especiarias e cítricos que tornou a Jack Herer uma lenda. Uma sativa energizante perfeita para estimular criatividade, foco e bom humor. Vape descartável completo com tecnologia Live Resin 100% Full Spectrum.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 91% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: 100% Full Spectrum Live Resin",
+      "Efeitos principais: Energético, Focado, Criativo",
+      "Sabor: Pinho, Especiarias, Cítrico",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-jack-herer-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas T.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, Jack Herer é lendária! Sabor de pinho e especiarias clássico. Sativa que deixa super focado e criativo. Top demais!"
+      },
+      {
+        id: "r2",
+        author: "Marina S.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Caraca, que vape incrível! Jack Herer é perfeita pro dia. Me deu aquela energia boa pra produzir e criar!"
+      },
+      {
+        id: "r3",
+        author: "Pedro R.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Jack Herer nunca falha! Esse Live Resin captura o sabor perfeitamente. Brisa energética e lúcida. Recomendo!"
+      },
+      {
+        id: "r4",
+        author: "Beatriz L.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Melhor sativa que existe! Jack Herer com sabor de pinho e cítrico. Foco e criatividade no máximo. Braba!"
+      },
+      {
+        id: "r5",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Esse vape é sinistro! Homenagem ao ativista Jack Herer com qualidade top. Brisa limpa e edificante, mó vibe!"
+      }
+    ]
   }
 ];
 
