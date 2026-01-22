@@ -2748,6 +2748,62 @@ export const products: Product[] = [
         comment: "Esse vape é sinistro! Homenagem ao ativista Jack Herer com qualidade top. Brisa limpa e edificante, mó vibe!"
       }
     ]
+  },
+  {
+    id: "44",
+    name: "OG Lime AIO Vape",
+    slug: "og-lime-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "OG Lime Kush é uma híbrida refrescante que combina a potência clássica das genéticas OG com um perfil cítrico vibrante de limão. Este vape All-in-One Live Resin entrega um sabor fresco e azedo com notas de lima, pinho e terra, característico das melhores OGs com um twist cítrico. Perfeita para qualquer momento do dia, oferecendo equilíbrio entre relaxamento e clareza mental. Vape descartável completo com tecnologia Live Resin 100% Full Spectrum.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 90% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: 100% Full Spectrum Live Resin",
+      "Efeitos principais: Relaxado, Equilibrado, Feliz",
+      "Sabor: Lima, Limão, Pinho, Terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-og-lime-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 4,
+    reviews: [
+      {
+        id: "r1",
+        author: "Rafael L.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, OG Lime é refrescante demais! Sabor de lima com pinho, híbrida equilibrada. Me deixou relaxado mas funcional!"
+      },
+      {
+        id: "r2",
+        author: "Camila R.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Caraca, que vape top! Gosto cítrico azedo é viciante. OG com twist de limão, brisa equilibrada e gostosa!"
+      },
+      {
+        id: "r3",
+        author: "Eduardo T.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Curti o sabor de lime! Híbrida que funciona bem pra qualquer hora. Efeito suave mas presente. Recomendo!"
+      },
+      {
+        id: "r4",
+        author: "Isabela M.",
+        rating: 5,
+        date: "2025-12-26",
+        comment: "OG Lime virou minha favorita! Vape prático, sabor fresco de limão e efeito equilibrado. Qualidade Jeeter top!"
+      }
+    ]
   }
 ];
 
