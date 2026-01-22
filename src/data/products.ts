@@ -3182,6 +3182,69 @@ export const products: Product[] = [
         comment: "Cone de menta chapante! Sabor incrível e efeito duradouro. Já pedi mais pra ter em casa!"
       }
     ]
+  },
+  {
+    id: "51",
+    name: "Gomas THC - Sour Green Apple - 300mg",
+    slug: "gomas-thc-sour-green-apple-300mg",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Gomas THC Sour Green Apple com 300mg de THC total. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada goma entrega uma dosagem consistente, sabor azedinho de maçã verde e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total",
+      "Formato: Gomas",
+      "Sabor: Sour Green Apple (Maçã Verde Azeda)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/gomas-sour-green-apple-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Matheus L.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Goma de maçã verde azeda é perfeita! Sabor refrescante e brisa relaxante. Curti demais!"
+      },
+      {
+        id: "r2",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Mano, que goma deliciosa! Azedinho na medida certa. Efeito demorou mas foi muito bom!"
+      },
+      {
+        id: "r3",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2026-01-04",
+        comment: "Sour Green Apple virou minha favorita! Sabor incrível e efeito prolongado. Super discreto!"
+      },
+      {
+        id: "r4",
+        author: "Camila R.",
+        rating: 4,
+        date: "2025-12-27",
+        comment: "Gostei muito do sabor azedo! Edible top pra quem não curte fumar. Recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Goma de maçã chapante! Sabor autêntico e efeito duradouro. Já pedi mais!"
+      }
+    ]
   }
 ];
 
