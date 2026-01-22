@@ -420,7 +420,7 @@ export const products: Product[] = [
         author: "Rafael I.",
         rating: 5,
         date: "2025-11-19",
-        comment: "Excelente alternativa para quem não quer sativas muito estimulantes nem indicas pesadas."
+        comment: "Comprei pra testar e curti muito! A onda é bem suave, não pesa demais. Perfeita pro dia a dia."
       },
       {
         id: "r3",
@@ -571,14 +571,14 @@ export const products: Product[] = [
         author: "Davi G.",
         rating: 5,
         date: "2025-11-11",
-        comment: "Ótima opção para quem está migrando de flor para vape."
+        comment: "Primeira vez usando caneta e adorei! O vapor é muito suave, não tossi nada. Vou comprar de novo com certeza."
       },
       {
         id: "r4",
         author: "Ruan A.",
         rating: 5,
         date: "2025-10-12",
-        comment: "Comparando com outras marcas, a Jeeter se destaca pela consistência do vapor. Não causa tosse excessiva, mesmo em puxadas longas."
+        comment: "Muito boa! Usei antes de dormir e acordei super descansado. O gosto tropical é bem gostoso também."
       }
     ]
   },
@@ -646,14 +646,14 @@ export const products: Product[] = [
         author: "Bernardo K.",
         rating: 5,
         date: "2026-01-10",
-        comment: "A sensação foi de conforto total, corpo solto e respiração mais calma. Muito boa pra relaxar mesmo 10/10!"
+        comment: "Essa caneta é perfeita depois de um dia estressante! Usei antes de assistir um filme e curti demais. 10/10!"
       },
       {
         id: "r2",
         author: "Juliana M.",
         rating: 5,
         date: "2025-12-24",
-        comment: "A sensação principal foi de desacelerar! Gostei bastante da minha primeira compra, chegou no prazo!"
+        comment: "Gostei bastante da minha primeira compra! Chegou rápido e bem embalado. A onda é boa demais!"
       },
       {
         id: "r3",
@@ -667,7 +667,7 @@ export const products: Product[] = [
         author: "Gabriely B.",
         rating: 5,
         date: "2025-12-17",
-        comment: "É aquele tipo de experiência que pede sofá, conforto e zero pressa."
+        comment: "Usei num domingo à tarde e foi incrível! Maratonei uma série inteira super de boa. Recomendo!"
       }
     ]
   }
