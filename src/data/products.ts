@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 7,
     reviews: [
       {
         id: "r1",
@@ -1074,13 +1074,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-10-14",
         comment: "Já tinha ouvido falar da silver mas realmente é melhor do que esperava! 10 de 10!"
-      },
-      {
-        id: "r8",
-        author: "Yuri S.",
-        rating: 5,
-        date: "2025-10-07",
-        comment: "Produto chegou lacrado e em perfeito estado!!!"
       }
     ]
   },
@@ -1275,7 +1268,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 4,
     reviews: [
       {
         id: "r1",
@@ -1304,34 +1297,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-12-18",
         comment: "Me deixa relaxada e feliz. Perfeita pra curtir o fim do dia, vibe muito boa!"
-      },
-      {
-        id: "r5",
-        author: "Diego L.",
-        rating: 5,
-        date: "2025-12-05",
-        comment: "Aroma intenso e diferenciado mano. Notas gasosas com toque de ervas, suave demais!"
-      },
-      {
-        id: "r6",
-        author: "Mariana F.",
-        rating: 5,
-        date: "2025-11-22",
-        comment: "Chegou perfeito e lacrado. Brisa muito consistente, tô trincando!"
-      },
-      {
-        id: "r7",
-        author: "Rafael T.",
-        rating: 5,
-        date: "2025-11-12",
-        comment: "Pra quem curte sabores complexos, essa é imperdível mano. Muito potente, braba!"
-      },
-      {
-        id: "r8",
-        author: "Isabela C.",
-        rating: 5,
-        date: "2025-10-30",
-        comment: "Melhor híbrida que já experimentei! O sabor de queijo é suave mas presente, top demais."
       }
     ]
   },
@@ -1455,7 +1420,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 5,
     reviews: [
       {
         id: "r1",
@@ -1491,27 +1456,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-11-28",
         comment: "Slurricane virou minha favorita! Sabor doce com toque de terra, muito suave. Tô trincando!"
-      },
-      {
-        id: "r6",
-        author: "Amanda K.",
-        rating: 5,
-        date: "2025-11-10",
-        comment: "Brisa edificante mesmo sendo indica. Me deixou feliz e relaxada, vibe muito boa!"
-      },
-      {
-        id: "r7",
-        author: "Lucas P.",
-        rating: 5,
-        date: "2025-10-25",
-        comment: "Mano, o sabor de berry é autêntico demais! Entrega rápida e produto lacrado. Recomendo!"
-      },
-      {
-        id: "r8",
-        author: "Carla F.",
-        rating: 5,
-        date: "2025-10-08",
-        comment: "Essa Slurricane é diferenciada! Sabor tropical com especiarias, braba demais!"
       }
     ]
   },
@@ -1630,7 +1574,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 2,
     reviews: [
       {
         id: "r1",
@@ -1645,48 +1589,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-01-08",
         comment: "Sativa perfeita pra produtividade! Me deixou focada mas com um relaxamento suave no corpo. Top demais!"
-      },
-      {
-        id: "r3",
-        author: "Henrique M.",
-        rating: 5,
-        date: "2025-12-22",
-        comment: "Sabor de ervas doces com blueberry é sinistro mano! Brisa forte mas funcional, tô trincando!"
-      },
-      {
-        id: "r4",
-        author: "Fernanda S.",
-        rating: 5,
-        date: "2025-12-10",
-        comment: "Lavender Jones virou minha favorita pra trabalhar! Foco total e ainda relaxa o corpo. Qualidade braba!"
-      },
-      {
-        id: "r5",
-        author: "Gustavo K.",
-        rating: 5,
-        date: "2025-11-25",
-        comment: "Essa sativa é diferenciada mano! Body high leve mas a mente fica afiada. Suave na tragada!"
-      },
-      {
-        id: "r6",
-        author: "Amanda T.",
-        rating: 5,
-        date: "2025-11-12",
-        comment: "Aroma de lavanda é surreal! Me deixou focada e de bom humor, vibe muito boa pra criar!"
-      },
-      {
-        id: "r7",
-        author: "Lucas P.",
-        rating: 5,
-        date: "2025-10-28",
-        comment: "Mano, o sabor de blueberry é autêntico! Entrega rápida e produto lacrado. Recomendo demais!"
-      },
-      {
-        id: "r8",
-        author: "Juliana F.",
-        rating: 5,
-        date: "2025-10-10",
-        comment: "Lavender Jones é braba! Perfeita pro dia a dia, foco sem ansiedade. Top demais mano!"
       }
     ]
   },
@@ -1713,7 +1615,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 6,
     reviews: [
       {
         id: "r1",
@@ -1756,20 +1658,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-11-12",
         comment: "Essa indica é diferenciada! Me deixou super relaxada, vibe muito boa pra tarde aconchegante."
-      },
-      {
-        id: "r7",
-        author: "Rafael P.",
-        rating: 5,
-        date: "2025-10-25",
-        comment: "Entrega rápida e produto lacrado! Chronic Thunder é suave demais, recomendo pra relaxar!"
-      },
-      {
-        id: "r8",
-        author: "Amanda G.",
-        rating: 5,
-        date: "2025-10-08",
-        comment: "Sabor de frutas tropicais com berries é surreal mano! Brisa pesada mas muito boa!"
       }
     ]
   },
@@ -1886,7 +1774,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 10,
     reviews: [
       {
         id: "r1",
@@ -1943,6 +1831,20 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-10-08",
         comment: "Sabor frutado tropical é surreal mano! Brisa edificante, braba demais essa indica!"
+      },
+      {
+        id: "r9",
+        author: "Vinícius M.",
+        rating: 5,
+        date: "2025-09-22",
+        comment: "Essa indica funcional é braba! Me deixou produtivo o dia todo, vibe muito boa!"
+      },
+      {
+        id: "r10",
+        author: "Carla S.",
+        rating: 5,
+        date: "2025-09-10",
+        comment: "Mano, que indica diferenciada! Não esperava essa energia toda. Recomendo pra quem quer produtividade!"
       }
     ]
   },
@@ -1969,7 +1871,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 4,
     reviews: [
       {
         id: "r1",
@@ -1998,34 +1900,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-12-15",
         comment: "TK Lato virou minha favorita! Efeito energético mesmo sendo indica, vibe muito boa pro dia a dia."
-      },
-      {
-        id: "r5",
-        author: "Matheus K.",
-        rating: 5,
-        date: "2025-11-28",
-        comment: "Mano, o sabor de gelato é insano! Me deixou motivado pra fazer as tarefas, tô trincando!"
-      },
-      {
-        id: "r6",
-        author: "Carolina L.",
-        rating: 5,
-        date: "2025-11-15",
-        comment: "Essa indica é diferente de tudo! Dá felicidade e energia. Recomendo demais pra quem quer produtividade!"
-      },
-      {
-        id: "r7",
-        author: "Diego P.",
-        rating: 5,
-        date: "2025-10-30",
-        comment: "Entrega rápida e produto lacrado! TK Lato é perfeita pra quem quer indica funcional!"
-      },
-      {
-        id: "r8",
-        author: "Natália G.",
-        rating: 5,
-        date: "2025-10-10",
-        comment: "Sabor doce de sobremesa é surreal mano! Brisa energética, braba demais essa indica!"
       }
     ]
   },
@@ -2052,7 +1926,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 5,
     reviews: [
       {
         id: "r1",
@@ -2088,27 +1962,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-11-22",
         comment: "Mano, o sabor de rainbow belts é insano! Me deixou energético e focado, tô trincando!"
-      },
-      {
-        id: "r6",
-        author: "Daniela L.",
-        rating: 5,
-        date: "2025-11-08",
-        comment: "Essa híbrida é diferente de tudo! Boa pra qualquer hora do dia. Recomendo demais!"
-      },
-      {
-        id: "r7",
-        author: "Ricardo P.",
-        rating: 5,
-        date: "2025-10-25",
-        comment: "Entrega rápida e produto lacrado! Nebula é perfeita pra quem quer equilíbrio!"
-      },
-      {
-        id: "r8",
-        author: "Vanessa G.",
-        rating: 5,
-        date: "2025-10-05",
-        comment: "Sabor de balas azedas é surreal mano! Brisa equilibrada, braba demais essa híbrida!"
       }
     ]
   }
