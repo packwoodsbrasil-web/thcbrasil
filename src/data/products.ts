@@ -492,6 +492,40 @@ export const products: Product[] = [
         comment: "Senti um estímulo mental que me ajudou a pensar em soluções e depois acalmar o corpo na sequência. Top demais!"
       }
     ]
+  },
+  {
+    id: "10",
+    name: "Ice Cream Cake",
+    slug: "ice-cream-cake",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Ice Cream Cake! Esta indica deliciosa com 90,8% de THC oferece um sabor doce e cremoso que lembra sorvete de baunilha. Perfeita para quem busca relaxamento corporal intenso sem pesar a mente. Ideal para uso em festas ou momentos de descontração. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 90,8% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento corporal, Euforia, Expansão sensorial",
+      "Sabor: Baunilha cremosa, Doce",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/ice-cream-cake-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 1,
+    reviews: [
+      {
+        id: "r1",
+        author: "Milena D.",
+        rating: 5,
+        date: "2025-12-01",
+        comment: "Recomendo pra uso em festas, o corpo responde mais que a mente, dá uma sensação boa de expansão do corpo. Muito boa!"
+      }
+    ]
   }
 ];
 
