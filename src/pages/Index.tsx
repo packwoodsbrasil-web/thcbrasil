@@ -146,7 +146,7 @@ const Index = () => {
         {/* CTA */}
         <section className="py-16 md:py-24">
           <div className="container">
-            <div className="relative rounded-3xl overflow-hidden gradient-secondary p-8 md:p-16 text-center text-white">
+            <div className="relative rounded-3xl overflow-hidden bg-sky-400 p-8 md:p-16 text-center text-white">
               <div className="relative z-10">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">
                   Receba Novidades Exclusivas
