@@ -4045,6 +4045,83 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },
+  {
+    id: "63",
+    name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
+    slug: "kit-mega-pack-10-unidades",
+    price: 499.90,
+    originalPrice: 1299.00,
+    description: "🔥 MEGA OFERTA EXCLUSIVA! 🔥 O Kit Mega Pack é a experiência definitiva para os verdadeiros conhecedores! Inclui 10 canetas Jeeter Juice Live Resin nos sabores mais populares: Frozen Grapes, Peach Ringz, Blue Zkittlez, Paradise, Baby Belgrape, Blue Nerdz, Strawberry Shortcake, Sour Lemonade, Peach Cobbler e Baja Orange. Cada caneta é produzida com flores frescas congeladas no pico da colheita, preservando 100% do perfil de terpenos e canabinoides. O pacote perfeito para ter variedade, economia absurda e qualidade premium garantida!",
+    details: [
+      "🚀 MEGA PACK: 10 Canetas Jeeter Juice Live Resin!",
+      "Conteúdo: 10 Canetas THC Live Resin Premium",
+      "Sabores: Frozen Grapes, Peach Ringz, Blue Zkittlez, Paradise, Baby Belgrape, Blue Nerdz, Strawberry Shortcake, Sour Lemonade, Peach Cobbler, Baja Orange",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Straw (Canetas Descartáveis)",
+      "Extração: 100% Live Resin - Flores Frescas Congeladas",
+      "Variedade: Mix de Sativa, Indica e Híbridas",
+      "Certificado: Preserve The Terps™ Verified",
+      "Marca: Jeeter Juice - Califórnia, EUA",
+      "Economia: Mais de R$ 799,00 de desconto!"
+    ],
+    images: ["/images/kit-mega-pack-10-unidades-1.png"],
+    category: "Kits",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 52,
+    reviews: [
+      {
+        id: "r1",
+        author: "Felipe D.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, esse kit é insano! 10 sabores diferentes por menos de 500 reais? Economia absurda! Cada caneta dura bastante e os sabores são todos incríveis. Melhor compra que já fiz!"
+      },
+      {
+        id: "r2",
+        author: "Juliana T.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Comprei pra dividir com os amigos e foi sucesso total! Cada um escolheu seu sabor favorito. Blue Zkittlez e Frozen Grapes são os melhores na minha opinião!"
+      },
+      {
+        id: "r3",
+        author: "Ricardo M.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Estoque garantido pro mês inteiro! Variedade incrível de sabores e a qualidade Jeeter Juice é sempre impecável. Recomendo demais o mega pack!"
+      },
+      {
+        id: "r4",
+        author: "Camila S.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Presente perfeito! Dei metade pro meu namorado e ficamos experimentando juntos. Cada sabor é uma viagem diferente. Peach Cobbler virou nosso favorito!"
+      },
+      {
+        id: "r5",
+        author: "Bruno L.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Custo-benefício surreal! Se comprasse separado ia gastar mais que o dobro. Chegou tudo certinho, bem embalado. Todas as canetas funcionando perfeitamente!"
+      },
+      {
+        id: "r6",
+        author: "Marina R.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Kit dos sonhos! 10 sabores pra experimentar e descobrir qual combina mais comigo. Sour Lemonade é perfeito pra de dia, Paradise pra relaxar. Amei!"
+      },
+      {
+        id: "r7",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Esse mega pack é brabo demais! Nunca vi tanta variedade num kit só. Qualidade premium em todas as unidades. Já quero o próximo!"
+      }
+    ],
+    promoTag: "🚀 MEGA PACK!"
   }
 ];
 
