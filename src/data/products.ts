@@ -2097,6 +2097,83 @@ export const products: Product[] = [
         comment: "Vape sinistro! Formato All-in-One muito prático, sabor de bubblegum com toque herbal. Recomendo pra quem quer relaxar!"
       }
     ]
+  },
+  {
+    id: "34",
+    name: "Acapulco Gold AIO Vape",
+    slug: "acapulco-gold-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Acapulco Gold tem a reputação de ser uma das melhores strains de cannabis já criadas! Os sabores proporcionam uma doçura 'suculenta' similar a uma salada de frutas com notas de cherimoia, frutas vermelhas, maracujá, manga e toques terrosos para equilibrar. Esta strain vem da região de Acapulco, México, e seus pelos alaranjados lembram uma pepita de ouro, daí o nome Acapulco Gold. Aproveite! Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 92% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Edificante, Eufórico",
+      "Sabor: Frutas tropicais, Manga, Maracujá, Terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-acapulco-gold-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Ricardo M.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Mano, Acapulco Gold é lendária e esse vape faz jus! Sabor tropical insano, brisa eufórica e edificante. Melhor sativa que já experimentei!"
+      },
+      {
+        id: "r2",
+        author: "Camila F.",
+        rating: 5,
+        date: "2026-01-16",
+        comment: "Caraca, que vape incrível! Gosto de manga e maracujá super autêntico. Me deixou super animada e criativa, perfeito pra trabalhar!"
+      },
+      {
+        id: "r3",
+        author: "Bruno T.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Acapulco Gold é clássico demais! Esse AIO Vape entrega tudo que a strain promete. Euforia e energia na medida certa!"
+      },
+      {
+        id: "r4",
+        author: "Letícia R.",
+        rating: 4,
+        date: "2026-01-03",
+        comment: "Gostei muito do sabor frutado! Sativa potente que deixa uplifted sem paranoia. Só queria que durasse mais tempo!"
+      },
+      {
+        id: "r5",
+        author: "Henrique S.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Esse vape é ouro puro! Sabor tropical delicioso e brisa limpa. Perfeito pra um rolê na praia ou churrasco com os amigos!"
+      },
+      {
+        id: "r6",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Melhor vape que já comprei! Acapulco Gold é lendária por um motivo. Sabor e efeito impecáveis, já virou minha favorita!"
+      },
+      {
+        id: "r7",
+        author: "Gabriel L.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Sativa das antigas! Vape muito prático e sabor de frutas tropicais é viciante. Me deixa feliz e produtivo, mó vibe!"
+      }
+    ]
   }
 ];
 
