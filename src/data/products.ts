@@ -1051,6 +1051,82 @@ export const products: Product[] = [
         comment: "Produto chegou lacrado e em perfeito estado!!!"
       }
     ]
+  },
+  {
+    id: "20",
+    name: "White Buffalo",
+    slug: "white-buffalo",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "White Buffalo! Esta sativa potente com 93% de THC é conhecida por seus efeitos energizantes e edificantes. Desenvolvida para quem busca produtividade e bom humor durante o dia. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando vapor suave e efeito consistente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 93% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energia, Produtividade, Bom humor",
+      "Sabor: Perfil clássico Haze, Terpenos naturais",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/white-buffalo-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Antonio A.",
+        rating: 5,
+        date: "2025-12-27",
+        comment: "Não senti queda de potência ao longo do uso. A caneta se mantém estável até o final."
+      },
+      {
+        id: "r2",
+        author: "Vicente H.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "A Jeeter realmente sabe trabalhar terpenos. Dá pra sentir o perfil clássico da Haze."
+      },
+      {
+        id: "r3",
+        author: "Mathias K.",
+        rating: 5,
+        date: "2025-11-14",
+        comment: "Informação importante avaliar, não me deu ansiedade nem taquicardia, o que é raro em sativas tão fortes."
+      },
+      {
+        id: "r4",
+        author: "Gabriela S.",
+        rating: 5,
+        date: "2025-11-13",
+        comment: "Uso durante o dia e não interfere em nada na rotina. Pelo contrário, ajuda na produtividade. Envio foi ok!"
+      },
+      {
+        id: "r5",
+        author: "Tiago C.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Não me deixou acelerado demais, só desperto e de bom humor. Excelente sativa."
+      },
+      {
+        id: "r6",
+        author: "Icaro G.",
+        rating: 5,
+        date: "2025-10-07",
+        comment: "Vapor bem suave, não arranha a garganta. Dá pra puxar mais longo sem desconforto."
+      },
+      {
+        id: "r7",
+        author: "Luiz M.",
+        rating: 5,
+        date: "2025-09-30",
+        comment: "Pra quem gosta de sativa de verdade, essa White Buffalo entrega exatamente o que promete."
+      }
+    ]
   }
 ];
 
