@@ -746,6 +746,96 @@ export const products: Product[] = [
         comment: "Minha avaliação geral Sabor:⭐️⭐️⭐️⭐️ Alto:⭐️⭐️⭐️⭐️⭐️ Custo-benefício:⭐️⭐️⭐️⭐️⭐️"
       }
     ]
+  },
+  {
+    id: "17",
+    name: "Lemon OG",
+    slug: "lemon-og",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Lemon OG! Esta híbrida equilibrada com 90,1% de THC é desenvolvida para quem busca o máximo da experiência canábica em formato prático. Produzida a partir de flores frescas congeladas no pico do cultivo, preserva o perfil completo de terpenos e canabinoides, entregando sabor autêntico de limão azedo, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 90,1% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento mental, Euforia leve, Equilibrado",
+      "Sabor: Limão azedo, Cítrico",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/lemon-og-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Gioavana M.",
+        rating: 5,
+        date: "2025-12-26",
+        comment: "Ótima pra quem quer usar em festinha pelo menos na minha opinião ⭐️⭐️⭐️⭐️⭐️"
+      },
+      {
+        id: "r2",
+        author: "Kainan D.",
+        rating: 5,
+        date: "2025-12-03",
+        comment: "Vapor extremamente limpo, sem aspereza na garganta, sinal claro de boa filtragem e destilado refinado."
+      },
+      {
+        id: "r3",
+        author: "Luan E.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Olha comprei pra fazer um teste pq fiquei sim receio mas chegou no prazo exato dado, o atendimento foi bem atencioso e me prestou total atenção sobre o rastreio, a caneta é bem de boa de levar pra qualquer lugar, vale o investimento!"
+      },
+      {
+        id: "r4",
+        author: "João P.",
+        rating: 5,
+        date: "2025-11-03",
+        comment: "O azedinho do limão, uma híbrida perfeita!! Top demais, comprarei mais vezes"
+      },
+      {
+        id: "r5",
+        author: "Heitor G.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Tem um azedinho bem leve, durou 2 meses pq não uso todo dia, tudo dentro do esperado."
+      },
+      {
+        id: "r6",
+        author: "Oliver U.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Na minha opinião é uma híbrida bem equilibrada. O envio foi ok e o que me chamou atenção foi que veio tudo lacrado, no plástico bolha, a caixa marrom padrão, passa segurança e privacidade."
+      },
+      {
+        id: "r7",
+        author: "Henrique L.",
+        rating: 5,
+        date: "2025-10-19",
+        comment: "Envio rápido e discreto, embalagem bem selada. Produto chegou intacto e dentro do padrão!"
+      },
+      {
+        id: "r8",
+        author: "Jaqueline A.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "É uma híbrida boa, consegui sentir a mente relaxar e uma leve euforia no corpo, bem equilibrada! Envio dentro do prazo."
+      },
+      {
+        id: "r9",
+        author: "Liandra N.",
+        rating: 5,
+        date: "2025-09-30",
+        comment: "Foi meu primeiro uso e realmente o azedinho do limão é uma delícia, senti um misto de sensação tanto relax como uma vontade de dançar! Vale a pena!"
+      }
+    ]
   }
 ];
 
