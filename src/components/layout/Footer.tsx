@@ -10,6 +10,9 @@ export function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <img src={logo} alt="Jeeter Juice BR Logo" className="h-16 w-auto object-contain" />
+              <span className="font-bold text-xl bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 bg-clip-text text-transparent">
+                Jeeter Juice
+              </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
               Canetas, vapes e comestíveis THC premium. Produtos exclusivos da linha Jeeter Juice com entrega para todo o Brasil.
