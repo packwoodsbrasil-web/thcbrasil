@@ -5,8 +5,8 @@ export const products: Product[] = [
     id: "1",
     name: "Blue Banana",
     slug: "blue-banana",
-    price: 299.90,
-    originalPrice: 349.90,
+    price: 109.90,
+    originalPrice: 159.90,
     description: "Blue Banana! Esta indica complexa apresenta um delicioso perfil de sabor terroso de banana, como se você estivesse comendo uma banana madura. A Blue Banana proporciona um efeito que vai chegando aos poucos, oferecendo foco e relaxamento corporal profundo. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
     details: [
       "Alta concentração de THC",
@@ -66,8 +66,8 @@ export const products: Product[] = [
     id: "2",
     name: "Cherry Punch",
     slug: "cherry-punch",
-    price: 299.90,
-    originalPrice: 349.90,
+    price: 109.90,
+    originalPrice: 159.90,
     description: "Cherry Punch! Esta híbrida equilibrada oferece um sabor doce e frutado de cereja madura com notas sutis de terra. A Cherry Punch proporciona uma experiência relaxante e eufórica, perfeita para momentos de descontração. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
     details: [
       "Alta concentração de THC",
