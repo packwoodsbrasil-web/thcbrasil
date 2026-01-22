@@ -2930,6 +2930,69 @@ export const products: Product[] = [
         comment: "Biscoito delicioso e efeito prolongado! Ótimo pra fim de semana. Vou comprar mais com certeza!"
       }
     ]
+  },
+  {
+    id: "47",
+    name: "Biscoitos de THC - Red Velvet - 200mg",
+    slug: "biscoitos-thc-red-velvet-200mg",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Biscoitos de THC Red Velvet com 200mg de THC total. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada unidade entrega uma dosagem consistente, sabor marcante de red velvet e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 200mg THC total",
+      "Formato: Biscoitos",
+      "Sabor: Red Velvet",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/biscoitos-red-velvet-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Fred P.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Sou viciado nesses comestíveis! Você acha que não vai bater, mas quando vê tá muito chapado. É muito bom!"
+      },
+      {
+        id: "r2",
+        author: "Breno V.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Red Velvet ficou perfeito! Sabor incrível de bolo e a brisa vem suave. Curti demais a experiência!"
+      },
+      {
+        id: "r3",
+        author: "Camila S.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Melhor biscoito que já comi! Sabor de red velvet autêntico e efeito duradouro. Super discreto!"
+      },
+      {
+        id: "r4",
+        author: "Diego M.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Mano, que delícia! Demorou uns 45 min pra bater mas valeu a pena. Relaxamento total a noite toda!"
+      },
+      {
+        id: "r5",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Perfeito pra quem não quer fumar! Sabor gostoso demais e efeito controlado. Recomendo muito!"
+      }
+    ]
   }
 ];
 
