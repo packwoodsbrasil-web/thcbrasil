@@ -65,13 +65,19 @@ const ProductDetail = () => {
       <main className="flex-1 py-8">
         <div className="container">
           {/* Breadcrumb */}
-          <Link 
-            to="/produtos" 
+          <button 
+            onClick={() => {
+              if (window.history.length > 1) {
+                navigate(-1);
+              } else {
+                navigate('/produtos');
+              }
+            }}
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary mb-6"
           >
             <ChevronLeft className="h-4 w-4" />
             Voltar para produtos
-          </Link>
+          </button>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Images */}
