@@ -2230,6 +2230,76 @@ export const products: Product[] = [
         comment: "Berry White virou minha favorita! Vape prático, sabor incrível e efeito relaxante na medida. Tô viciada!"
       }
     ]
+  },
+  {
+    id: "36",
+    name: "SFV OG AIO Vape",
+    slug: "sfv-og-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "SFV OG é um cruzamento clássico de Afghani e San Fernando Valley OG que entrega uma experiência suave e saborosa do início ao fim. O aroma é terroso com um toque de pinho, enquanto o sabor traz cítricos brilhantes sobre madeira cortada e ervas. É uma strain sem frescuras com um perfil marcante e uma sensação tranquila, perfeita para quando você quer algo forte, familiar e consistentemente sólido. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 91% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Relaxado, Focado",
+      "Sabor: Terroso, Pinho, Cítrico, Herbal",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-sfv-og-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Caio M.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "SFV OG é clássico por um motivo! Híbrida equilibrada, sabor de pinho e cítrico muito bom. Me deixou relaxado mas focado, perfeito pro trabalho!"
+      },
+      {
+        id: "r2",
+        author: "Renata S.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Caraca, que vape top! Sabor terroso com toque herbal, onda suave e consistente. Curti demais a vibe tranquila!"
+      },
+      {
+        id: "r3",
+        author: "Felipe T.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "SFV OG nunca decepciona! Esse AIO Vape é muito prático e o efeito é brabo. Relaxa e mantém o foco ao mesmo tempo!"
+      },
+      {
+        id: "r4",
+        author: "Amanda L.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Gostei do sabor de pinho com cítrico! Híbrida equilibrada que funciona pra qualquer hora do dia. Recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Rodrigo C.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Mano, esse vape é sinistro! OG legítimo da San Fernando Valley. Brisa limpa e focada, qualidade braba!"
+      },
+      {
+        id: "r6",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "SFV OG virou meu favorito! Vape All-in-One super conveniente, sabor autêntico e efeito na medida. Top demais!"
+      }
+    ]
   }
 ];
 
