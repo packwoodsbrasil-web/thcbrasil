@@ -3056,6 +3056,69 @@ export const products: Product[] = [
         comment: "Cone de chocolate chapante! Melhor edible que já provei. Sabor incrível e efeito prolongado!"
       }
     ]
+  },
+  {
+    id: "49",
+    name: "Coned THC - Strawberry Shortcake",
+    slug: "coned-thc-strawberry-shortcake",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Coned THC Strawberry Shortcake - cone de wafer recheado com chocolate branco e morango infusionado com THC. Dose precisa e efeito prolongado! Os Comestíveis THC são ideais para quem busca discrição, praticidade e controle total da experiência. Produzidos com destilado de THC de alta pureza, cada unidade entrega uma dosagem consistente, sabor marcante de morango com bolo e efeito prolongado. Perfeitos para iniciantes e usuários experientes, os edibles oferecem uma alternativa sem fumaça, com onset gradual entre 30 e 60 minutos.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Comestível",
+      "Potência: 200mg THC total",
+      "Formato: Cone de Wafer com Chocolate",
+      "Sabor: Strawberry Shortcake (Morango com Bolo)",
+      "Efeitos principais: Relaxado, Feliz, Eufórico",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Qualidade: Destilado THC de alta pureza",
+      "Sem fumaça, sem impacto pulmonar",
+      "Marca: Baked Bags - Exotic Edibles"
+    ],
+    images: ["/images/coned-strawberry-shortcake-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Morango com chocolate branco é perfeito! Cone delicioso e brisa suave. Meu favorito!"
+      },
+      {
+        id: "r2",
+        author: "Felipe S.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Mano, que sabor incrível! Parece sobremesa de restaurante. Efeito demorou mas foi muito bom!"
+      },
+      {
+        id: "r3",
+        author: "Carolina R.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Curti demais o strawberry shortcake! Doce na medida certa e efeito relaxante. Super discreto!"
+      },
+      {
+        id: "r4",
+        author: "Lucas M.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Sabor de morango muito gostoso! Edible top pra quem não curte fumar. Recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Bianca T.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Cone perfeito! Sabor de morango autêntico e efeito prolongado. Já virou meu edible favorito!"
+      }
+    ]
   }
 ];
 
