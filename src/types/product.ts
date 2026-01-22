@@ -20,6 +20,7 @@ export interface Product {
   rating: number;
   reviewCount: number;
   reviews: Review[];
+  promoTag?: string;
 }
 
 export interface CartItem {

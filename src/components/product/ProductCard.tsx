@@ -19,8 +19,12 @@ export function ProductCard({ product }: ProductCardProps) {
 
   return (
     <div className="group relative bg-card rounded-2xl overflow-hidden shadow-card hover:shadow-glow transition-all duration-300 border border-border/50">
-      {/* Discount Badge */}
-      {product.originalPrice && (
+      {/* Promo Tag Badge */}
+      {product.promoTag ? (
+        <div className="absolute top-3 left-3 z-10 px-3 py-1.5 rounded-full bg-destructive text-destructive-foreground text-xs font-bold shadow-lg animate-pulse">
+          {product.promoTag}
+        </div>
+      ) : product.originalPrice && (
         <div className="absolute top-3 left-3 z-10 px-3 py-1 rounded-full bg-secondary text-secondary-foreground text-xs font-bold">
           {Math.round((1 - product.price / product.originalPrice) * 100)}% OFF
         </div>
