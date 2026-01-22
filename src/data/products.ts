@@ -1862,6 +1862,89 @@ export const products: Product[] = [
         comment: "Sabor único de creme de laranja! Brisa positiva e edificante, tô rachando de rir aqui!"
       }
     ]
+  },
+  {
+    id: "29",
+    name: "Punch Breath",
+    slug: "punch-breath",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Punch Breath! Esta indica é obrigatória para quem busca uma brisa única, ativa e edificante. Com notas suaves de sabores tropicais, Punch Breath vai te dar a energia que você precisa para fazer tarefas do dia a dia como limpeza e trabalhos domésticos passarem rapidinho! Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Edificante, Foco, Ativo",
+      "Sabor: Tropical suave, Frutado",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/punch-breath-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano, essa Punch Breath é braba demais! Indica que dá energia, perfeita pra limpar a casa trincando!"
+      },
+      {
+        id: "r2",
+        author: "Letícia M.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Indica diferenciada! Me deixou focada e animada, fiz faxina inteira de boa. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Essa indica é sinistro mano! Sabor tropical suave e brisa edificante. Qualidade braba!"
+      },
+      {
+        id: "r4",
+        author: "Camila T.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "Punch Breath virou minha favorita! Efeito ativo mesmo sendo indica, vibe muito boa pro dia a dia."
+      },
+      {
+        id: "r5",
+        author: "Felipe K.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Mano, o sabor tropical é suave demais! Me deixou focado pra fazer as tarefas, tô trincando!"
+      },
+      {
+        id: "r6",
+        author: "Juliana L.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Essa indica é diferente de tudo! Não dá sono, só foco e disposição. Recomendo demais!"
+      },
+      {
+        id: "r7",
+        author: "Rafael P.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Entrega rápida e produto lacrado! Punch Breath é perfeita pra quem quer indica funcional!"
+      },
+      {
+        id: "r8",
+        author: "Amanda G.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Sabor frutado tropical é surreal mano! Brisa edificante, braba demais essa indica!"
+      }
+    ]
   }
 ];
 
