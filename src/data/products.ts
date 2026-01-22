@@ -1127,6 +1127,96 @@ export const products: Product[] = [
         comment: "Pra quem gosta de sativa de verdade, essa White Buffalo entrega exatamente o que promete."
       }
     ]
+  },
+  {
+    id: "21",
+    name: "Hi-Octane",
+    slug: "hi-octane",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Hi-Octane! Esta strain híbrida equilibrada é feita com Sunset Sherbet e Octane. Possui um perfil de sabor doce e frutado com notas de berry cítrico e um delicioso final cremoso. Seu aroma é terroso e frutado com um toque cítrico floral e apenas um leve toque de gasolina. Hi-Octane proporciona uma experiência intensa e duradoura que deixará você se sentindo altamente criativo e relaxado. Perfeita para uma noite em casa aproveitando todas as ideias artísticas que surgem na sua mente. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (Equilibrada)",
+      "Genética: Sunset Sherbet x Octane",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Relaxamento, Criatividade, Euforia",
+      "Sabor: Berry cítrico, Final cremoso, Notas terrosas",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/hi-octane-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Rodrigo P.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Híbrida perfeita! Relaxa sem deixar sonolento demais. O sabor cremoso é incrível."
+      },
+      {
+        id: "r2",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "O equilíbrio entre indica e sativa é exato. Criatividade + relaxamento na medida certa."
+      },
+      {
+        id: "r3",
+        author: "Felipe M.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "O sabor de berry com o final cremoso é sensacional. Uma das melhores híbridas que já experimentei."
+      },
+      {
+        id: "r4",
+        author: "Carolina R.",
+        rating: 5,
+        date: "2025-11-20",
+        comment: "Perfeita para noites criativas. Me ajuda muito quando preciso trabalhar em projetos artísticos."
+      },
+      {
+        id: "r5",
+        author: "Bruno S.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "O aroma terroso com toque cítrico é muito agradável. Qualidade Jeeter de sempre."
+      },
+      {
+        id: "r6",
+        author: "Juliana T.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Efeito duradouro e consistente. Não precisa de muitas puxadas para sentir o efeito."
+      },
+      {
+        id: "r7",
+        author: "Marcelo K.",
+        rating: 5,
+        date: "2025-10-15",
+        comment: "Entrega rápida e produto lacrado. A Hi-Octane é realmente especial!"
+      },
+      {
+        id: "r8",
+        author: "Fernanda G.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Genética excelente! Sunset Sherbet + Octane = combinação perfeita."
+      },
+      {
+        id: "r9",
+        author: "Ricardo A.",
+        rating: 5,
+        date: "2025-09-28",
+        comment: "Recomendo para quem quer relaxar sem perder a clareza mental. Muito boa!"
+      }
+    ]
   }
 ];
 
