@@ -581,6 +581,40 @@ export const products: Product[] = [
         comment: "Comparando com outras marcas, a Jeeter se destaca pela consistência do vapor. Não causa tosse excessiva, mesmo em puxadas longas."
       }
     ]
+  },
+  {
+    id: "12",
+    name: "Hurricane",
+    slug: "hurricane",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "Hurricane! Esta sativa potente com 92,3% de THC é perfeita para quem busca energia e disposição. Deixa você mais desperto e animado sem causar agitação. Ideal para uso durante o dia, oferece clareza mental e motivação. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 92,3% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energia, Disposição, Clareza mental",
+      "Sabor: Terpenos naturais da flor",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/hurricane-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 1,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lincoln A.",
+        rating: 5,
+        date: "2025-12-13",
+        comment: "Poucos falam dessa mas é disparado a melhor, me deixa mais desperto e animado, sem me deixar agitado!"
+      }
+    ]
   }
 ];
 
