@@ -1964,6 +1964,76 @@ export const products: Product[] = [
         comment: "Mano, o sabor de rainbow belts é insano! Me deixou energético e focado, tô trincando!"
       }
     ]
+  },
+  {
+    id: "32",
+    name: "Blue Dream AIO Vape",
+    slug: "blue-dream-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Blue Dream é um clássico que nunca falha! Este vape All-in-One entrega uma mistura suave de mirtilo maduro e pinho terroso, como a versão da natureza de um devaneio frutado. Fresco, limpo e com a quantidade certa de nostalgia, é um favorito de todos que nunca decepciona. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 91% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Edificante, Feliz",
+      "Sabor: Mirtilo, Pinho terroso",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-blue-dream-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas F.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, esse Blue Dream é brabo demais! Vape All-in-One muito prático, só usar e aproveitar. Sabor de mirtilo suave, onda feliz e edificante!"
+      },
+      {
+        id: "r2",
+        author: "Amanda R.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Caraca, que vape top! O sabor é fresco e frutado, me deixou super animada e criativa. Perfeito pra um rolê com os amigos!"
+      },
+      {
+        id: "r3",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Blue Dream é clássico e esse vape faz jus ao nome! Brisa clean e edificante, onda suave mas potente. Recomendo demais!"
+      },
+      {
+        id: "r4",
+        author: "Juliana C.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Gostei muito! O formato All-in-One é muito conveniente, não precisa de carregador separado. Sabor gostoso de mirtilo com toque de pinho."
+      },
+      {
+        id: "r5",
+        author: "Roberto S.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Esse vape é sinistro! 1g rende bastante e a qualidade é braba. Sativa perfeita pra ficar de boa e feliz. Já virou favorito!"
+      },
+      {
+        id: "r6",
+        author: "Carla N.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Blue Dream nunca falha! Esse AIO Vape é muito prático e o sabor é autêntico. Me deixou super uplifted e happy!"
+      }
+    ]
   }
 ];
 
