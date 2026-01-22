@@ -1945,6 +1945,89 @@ export const products: Product[] = [
         comment: "Sabor frutado tropical é surreal mano! Brisa edificante, braba demais essa indica!"
       }
     ]
+  },
+  {
+    id: "30",
+    name: "TK Lato",
+    slug: "tk-lato",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "TK Lato! Esta indica vai te deixar energético e feliz - a combinação perfeita para te motivar a terminar aquele trabalho no jardim que você está adiando a semana toda. É definitivamente um prazer provar seu sabor doce de gelato que vai te lembrar das suas sobremesas favoritas na exalação suave. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 91% THC",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Energético, Felicidade, Motivação",
+      "Sabor: Gelato doce, Sobremesa cremosa",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/tk-lato-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, essa TK Lato é braba demais! Indica que dá energia, sabor de gelato é surreal!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda C.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Indica diferenciada! Me deixou feliz e produtiva, fiz todas as tarefas de boa. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Essa indica é sinistro mano! Sabor de sobremesa cremosa e brisa motivadora. Qualidade braba!"
+      },
+      {
+        id: "r4",
+        author: "Isabela S.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "TK Lato virou minha favorita! Efeito energético mesmo sendo indica, vibe muito boa pro dia a dia."
+      },
+      {
+        id: "r5",
+        author: "Matheus K.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Mano, o sabor de gelato é insano! Me deixou motivado pra fazer as tarefas, tô trincando!"
+      },
+      {
+        id: "r6",
+        author: "Carolina L.",
+        rating: 5,
+        date: "2025-11-15",
+        comment: "Essa indica é diferente de tudo! Dá felicidade e energia. Recomendo demais pra quem quer produtividade!"
+      },
+      {
+        id: "r7",
+        author: "Diego P.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Entrega rápida e produto lacrado! TK Lato é perfeita pra quem quer indica funcional!"
+      },
+      {
+        id: "r8",
+        author: "Natália G.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Sabor doce de sobremesa é surreal mano! Brisa energética, braba demais essa indica!"
+      }
+    ]
   }
 ];
 
