@@ -146,28 +146,56 @@ export const products: Product[] = [
         author: "Ricardo A.",
         rating: 5,
         date: "2026-01-18",
-        comment: "Mano, essa Cosmos é diferenciada! O sabor de alho parece estranho mas é muito bom, tipo uma refeição gourmet. A brisa é super equilibrada, me deixou focado e relaxado ao mesmo tempo!"
+        comment: "Mano, essa Cosmos é braba demais! Sabor de alho parece estranho mas é top, tipo refeição gourmet. Brisa equilibrada, fiquei focado e suave ao mesmo tempo!"
       },
       {
         id: "r2",
         author: "Beatriz M.",
-        rating: 4,
-        date: "2026-01-15",
-        comment: "Curti bastante! O sabor é bem único, terroso com um toque picante. Perfeita pra fazer as tarefas de casa sem ficar muito chapada. Qualidade top!"
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Curti demais! Sabor terroso com toque picante é diferenciado. Perfeita pra fazer as tarefas sem ficar muito chapada. Qualidade braba!"
       },
       {
         id: "r3",
         author: "Felipe G.",
         rating: 5,
-        date: "2026-01-11",
-        comment: "Essa híbrida é incrível! Me deixou super produtivo mas ao mesmo tempo relaxado. O sabor é diferente de tudo que já experimentei. Jeeter nunca decepciona!"
+        date: "2025-12-22",
+        comment: "Essa híbrida é sinistro mano! Me deixou produtivo e relaxado. Sabor diferente de tudo, tô trincando aqui!"
       },
       {
         id: "r4",
         author: "Carolina P.",
         rating: 5,
-        date: "2026-01-07",
-        comment: "Cosmos virou minha favorita pra dias de limpeza em casa! A brisa é funcional e o sabor terroso é muito gostoso. Super recomendo!"
+        date: "2025-12-15",
+        comment: "Cosmos virou minha favorita pra dia de limpeza! Brisa funcional e sabor terroso top demais. Super recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Mano, a vibe dessa Cosmos é surreal! Fiquei no mundão curtindo o dia, muito suave."
+      },
+      {
+        id: "r6",
+        author: "Amanda L.",
+        rating: 4,
+        date: "2025-11-12",
+        comment: "Sabor único, bem diferenciado. Brisa boa pra atividades físicas, me deixou focada. Entrega foi rapidona!"
+      },
+      {
+        id: "r7",
+        author: "Lucas R.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Brabo demais mano! Tragada suave e a brisa vai chegando aos poucos. Qualidade Jeeter de sempre!"
+      },
+      {
+        id: "r8",
+        author: "Juliana S.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Essa Cosmos é diferente de tudo! Sabor de alho com terra é gourmet demais, tô rachando. Recomendo!"
       }
     ]
   },
