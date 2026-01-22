@@ -2552,6 +2552,69 @@ export const products: Product[] = [
         comment: "Gostei do sabor clássico OG! Híbrida que funciona bem pra qualquer hora. Formato discreto e conveniente."
       }
     ]
+  },
+  {
+    id: "41",
+    name: "Sunkisss AIO Vape",
+    slug: "sunkisss-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Sunkisss é uma sativa premium que captura a essência de um dia ensolarado. Este vape All-in-One Live Resin oferece um perfil de sabor cítrico brilhante com notas de laranja, tangerina e um toque tropical. Perfeito para momentos que pedem energia e criatividade, Sunkisss é a escolha ideal para começar o dia com disposição. Vape descartável completo com tecnologia Live Resin 100% Full Spectrum.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Potência: 91% THC",
+      "Formato: All-in-One Live Resin Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: 100% Full Spectrum Live Resin",
+      "Efeitos principais: Energético, Criativo, Edificante",
+      "Sabor: Cítrico, Laranja, Tangerina, Tropical",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-sunkisss-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Ricardo F.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, Sunkisss é demais! Sabor cítrico refrescante, me deixou super energético e criativo. Sativa perfeita pro dia!"
+      },
+      {
+        id: "r2",
+        author: "Beatriz L.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Caraca, que vape incrível! Gosto de laranja e tangerina é autêntico. Me deu aquela energia boa pra produzir!"
+      },
+      {
+        id: "r3",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Sunkisss virou minha sativa favorita! Live Resin Full Spectrum faz toda diferença. Sabor tropical e brisa edificante!"
+      },
+      {
+        id: "r4",
+        author: "Amanda R.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Curti muito o sabor cítrico! Sativa energética que deixa focado e criativo. Boa pra trabalhar ou curtir o dia."
+      },
+      {
+        id: "r5",
+        author: "Gabriel S.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Esse vape é sinistro! Sabor de sol e cítricos, brisa alegre e motivadora. Recomendo demais pra quem curte sativa!"
+      }
+    ]
   }
 ];
 
