@@ -3974,6 +3974,77 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },
+  {
+    id: "62",
+    name: "Kit Variety Pack - 3 Canetas THC Live Resin Variadas",
+    slug: "kit-variety-pack-3-unidades",
+    price: 219.80,
+    originalPrice: 329.70,
+    description: "🔥 PROMOÇÃO ESPECIAL: COMPRE 2, LEVE 3! 🔥 O Kit Variety Pack é perfeito para quem quer experimentar de tudo! Inclui 1 caneta Sativa, 1 Indica e 1 Híbrida, oferecendo a experiência completa da linha Jeeter. Produzidas a partir de flores frescas congeladas no pico do cultivo, preservam o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais.",
+    details: [
+      "🎁 PROMOÇÃO: Compre 2, Leve 3!",
+      "Conteúdo: 3 Canetas THC Live Resin (1 Sativa + 1 Indica + 1 Híbrida)",
+      "Tipo: Variado - Experiência Completa",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Straw (Canetas Descartáveis)",
+      "Extração: 100% Live Resin",
+      "Efeitos: Energia (Sativa) + Relaxamento (Indica) + Equilíbrio (Híbrida)",
+      "Sabores variados de cada linha",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA",
+      "Economia: R$ 109,90 de desconto!"
+    ],
+    images: ["/images/kit-variety-pack-1.webp"],
+    category: "Kits",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 38,
+    reviews: [
+      {
+        id: "r1",
+        author: "Thiago B.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Kit perfeito pra quem quer conhecer todas as vibes! Veio uma de cada tipo e amei todas. Agora sei qual é minha favorita. Promoção sensacional!"
+      },
+      {
+        id: "r2",
+        author: "Larissa M.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Melhor kit pra iniciantes! Dá pra experimentar os três tipos e descobrir qual combina mais com você. Qualidade impecável em todas!"
+      },
+      {
+        id: "r3",
+        author: "Rodrigo S.",
+        rating: 5,
+        date: "2026-01-16",
+        comment: "Variety Pack é demais! Uso a sativa de dia, híbrida de tarde e indica de noite. Combo perfeito! Economizei muito com a promo."
+      },
+      {
+        id: "r4",
+        author: "Amanda L.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Presente incrível! Dei pro meu irmão e ele amou. Três canetas diferentes, cada uma com sua vibe. Embalagem chegou perfeita!"
+      },
+      {
+        id: "r5",
+        author: "Gabriel P.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "O melhor custo-benefício do site! Três canetas top por um preço justo. Todas funcionam perfeitamente e o sabor é autêntico."
+      },
+      {
+        id: "r6",
+        author: "Isabela R.",
+        rating: 5,
+        date: "2026-01-04",
+        comment: "Kit completo! Adorei poder experimentar as três linhas. A indica virou minha favorita, mas todas são excelentes!"
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
   }
 ];
 
