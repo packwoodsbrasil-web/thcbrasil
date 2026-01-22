@@ -25,8 +25,8 @@ const Index = () => {
                 <Sparkles className="h-4 w-4" />
                 Live Resin Premium
               </span>
-              <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in drop-shadow-2xl" style={{ animationDelay: '0.1s', textShadow: '2px 2px 8px rgba(0,0,0,0.8)' }}>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-green-500">
+              <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
+                <span className="text-white drop-shadow-[0_0_30px_rgba(255,215,0,0.8)]" style={{ textShadow: '0 0 40px rgba(255,215,0,0.9), 0 0 80px rgba(255,215,0,0.5), 2px 2px 4px rgba(0,0,0,0.9)' }}>
                   Jeeter Juice
                 </span>
               </h1>
