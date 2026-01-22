@@ -3315,6 +3315,85 @@ export const products: Product[] = [
         comment: "Boa goma de pêssego! Sabor suave e brisa tranquila. Vem 30 unidades, rende bastante!"
       }
     ]
+  },
+  {
+    id: "53",
+    name: "Gomas Delta 9 - Euphoria - 300mg",
+    slug: "gomas-delta9-euphoria-300mg",
+    price: 79.90,
+    originalPrice: 119.90,
+    description: "Gomas Delta 9 Euphoria da Delta Munchies com 300mg de THC total (10mg THC + 5mg CBD + 5mg THCV por goma, 20 unidades). Formulação exclusiva para euforia e energia social! Cada goma combina Delta 9 THC com CBD e THCV para uma experiência balanceada e funcional. Sabor Kiwi Burst refrescante, feitas com frutas reais, veganas e sem glúten. Testadas em laboratório terceirizado para garantir qualidade e segurança.",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 5mg CBD + 5mg THCV por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Kiwi Burst (Explosão de Kiwi)",
+      "Efeitos principais: Euforia, Risadas, Energia Social",
+      "Tipo: Sativa - Funcional",
+      "Formulação: Delta 9 + Terpenos",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-cbd-candies-1.jpg"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, essas gomas são insanas! A combinação de THC com CBD e THCV deixa a brisa super equilibrada. Risadas garantidas!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Euphoria é o nome certo! Me deixou super animada e sociável. Sabor de kiwi muito gostoso. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Curti muito a formulação! O THCV dá uma energia que outras gomas não têm. Perfeita pra rolês com os parças!"
+      },
+      {
+        id: "r4",
+        author: "Juliana P.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Goma de qualidade! Vegana e sem glúten é um plus. Sabor de kiwi refrescante e efeito eufórico."
+      },
+      {
+        id: "r5",
+        author: "Carlos A.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Delta Munchies manda muito bem! Goma premium com efeito funcional. Não deixa chapado demais, só feliz!"
+      },
+      {
+        id: "r6",
+        author: "Mariana L.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Melhor goma que já provei! A combinação de canabinoides é genial. Euforia pura sem paranoia!"
+      },
+      {
+        id: "r7",
+        author: "Diego F.",
+        rating: 4,
+        date: "2025-12-03",
+        comment: "Boa goma pra quem quer se divertir! Sabor top e efeito social. Recomendo pra festas e rolês!"
+      }
+    ]
   }
 ];
 
