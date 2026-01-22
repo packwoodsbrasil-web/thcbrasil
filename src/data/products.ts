@@ -4052,7 +4052,7 @@ export const products: Product[] = [
     slug: "kit-mega-pack-10-unidades",
     price: 499.90,
     originalPrice: 1299.00,
-    description: "🔥 MEGA OFERTA EXCLUSIVA! 🔥 O Kit Mega Pack é a experiência definitiva para os verdadeiros conhecedores! Inclui 10 canetas Jeeter Juice Live Resin nos sabores mais populares: Frozen Grapes, Peach Ringz, Blue Zkittlez, Paradise, Baby Belgrape, Blue Nerdz, Strawberry Shortcake, Sour Lemonade, Peach Cobbler e Baja Orange. Cada caneta é produzida com flores frescas congeladas no pico da colheita, preservando 100% do perfil de terpenos e canabinoides. O pacote perfeito para ter variedade, economia absurda e qualidade premium garantida!",
+    description: "🔥 MEGA OFERTA EXCLUSIVA! 🔥 O Kit Mega Pack é a escolha inteligente para quem quer maximizar lucros e variedade! Ideal para revendedores, micro empreendedores ou para quem quer garantir um estoque premium com economia absurda. Inclui 10 canetas Jeeter Juice Live Resin nos sabores mais procurados: Frozen Grapes, Peach Ringz, Blue Zkittlez, Paradise, Baby Belgrape, Blue Nerdz, Strawberry Shortcake, Sour Lemonade, Peach Cobbler e Baja Orange. Cada caneta é produzida com flores frescas congeladas no pico da colheita, preservando 100% do perfil de terpenos e canabinoides. O preço unitário fica abaixo de R$ 50 por caneta — imbatível para revenda ou consumo próprio!",
     details: [
       "🚀 MEGA PACK: 10 Canetas Jeeter Juice Live Resin!",
       "Conteúdo: 10 Canetas THC Live Resin Premium",
