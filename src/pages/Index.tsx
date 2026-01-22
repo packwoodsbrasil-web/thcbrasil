@@ -23,16 +23,16 @@ const Index = () => {
             <div className="max-w-2xl text-center mx-auto">
               <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/80 backdrop-blur-sm text-sm font-bold mb-8 animate-fade-in shadow-lg">
                 <Sparkles className="h-4 w-4" />
-                Colaborações Exclusivas
+                Produtos Premium THC
               </span>
               <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in drop-shadow-2xl" style={{ animationDelay: '0.1s', textShadow: '2px 2px 8px rgba(0,0,0,0.8)' }}>
-                Packwoods x Runtz
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-accent via-yellow-300 to-secondary mt-2">
-                  Premium Collection
+                Jeeter Juice
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 mt-2">
+                  Brasil
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-white font-medium mb-10 animate-fade-in drop-shadow-lg" style={{ animationDelay: '0.2s', textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
-                Descubra a colaboração entre duas marcas icônicas. Produtos premium com sabores únicos e experiências inesquecíveis.
+                Canetas, vapes e comestíveis THC premium. Produtos exclusivos da linha Jeeter Juice com entrega para todo o Brasil.
               </p>
               <div className="flex flex-wrap gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
                 <Link to="/produtos">
@@ -57,10 +57,9 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {categories.map((category) => {
                 const categoryImages: Record<string, string> = {
+                  'Canetas': '/images/category-vapes.jpg',
                   'Vapes': '/images/category-vapes.jpg',
-                  'Blunts': '/images/category-blunts.jpg',
                   'Comestíveis': '/images/category-candies.jpg',
-                  'Kits': '/images/category-kits.jpg',
                 };
                 const bgImage = categoryImages[category];
                 

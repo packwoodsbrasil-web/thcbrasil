@@ -10,12 +10,12 @@ export function Footer() {
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <img src={logo} alt="RuntzShopBrasil Logo" className="h-14 w-auto object-contain" />
-              <span className="font-bold text-xl bg-gradient-to-r from-green-500 via-yellow-400 to-red-500 bg-clip-text text-transparent">
-                RuntzShopBrasil
+              <span className="font-bold text-xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
+                Jeeter Juice BR
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Produtos premium de alta qualidade. Colaborações exclusivas entre as melhores marcas do mercado.
+              Canetas, vapes e comestíveis THC premium. Produtos exclusivos da linha Jeeter Juice com entrega para todo o Brasil.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2025 RuntzShopBrasil. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Jeeter Juice BR. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
