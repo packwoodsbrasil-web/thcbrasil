@@ -1597,6 +1597,88 @@ export const products: Product[] = [
         comment: "Forbidden Gelato é braba! Sabor de limão doce com notas de pinho, top demais mano!"
       }
     ]
+  },
+  {
+    id: "26",
+    name: "Lavender Jones",
+    slug: "lavender-jones",
+    price: 109.90,
+    originalPrice: 159.90,
+    description: "The Adventures of Lavender Jones! Esta sativa possui efeitos fortes seguidos por um leve body high. Notas de blueberry e ervas doces completam seu perfil de sabor único. Perfeita para quem busca foco e produtividade com um toque relaxante. Feita com 100% Live Resin, preservando todos os sabores e moléculas terapêuticas da planta.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa",
+      "Formato: Disposable Straw (Caneta Descartável)",
+      "Conteúdo: 500mg (0.018oz)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Foco, Energia, Body High leve",
+      "Sabor: Blueberry, Ervas doces, Lavanda",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/lavender-jones-1.webp"],
+    category: "Canetas",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Diego R.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano, essa Lavender Jones é braba! Sabor de blueberry com lavanda, tô focado demais no trampo!"
+      },
+      {
+        id: "r2",
+        author: "Patricia L.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Sativa perfeita pra produtividade! Me deixou focada mas com um relaxamento suave no corpo. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Henrique M.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Sabor de ervas doces com blueberry é sinistro mano! Brisa forte mas funcional, tô trincando!"
+      },
+      {
+        id: "r4",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Lavender Jones virou minha favorita pra trabalhar! Foco total e ainda relaxa o corpo. Qualidade braba!"
+      },
+      {
+        id: "r5",
+        author: "Gustavo K.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Essa sativa é diferenciada mano! Body high leve mas a mente fica afiada. Suave na tragada!"
+      },
+      {
+        id: "r6",
+        author: "Amanda T.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Aroma de lavanda é surreal! Me deixou focada e de bom humor, vibe muito boa pra criar!"
+      },
+      {
+        id: "r7",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Mano, o sabor de blueberry é autêntico! Entrega rápida e produto lacrado. Recomendo demais!"
+      },
+      {
+        id: "r8",
+        author: "Juliana F.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Lavender Jones é braba! Perfeita pro dia a dia, foco sem ansiedade. Top demais mano!"
+      }
+    ]
   }
 ];
 
