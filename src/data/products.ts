@@ -2300,6 +2300,69 @@ export const products: Product[] = [
         comment: "SFV OG virou meu favorito! Vape All-in-One super conveniente, sabor autêntico e efeito na medida. Top demais!"
       }
     ]
+  },
+  {
+    id: "37",
+    name: "Granddaddy Purp AIO Vape",
+    slug: "granddaddy-purp-aio-vape",
+    price: 129.90,
+    originalPrice: 179.90,
+    description: "Granddaddy Purp é uma strain indica que cruza Mendocino Purps, Skunk e Afghani. Como esperado, seus buds densos e compactos são envoltos em folhas roxas profundas que escurecem conforme a Granddaddy Purp atinge a maturação completa. É nomeada por seu aroma e perfil de sabor distintos, doce e semelhante a uva, com um leve toque terroso e picante que vem de sua linhagem Afghani. Vape descartável completo com tecnologia Diamonds.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 89% THC",
+      "Formato: All-in-One Diamonds Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Diamonds Vape",
+      "Efeitos principais: Relaxado, Eufórico",
+      "Sabor: Uva doce, Terroso, Picante",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Jeeter - Califórnia, EUA"
+    ],
+    images: ["/images/aio-granddaddy-purp-1.png"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 5,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas A.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mano, Granddaddy Purp é lendária! Sabor de uva doce é surreal, me deixou super relaxado e eufórico. Indica das boas!"
+      },
+      {
+        id: "r2",
+        author: "Fernanda M.",
+        rating: 5,
+        date: "2026-01-13",
+        comment: "Caraca, que vape incrível! Gosto de grape autêntico com toque terroso. Relaxei total, dormi que nem um bebê!"
+      },
+      {
+        id: "r3",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "GDP nunca falha! Esse AIO Vape é muito prático e o efeito é nocaute. Perfeito pra insônia, brisa roxa demais!"
+      },
+      {
+        id: "r4",
+        author: "Carolina S.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Gostei muito do sabor de uva! Indica potente que relaxa corpo e mente. Só queria mais carga, mas a qualidade é top!"
+      },
+      {
+        id: "r5",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Granddaddy Purp é clássico por um motivo! Vape sinistro, sabor de grape candy e brisa eufórica. Mó vibe!"
+      }
+    ]
   }
 ];
 
