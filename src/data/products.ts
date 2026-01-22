@@ -3903,6 +3903,77 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },
+  {
+    id: "61",
+    name: "Kit Sweet Blend Híbrido - 3 Canetas THC Live Resin",
+    slug: "kit-sweet-blend-hibrido-3-unidades",
+    price: 219.80,
+    originalPrice: 329.70,
+    description: "🔥 PROMOÇÃO ESPECIAL: COMPRE 2, LEVE 3! 🔥 O Kit Sweet Blend reúne 3 canetas THC Live Resin da linha Híbrida, perfeitas para quem busca o equilíbrio entre energia e relaxamento. Produzidas a partir de flores frescas congeladas no pico do cultivo, preservam o perfil completo de terpenos e canabinoides, entregando sabor autêntico, vapor suave e efeito consistente. O Live Resin THC mantém a essência da planta — aroma, potência e sensação real de flor — sem aditivos artificiais.",
+    details: [
+      "🎁 PROMOÇÃO: Compre 2, Leve 3!",
+      "Conteúdo: 3 Canetas THC Live Resin Híbridas",
+      "Tipo: Híbrido - Equilíbrio Perfeito",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Straw (Canetas Descartáveis)",
+      "Extração: 100% Live Resin",
+      "Efeitos principais: Equilíbrio, Criatividade, Relaxamento",
+      "Sabores doces variados da linha Híbrida",
+      "Certificado: Preserve The Terps™ Verified",
+      "Origem: Jeeter - Califórnia, EUA",
+      "Economia: R$ 109,90 de desconto!"
+    ],
+    images: ["/images/kit-sweet-blend-hibrido-1.webp"],
+    category: "Kits",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 42,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas T.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Kit híbrido é o melhor dos dois mundos! Dá pra usar de dia ou de noite, dependendo do quanto você traga. Sabores doces deliciosos, qualidade absurda!"
+      },
+      {
+        id: "r2",
+        author: "Beatriz S.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Amei esse kit! Os sabores são uma delícia, parece bala. Efeito equilibrado, fico relaxada mas funcional. Promoção compre 2 leve 3 é imperdível!"
+      },
+      {
+        id: "r3",
+        author: "Felipe M.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Pra quem não sabe se prefere indica ou sativa, o híbrido é a resposta! Kit veio perfeito, três canetas lindas. Já virou meu favorito!"
+      },
+      {
+        id: "r4",
+        author: "Carolina L.",
+        rating: 4,
+        date: "2026-01-11",
+        comment: "Muito bom! Uso no final da tarde, dá aquele relaxamento sem apagar. Os sabores doces são viciantes. Só queria que viesse mais haha"
+      },
+      {
+        id: "r5",
+        author: "André R.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Sweet Blend é sensacional! Cada caneta tem um sabor diferente e todos são incríveis. Economia boa com a promo e qualidade Jeeter garantida!"
+      },
+      {
+        id: "r6",
+        author: "Mariana C.",
+        rating: 5,
+        date: "2026-01-03",
+        comment: "Kit perfeito pra presentear! Comprei pra mim e pro meu namorado, amamos. Efeito suave e gostoso, ótimo pra curtir junto."
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
   }
 ];
 
