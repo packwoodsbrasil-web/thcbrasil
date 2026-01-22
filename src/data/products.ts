@@ -3466,6 +3466,78 @@ export const products: Product[] = [
         comment: "A combinação de THC com CBN é genial! Relaxa sem deixar grogue. Melhor noite de sono da vida!"
       }
     ]
+  },
+  {
+    id: "55",
+    name: "Gomas Delta 9 - Mango Crush - 300mg",
+    slug: "gomas-delta9-mango-crush-300mg",
+    price: 64.90,
+    originalPrice: 99.90,
+    description: "Gomas Delta 9 Mango Crush da Delta Munchies com 300mg de THC total (10mg THC + 5mg CBD + 5mg CBG por goma, 20 unidades). Formulação híbrida exclusiva para energia natural e recarga no meio do dia! Cada goma combina Delta 9 THC com CBD e CBG para uma experiência equilibrada e energizante. Sabor tropical de manga, feitas com frutas reais, veganas e sem glúten. Perfeitas para quando sua energia está baixando.",
+    details: [
+      "Alta concentração de canabinoides",
+      "Tipo: Comestível",
+      "Potência: 300mg THC total (10mg THC + 5mg CBD + 5mg CBG por goma)",
+      "Formato: Gomas (20 unidades)",
+      "Sabor: Mango Crush (Manga Tropical)",
+      "Efeitos principais: Energia Natural, Recarga, Foco",
+      "Tipo: Hybrid - Recharge",
+      "Formulação: Delta 9 + CBD + CBG",
+      "Onset: 30-60 minutos",
+      "Feitas com frutas reais",
+      "Veganas e sem glúten",
+      "Testadas em laboratório terceirizado",
+      "Marca: Delta Munchies"
+    ],
+    images: ["/images/euphoria-mango-crush-1.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 6,
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mango Crush é perfeita pra aquela hora da tarde! Dá uma energia boa sem deixar ansioso. Sabor de manga incrível!"
+      },
+      {
+        id: "r2",
+        author: "Camila F.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Curti demais o efeito híbrido! Não é pesada demais nem leve demais. Equilíbrio perfeito!"
+      },
+      {
+        id: "r3",
+        author: "Rodrigo S.",
+        rating: 4,
+        date: "2026-01-02",
+        comment: "Boa goma pra recarregar! O CBG dá um up legal. Sabor tropical muito gostoso!"
+      },
+      {
+        id: "r4",
+        author: "Beatriz M.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Minha favorita da linha! Manga natural demais e efeito energizante. Perfeita pro home office!"
+      },
+      {
+        id: "r5",
+        author: "Gustavo T.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "Recharge de verdade! Me deixa focado e animado. Vegana e sem glúten é um bônus!"
+      },
+      {
+        id: "r6",
+        author: "Isabela C.",
+        rating: 4,
+        date: "2025-12-09",
+        comment: "Goma híbrida muito boa! Sabor de manga delicioso e efeito equilibrado. Recomendo!"
+      }
+    ]
   }
 ];
 
