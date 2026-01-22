@@ -36,8 +36,8 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="RuntzShopBrasil Logo" className="h-10 sm:h-12 w-auto object-contain" />
-          <span className="font-bold text-base sm:text-xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
-            Jeeter Juice BR
+          <span className="font-bold text-base sm:text-xl bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 bg-clip-text text-transparent">
+            Jeeter Juice
           </span>
         </Link>
 
