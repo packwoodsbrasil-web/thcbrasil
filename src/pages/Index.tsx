@@ -23,7 +23,7 @@ const Index = () => {
             <div className="max-w-2xl text-center mx-auto">
               <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary/80 backdrop-blur-sm text-sm font-bold mb-8 animate-fade-in shadow-lg">
                 <Sparkles className="h-4 w-4" />
-                Produtos Premium THC
+                Live Resin Premium
               </span>
               <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in drop-shadow-2xl" style={{ animationDelay: '0.1s', textShadow: '2px 2px 8px rgba(0,0,0,0.8)' }}>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-yellow-400 to-green-500">
