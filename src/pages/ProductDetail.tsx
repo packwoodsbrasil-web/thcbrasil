@@ -212,7 +212,7 @@ const ProductDetail = () => {
 
           {/* Reviews */}
           <section className="mt-16 pt-16 border-t border-border">
-            <h2 className="text-2xl font-bold mb-6">Avaliações ({product.reviews.length})</h2>
+            <h2 className="text-2xl font-bold mb-6">Comentários ({product.reviews.length})</h2>
             {product.reviews.length > 0 ? (
               <div className="space-y-6">
                 {product.reviews.map((review) => (
