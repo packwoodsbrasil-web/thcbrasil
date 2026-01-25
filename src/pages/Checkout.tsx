@@ -204,6 +204,9 @@ const Checkout = () => {
   };
 
   const saveOrder = async (orderId: string, method: 'pix' | 'card') => {
+    // Get current user
+    const { data: { user } } = await supabase.auth.getUser();
+    
     const orderData = {
       external_id: orderId,
       customer_name: `${formData.firstName} ${formData.lastName}`,
@@ -212,6 +215,7 @@ const Checkout = () => {
       amount: totalPrice,
       payment_method: method,
       status: 'pending',
+      user_id: user?.id, // Link order to authenticated user
       shipping_address: {
         address: formData.address,
         number: formData.number,
