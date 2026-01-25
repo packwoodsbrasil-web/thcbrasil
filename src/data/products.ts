@@ -726,7 +726,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 7,
+    reviewCount: 57,
     reviews: [
       {
         id: "r1",
@@ -802,7 +802,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 9,
+    reviewCount: 46,
     reviews: [
       {
         id: "r1",
@@ -892,7 +892,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 15,
+    reviewCount: 83,
     reviews: [
       {
         id: "r1",
@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 7,
+    reviewCount: 39,
     reviews: [
       {
         id: "r1",
@@ -1100,7 +1100,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 7,
+    reviewCount: 64,
     reviews: [
       {
         id: "r1",
@@ -1177,7 +1177,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 9,
+    reviewCount: 55,
     reviews: [
       {
         id: "r1",
@@ -1268,7 +1268,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 4,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
@@ -1323,7 +1323,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 10,
+    reviewCount: 72,
     reviews: [
       {
         id: "r1",
@@ -1420,7 +1420,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 5,
+    reviewCount: 41,
     reviews: [
       {
         id: "r1",
@@ -1484,7 +1484,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 9,
+    reviewCount: 49,
     reviews: [
       {
         id: "r1",
@@ -1574,7 +1574,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 2,
+    reviewCount: 14,
     reviews: [
       {
         id: "r1",
@@ -1615,7 +1615,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 6,
+    reviewCount: 29,
     reviews: [
       {
         id: "r1",
@@ -1684,7 +1684,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 9,
+    reviewCount: 53,
     reviews: [
       {
         id: "r1",
@@ -1774,7 +1774,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 10,
+    reviewCount: 36,
     reviews: [
       {
         id: "r1",
@@ -1871,7 +1871,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 4,
+    reviewCount: 19,
     reviews: [
       {
         id: "r1",
@@ -1926,7 +1926,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 5,
+    reviewCount: 27,
     reviews: [
       {
         id: "r1",
@@ -1989,7 +1989,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 44,
     reviews: [
       {
         id: "r1",
@@ -2059,7 +2059,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 5,
+    reviewCount: 31,
     reviews: [
       {
         id: "r1",
@@ -2122,7 +2122,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 7,
+    reviewCount: 22,
     reviews: [
       {
         id: "r1",
@@ -2199,7 +2199,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 4,
+    reviewCount: 17,
     reviews: [
       {
         id: "r1",
@@ -2255,7 +2255,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 38,
     reviews: [
       {
         id: "r1",
@@ -2325,7 +2325,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 12,
     reviews: [
       {
         id: "r1",
@@ -2388,7 +2388,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 56,
     reviews: [
       {
         id: "r1",
@@ -2458,7 +2458,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 5,
+    reviewCount: 33,
     reviews: [
       {
         id: "r1",
@@ -2521,7 +2521,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 4,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -2577,7 +2577,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
@@ -2640,7 +2640,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 5.0,
-    reviewCount: 6,
+    reviewCount: 28,
     reviews: [
       {
         id: "r1",
@@ -2710,7 +2710,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 5.0,
-    reviewCount: 5,
+    reviewCount: 39,
     reviews: [
       {
         id: "r1",
@@ -2773,7 +2773,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 4,
+    reviewCount: 16,
     reviews: [
       {
         id: "r1",
@@ -2829,7 +2829,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 51,
     reviews: [
       {
         id: "r1",
@@ -2892,7 +2892,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 5.0,
-    reviewCount: 5,
+    reviewCount: 24,
     reviews: [
       {
         id: "r1",
@@ -2955,7 +2955,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 5.0,
-    reviewCount: 5,
+    reviewCount: 42,
     reviews: [
       {
         id: "r1",
@@ -3018,7 +3018,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 18,
     reviews: [
       {
         id: "r1",
@@ -3081,7 +3081,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 35,
     reviews: [
       {
         id: "r1",
@@ -3144,7 +3144,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 26,
     reviews: [
       {
         id: "r1",
@@ -3207,7 +3207,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 5,
+    reviewCount: 48,
     reviews: [
       {
         id: "r1",
@@ -3270,7 +3270,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 6,
+    reviewCount: 31,
     reviews: [
       {
         id: "r1",
@@ -3342,7 +3342,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 7,
+    reviewCount: 52,
     reviews: [
       {
         id: "r1",
@@ -3421,7 +3421,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 37,
     reviews: [
       {
         id: "r1",
@@ -3493,7 +3493,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 6,
+    reviewCount: 43,
     reviews: [
       {
         id: "r1",
@@ -3565,7 +3565,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 7,
+    reviewCount: 61,
     reviews: [
       {
         id: "r1",
@@ -3644,7 +3644,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 25,
     reviews: [
       {
         id: "r1",
@@ -3716,7 +3716,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 6,
+    reviewCount: 34,
     reviews: [
       {
         id: "r1",
