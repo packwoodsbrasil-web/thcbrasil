@@ -2,7 +2,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { ProductCard } from '@/components/product/ProductCard';
 import { products, categories } from '@/data/products';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -11,6 +11,14 @@ const Products = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const categoryParam = searchParams.get('categoria');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(categoryParam);
+
+  // Group products by category
+  const productsByCategory = useMemo(() => {
+    return categories.reduce((acc, category) => {
+      acc[category] = products.filter(p => p.category === category);
+      return acc;
+    }, {} as Record<string, typeof products>);
+  }, []);
 
   const filteredProducts = selectedCategory
     ? products.filter(p => p.category === selectedCategory)
@@ -68,14 +76,48 @@ const Products = () => {
             ))}
           </div>
 
-          {/* Products Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredProducts.map((product, index) => (
-              <div key={product.id} className="animate-fade-in" style={{ animationDelay: `${index * 0.05}s` }}>
-                <ProductCard product={product} />
-              </div>
-            ))}
-          </div>
+          {/* Products Display */}
+          {selectedCategory ? (
+            // Single category grid
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {filteredProducts.map((product, index) => (
+                <div key={product.id} className="animate-fade-in" style={{ animationDelay: `${index * 0.05}s` }}>
+                  <ProductCard product={product} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            // All categories grouped
+            <div className="space-y-12">
+              {categories.map((category) => {
+                const categoryProducts = productsByCategory[category];
+                if (!categoryProducts || categoryProducts.length === 0) return null;
+                
+                return (
+                  <section key={category}>
+                    <div className="flex items-center justify-between mb-6">
+                      <h2 className="text-2xl md:text-3xl font-bold">{category}</h2>
+                      <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={() => handleCategoryChange(category)}
+                        className="text-primary hover:text-primary/80"
+                      >
+                        Ver todos →
+                      </Button>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      {categoryProducts.map((product, index) => (
+                        <div key={product.id} className="animate-fade-in" style={{ animationDelay: `${index * 0.03}s` }}>
+                          <ProductCard product={product} />
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                );
+              })}
+            </div>
+          )}
 
           {filteredProducts.length === 0 && (
             <div className="text-center py-16">
