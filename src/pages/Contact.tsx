@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Localização</h3>
-                  <p className="text-muted-foreground">São Paulo, SP - Brasil</p>
+                  <p className="text-muted-foreground">Brasil</p>
                 </div>
               </div>
             </div>
