@@ -168,6 +168,8 @@ const Checkout = () => {
         phone: formData.phone,
         cpf: formData.cpf,
         address: formData.address,
+        number: formData.number,
+        district: formData.district,
         city: formData.city,
         state: formData.state,
         zip: formData.zip,
