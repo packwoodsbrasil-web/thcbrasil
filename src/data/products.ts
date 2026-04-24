@@ -24,8 +24,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 34,
+    reviewCount: 42,
     reviews: [
+      {
+        id: "r6",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r7",
+        author: "Felipe N.",
+        rating: 3,
+        date: "2026-03-31",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r8",
+        author: "Jéssica V.",
+        rating: 3,
+        date: "2026-03-21",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r9",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r10",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "Priscila B.",
+        rating: 4,
+        date: "2026-02-16",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r12",
+        author: "André M.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r13",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
       {
         id: "r1",
         author: "Lucas M.",
@@ -86,8 +142,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 32,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r5",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-04-12",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r6",
+        author: "Naiara Y.",
+        rating: 5,
+        date: "2026-03-31",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r7",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-03-23",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Bianca M.",
+        rating: 3,
+        date: "2026-03-10",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r9",
+        author: "João V.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r10",
+        author: "Sofia D.",
+        rating: 3,
+        date: "2026-02-19",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r11",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r12",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Thiago R.",
@@ -142,8 +254,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 28,
+    reviewCount: 34,
     reviews: [
+      {
+        id: "r9",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r10",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r11",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-03-13",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r12",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r13",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-02-17",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r14",
+        author: "Isabela Q.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
       {
         id: "r1",
         author: "Ricardo A.",
@@ -225,8 +379,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 3,
+    reviewCount: 11,
     reviews: [
+      {
+        id: "r4",
+        author: "Vitor G.",
+        rating: 4,
+        date: "2026-04-05",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r5",
+        author: "Fabiana Q.",
+        rating: 4,
+        date: "2026-03-22",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r6",
+        author: "Naiara Y.",
+        rating: 5,
+        date: "2026-03-07",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r7",
+        author: "Letícia X.",
+        rating: 4,
+        date: "2026-02-18",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r8",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r9",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r10",
+        author: "Ully F.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r11",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Enzo P.",
@@ -273,8 +483,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 29,
+    reviewCount: 37,
     reviews: [
+      {
+        id: "r5",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r6",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-04-05",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r7",
+        author: "Camila T.",
+        rating: 4,
+        date: "2026-03-27",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r8",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r9",
+        author: "Yago J.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r10",
+        author: "André M.",
+        rating: 3,
+        date: "2026-02-19",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r11",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-02-07",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r12",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Amanda L.",
@@ -328,8 +594,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 18,
+    reviewCount: 26,
     reviews: [
+      {
+        id: "r5",
+        author: "Cauã N.",
+        rating: 5,
+        date: "2026-04-14",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r6",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-04-04",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r7",
+        author: "Wagner H.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r8",
+        author: "Bianca M.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r9",
+        author: "Úrsula F.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r10",
+        author: "Matheus C.",
+        rating: 4,
+        date: "2026-02-22",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r11",
+        author: "João V.",
+        rating: 3,
+        date: "2026-02-05",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r12",
+        author: "Tales I.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
       {
         id: "r1",
         author: "Aline C.",
@@ -383,8 +705,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 10,
+    reviewCount: 18,
     reviews: [
+      {
+        id: "r5",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-04-15",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r6",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r7",
+        author: "Cauã N.",
+        rating: 5,
+        date: "2026-03-19",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r8",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-03-06",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r9",
+        author: "João V.",
+        rating: 4,
+        date: "2026-02-25",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r10",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2026-02-13",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r11",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r12",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
       {
         id: "r1",
         author: "Alex J.",
@@ -438,8 +816,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 11,
+    reviewCount: 19,
     reviews: [
+      {
+        id: "r5",
+        author: "Pablo A.",
+        rating: 4,
+        date: "2026-04-07",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r6",
+        author: "Hellen S.",
+        rating: 4,
+        date: "2026-03-24",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r7",
+        author: "Kevin V.",
+        rating: 4,
+        date: "2026-03-05",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r8",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r9",
+        author: "Otávio E.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r10",
+        author: "Yago J.",
+        rating: 3,
+        date: "2026-01-13",
+        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
+      },
+      {
+        id: "r11",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r12",
+        author: "Marcos X.",
+        rating: 4,
+        date: "2025-12-18",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
       {
         id: "r1",
         author: "Daniel O.",
@@ -493,8 +927,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 8,
+    reviewCount: 16,
     reviews: [
+      {
+        id: "r5",
+        author: "Otávio E.",
+        rating: 5,
+        date: "2026-04-07",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r6",
+        author: "Camila T.",
+        rating: 3,
+        date: "2026-03-30",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r7",
+        author: "Kaique W.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Quésia B.",
+        rating: 4,
+        date: "2026-02-28",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r9",
+        author: "Isabela Q.",
+        rating: 4,
+        date: "2026-02-13",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r10",
+        author: "Erick P.",
+        rating: 4,
+        date: "2026-01-30",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r11",
+        author: "Rodrigo C.",
+        rating: 4,
+        date: "2026-01-18",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r12",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
       {
         id: "r1",
         author: "Joana C.",
@@ -548,8 +1038,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 1,
+    reviewCount: 9,
     reviews: [
+      {
+        id: "r2",
+        author: "Isabela Q.",
+        rating: 3,
+        date: "2026-04-09",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r3",
+        author: "Tiago E.",
+        rating: 3,
+        date: "2026-03-25",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r4",
+        author: "André M.",
+        rating: 5,
+        date: "2026-03-08",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r5",
+        author: "Matheus C.",
+        rating: 3,
+        date: "2026-02-16",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r6",
+        author: "João V.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r7",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r8",
+        author: "Letícia X.",
+        rating: 3,
+        date: "2025-12-31",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r9",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-12-15",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
       {
         id: "r1",
         author: "Milena D.",
@@ -582,8 +1128,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 6,
+    reviewCount: 14,
     reviews: [
+      {
+        id: "r5",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r6",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-03-24",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r7",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Otávio E.",
+        rating: 3,
+        date: "2026-02-25",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r9",
+        author: "Tiago E.",
+        rating: 3,
+        date: "2026-02-12",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r10",
+        author: "João V.",
+        rating: 4,
+        date: "2026-01-29",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r11",
+        author: "Rodrigo C.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r12",
+        author: "Wanda H.",
+        rating: 4,
+        date: "2026-01-02",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
       {
         id: "r1",
         author: "Gabriel F.",
@@ -637,8 +1239,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 1,
+    reviewCount: 9,
     reviews: [
+      {
+        id: "r2",
+        author: "Yasmin L.",
+        rating: 4,
+        date: "2026-04-07",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r3",
+        author: "Gustavo S.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r4",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-03-13",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r5",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-02-23",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r6",
+        author: "Priscila B.",
+        rating: 3,
+        date: "2026-02-11",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r7",
+        author: "Tales I.",
+        rating: 3,
+        date: "2026-01-29",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r8",
+        author: "André M.",
+        rating: 5,
+        date: "2026-01-14",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r9",
+        author: "Júlia U.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
       {
         id: "r1",
         author: "Lincoln A.",
@@ -671,8 +1329,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 10,
+    reviewCount: 18,
     reviews: [
+      {
+        id: "r5",
+        author: "Wesley K.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r6",
+        author: "Úrsula F.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r7",
+        author: "Gabriela O.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r9",
+        author: "Hellen S.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r10",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "André M.",
+        rating: 5,
+        date: "2026-01-30",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-01-23",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Bernardo K.",
@@ -726,8 +1440,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 24,
+    reviewCount: 30,
     reviews: [
+      {
+        id: "r8",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r9",
+        author: "Daniela O.",
+        rating: 4,
+        date: "2026-03-20",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r10",
+        author: "Pablo A.",
+        rating: 5,
+        date: "2026-03-06",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r11",
+        author: "Zilda K.",
+        rating: 4,
+        date: "2026-02-13",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r12",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r13",
+        author: "Gabriel R.",
+        rating: 4,
+        date: "2026-01-12",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
       {
         id: "r1",
         author: "Hugo D.",
@@ -802,8 +1558,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 31,
+    reviewCount: 37,
     reviews: [
+      {
+        id: "r10",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-04-06",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r11",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-03-24",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r12",
+        author: "Renato G.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r13",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r14",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r15",
+        author: "Zilda K.",
+        rating: 3,
+        date: "2026-01-11",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
       {
         id: "r1",
         author: "Gioavana M.",
@@ -892,8 +1690,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r16",
+        author: "Estevão Q.",
+        rating: 3,
+        date: "2026-04-09",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r17",
+        author: "Bruno A.",
+        rating: 4,
+        date: "2026-03-25",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r18",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-03-08",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r19",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r20",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r21",
+        author: "Sabrina H.",
+        rating: 5,
+        date: "2026-01-23",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
       {
         id: "r1",
         author: "Franco N.",
@@ -1024,8 +1864,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 26,
+    reviewCount: 32,
     reviews: [
+      {
+        id: "r8",
+        author: "Sofia D.",
+        rating: 5,
+        date: "2026-04-05",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r9",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-03-20",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r10",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r11",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r12",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-01-22",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r13",
+        author: "Wagner H.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Henrique P.",
@@ -1100,8 +1982,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 33,
+    reviewCount: 39,
     reviews: [
+      {
+        id: "r8",
+        author: "Beatriz N.",
+        rating: 5,
+        date: "2026-04-08",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r9",
+        author: "Ully F.",
+        rating: 5,
+        date: "2026-03-19",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r10",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-03-06",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r11",
+        author: "Kaique W.",
+        rating: 3,
+        date: "2026-02-16",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r12",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-01-30",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r13",
+        author: "Letícia X.",
+        rating: 4,
+        date: "2026-01-13",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
       {
         id: "r1",
         author: "Antonio A.",
@@ -1177,8 +2101,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 28,
+    reviewCount: 34,
     reviews: [
+      {
+        id: "r10",
+        author: "Estevão Q.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r11",
+        author: "Suzana D.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r12",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r13",
+        author: "Paula F.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r14",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-17",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r15",
+        author: "Vinícius G.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
       {
         id: "r1",
         author: "Rodrigo P.",
@@ -1268,8 +2234,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 23,
+    reviewCount: 31,
     reviews: [
+      {
+        id: "r5",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r6",
+        author: "Vitor G.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r7",
+        author: "Lúcia W.",
+        rating: 5,
+        date: "2026-03-20",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r9",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r10",
+        author: "Pablo A.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r12",
+        author: "Vinícius G.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
       {
         id: "r1",
         author: "Lucas R.",
@@ -1323,8 +2345,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r11",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-04-07",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-03-27",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r13",
+        author: "Jéssica V.",
+        rating: 3,
+        date: "2026-03-13",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r14",
+        author: "Helena T.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r15",
+        author: "Xênia I.",
+        rating: 3,
+        date: "2026-02-17",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r16",
+        author: "Isabela Q.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Thiago R.",
@@ -1420,8 +2484,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 32,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r6",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r7",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-04-05",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r8",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r9",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r10",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r11",
+        author: "Kevin V.",
+        rating: 5,
+        date: "2026-02-21",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r12",
+        author: "Yago J.",
+        rating: 5,
+        date: "2026-02-13",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r13",
+        author: "Gabriel R.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Gustavo R.",
@@ -1484,8 +2604,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 30,
+    reviewCount: 36,
     reviews: [
+      {
+        id: "r10",
+        author: "Fabiana Q.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r11",
+        author: "Eduarda M.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r12",
+        author: "Vivian J.",
+        rating: 3,
+        date: "2026-03-14",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r13",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r14",
+        author: "Helena T.",
+        rating: 4,
+        date: "2026-02-13",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r15",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
       {
         id: "r1",
         author: "Pedro R.",
@@ -1574,8 +2736,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 14,
+    reviewCount: 22,
     reviews: [
+      {
+        id: "r3",
+        author: "Henrique P.",
+        rating: 3,
+        date: "2026-04-13",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r4",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r5",
+        author: "Gabriela O.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r6",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r7",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r8",
+        author: "Renato G.",
+        rating: 4,
+        date: "2026-02-22",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r9",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r10",
+        author: "Cauã N.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Diego R.",
@@ -1615,8 +2833,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 29,
+    reviewCount: 35,
     reviews: [
+      {
+        id: "r7",
+        author: "Úrsula F.",
+        rating: 5,
+        date: "2026-04-07",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r8",
+        author: "Daniela O.",
+        rating: 3,
+        date: "2026-03-30",
+        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
+      },
+      {
+        id: "r9",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r10",
+        author: "Letícia X.",
+        rating: 3,
+        date: "2026-03-02",
+        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
+      },
+      {
+        id: "r11",
+        author: "Túlio E.",
+        rating: 3,
+        date: "2026-02-16",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r12",
+        author: "Sabrina H.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
       {
         id: "r1",
         author: "Marcos R.",
@@ -1684,8 +2944,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 27,
+    reviewCount: 33,
     reviews: [
+      {
+        id: "r10",
+        author: "João V.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r11",
+        author: "Camila T.",
+        rating: 5,
+        date: "2026-03-27",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r12",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r13",
+        author: "Naiara Y.",
+        rating: 3,
+        date: "2026-03-04",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r14",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-17",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r15",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
       {
         id: "r1",
         author: "Thiago R.",
@@ -1774,8 +3076,50 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 25,
+    reviewCount: 31,
     reviews: [
+      {
+        id: "r11",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r12",
+        author: "Natália D.",
+        rating: 5,
+        date: "2026-03-27",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r13",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r14",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r15",
+        author: "Wagner H.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r16",
+        author: "Alex L.",
+        rating: 4,
+        date: "2026-02-02",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
       {
         id: "r1",
         author: "Gabriel R.",
@@ -1871,8 +3215,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 19,
+    reviewCount: 27,
     reviews: [
+      {
+        id: "r5",
+        author: "Matheus C.",
+        rating: 3,
+        date: "2026-04-14",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r6",
+        author: "Ramon C.",
+        rating: 4,
+        date: "2026-04-02",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r7",
+        author: "Pablo A.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r8",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-03-14",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r9",
+        author: "Sofia D.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r10",
+        author: "Úrsula F.",
+        rating: 4,
+        date: "2026-02-20",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r11",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r12",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
       {
         id: "r1",
         author: "Lucas M.",
@@ -1926,8 +3326,64 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 27,
+    reviewCount: 35,
     reviews: [
+      {
+        id: "r6",
+        author: "Sabrina H.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r7",
+        author: "Débora P.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r8",
+        author: "Priscila B.",
+        rating: 4,
+        date: "2026-03-22",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r9",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r10",
+        author: "Estevão Q.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r11",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r12",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r13",
+        author: "Henrique P.",
+        rating: 4,
+        date: "2026-01-29",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
       {
         id: "r1",
         author: "Pedro H.",
@@ -1989,8 +3445,50 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 34,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r7",
+        author: "Camila T.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r8",
+        author: "Quésia B.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r9",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-03-13",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r10",
+        author: "Renato G.",
+        rating: 4,
+        date: "2026-03-03",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r11",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-02-15",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r12",
+        author: "Yasmin L.",
+        rating: 3,
+        date: "2026-02-04",
+        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
+      },
       {
         id: "r1",
         author: "Lucas F.",
@@ -2059,8 +3557,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 31,
+    reviewCount: 39,
     reviews: [
+      {
+        id: "r6",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-04-14",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r7",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-03-31",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r8",
+        author: "Júlia U.",
+        rating: 5,
+        date: "2026-03-21",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r9",
+        author: "Isabela Q.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r10",
+        author: "Otávio E.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "Helena T.",
+        rating: 5,
+        date: "2026-02-21",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "André M.",
+        rating: 4,
+        date: "2026-02-12",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r13",
+        author: "Larissa B.",
+        rating: 4,
+        date: "2026-01-28",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
       {
         id: "r1",
         author: "Fernando A.",
@@ -2122,8 +3676,50 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 22,
+    reviewCount: 28,
     reviews: [
+      {
+        id: "r8",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r9",
+        author: "Naiara Y.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r10",
+        author: "Nara Z.",
+        rating: 3,
+        date: "2026-03-15",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r11",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r12",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-02-14",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
       {
         id: "r1",
         author: "Ricardo M.",
@@ -2199,8 +3795,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 17,
+    reviewCount: 25,
     reviews: [
+      {
+        id: "r5",
+        author: "Rodrigo C.",
+        rating: 5,
+        date: "2026-04-14",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r6",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r7",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r8",
+        author: "Matheus C.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r9",
+        author: "Kevin V.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r10",
+        author: "Murilo Y.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r11",
+        author: "Diego F.",
+        rating: 3,
+        date: "2026-02-07",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r12",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
       {
         id: "r1",
         author: "Vinícius P.",
@@ -2255,8 +3907,50 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 29,
+    reviewCount: 35,
     reviews: [
+      {
+        id: "r7",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r8",
+        author: "Kevin V.",
+        rating: 4,
+        date: "2026-03-26",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r9",
+        author: "Natália D.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r10",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r11",
+        author: "André M.",
+        rating: 5,
+        date: "2026-02-13",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r12",
+        author: "Suzana D.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
       {
         id: "r1",
         author: "Caio M.",
@@ -2325,8 +4019,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 12,
+    reviewCount: 20,
     reviews: [
+      {
+        id: "r6",
+        author: "Wagner H.",
+        rating: 3,
+        date: "2026-04-13",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r7",
+        author: "Gabriel R.",
+        rating: 3,
+        date: "2026-03-31",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r8",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2026-03-24",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r9",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r10",
+        author: "Vinícius G.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r11",
+        author: "Suzana D.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r12",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r13",
+        author: "Tales I.",
+        rating: 4,
+        date: "2026-01-29",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
       {
         id: "r1",
         author: "Lucas A.",
@@ -2388,8 +4138,50 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r7",
+        author: "Kaique W.",
+        rating: 5,
+        date: "2026-04-07",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r8",
+        author: "Camila T.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r9",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r10",
+        author: "Renato G.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r11",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r12",
+        author: "Sofia D.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
       {
         id: "r1",
         author: "Matheus F.",
@@ -2458,8 +4250,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 33,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r6",
+        author: "Erick P.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r7",
+        author: "Ully F.",
+        rating: 4,
+        date: "2026-04-03",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r8",
+        author: "João V.",
+        rating: 5,
+        date: "2026-03-23",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r9",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r10",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r11",
+        author: "Rodrigo C.",
+        rating: 4,
+        date: "2026-02-19",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r12",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r13",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
       {
         id: "r1",
         author: "Diego M.",
@@ -2521,8 +4369,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 21,
+    reviewCount: 29,
     reviews: [
+      {
+        id: "r5",
+        author: "Estevão Q.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r6",
+        author: "Erick P.",
+        rating: 5,
+        date: "2026-04-03",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r7",
+        author: "Gabriela O.",
+        rating: 4,
+        date: "2026-03-25",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r8",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r9",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r10",
+        author: "Tales I.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r11",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-10",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r12",
+        author: "Lúcia W.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
       {
         id: "r1",
         author: "Fernando L.",
@@ -2577,8 +4481,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 31,
+    reviewCount: 39,
     reviews: [
+      {
+        id: "r6",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-04-16",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r7",
+        author: "Yago J.",
+        rating: 5,
+        date: "2026-04-03",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r8",
+        author: "Matheus C.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r9",
+        author: "Yuri I.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r10",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r11",
+        author: "João V.",
+        rating: 5,
+        date: "2026-02-21",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r12",
+        author: "Jéssica V.",
+        rating: 4,
+        date: "2026-02-11",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r13",
+        author: "Otávio E.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Ricardo F.",
@@ -2640,8 +4600,50 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 5.0,
-    reviewCount: 28,
+    reviewCount: 34,
     reviews: [
+      {
+        id: "r7",
+        author: "Eduarda M.",
+        rating: 4,
+        date: "2026-04-10",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r8",
+        author: "Isabela Q.",
+        rating: 3,
+        date: "2026-03-25",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r9",
+        author: "Kevin V.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r10",
+        author: "Hellen S.",
+        rating: 4,
+        date: "2026-03-04",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r11",
+        author: "Débora P.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r12",
+        author: "Daniela O.",
+        rating: 4,
+        date: "2026-02-07",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
       {
         id: "r1",
         author: "Marcelo R.",
@@ -2710,8 +4712,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 5.0,
-    reviewCount: 27,
+    reviewCount: 35,
     reviews: [
+      {
+        id: "r6",
+        author: "Murilo Y.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r7",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r9",
+        author: "Zilda K.",
+        rating: 4,
+        date: "2026-03-14",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r10",
+        author: "Júlia U.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r11",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r12",
+        author: "Quésia B.",
+        rating: 4,
+        date: "2026-02-12",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r13",
+        author: "Alex L.",
+        rating: 3,
+        date: "2026-02-01",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
       {
         id: "r1",
         author: "Lucas T.",
@@ -2773,8 +4831,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 16,
+    reviewCount: 24,
     reviews: [
+      {
+        id: "r5",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r6",
+        author: "Suzana D.",
+        rating: 5,
+        date: "2026-04-05",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r7",
+        author: "Rodrigo C.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Alex L.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r9",
+        author: "Murilo Y.",
+        rating: 4,
+        date: "2026-03-01",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r10",
+        author: "Vivian J.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "Gabriela O.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r12",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
       {
         id: "r1",
         author: "Rafael L.",
@@ -2829,8 +4943,64 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 33,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r6",
+        author: "Tales I.",
+        rating: 5,
+        date: "2026-04-15",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r7",
+        author: "Bianca M.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Otacílio A.",
+        rating: 5,
+        date: "2026-03-23",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r9",
+        author: "Quésia B.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r10",
+        author: "Yago J.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r11",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-02-23",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r12",
+        author: "Fabiana Q.",
+        rating: 4,
+        date: "2026-02-09",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r13",
+        author: "Natália D.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Gustavo M.",
@@ -2892,8 +5062,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 5.0,
-    reviewCount: 24,
+    reviewCount: 32,
     reviews: [
+      {
+        id: "r6",
+        author: "Nara Z.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r7",
+        author: "Cauã N.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r8",
+        author: "Pablo A.",
+        rating: 3,
+        date: "2026-03-12",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r9",
+        author: "Wagner H.",
+        rating: 3,
+        date: "2026-03-03",
+        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+      },
+      {
+        id: "r10",
+        author: "João V.",
+        rating: 5,
+        date: "2026-02-15",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r11",
+        author: "Túlio E.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r12",
+        author: "Vivian J.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r13",
+        author: "Suzana D.",
+        rating: 3,
+        date: "2026-01-11",
+        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
+      },
       {
         id: "r1",
         author: "José F.",
@@ -2955,8 +5181,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 5.0,
-    reviewCount: 30,
+    reviewCount: 38,
     reviews: [
+      {
+        id: "r6",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r7",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r8",
+        author: "Otávio E.",
+        rating: 5,
+        date: "2026-03-20",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r9",
+        author: "Hellen S.",
+        rating: 5,
+        date: "2026-03-07",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r10",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r11",
+        author: "Lúcia W.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "Bianca M.",
+        rating: 5,
+        date: "2026-01-30",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r13",
+        author: "Cauã N.",
+        rating: 3,
+        date: "2026-01-19",
+        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
+      },
       {
         id: "r1",
         author: "Fred P.",
@@ -3018,8 +5300,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 18,
+    reviewCount: 26,
     reviews: [
+      {
+        id: "r6",
+        author: "Naiara Y.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+      },
+      {
+        id: "r7",
+        author: "Diego F.",
+        rating: 3,
+        date: "2026-03-31",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r8",
+        author: "Letícia X.",
+        rating: 3,
+        date: "2026-03-22",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r9",
+        author: "Gustavo S.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r10",
+        author: "Helena T.",
+        rating: 3,
+        date: "2026-02-27",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r11",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r13",
+        author: "Tales I.",
+        rating: 5,
+        date: "2026-01-30",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
       {
         id: "r1",
         author: "Marcos T.",
@@ -3081,8 +5419,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 43,
     reviews: [
+      {
+        id: "r6",
+        author: "Kaique W.",
+        rating: 4,
+        date: "2026-04-10",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r7",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-04-06",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r8",
+        author: "Ícaro T.",
+        rating: 4,
+        date: "2026-03-26",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r9",
+        author: "João V.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r10",
+        author: "Bianca M.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r11",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-02-24",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r12",
+        author: "Gabriela O.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r13",
+        author: "Vinícius G.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
       {
         id: "r1",
         author: "Amanda L.",
@@ -3144,8 +5538,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 26,
+    reviewCount: 34,
     reviews: [
+      {
+        id: "r6",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r7",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-04-06",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r8",
+        author: "Wesley K.",
+        rating: 5,
+        date: "2026-03-23",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r9",
+        author: "Wagner H.",
+        rating: 3,
+        date: "2026-03-10",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r10",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r11",
+        author: "Kevin V.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Renato G.",
+        rating: 3,
+        date: "2026-02-09",
+        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
+      },
+      {
+        id: "r13",
+        author: "Helena T.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
       {
         id: "r1",
         author: "Ricardo L.",
@@ -3207,8 +5657,64 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 32,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r6",
+        author: "Vitor G.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r7",
+        author: "Murilo Y.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r8",
+        author: "Pablo A.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r9",
+        author: "Matheus C.",
+        rating: 3,
+        date: "2026-03-11",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r10",
+        author: "Cauã N.",
+        rating: 3,
+        date: "2026-03-02",
+        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
+      },
+      {
+        id: "r11",
+        author: "Isabela Q.",
+        rating: 5,
+        date: "2026-02-17",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Alex L.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Matheus L.",
@@ -3270,8 +5776,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 31,
+    reviewCount: 37,
     reviews: [
+      {
+        id: "r7",
+        author: "Úrsula F.",
+        rating: 3,
+        date: "2026-04-12",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r8",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r9",
+        author: "Igor U.",
+        rating: 4,
+        date: "2026-03-13",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r10",
+        author: "Cauã N.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r11",
+        author: "Júlia U.",
+        rating: 3,
+        date: "2026-02-16",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r12",
+        author: "Eduarda M.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Renata L.",
@@ -3342,8 +5890,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r8",
+        author: "Yago J.",
+        rating: 4,
+        date: "2026-04-07",
+        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
+      },
+      {
+        id: "r9",
+        author: "Wesley K.",
+        rating: 5,
+        date: "2026-03-27",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r10",
+        author: "João V.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r11",
+        author: "Natália D.",
+        rating: 4,
+        date: "2026-03-04",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r12",
+        author: "Daniela O.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r13",
+        author: "André M.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
       {
         id: "r1",
         author: "Thiago M.",
@@ -3421,8 +6011,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 29,
+    reviewCount: 35,
     reviews: [
+      {
+        id: "r7",
+        author: "Henrique P.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r8",
+        author: "Matheus C.",
+        rating: 4,
+        date: "2026-03-31",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r9",
+        author: "Júlia U.",
+        rating: 5,
+        date: "2026-03-13",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r10",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r11",
+        author: "Ully F.",
+        rating: 5,
+        date: "2026-02-14",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r12",
+        author: "Renato G.",
+        rating: 3,
+        date: "2026-02-01",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
       {
         id: "r1",
         author: "Patricia S.",
@@ -3493,8 +6125,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 34,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r7",
+        author: "Igor U.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r8",
+        author: "Isabela Q.",
+        rating: 5,
+        date: "2026-03-27",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r9",
+        author: "Helena T.",
+        rating: 3,
+        date: "2026-03-15",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r10",
+        author: "Murilo Y.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r11",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2026-02-17",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r12",
+        author: "Caio O.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Lucas P.",
@@ -3565,8 +6239,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r8",
+        author: "Alex L.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r9",
+        author: "Gabriela O.",
+        rating: 3,
+        date: "2026-03-26",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r10",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r11",
+        author: "Júlia U.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r12",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-02-15",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r13",
+        author: "Diego F.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
       {
         id: "r1",
         author: "Marcos V.",
@@ -3644,8 +6360,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 25,
+    reviewCount: 31,
     reviews: [
+      {
+        id: "r7",
+        author: "Natália D.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r8",
+        author: "Letícia X.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
+      {
+        id: "r9",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-03-16",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r10",
+        author: "Úrsula F.",
+        rating: 3,
+        date: "2026-03-04",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r11",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-14",
+        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+      },
+      {
+        id: "r12",
+        author: "Ully F.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+      },
       {
         id: "r1",
         author: "Larissa M.",
@@ -3716,8 +6474,50 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 34,
+    reviewCount: 40,
     reviews: [
+      {
+        id: "r7",
+        author: "Wesley K.",
+        rating: 5,
+        date: "2026-04-13",
+        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+      },
+      {
+        id: "r8",
+        author: "Murilo Y.",
+        rating: 4,
+        date: "2026-03-26",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r9",
+        author: "Yasmin L.",
+        rating: 4,
+        date: "2026-03-15",
+        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+      },
+      {
+        id: "r10",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r11",
+        author: "Olívia Z.",
+        rating: 4,
+        date: "2026-02-12",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r12",
+        author: "Marcos X.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
       {
         id: "r1",
         author: "Mariana C.",
@@ -3786,8 +6586,50 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 34,
     reviews: [
+      {
+        id: "r7",
+        author: "Vitor G.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r8",
+        author: "Pablo A.",
+        rating: 4,
+        date: "2026-03-29",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r9",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+      },
+      {
+        id: "r10",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r11",
+        author: "Marcos X.",
+        rating: 3,
+        date: "2026-02-17",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r12",
+        author: "Rodrigo C.",
+        rating: 3,
+        date: "2026-02-05",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
       {
         id: "r1",
         author: "Bruno S.",
@@ -3857,8 +6699,50 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.9,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r7",
+        author: "Olívia Z.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+      },
+      {
+        id: "r8",
+        author: "Gabriela O.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r9",
+        author: "Estevão Q.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r10",
+        author: "Tiago E.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
+      },
+      {
+        id: "r11",
+        author: "Marcos X.",
+        rating: 4,
+        date: "2026-02-18",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r12",
+        author: "Yago J.",
+        rating: 3,
+        date: "2026-01-31",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
       {
         id: "r1",
         author: "Marcelo A.",
@@ -3928,8 +6812,50 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.9,
-    reviewCount: 33,
+    reviewCount: 39,
     reviews: [
+      {
+        id: "r7",
+        author: "Lúcia W.",
+        rating: 4,
+        date: "2026-04-07",
+        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
+      },
+      {
+        id: "r8",
+        author: "André M.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+      },
+      {
+        id: "r9",
+        author: "Rodrigo C.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+      },
+      {
+        id: "r10",
+        author: "Yago J.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+      },
+      {
+        id: "r11",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-14",
+        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+      },
+      {
+        id: "r12",
+        author: "Erick P.",
+        rating: 3,
+        date: "2026-02-06",
+        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
+      },
       {
         id: "r1",
         author: "Lucas T.",
@@ -3999,8 +6925,50 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 5.0,
-    reviewCount: 31,
+    reviewCount: 37,
     reviews: [
+      {
+        id: "r7",
+        author: "Matheus C.",
+        rating: 5,
+        date: "2026-04-11",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r8",
+        author: "Zilda K.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+      },
+      {
+        id: "r9",
+        author: "Fabiana Q.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r10",
+        author: "Úrsula F.",
+        rating: 4,
+        date: "2026-03-04",
+        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+      },
+      {
+        id: "r11",
+        author: "Xênia I.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
+      {
+        id: "r12",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+      },
       {
         id: "r1",
         author: "Thiago B.",
@@ -4069,8 +7037,50 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 5.0,
-    reviewCount: 35,
+    reviewCount: 41,
     reviews: [
+      {
+        id: "r8",
+        author: "Débora P.",
+        rating: 3,
+        date: "2026-04-09",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
+      {
+        id: "r9",
+        author: "Ramon C.",
+        rating: 5,
+        date: "2026-03-29",
+        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
+      },
+      {
+        id: "r10",
+        author: "Yasmin L.",
+        rating: 4,
+        date: "2026-03-15",
+        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
+      },
+      {
+        id: "r11",
+        author: "Otávio E.",
+        rating: 3,
+        date: "2026-03-03",
+        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+      },
+      {
+        id: "r12",
+        author: "Wanda H.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Tales I.",
+        rating: 3,
+        date: "2026-01-31",
+        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+      },
       {
         id: "r1",
         author: "Felipe D.",
