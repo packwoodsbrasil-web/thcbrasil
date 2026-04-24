@@ -4968,6 +4968,43 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "227",
+    name: "Packwoods x Runtz Strawberry Shortcake Long 2g",
+    slug: "packwoods-runtz-strawberry-shortcake-long",
+    price: 179.90,
+    description: "Packwoods x Runtz Strawberry Shortcake Long 2g entrega aquele perfil doce de morango com bolo amanteigado em um vape descartável premium de 2g. A combinação cremosa e frutada vem com uma brisa híbrida equilibrada, gostosa pra relaxar sem apagar. Tecnologia Live Resin + Diamonds com o acabamento marcante da collab Packwoods x Runtz.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 93% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Feliz, Relaxante, Eufórico",
+      "Sabor: Morango doce, bolo cremoso, sobremesa",
+      "Qualidade: 100% Potency Disposable",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-strawberry-shortcake-long-1.jpg"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 13,
+    reviews: [
+      { id: "ssc-r1", author: "Vinicius T.", rating: 5, date: "2026-04-24", comment: "Mano, esse Strawberry Shortcake Long é absurdo! Sabor de morango com bolo muito real, brisa boa demais." },
+      { id: "ssc-r2", author: "Larissa D.", rating: 5, date: "2026-04-20", comment: "Apaixonada! Docinho na medida, puxada lisa e aquele gostinho de sobremesa que não enjoa." },
+      { id: "ssc-r3", author: "Guilherme P.", rating: 5, date: "2026-04-15", comment: "Brabo, parça! Morango cremoso bate certinho, relaxa sem derrubar. Curti muito esse modelo." },
+      { id: "ssc-r4", author: "Aline M.", rating: 4, date: "2026-04-09", comment: "Muito bom, sabor diferenciado e bem doce. Só achei ele mais intenso nas primeiras puxadas." },
+      { id: "ssc-r5", author: "Rafael N.", rating: 5, date: "2026-04-03", comment: "Sensacional! Live Resin entrega demais, sabor de shortcake aparece legal. Vale o preço fácil." },
+      { id: "ssc-r6", author: "Beatriz S.", rating: 5, date: "2026-03-27", comment: "Que delícia, sério. Parece morango com creme e bolo, combinação perfeita pra fim de noite." },
+      { id: "ssc-r7", author: "Diego F.", rating: 5, date: "2026-03-19", comment: "Top demais! Chegou discreto e o vape é muito bonito. Sabor forte e brisa bem gostosa." },
+      { id: "ssc-r8", author: "Camila R.", rating: 5, date: "2026-03-08", comment: "Mds, gostei muito. Não ficou artificial igual outros de morango, esse aqui entrega de verdade." },
+      { id: "ssc-r9", author: "Pedro H.", rating: 4, date: "2026-02-21", comment: "Produto muito bom, 2g rende bastante e o sabor permanece bom até depois de vários usos." },
+      { id: "ssc-r10", author: "Natalia C.", rating: 5, date: "2026-02-05", comment: "Maravilhoso! Perfil doce e cremoso na medida, já entrou pros meus favoritos da Packwoods." }
+    ]
+  },
+  {
     id: "206",
     name: "Packwoods x Runtz Grape Juice 2g",
     slug: "packwoods-runtz-grape-juice",
