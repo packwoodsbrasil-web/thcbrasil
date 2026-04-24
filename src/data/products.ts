@@ -7229,6 +7229,20 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-02-05",
         comment: "Chegou rápido e bem embalado. Sabor doce e azedo na medida certa, viciante. O efeito demora uns 45 min pra bater mas vale a espera, fica bem chapado."
+      },
+      {
+        id: "r6",
+        author: "Vanessa K.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Comprei pra um amigo de aniversário e ele amou! Embalagem premium, dose precisa. Sabor blue raspberry é nostálgico demais."
+      },
+      {
+        id: "r7",
+        author: "Roberto N.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Indica de qualidade, finalmente! Tomei uma e meia e tive a melhor noite de sono dos últimos meses. Acordei novo. Vou pedir mais."
       }
     ]
   },  {
@@ -7327,6 +7341,27 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-02-14",
         comment: "Twisted Extracts nunca decepciona. Dose perfeita, sabor incrível e o efeito sativa é exatamente o que eu procurava pra usar durante o dia."
+      },
+      {
+        id: "r4",
+        author: "Júlia E.",
+        rating: 5,
+        date: "2026-01-25",
+        comment: "Sabor maçã verde é simplesmente o melhor! Tomei pra ir pra um show e foi incrível, energia lá em cima a noite toda."
+      },
+      {
+        id: "r5",
+        author: "Fernando A.",
+        rating: 4,
+        date: "2026-01-08",
+        comment: "Boa pra começar o dia produtivo. Dose pequena ajuda demais a controlar. Embalagem prática, gostei muito."
+      },
+      {
+        id: "r6",
+        author: "Priscila U.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Viciei nessas gomas! Sabor é absurdo, lembra demais aquelas balinhas azedinhas de infância. Sativa que funciona de verdade."
       }
     ]
   },  {
