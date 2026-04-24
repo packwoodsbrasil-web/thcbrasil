@@ -7169,6 +7169,55 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "221",
+    name: "Twisted Extracts - Sour Green Apple",
+    slug: "twisted-extracts-sour-green-apple",
+    price: 72.90,
+    originalPrice: 99.90,
+    description: "Twisted Extracts Sour Green Apple Twisted Singles são gomas sativa de maçã verde azedinha com 160mg de THC total (16 unidades x 10mg). Dose precisa, sabor marcante de maçã verde sour e efeito energético característico das cepas sativa. Perfeitas pra começar o dia com criatividade, foco e bom humor. Embalagem prática com selo de qualidade canadense, ideais pra quem busca controle total da dosagem.",
+    details: [
+      "Tipo: Goma Cannabis Sativa",
+      "Quantidade: 16 unidades",
+      "Sabor: Sour Green Apple (Maçã Verde Azedinha)",
+      "Dosagem: 10mg de THC por goma (160mg total)",
+      "Notas: Azedo, frutado e refrescante",
+      "Marca: Twisted Extracts",
+      "Cepa: Sativa",
+      "Efeitos principais: Energético, Criativo, Feliz",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/twisted-extracts-sour-green-apple-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.7,
+    reviewCount: 10,
+    reviews: [
+      {
+        id: "r1",
+        author: "Henrique B.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Sativa de qualidade! Tomei uma de manhã e fui pra academia, treino rendeu demais. Sabor de maçã verde azedinha é viciante, parece bala mesmo."
+      },
+      {
+        id: "r2",
+        author: "Tatiane R.",
+        rating: 4,
+        date: "2026-03-08",
+        comment: "Pra criatividade é imbatível. Uso quando vou desenhar ou trabalhar em projetos pessoais. Só não pode tomar muito tarde se não fica difícil dormir."
+      },
+      {
+        id: "r3",
+        author: "Lucas O.",
+        rating: 5,
+        date: "2026-02-14",
+        comment: "Twisted Extracts nunca decepciona. Dose perfeita, sabor incrível e o efeito sativa é exatamente o que eu procurava pra usar durante o dia."
+      }
+    ]
+  },  {
     id: "220",
     name: "Twisted Extracts - Sour Grape",
     slug: "twisted-extracts-sour-grape",
