@@ -5005,6 +5005,44 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "228",
+    name: "Packwoods x Runtz Key Lime Pie 2g",
+    slug: "packwoods-runtz-key-lime-pie",
+    price: 179.90,
+    description: "Packwoods x Runtz Key Lime Pie 2g traz aquele perfil cítrico cremoso da clássica torta de limão em vape descartável premium. Mistura limão fresco com toque doce de biscoito amanteigado, brisa híbrida equilibrada que relaxa sem derrubar. Tecnologia Live Resin + Diamonds com o acabamento marcante da collab Packwoods x Runtz.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 93% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Relaxante, Feliz, Criativo",
+      "Sabor: Limão cítrico, torta cremosa, biscoito amanteigado",
+      "Qualidade: 100% Potency Disposable",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-key-lime-pie-1.jpg"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 14,
+    reviews: [
+      { id: "klp-r1", author: "Thiago R.", rating: 5, date: "2026-04-23", comment: "Mano, esse Key Lime Pie é absurdo! Sabor de limão real com toque doce, brisa muito gostosa." },
+      { id: "klp-r2", author: "Mariana B.", rating: 5, date: "2026-04-18", comment: "Apaixonada! Cítrico cremoso na medida, puxada lisinha, parece sobremesa de verdade." },
+      { id: "klp-r3", author: "Lucas P.", rating: 4, date: "2026-04-12", comment: "Muito bom, sabor diferenciado. Achei o limão bem marcante nas primeiras tragadas." },
+      { id: "klp-r4", author: "Renata K.", rating: 5, date: "2026-04-05", comment: "Sensacional! Live Resin faz a diferença, sabor de torta de limão aparece bonito." },
+      { id: "klp-r5", author: "Felipe G.", rating: 5, date: "2026-03-28", comment: "Brabo, parça! Cítrico bate certinho com o doce do biscoito. Curti muito esse sabor." },
+      { id: "klp-r6", author: "Camila S.", rating: 5, date: "2026-03-19", comment: "Que delícia! Brisa relaxante sem apagar, sabor perfeito pra fim de tarde." },
+      { id: "klp-r7", author: "Rodrigo M.", rating: 5, date: "2026-03-09", comment: "Top demais! Vape lindo e a puxada é super suave. Sabor cítrico viciante." },
+      { id: "klp-r8", author: "Bianca L.", rating: 4, date: "2026-02-28", comment: "Produto muito bom, 2g rende bastante. Limão fresquinho do começo ao fim." },
+      { id: "klp-r9", author: "Daniel O.", rating: 5, date: "2026-02-15", comment: "Maravilhoso! Não esperava que fosse tão cremoso, parece torta de verdade. Recomendo." },
+      { id: "klp-r10", author: "Larissa V.", rating: 5, date: "2026-01-30", comment: "Mds, gostei demais. Cítrico equilibrado, nada artificial, brisa criativa e leve." },
+      { id: "klp-r11", author: "Henrique A.", rating: 5, date: "2026-01-12", comment: "Sabor inesquecível! Já entrou pros meus favoritos da Packwoods, vou pedir de novo." }
+    ]
+  },
+  {
     id: "206",
     name: "Packwoods x Runtz Grape Juice 2g",
     slug: "packwoods-runtz-grape-juice",
