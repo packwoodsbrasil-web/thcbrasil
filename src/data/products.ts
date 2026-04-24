@@ -7445,6 +7445,41 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-01-30",
         comment: "Bem gostosa, sabor natural sem aquele gosto químico de outras gomas. Achei a dose um pouco forte pra quem é iniciante, mas nada que cortar ao meio não resolva."
+      },
+      {
+        id: "r4",
+        author: "Rodrigo A.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Já experimentei várias marcas de gomas e essa Euphoria tá entre as melhores. Sabor morango muito real, não enjoa."
+      },
+      {
+        id: "r5",
+        author: "Camila B.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Adorei! Embalagem é uma obra de arte, dá até pena de abrir. Brisa veio bem suave e durou bastante. Recomendo."
+      },
+      {
+        id: "r6",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Sabor sensacional, parece bala de morango daquelas antigas. Comprei pra dividir com a namorada e foi um sucesso."
+      },
+      {
+        id: "r7",
+        author: "Vitória R.",
+        rating: 4,
+        date: "2025-11-22",
+        comment: "Gostei bastante, mas senti que poderia render mais. O efeito é bom, criativo do jeito que prometeram. Vou pedir de novo."
+      },
+      {
+        id: "r8",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2025-11-05",
+        comment: "Top demais! Levei numa viagem e foi perfeito. Discreto, gostoso e funciona certinho. Não tem o que reclamar."
       }
     ]
   },  {
