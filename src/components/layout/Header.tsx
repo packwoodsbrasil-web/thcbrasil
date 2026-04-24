@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useCart } from '@/contexts/CartContext';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import logo from '@/assets/logo.jpg';
+import logo from '@/assets/logo.webp';
 
 const navLinks = [
   { href: '/', label: 'Home' },
