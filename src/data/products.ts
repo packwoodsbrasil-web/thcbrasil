@@ -5011,7 +5011,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 50,
+    reviewCount: 21,
     promoTag: "32% OFF",
     reviews: [
       { id: "st-r1", author: "Felipe A.", rating: 5, date: "2026-04-23", comment: "Mano, esse sabor cítrico é viciante! Tangerina de verdade, brisa animada. Top demais!" },
@@ -5105,7 +5105,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 46,
+    reviewCount: 20,
     promoTag: "32% OFF",
     reviews: [
       { id: "wg-r1", author: "Lucas M.", rating: 5, date: "2026-04-23", comment: "Mano, esse aqui é parada séria! Sabor de goma branca igualzinho, brisa lisa e potente. Recomendo demais!" },
@@ -5197,7 +5197,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 22,
+    reviewCount: 11,
     promoTag: "32% OFF",
     reviews: [
       { id: "sbk-r1", author: "Thiago R.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! O sabor de banana com aquele azedinho é viciante demais. Brisa lisa, sem travar a garganta. Recomendo geral!" },
