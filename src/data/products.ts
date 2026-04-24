@@ -7229,6 +7229,20 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-02-05",
         comment: "Chegou rápido e bem embalado. Sabor doce e azedo na medida certa, viciante. O efeito demora uns 45 min pra bater mas vale a espera, fica bem chapado."
+      },
+      {
+        id: "r6",
+        author: "Vanessa K.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Comprei pra um amigo de aniversário e ele amou! Embalagem premium, dose precisa. Sabor blue raspberry é nostálgico demais."
+      },
+      {
+        id: "r7",
+        author: "Roberto N.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Indica de qualidade, finalmente! Tomei uma e meia e tive a melhor noite de sono dos últimos meses. Acordei novo. Vou pedir mais."
       }
     ]
   },  {
@@ -7327,6 +7341,27 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-02-14",
         comment: "Twisted Extracts nunca decepciona. Dose perfeita, sabor incrível e o efeito sativa é exatamente o que eu procurava pra usar durante o dia."
+      },
+      {
+        id: "r4",
+        author: "Júlia E.",
+        rating: 5,
+        date: "2026-01-25",
+        comment: "Sabor maçã verde é simplesmente o melhor! Tomei pra ir pra um show e foi incrível, energia lá em cima a noite toda."
+      },
+      {
+        id: "r5",
+        author: "Fernando A.",
+        rating: 4,
+        date: "2026-01-08",
+        comment: "Boa pra começar o dia produtivo. Dose pequena ajuda demais a controlar. Embalagem prática, gostei muito."
+      },
+      {
+        id: "r6",
+        author: "Priscila U.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Viciei nessas gomas! Sabor é absurdo, lembra demais aquelas balinhas azedinhas de infância. Sativa que funciona de verdade."
       }
     ]
   },  {
@@ -7362,27 +7397,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-03-15",
         comment: "Indica de verdade! Tomei duas antes de dormir e apaguei como nunca. Sabor de uva azedinha bem natural, lembra aquelas balinhas de uva. Recomendo demais."
-      },
-      {
-        id: "r2",
-        author: "Beatriz S.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Pra quem sofre com insônia, é a salvação. Dose de 10mg por goma é perfeita pra ajustar do jeito que você quer. Twisted Extracts entrega qualidade sempre."
-      },
-      {
-        id: "r3",
-        author: "Marcelo H.",
-        rating: 4,
-        date: "2026-02-09",
-        comment: "Sabor é sensacional, das melhores gomas que já experimentei. Efeito é bem relaxante mesmo, tem que tomar à noite. Tirei uma estrela porque achei pouca quantidade."
-      },
-      {
-        id: "r4",
-        author: "Carolina D.",
-        rating: 5,
-        date: "2026-01-22",
-        comment: "Embalagem profissional, gomas individuais perfeitas pra controlar a dose. Sour Grape é meu sabor favorito, azedinho na medida certa. Já tô na terceira compra."
       }
     ]
   },  {
@@ -7431,6 +7445,41 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-01-30",
         comment: "Bem gostosa, sabor natural sem aquele gosto químico de outras gomas. Achei a dose um pouco forte pra quem é iniciante, mas nada que cortar ao meio não resolva."
+      },
+      {
+        id: "r4",
+        author: "Rodrigo A.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Já experimentei várias marcas de gomas e essa Euphoria tá entre as melhores. Sabor morango muito real, não enjoa."
+      },
+      {
+        id: "r5",
+        author: "Camila B.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Adorei! Embalagem é uma obra de arte, dá até pena de abrir. Brisa veio bem suave e durou bastante. Recomendo."
+      },
+      {
+        id: "r6",
+        author: "Lucas P.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Sabor sensacional, parece bala de morango daquelas antigas. Comprei pra dividir com a namorada e foi um sucesso."
+      },
+      {
+        id: "r7",
+        author: "Vitória R.",
+        rating: 4,
+        date: "2025-11-22",
+        comment: "Gostei bastante, mas senti que poderia render mais. O efeito é bom, criativo do jeito que prometeram. Vou pedir de novo."
+      },
+      {
+        id: "r8",
+        author: "Thiago M.",
+        rating: 5,
+        date: "2025-11-05",
+        comment: "Top demais! Levei numa viagem e foi perfeito. Discreto, gostoso e funciona certinho. Não tem o que reclamar."
       }
     ]
   },  {
@@ -7472,13 +7521,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-02-08",
         comment: "Apaixonada nessas gominhas! Dosagem generosa, dá pra cortar no meio se quiser começar leve. Sessão de filme com elas é outra coisa."
-      },
-      {
-        id: "r3",
-        author: "Rodrigo F.",
-        rating: 4,
-        date: "2026-01-19",
-        comment: "Produto top, embalagem chamou minha atenção logo de cara. Efeito demora um pouco mais do que esperava, mas quando bate é forte e duradouro."
       }
     ]
   },  {
@@ -7534,6 +7576,13 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-12-30",
         comment: "Pra quem não curte THC mas quer aproveitar o CBD, é perfeito. Relaxa de verdade sem alterar nada. Levei numa viagem e foi ótimo pra dormir bem."
+      },
+      {
+        id: "r5",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "Bala de menta com CBD é a combinação perfeita pra ansiedade. Uso uma de manhã antes do trabalho e me ajuda a focar sem ficar lesada."
       }
     ]
   },  {
@@ -7582,20 +7631,6 @@ export const products: Product[] = [
         rating: 4,
         date: "2025-12-22",
         comment: "O sabor morango é o melhor na minha opinião, bem docinho e natural. Achei a brisa um pouco leve, mas pra quem tá começando é perfeito. Recomendo!"
-      },
-      {
-        id: "r4",
-        author: "Thiago N.",
-        rating: 5,
-        date: "2025-12-09",
-        comment: "Chegou rapidinho, embalagem bonita e bem protegida. Os três sabores são ótimos, dá pra variar. Já virou meu doce favorito pra desacelerar."
-      },
-      {
-        id: "r5",
-        author: "Juliana O.",
-        rating: 5,
-        date: "2025-11-26",
-        comment: "Que delícia! Discreto, gostoso e funciona direitinho. Adorei poder levar na bolsa sem chamar atenção. Já tô planejando a próxima compra."
       }
     ]
   },  {
@@ -7651,6 +7686,20 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-11-30",
         comment: "Chegou rapidinho, embalado direitinho. Adorei a mistura do abacaxi com a Northern, ficou chapado de boa, sem exagero."
+      },
+      {
+        id: "r5",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Pirulito top! Sabor de abacaxi parece doce de verdade, nada artificial. Brisa relaxante, perfeita pra fim de semana."
+      },
+      {
+        id: "r6",
+        author: "Renata J.",
+        rating: 4,
+        date: "2025-10-25",
+        comment: "Gostei bastante, sabor diferente. Demora um pouco pra fazer efeito mas vale a pena esperar. Recomendo pra iniciantes."
       }
     ]
   },  {
