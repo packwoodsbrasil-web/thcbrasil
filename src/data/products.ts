@@ -4895,6 +4895,41 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "225",
+    name: "Packwoods x Runtz Blow Pop 2g",
+    slug: "packwoods-runtz-blow-pop",
+    price: 179.90,
+    description: "Packwoods x Runtz Blow Pop 2g é pura nostalgia em formato vape descartável premium! Sabor autêntico daquele pirulito clássico de frutas, doce e divertido, com toques cremosos que lembram chiclete. Brisa híbrida equilibrada que entrega bom humor, criatividade e relaxamento na medida certa. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 93% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Feliz, Criativo, Relaxante",
+      "Sabor: Pirulito doce, frutas mistas, chiclete",
+      "Qualidade: 100% Potency Disposable",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-blow-pop-1.jpg"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 17,
+    reviews: [
+      { id: "bp-r1", author: "Vinicius A.", rating: 5, date: "2026-04-23", comment: "Mano, esse Blow Pop é viagem na infância! Sabor de pirulito de verdade, brisa massa demais." },
+      { id: "bp-r2", author: "Juliana K.", rating: 5, date: "2026-04-19", comment: "Apaixonada! Doce divertido, não enjoa. Puxada lisinha e o efeito relaxa sem travar." },
+      { id: "bp-r3", author: "Marcos L.", rating: 5, date: "2026-04-15", comment: "Brabo, parça! Híbrida na medida, criatividade fluindo. 2g rende um montão." },
+      { id: "bp-r4", author: "Patrícia S.", rating: 4, date: "2026-04-10", comment: "Muito bom, sabor diferente e gostoso. Lembra chiclete de bola, nostálgico." },
+      { id: "bp-r5", author: "Rafael D.", rating: 5, date: "2026-04-05", comment: "Sensacional! Live Resin entrega demais, sabor frutado explode. Top de linha." },
+      { id: "bp-r6", author: "Carolina M.", rating: 5, date: "2026-03-28", comment: "Que delícia, gente! Perfeito pra dar uma relaxada de boa. Já é meu favorito." },
+      { id: "bp-r7", author: "Eduardo P.", rating: 5, date: "2026-03-20", comment: "Top demais! Embalagem discreta, chegou rapidinho. Sabor é simplesmente único." },
+      { id: "bp-r8", author: "Natália F.", rating: 5, date: "2026-03-12", comment: "Mds, viciante! Doce na medida certa, brisa duradoura. Recomendo demais." }
+    ]
+  },
+  {
     id: "206",
     name: "Packwoods x Runtz Grape Juice 2g",
     slug: "packwoods-runtz-grape-juice",
