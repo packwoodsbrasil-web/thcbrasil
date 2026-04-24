@@ -46,7 +46,7 @@ const handler = async (req: Request): Promise<Response> => {
     console.log("Sending contact message from:", name, email);
 
     const emailResponse = await resend.emails.send({
-      from: "Jeeter Juice Contato <onboarding@resend.dev>",
+      from: "THC BRASIL Contato <onboarding@resend.dev>",
       to: ["suportejeeterjuice@gmail.com"],
       subject: `Nova mensagem de contato - ${name}`,
       reply_to: email,
@@ -67,7 +67,7 @@ const handler = async (req: Request): Promise<Response> => {
           </div>
           
           <p style="color: #888; font-size: 12px; margin-top: 20px;">
-            Esta mensagem foi enviada através do formulário de contato do site Jeeter Juice.
+            Esta mensagem foi enviada através do formulário de contato do site THC BRASIL.
           </p>
         </div>
       `,

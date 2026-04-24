@@ -9,13 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="Jeeter Juice BR Logo" className="h-16 w-auto object-contain" />
+              <img src={logo} alt="THC Brasil Logo" className="h-16 w-auto object-contain" />
               <span translate="no" className="font-bold text-xl bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 bg-clip-text text-transparent">
-                Jeeter Juice
+                THC BRASIL
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
-              Canetas, vapes e comestíveis THC premium. Produtos exclusivos da linha Jeeter Juice com entrega para todo o Brasil.
+              Canetas, vapes e comestíveis THC premium. Entrega para todo o Brasil.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2026 Jeeter Juice. Todos os direitos reservados.</p>
+          <p>&copy; 2026 THC BRASIL. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
