@@ -7169,6 +7169,54 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "218",
+    name: "Euphoria Cannabis Gummies - Apple OG",
+    slug: "euphoria-cannabis-gummies-apple-og",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Euphoria Cannabis Gummies Apple OG são gomas artesanais sabor maçã verde infusionadas com 90mg de óleo de cannabis por goma. Embalagem de 50g com aquela vibe psicodélica que combina perfeitamente com o efeito relaxante e divertido. Sabor azedinho e doce ao mesmo tempo, perfeito pra um momento chill, sessão de filme ou rolê com a galera. Discreto, prático e com dose generosa pra curtir aos poucos.",
+    details: [
+      "Tipo: Goma Cannabis",
+      "Quantidade: 50g por embalagem",
+      "Sabor: Apple OG (Maçã Verde)",
+      "Dosagem: 90mg de óleo de cannabis por goma",
+      "Notas: Azedinho, doce e frutado",
+      "Marca: Euphoria",
+      "Efeitos principais: Relaxado, Feliz, Criativo",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/euphoria-cannabis-gummies-apple-og-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 11,
+    reviews: [
+      {
+        id: "r1",
+        author: "Felipe A.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Sabor de maçã verde muito real, bem azedinho do jeito que eu gosto. Comi uma e em uns 40 min já tava super relaxado. Embalagem é uma arte!"
+      },
+      {
+        id: "r2",
+        author: "Mariana C.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Apaixonada nessas gominhas! Dosagem generosa, dá pra cortar no meio se quiser começar leve. Sessão de filme com elas é outra coisa."
+      },
+      {
+        id: "r3",
+        author: "Rodrigo F.",
+        rating: 4,
+        date: "2026-01-19",
+        comment: "Produto top, embalagem chamou minha atenção logo de cara. Efeito demora um pouco mais do que esperava, mas quando bate é forte e duradouro."
+      }
+    ]
+  },  {
     id: "217",
     name: "Euphoria Cannabis Candies CBD",
     slug: "euphoria-cannabis-candies-cbd",
