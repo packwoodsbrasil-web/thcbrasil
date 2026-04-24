@@ -7169,6 +7169,68 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "216",
+    name: "Cannabis Pirulito - Cheesecake x Morango x Chiclete",
+    slug: "cannabis-pirulito-cheesecake-morango-chiclete",
+    price: 99.90,
+    originalPrice: 149.90,
+    description: "Cannabis Pirulito Cheesecake x Morango x Chiclete é o trio doce que vai te conquistar logo na primeira lambida! Pirulitos artesanais Dr. Greenlove Amsterdam que misturam o cremoso do cheesecake, o doce suculento do morango e aquele toque nostálgico do chiclete, tudo em uma vibe canábica leve e divertida. Perfeitos pra um rolê discreto, sobremesa diferente ou pra dividir com a galera. Embalagem individual, fácil de levar e curtir a qualquer hora.",
+    details: [
+      "Tipo: Pirulito Cannabis",
+      "Quantidade: 50 unidades",
+      "Sabores: Cheesecake, Morango, Chiclete",
+      "Notas: Cremoso, frutado e nostálgico",
+      "Formato: Pirulito individual",
+      "Marca: Dr. Greenlove Amsterdam",
+      "Efeitos principais: Relaxado, Feliz, Suave",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito moderado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/cannabis-pirulito-cheesecake-morango-chiclete-1.jpg"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 13,
+    reviews: [
+      {
+        id: "r1",
+        author: "Rafaela S.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Gente, o de cheesecake é simplesmente inacreditável! Sabor cremoso de verdade, parece que tô comendo a sobremesa. Brisa veio bem suave, adorei."
+      },
+      {
+        id: "r2",
+        author: "Vinícius L.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Comprei pra dividir com os amigos no rolê e fez o maior sucesso. O de chiclete me lembrou minha infância, mas com aquele plus, sabe? Top demais."
+      },
+      {
+        id: "r3",
+        author: "Patrícia A.",
+        rating: 4,
+        date: "2025-12-22",
+        comment: "O sabor morango é o melhor na minha opinião, bem docinho e natural. Achei a brisa um pouco leve, mas pra quem tá começando é perfeito. Recomendo!"
+      },
+      {
+        id: "r4",
+        author: "Thiago N.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Chegou rapidinho, embalagem bonita e bem protegida. Os três sabores são ótimos, dá pra variar. Já virou meu doce favorito pra desacelerar."
+      },
+      {
+        id: "r5",
+        author: "Juliana O.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Que delícia! Discreto, gostoso e funciona direitinho. Adorei poder levar na bolsa sem chamar atenção. Já tô planejando a próxima compra."
+      }
+    ]
+  },  {
     id: "215",
     name: "Cannabis Lollipops - Northern Lights x Pineapple Express",
     slug: "cannabis-lollipops-northern-lights-pineapple",
