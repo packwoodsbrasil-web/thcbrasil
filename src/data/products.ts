@@ -7169,6 +7169,55 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "223",
+    name: "Twisted Extracts - Sour Blue Raspberry",
+    slug: "twisted-extracts-sour-blue-raspberry",
+    price: 72.90,
+    originalPrice: 99.90,
+    description: "Twisted Extracts Sour Blue Raspberry Twisted Singles são gomas indica de framboesa azul azedinha com 160mg de THC total (16 unidades x 10mg). Dose precisa, sabor marcante de blue raspberry e efeito relaxante característico das cepas indica. Perfeitas pra desligar a mente, melhorar o sono e curtir aquele relaxamento profundo no fim do dia. Embalagem prática com selo de qualidade canadense, ideais pra quem busca controle total da dosagem.",
+    details: [
+      "Tipo: Goma Cannabis Indica",
+      "Quantidade: 16 unidades",
+      "Sabor: Sour Blue Raspberry (Framboesa Azul Azedinha)",
+      "Dosagem: 10mg de THC por goma (160mg total)",
+      "Notas: Azedo, frutado e doce",
+      "Marca: Twisted Extracts",
+      "Cepa: Indica",
+      "Efeitos principais: Relaxado, Sono, Tranquilo",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/twisted-extracts-sour-blue-raspberry-1.jpg"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 7,
+    reviews: [
+      {
+        id: "r1",
+        author: "Pedro V.",
+        rating: 5,
+        date: "2026-04-12",
+        comment: "Sabor de blue raspberry me deu nostalgia daquelas raspadinhas de praia! Brisa indica bem gostosa, perfeita pra fim de dia. Top demais."
+      },
+      {
+        id: "r2",
+        author: "Sofia L.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Adorei! Dose pequena ideal pra controlar. Tomei duas e dormi como bebê, acordei super descansada. Twisted Extracts entrega qualidade sempre."
+      },
+      {
+        id: "r3",
+        author: "Caio R.",
+        rating: 4,
+        date: "2026-03-10",
+        comment: "Produto bom, sabor diferente e marcante. Embalagem chama atenção. Achei a dose um pouco fraca pra mim, mas é questão de tomar mais uma e tá tudo certo."
+      }
+    ]
+  },  {
     id: "222",
     name: "Twisted Extracts - Sour Strawberry Kiwi",
     slug: "twisted-extracts-sour-strawberry-kiwi",
