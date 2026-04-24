@@ -9307,7 +9307,7 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.6,
-    reviewCount: 24,
+    reviewCount: 12,
     reviews: [
       {
         id: "r1",
