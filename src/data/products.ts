@@ -4960,7 +4960,11 @@ export const products: Product[] = [
       { id: "bbs-r4", author: "Mariane S.", rating: 4, date: "2026-04-04", comment: "Muito bom, sabor sofisticado e diferente. Só achei a puxada um pouco forte no começo." },
       { id: "bbs-r5", author: "Gustavo P.", rating: 5, date: "2026-03-27", comment: "Sensacional! Live Resin entrega demais, sabor cremoso e duradouro. Top de linha." },
       { id: "bbs-r6", author: "Larissa K.", rating: 5, date: "2026-03-18", comment: "Que delícia, gente! Perfeito pra fim de noite, brisa relaxante. Já é meu favorito." },
-      { id: "bbs-r7", author: "Bruno T.", rating: 5, date: "2026-03-08", comment: "Top demais! Embalagem discreta, chegou rápido. Sabor de mirtilo é simplesmente único." }
+      { id: "bbs-r7", author: "Bruno T.", rating: 5, date: "2026-03-08", comment: "Top demais! Embalagem discreta, chegou rápido. Sabor de mirtilo é simplesmente único." },
+      { id: "bbs-r8", author: "Aline F.", rating: 5, date: "2026-02-26", comment: "Que vape gostoso! Doce na medida certa, brisa suave e duradoura. Amando demais!" },
+      { id: "bbs-r9", author: "Pedro M.", rating: 4, date: "2026-02-14", comment: "Produto muito bom, vale o preço. 2g dura uma eternidade, sabor cremoso de verdade." },
+      { id: "bbs-r10", author: "Sabrina R.", rating: 5, date: "2026-01-30", comment: "Maravilhoso! Parece comer souffle de blueberry, sabor super real. Já indiquei pra geral." },
+      { id: "bbs-r11", author: "Caio V.", rating: 5, date: "2026-01-12", comment: "Pqp, sabor sinistro! Cremoso, frutado, perfeito. Disparado o melhor vape que já experimentei." }
     ]
   },
   {
