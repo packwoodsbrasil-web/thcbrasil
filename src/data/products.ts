@@ -4719,7 +4719,7 @@ export const products: Product[] = [
       "Certificado: 100% State Certified Clean",
       "Origem: Packwoods x Runtz - Califórnia, EUA"
     ],
-    images: ["/images/sour-banana-kush-1.jpg", "/images/sour-banana-kush-2.jpg"],
+    images: ["/images/sour-banana-kush-1.jpg"],
     category: "Vapes",
     inStock: true,
     rating: 4.9,
@@ -4772,7 +4772,7 @@ export const products: Product[] = [
       "Certificado: 100% State Certified Clean",
       "Origem: Packwoods x Runtz - Califórnia, EUA"
     ],
-    images: ["/images/fruta-proibida-1.webp", "/images/fruta-proibida-2.jpg"],
+    images: ["/images/fruta-proibida-1.webp"],
     category: "Vapes",
     inStock: true,
     rating: 4.9,
