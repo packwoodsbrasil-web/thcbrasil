@@ -4706,10 +4706,6 @@ export const products: Product[] = [
     price: 149.90,
     originalPrice: 219.90,
     description: "Packwoods x Runtz Sour Tang é uma explosão cítrica e azedinha em formato vape descartável premium. Combina o sabor marcante de tangerina madura com aquele toque ácido característico das strains 'sour'. Tecnologia Live Resin + Diamonds entregando brisa potente, alegre e cheia de sabor cítrico. A colaboração lendária entre Packwoods e Runtz para quem ama sabores frutados intensos e energia equilibrada.",
-    slug: "packwoods-runtz-sour-tang",
-    price: 149.90,
-    originalPrice: 219.90,
-    description: "Packwoods x Runtz Sour Tang é uma explosão cítrica e azedinha em formato vape descartável premium. Combina o sabor marcante de tangerina madura com aquele toque ácido característico das strains 'sour'. Tecnologia Live Resin + Diamonds entregando brisa potente, alegre e cheia de sabor cítrico. A colaboração lendária entre Packwoods e Runtz para quem ama sabores frutados intensos e energia equilibrada.",
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida (sativa dominante)",
