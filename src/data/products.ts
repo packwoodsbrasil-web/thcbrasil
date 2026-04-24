@@ -7193,7 +7193,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 7,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
@@ -7256,7 +7256,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 12,
+    reviewCount: 47,
     reviews: [
       {
         id: "r1",
@@ -7305,7 +7305,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 10,
+    reviewCount: 8,
     reviews: [
       {
         id: "r1",
@@ -7354,7 +7354,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 14,
+    reviewCount: 61,
     reviews: [
       {
         id: "r1",
@@ -7409,7 +7409,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 8,
+    reviewCount: 19,
     reviews: [
       {
         id: "r1",
@@ -7457,7 +7457,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 11,
+    reviewCount: 34,
     reviews: [
       {
         id: "r1",
@@ -7505,7 +7505,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 9,
+    reviewCount: 6,
     reviews: [
       {
         id: "r1",
@@ -7560,7 +7560,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 13,
+    reviewCount: 52,
     reviews: [
       {
         id: "r1",
@@ -7622,7 +7622,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 9,
+    reviewCount: 27,
     reviews: [
       {
         id: "r1",
