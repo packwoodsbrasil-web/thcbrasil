@@ -107,6 +107,7 @@ export const products: Product[] = [
       { id: "sap-r24", author: "Natália F.", rating: 5, date: "2025-08-24", comment: "Apaixonada! Sabor incrível, brisa eufórica e duradoura. Recomendo demais!" }
     ]
   },
+  {
     id: "212",
     name: "Packwoods x Runtz Sour Tangie 2g",
     slug: "packwoods-runtz-sour-tangie-2g",
