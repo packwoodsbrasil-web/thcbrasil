@@ -23,101 +23,206 @@ export const products: Product[] = [
     images: ["/images/blue-banana-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 42,
+    rating: 4.8,
+    reviewCount: 28,
     reviews: [
       {
-        id: "r6",
-        author: "Zaqueu J.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r7",
-        author: "Felipe N.",
-        rating: 3,
-        date: "2026-03-31",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r8",
-        author: "Jéssica V.",
-        rating: 3,
-        date: "2026-03-21",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r9",
-        author: "Flávia R.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r10",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r11",
-        author: "Priscila B.",
-        rating: 4,
-        date: "2026-02-16",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r12",
-        author: "André M.",
-        rating: 5,
-        date: "2026-02-06",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r13",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
         id: "r1",
-        author: "Lucas M.",
+        author: "Otávio M.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, essa parada é sinistro demais! O gosto de banana é suave, não é artificial. Dei dois tragos e já tava no mundão, super relaxado. Recomendo demais, mó qualidade!"
+        date: "2026-04-22",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r2",
-        author: "Fernanda S.",
+        author: "Bia C.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Caraca, que brisa boa! Fiquei focada e ao mesmo tempo relaxada, perfeito pra ver um filminho. O sabor é diferenciado, parece banana de verdade. Top demais!"
+        date: "2026-04-04",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r3",
-        author: "Pedro H.",
-        rating: 4,
-        date: "2026-01-12",
-        comment: "Cheguei em casa do trampo morto e essa caneta me salvou! Relaxou toda a tensão do corpo. Só não dou 5 estrelas porque queria que durasse mais, mas a qualidade é braba!"
+        author: "Mirella M.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r4",
-        author: "Juliana R.",
-        rating: 5,
-        date: "2026-01-08",
-        comment: "Gente, isso aqui é outro nível! Nunca tinha experimentado Live Resin e agora não quero outra coisa. A Blue Banana virou minha strain favorita, mó vibe tranquila."
+        author: "Júlia P.",
+        rating: 4,
+        date: "2026-03-25",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
       },
       {
         id: "r5",
-        author: "Rafael C.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Pô, comprei pra testar a marca e curti demais! O vapor é suave, não arranha a garganta. A onda é boa, deixa chapado mas funcional. Já vou pedir mais!"
-    }
-  ]
+        date: "2026-03-24",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r6",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2026-03-23",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r7",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r8",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2026-03-19",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r9",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r10",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r11",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2026-02-05",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r13",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r14",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r15",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r16",
+        author: "Fernanda S.",
+        rating: 3,
+        date: "2025-12-14",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r17",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r18",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-12-06",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r19",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-12-02",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r20",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r21",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r22",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r23",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-10-03",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r24",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-09-25",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r25",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-09-15",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r26",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r27",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r28",
+        author: "Gustavo Z.",
+        rating: 3,
+        date: "2025-08-02",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
+      }
+    ]
   },
   {
     id: "3",
@@ -141,92 +246,85 @@ export const products: Product[] = [
     images: ["/images/purple-pesos-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 4.8,
-    reviewCount: 40,
+    rating: 4.4,
+    reviewCount: 11,
     reviews: [
       {
-        id: "r5",
-        author: "Nara Z.",
-        rating: 5,
-        date: "2026-04-12",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r6",
-        author: "Naiara Y.",
-        rating: 5,
-        date: "2026-03-31",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r7",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-03-23",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Bianca M.",
-        rating: 3,
-        date: "2026-03-10",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r9",
-        author: "João V.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r10",
-        author: "Sofia D.",
-        rating: 3,
-        date: "2026-02-19",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r11",
-        author: "Jéssica V.",
-        rating: 5,
-        date: "2026-02-12",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r12",
-        author: "Priscila B.",
-        rating: 5,
-        date: "2026-01-28",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
         id: "r1",
-        author: "Thiago R.",
+        author: "Lucas M.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Cara, que sativa incrível! O gosto de laranja é muito autêntico, parece que você tá bebendo suco. Me deixou super animado e criativo, perfeito pro fim de semana!"
+        date: "2026-04-18",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
       },
       {
         id: "r2",
-        author: "Marina L.",
+        author: "Mirella M.",
         rating: 5,
-        date: "2026-01-16",
-        comment: "Melhor sativa que já experimentei! O aroma cítrico é delicioso e a brisa é super leve e feliz. Uso pra trabalhar em projetos criativos e funciona demais!"
+        date: "2026-03-22",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       },
       {
         id: "r3",
-        author: "Gabriel S.",
-        rating: 4,
-        date: "2026-01-13",
-        comment: "Muito boa! O sabor de tangerina é bem presente. A onda é edificante sem ser ansiosa. Só queria que viesse em tamanho maior!"
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r4",
-        author: "Camila F.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2026-01-09",
-        comment: "Purple Pesos virou minha favorita! Me deixa super de bom humor e sociável. Perfeita pra curtir com os amigos. Qualidade Jeeter sempre no topo!"
+        date: "2026-02-23",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r5",
+        author: "Davi R.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r6",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2026-01-22",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r7",
+        author: "Diego F.",
+        rating: 4,
+        date: "2026-01-03",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r8",
+        author: "Júlio J.",
+        rating: 3,
+        date: "2025-11-14",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
+      },
+      {
+        id: "r9",
+        author: "Patrícia N.",
+        rating: 3,
+        date: "2025-09-16",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
+      },
+      {
+        id: "r10",
+        author: "Raissa B.",
+        rating: 4,
+        date: "2025-08-19",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r11",
+        author: "Renata V.",
+        rating: 4,
+        date: "2025-08-01",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       }
     ]
   },
@@ -253,106 +351,64 @@ export const products: Product[] = [
     images: ["/images/cosmos-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 4.7,
-    reviewCount: 34,
+    rating: 4.5,
+    reviewCount: 8,
     reviews: [
       {
-        id: "r9",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-04-09",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r10",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-03-25",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r11",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-03-13",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r12",
-        author: "Olívia Z.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r13",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-02-17",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r14",
-        author: "Isabela Q.",
-        rating: 5,
-        date: "2026-02-01",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
         id: "r1",
-        author: "Ricardo A.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, essa Cosmos é braba demais! Sabor de alho parece estranho mas é top, tipo refeição gourmet. Brisa equilibrada, fiquei focado e suave ao mesmo tempo!"
+        date: "2026-04-16",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r2",
-        author: "Beatriz M.",
-        rating: 5,
-        date: "2026-01-08",
-        comment: "Curti demais! Sabor terroso com toque picante é diferenciado. Perfeita pra fazer as tarefas sem ficar muito chapada. Qualidade braba!"
+        author: "Gustavo Z.",
+        rating: 4,
+        date: "2026-04-11",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       },
       {
         id: "r3",
-        author: "Felipe G.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Essa híbrida é sinistro mano! Me deixou produtivo e relaxado. Sabor diferente de tudo, tô trincando aqui!"
+        date: "2026-04-09",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r4",
-        author: "Carolina P.",
-        rating: 5,
-        date: "2025-12-15",
-        comment: "Cosmos virou minha favorita pra dia de limpeza! Brisa funcional e sabor terroso top demais. Super recomendo!"
+        author: "Leandro V.",
+        rating: 3,
+        date: "2026-03-29",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
       },
       {
         id: "r5",
-        author: "Thiago M.",
+        author: "Carolina S.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Mano, a vibe dessa Cosmos é surreal! Fiquei no mundão curtindo o dia, muito suave."
+        date: "2025-10-24",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
       },
       {
         id: "r6",
-        author: "Amanda L.",
+        author: "Mariana T.",
         rating: 4,
-        date: "2025-11-12",
-        comment: "Sabor único, bem diferenciado. Brisa boa pra atividades físicas, me deixou focada. Entrega foi rapidona!"
+        date: "2025-10-20",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
       },
       {
         id: "r7",
-        author: "Lucas R.",
+        author: "Débora Q.",
         rating: 5,
-        date: "2025-10-25",
-        comment: "Brabo demais mano! Tragada suave e a brisa vai chegando aos poucos. Qualidade Jeeter de sempre!"
+        date: "2025-09-08",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r8",
-        author: "Juliana S.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2025-10-10",
-        comment: "Essa Cosmos é diferente de tudo! Sabor de alho com terra é gourmet demais, tô rachando. Recomendo!"
+        date: "2025-08-06",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
   },
@@ -378,85 +434,225 @@ export const products: Product[] = [
     images: ["/images/ctf-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 11,
+    rating: 4.8,
+    reviewCount: 31,
     reviews: [
       {
-        id: "r4",
-        author: "Vitor G.",
-        rating: 4,
-        date: "2026-04-05",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r5",
-        author: "Fabiana Q.",
-        rating: 4,
-        date: "2026-03-22",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r6",
-        author: "Naiara Y.",
-        rating: 5,
-        date: "2026-03-07",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r7",
-        author: "Letícia X.",
-        rating: 4,
-        date: "2026-02-18",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r8",
-        author: "Nara Z.",
-        rating: 5,
-        date: "2026-02-06",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r9",
-        author: "Gabriel R.",
-        rating: 5,
-        date: "2026-01-15",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r10",
-        author: "Ully F.",
-        rating: 5,
-        date: "2026-01-05",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r11",
-        author: "Henrique P.",
-        rating: 5,
-        date: "2025-12-15",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Enzo P.",
+        author: "Tiago R.",
         rating: 5,
-        date: "2025-11-30",
-        comment: "Show!! Me deixou bem relaxado em 2 tragos, envio tudo ok!"
+        date: "2026-04-12",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r2",
-        author: "Mariana L.",
+        author: "Gustavo Z.",
         rating: 5,
-        date: "2025-11-25",
-        comment: "Comprei por indicação e chegou tudo certinho, é bem boa em poucos tragos já sente o THC."
+        date: "2026-04-11",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r3",
-        author: "Caique W.",
+        author: "Ricardo P.",
         rating: 5,
-        date: "2025-10-23",
-        comment: "Envio rápido, chegou tudo lacrado, podem ir sem medo galera! Essa híbrida é muito boa!"
+        date: "2026-04-04",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r4",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r5",
+        author: "Roberto H.",
+        rating: 4,
+        date: "2026-03-28",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r6",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2026-03-21",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r7",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2026-03-20",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r8",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r9",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r10",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r11",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r12",
+        author: "Vinícius S.",
+        rating: 4,
+        date: "2026-01-19",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r13",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r14",
+        author: "Bia C.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r15",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r16",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r17",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r18",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r19",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2025-11-29",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r20",
+        author: "Bruno A.",
+        rating: 4,
+        date: "2025-11-15",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r21",
+        author: "Paulo R.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r22",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r23",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-08",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r24",
+        author: "Priscila B.",
+        rating: 3,
+        date: "2025-08-29",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
+      },
+      {
+        id: "r25",
+        author: "Davi R.",
+        rating: 4,
+        date: "2025-08-26",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r26",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r27",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-08-23",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r28",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r29",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-08-20",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r30",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-08-04",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r31",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-08-02",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       }
     ]
   },
@@ -482,92 +678,120 @@ export const products: Product[] = [
     images: ["/images/cherry-punch-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 4.8,
-    reviewCount: 37,
+    rating: 4.6,
+    reviewCount: 16,
     reviews: [
       {
-        id: "r5",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r6",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-04-05",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r7",
-        author: "Camila T.",
-        rating: 4,
-        date: "2026-03-27",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r8",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r9",
-        author: "Yago J.",
-        rating: 5,
-        date: "2026-03-05",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r10",
-        author: "André M.",
-        rating: 3,
-        date: "2026-02-19",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r11",
-        author: "Nara Z.",
-        rating: 5,
-        date: "2026-02-07",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r12",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Amanda L.",
+        author: "Jéssica V.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Que sabor incrível! Parece mesmo cereja de verdade. A brisa é super equilibrada, deixa relaxado mas ainda funcional. Amei demais!"
+        date: "2026-04-16",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r2",
-        author: "Bruno S.",
+        author: "Fernanda S.",
         rating: 5,
-        date: "2026-01-17",
-        comment: "Produto top demais! O vapor é suave e o gosto é sensacional. Perfeito pra curtir um som ou ver uma série. Recomendo muito!"
+        date: "2026-02-23",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r3",
-        author: "Carla M.",
-        rating: 4,
-        date: "2026-01-14",
-        comment: "Gostei bastante, a qualidade é evidente. O sabor de cereja é bem autêntico. Só queria que tivesse mais opções de tamanho."
+        author: "Leandro V.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r4",
-        author: "Diego R.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Minha híbrida favorita! Equilibra bem o relaxamento com um up de criatividade. Live Resin faz toda a diferença no sabor!"
+        date: "2026-02-04",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r5",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r6",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r7",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r8",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r9",
+        author: "Igor B.",
+        rating: 4,
+        date: "2025-11-05",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r10",
+        author: "Diego F.",
+        rating: 3,
+        date: "2025-10-26",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
+      },
+      {
+        id: "r11",
+        author: "Letícia P.",
+        rating: 3,
+        date: "2025-10-24",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
+      },
+      {
+        id: "r12",
+        author: "Caio D.",
+        rating: 4,
+        date: "2025-10-07",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r13",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-10-03",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r14",
+        author: "Vanessa M.",
+        rating: 4,
+        date: "2025-08-20",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
+      },
+      {
+        id: "r15",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-08-12",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r16",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-08-10",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       }
     ]
   },
@@ -593,92 +817,113 @@ export const products: Product[] = [
     images: ["/images/sour-strawberry-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 26,
+    rating: 4.9,
+    reviewCount: 15,
     reviews: [
       {
-        id: "r5",
-        author: "Cauã N.",
-        rating: 5,
-        date: "2026-04-14",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r6",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-04-04",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r7",
-        author: "Wagner H.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r8",
-        author: "Bianca M.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r9",
-        author: "Úrsula F.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r10",
-        author: "Matheus C.",
-        rating: 4,
-        date: "2026-02-22",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r11",
-        author: "João V.",
-        rating: 3,
-        date: "2026-02-05",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r12",
-        author: "Tales I.",
-        rating: 5,
-        date: "2026-01-29",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
         id: "r1",
-        author: "Aline C.",
+        author: "Lucas M.",
         rating: 5,
-        date: "2026-01-17",
-        comment: "Ótima para uso social, não deixa aquela sensação pesada. Sou do RS e chegou tudo certinho."
+        date: "2026-04-08",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r2",
-        author: "Juliana Z.",
+        author: "Henrique A.",
         rating: 5,
-        date: "2025-11-20",
-        comment: "Minha preferida, já provei outras mas essa é muito boa!! Bem equilibrada."
+        date: "2026-04-07",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r3",
-        author: "Gabriel K.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-12-12",
-        comment: "É bem equilibrada, sente a mente e o corpo. Retirei nos correios e foi bem de boa. Indico usar mais pela noite."
+        date: "2026-03-20",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r4",
-        author: "Breno C.",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r5",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-01-08",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r6",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r7",
+        author: "Carla B.",
         rating: 5,
         date: "2025-11-16",
-        comment: "Ótima opção para uso social ou criativo. Recomendo 10/10!"
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r8",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-11-01",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r9",
+        author: "André M.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r10",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-10-26",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r11",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r12",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-09-15",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r13",
+        author: "Bianca U.",
+        rating: 4,
+        date: "2025-09-11",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r14",
+        author: "Carolina S.",
+        rating: 4,
+        date: "2025-08-30",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r15",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2025-08-03",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
   },
@@ -704,92 +949,113 @@ export const products: Product[] = [
     images: ["/images/harambe-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 18,
+    rating: 4.9,
+    reviewCount: 15,
     reviews: [
       {
-        id: "r5",
-        author: "Zaqueu J.",
-        rating: 5,
-        date: "2026-04-15",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r6",
-        author: "Flávia R.",
-        rating: 5,
-        date: "2026-04-01",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r7",
-        author: "Cauã N.",
-        rating: 5,
-        date: "2026-03-19",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r8",
-        author: "Marcos X.",
-        rating: 5,
-        date: "2026-03-06",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r9",
-        author: "João V.",
-        rating: 4,
-        date: "2026-02-25",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r10",
-        author: "Jéssica V.",
-        rating: 5,
-        date: "2026-02-13",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r11",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r12",
-        author: "Felipe N.",
-        rating: 5,
-        date: "2026-01-18",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
         id: "r1",
-        author: "Alex J.",
+        author: "Caio D.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "É bem relaxante, quem busca algo pra dormir é a boa!"
+        date: "2026-04-17",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r2",
-        author: "Kevin A.",
+        author: "Patrícia N.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "Foi minha primeira compra com a Jeeter, a caneta é bem leve e discreta, dei uns 4 tragos e senti bater forte, vou comprar mais vezes."
+        date: "2026-04-01",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r3",
-        author: "Victor S.",
-        rating: 5,
-        date: "2025-11-30",
-        comment: "Consegui tratar minha insônia com a Harambe, poucos tragos já sente bater bem limpo."
+        author: "Bruno A.",
+        rating: 4,
+        date: "2026-03-03",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
       },
       {
         id: "r4",
-        author: "Cinthia L.",
+        author: "Beatriz Q.",
         rating: 5,
-        date: "2025-11-26",
-        comment: "Nossa foi minha primeira compra e precisava deixar minha avaliação, experiência única, senti o corpo derreter de tanto relaxamento!"
+        date: "2026-02-24",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r5",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-02-15",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r6",
+        author: "Paulo R.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r7",
+        author: "Bia C.",
+        rating: 5,
+        date: "2026-01-23",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r8",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-01-01",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r9",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-12-29",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r10",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r11",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r12",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r13",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2025-11-01",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r14",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-10-27",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r15",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-08-19",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       }
     ]
   },
@@ -815,92 +1081,92 @@ export const products: Product[] = [
     images: ["/images/sugar-melon-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 19,
+    rating: 4.7,
+    reviewCount: 12,
     reviews: [
       {
-        id: "r5",
-        author: "Pablo A.",
-        rating: 4,
-        date: "2026-04-07",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r6",
-        author: "Hellen S.",
-        rating: 4,
-        date: "2026-03-24",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r7",
-        author: "Kevin V.",
-        rating: 4,
-        date: "2026-03-05",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r8",
-        author: "Olívia Z.",
-        rating: 5,
-        date: "2026-02-16",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r9",
-        author: "Otávio E.",
-        rating: 5,
-        date: "2026-02-02",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r10",
-        author: "Yago J.",
-        rating: 3,
-        date: "2026-01-13",
-        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
-      },
-      {
-        id: "r11",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2025-12-30",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r12",
-        author: "Marcos X.",
-        rating: 4,
-        date: "2025-12-18",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
         id: "r1",
-        author: "Daniel O.",
+        author: "Igor B.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Vale a pena experimentar, as híbridas são mais intensas. Quem quiser sentir tanto o corpo como a mente expandir, vai nessa!"
+        date: "2026-03-27",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r2",
-        author: "Rafael I.",
-        rating: 5,
-        date: "2025-11-19",
-        comment: "Comprei pra testar e curti muito! A onda é bem suave, não pesa demais. Perfeita pro dia a dia."
+        author: "Marcelo F.",
+        rating: 4,
+        date: "2026-03-24",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
       },
       {
         id: "r3",
-        author: "Paula D.",
+        author: "Jéssica V.",
         rating: 5,
-        date: "2025-10-22",
-        comment: "Gosto muito dessa híbrida, dá pra sentir o equilíbrio perfeito entre indica e sativa."
+        date: "2026-03-05",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r4",
-        author: "Lucas F.",
+        author: "Tiago R.",
         rating: 5,
-        date: "2025-11-02",
-        comment: "Chapa bem, poucos tragos, não fica cheiro. Gostei!"
+        date: "2026-02-20",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r5",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r6",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r7",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2026-01-04",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r8",
+        author: "Wesley L.",
+        rating: 4,
+        date: "2026-01-02",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r9",
+        author: "Anderson N.",
+        rating: 4,
+        date: "2025-12-19",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r10",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-12-08",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r11",
+        author: "Lorena K.",
+        rating: 4,
+        date: "2025-11-20",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r12",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-09-22",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
   },
@@ -926,92 +1192,225 @@ export const products: Product[] = [
     images: ["/images/durban-poison-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 16,
+    rating: 4.7,
+    reviewCount: 31,
     reviews: [
       {
-        id: "r5",
-        author: "Otávio E.",
-        rating: 5,
-        date: "2026-04-07",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r6",
-        author: "Camila T.",
-        rating: 3,
-        date: "2026-03-30",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
-      },
-      {
-        id: "r7",
-        author: "Kaique W.",
-        rating: 5,
-        date: "2026-03-12",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Quésia B.",
-        rating: 4,
-        date: "2026-02-28",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r9",
-        author: "Isabela Q.",
-        rating: 4,
-        date: "2026-02-13",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r10",
-        author: "Erick P.",
-        rating: 4,
-        date: "2026-01-30",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r11",
-        author: "Rodrigo C.",
-        rating: 4,
-        date: "2026-01-18",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r12",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-01-02",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
         id: "r1",
-        author: "Joana C.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2025-12-21",
-        comment: "Gosto bastante da Durban pois me ajuda muito no lado criativo, uso pra estudar e parece que expande a mente de uma forma bizarra de boa!"
+        date: "2026-04-06",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r2",
-        author: "Amanda A.",
+        author: "Zaqueu J.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "Minha primeira compra foi um sucesso, o envio chegou no prazo exato, atendimento muito atencioso. A Durban é minha favorita!"
+        date: "2026-03-31",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r3",
-        author: "Jhonatan O.",
-        rating: 5,
-        date: "2025-12-05",
-        comment: "No começo veio aquele pico de clareza e depois relaxou numa vibe tranquila. 10 de 10!"
+        author: "Diego F.",
+        rating: 4,
+        date: "2026-03-24",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r4",
-        author: "Cristiano M.",
+        author: "Pedro H.",
+        rating: 3,
+        date: "2026-03-18",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
+      },
+      {
+        id: "r5",
+        author: "Carla B.",
         rating: 5,
-        date: "2025-11-29",
-        comment: "Senti um estímulo mental que me ajudou a pensar em soluções e depois acalmar o corpo na sequência. Top demais!"
+        date: "2026-03-16",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r6",
+        author: "Débora Q.",
+        rating: 3,
+        date: "2026-03-14",
+        comment: "O sabor é meio fraco pro meu gosto, esperava algo mais marcante. Brisa é razoável, nada absurdo."
+      },
+      {
+        id: "r7",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r8",
+        author: "Gustavo Z.",
+        rating: 4,
+        date: "2026-02-23",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r9",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r10",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r11",
+        author: "Camila D.",
+        rating: 5,
+        date: "2026-02-13",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r12",
+        author: "Flávia R.",
+        rating: 4,
+        date: "2026-02-07",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r13",
+        author: "Aline G.",
+        rating: 5,
+        date: "2026-01-24",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r14",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r15",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r16",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r17",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r18",
+        author: "André M.",
+        rating: 5,
+        date: "2025-11-04",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r19",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r20",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-10-26",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r21",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r22",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-10-19",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r23",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-10-17",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r24",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r25",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-10-11",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r26",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r27",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-09-30",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r28",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-08-20",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r29",
+        author: "Otávio M.",
+        rating: 4,
+        date: "2025-08-13",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r30",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2025-08-10",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r31",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-08-06",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       }
     ]
   },
@@ -1037,71 +1436,85 @@ export const products: Product[] = [
     images: ["/images/ice-cream-cake-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 9,
+    rating: 4.7,
+    reviewCount: 11,
     reviews: [
       {
+        id: "r1",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-04-22",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
         id: "r2",
-        author: "Isabela Q.",
-        rating: 3,
-        date: "2026-04-09",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+        author: "Gustavo Z.",
+        rating: 4,
+        date: "2026-03-18",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
       },
       {
         id: "r3",
-        author: "Tiago E.",
-        rating: 3,
-        date: "2026-03-25",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r4",
-        author: "André M.",
+        author: "Bia C.",
         rating: 5,
-        date: "2026-03-08",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+        date: "2025-11-17",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r5",
-        author: "Matheus C.",
-        rating: 3,
-        date: "2026-02-16",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+        author: "Letícia P.",
+        rating: 4,
+        date: "2025-11-07",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
       },
       {
         id: "r6",
-        author: "João V.",
+        author: "Wallace S.",
         rating: 5,
-        date: "2026-02-01",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
+        date: "2025-10-28",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r7",
-        author: "Gabriel R.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2026-01-17",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+        date: "2025-10-25",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       },
       {
         id: "r8",
-        author: "Letícia X.",
-        rating: 3,
-        date: "2025-12-31",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
+        author: "Leandro V.",
+        rating: 4,
+        date: "2025-10-15",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       },
       {
         id: "r9",
-        author: "Ícaro T.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+        date: "2025-10-04",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
-        id: "r1",
-        author: "Milena D.",
+        id: "r10",
+        author: "Júlia P.",
         rating: 5,
-        date: "2025-12-01",
-        comment: "Recomendo pra uso em festas, o corpo responde mais que a mente, dá uma sensação boa de expansão do corpo. Muito boa!"
+        date: "2025-10-01",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r11",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-08-22",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
   },
@@ -1128,91 +1541,210 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 14,
+    reviewCount: 29,
     reviews: [
       {
-        id: "r5",
-        author: "Nara Z.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r6",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-03-24",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r7",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Otávio E.",
-        rating: 3,
-        date: "2026-02-25",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
-      },
-      {
-        id: "r9",
-        author: "Tiago E.",
-        rating: 3,
-        date: "2026-02-12",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r10",
-        author: "João V.",
-        rating: 4,
-        date: "2026-01-29",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r11",
-        author: "Rodrigo C.",
-        rating: 5,
-        date: "2026-01-15",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r12",
-        author: "Wanda H.",
-        rating: 4,
-        date: "2026-01-02",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
         id: "r1",
-        author: "Gabriel F.",
+        author: "Bia C.",
         rating: 5,
-        date: "2025-12-16",
-        comment: "É uma indica boa, senti a mente relaxar primeiro depois o corpo, foi uma boa experiência! Recomendo!"
+        date: "2026-03-30",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r2",
-        author: "Angelo J.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "Quase ninguém fala da Papaya mas é muito boa, já provei outra indica e incrível que essa senti mais o corpo relaxar."
+        date: "2026-03-18",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r3",
-        author: "Davi G.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2025-11-11",
-        comment: "Primeira vez usando caneta e adorei! O vapor é muito suave, não tossi nada. Vou comprar de novo com certeza."
+        date: "2026-03-17",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r4",
-        author: "Ruan A.",
+        author: "Jéssica V.",
         rating: 5,
-        date: "2025-10-12",
-        comment: "Muito boa! Usei antes de dormir e acordei super descansado. O gosto tropical é bem gostoso também."
+        date: "2026-03-16",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r5",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2026-02-09",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r6",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r7",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r8",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2026-01-23",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r9",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r10",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-01-11",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r11",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r12",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-01-03",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r13",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-12-31",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r14",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-12-29",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r15",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r16",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r17",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-12-02",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r18",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-11-20",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r19",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r20",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-10-27",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r21",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-10-26",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r22",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r23",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-09-23",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r24",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-12",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r25",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-09-07",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r26",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r27",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-08-20",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r28",
+        author: "Tainá I.",
+        rating: 4,
+        date: "2025-08-11",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r29",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-08-08",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
   },
@@ -1238,71 +1770,225 @@ export const products: Product[] = [
     images: ["/images/hurricane-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 9,
+    rating: 4.9,
+    reviewCount: 31,
     reviews: [
       {
+        id: "r1",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
         id: "r2",
-        author: "Yasmin L.",
-        rating: 4,
-        date: "2026-04-07",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
       },
       {
         id: "r3",
-        author: "Gustavo S.",
+        author: "Lucas M.",
         rating: 5,
-        date: "2026-03-22",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+        date: "2026-03-24",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r4",
-        author: "Nara Z.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2026-03-13",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+        date: "2026-03-23",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       },
       {
         id: "r5",
-        author: "Henrique P.",
+        author: "Thiago L.",
         rating: 5,
-        date: "2026-02-23",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+        date: "2026-03-11",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r6",
-        author: "Priscila B.",
-        rating: 3,
-        date: "2026-02-11",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+        author: "André M.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       },
       {
         id: "r7",
-        author: "Tales I.",
-        rating: 3,
-        date: "2026-01-29",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+        author: "Renata V.",
+        rating: 4,
+        date: "2026-02-23",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
       },
       {
         id: "r8",
-        author: "André M.",
+        author: "Tainá I.",
         rating: 5,
-        date: "2026-01-14",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+        date: "2026-02-22",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r9",
-        author: "Júlia U.",
+        author: "Natália C.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+        date: "2026-01-31",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
-        id: "r1",
-        author: "Lincoln A.",
+        id: "r10",
+        author: "Bia C.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r11",
+        author: "Carla B.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r12",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r13",
+        author: "Amanda K.",
         rating: 5,
         date: "2025-12-13",
-        comment: "Poucos falam dessa mas é disparado a melhor, me deixa mais desperto e animado, sem me deixar agitado!"
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r14",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-12-01",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r15",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r16",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-11-05",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r17",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r18",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-10-27",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r19",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r20",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r21",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r22",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r23",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-09-21",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r24",
+        author: "Jéssica V.",
+        rating: 4,
+        date: "2025-09-16",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r25",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-09-15",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r26",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r27",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r28",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-08-20",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r29",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-08-16",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r30",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2025-08-06",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r31",
+        author: "Juliana R.",
+        rating: 4,
+        date: "2025-08-01",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       }
     ]
   },
@@ -1328,92 +2014,183 @@ export const products: Product[] = [
     images: ["/images/kish-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 18,
+    rating: 4.8,
+    reviewCount: 25,
     reviews: [
       {
-        id: "r5",
-        author: "Wesley K.",
-        rating: 5,
-        date: "2026-04-09",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r6",
-        author: "Úrsula F.",
-        rating: 5,
-        date: "2026-04-02",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r7",
-        author: "Gabriela O.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r9",
-        author: "Hellen S.",
-        rating: 5,
-        date: "2026-02-22",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r10",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r11",
-        author: "André M.",
-        rating: 5,
-        date: "2026-01-30",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r12",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-01-23",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Bernardo K.",
+        author: "Wesley L.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Essa caneta é perfeita depois de um dia estressante! Usei antes de assistir um filme e curti demais. 10/10!"
+        date: "2026-04-18",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r2",
-        author: "Juliana M.",
+        author: "Raissa B.",
         rating: 5,
-        date: "2025-12-24",
-        comment: "Gostei bastante da minha primeira compra! Chegou rápido e bem embalado. A onda é boa demais!"
+        date: "2026-03-30",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       },
       {
         id: "r3",
-        author: "Gabriel J.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-12-21",
-        comment: "Mesmo sendo potente, não me deixou 'chapado demais', só confortável."
+        date: "2026-03-25",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       },
       {
         id: "r4",
-        author: "Gabriely B.",
+        author: "Renata V.",
         rating: 5,
-        date: "2025-12-17",
-        comment: "Usei num domingo à tarde e foi incrível! Maratonei uma série inteira super de boa. Recomendo!"
+        date: "2026-03-16",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r5",
+        author: "Fernanda S.",
+        rating: 3,
+        date: "2026-02-27",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r6",
+        author: "Aline G.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r7",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2026-01-22",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r8",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r9",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r10",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r11",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-12-06",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r12",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r13",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r14",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r15",
+        author: "Helena S.",
+        rating: 4,
+        date: "2025-11-06",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r16",
+        author: "André M.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r17",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r18",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r19",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-09-13",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r20",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-09-08",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r21",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r22",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r23",
+        author: "Murilo P.",
+        rating: 4,
+        date: "2025-08-12",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r24",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-08-11",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r25",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-08-08",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       }
     ]
   },
@@ -1439,99 +2216,78 @@ export const products: Product[] = [
     images: ["/images/kush-breath-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 30,
+    rating: 4.9,
+    reviewCount: 10,
     reviews: [
       {
-        id: "r8",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r9",
-        author: "Daniela O.",
-        rating: 4,
-        date: "2026-03-20",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r10",
-        author: "Pablo A.",
-        rating: 5,
-        date: "2026-03-06",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r11",
-        author: "Zilda K.",
-        rating: 4,
-        date: "2026-02-13",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r12",
-        author: "Jéssica V.",
-        rating: 5,
-        date: "2026-01-26",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r13",
-        author: "Gabriel R.",
-        rating: 4,
-        date: "2026-01-12",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
         id: "r1",
-        author: "Hugo D.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "É aquele tipo de experiência que pede tipo, conforto não sei explicar kkkk mas foi uma onda boa! Envio tudo ok glr"
+        date: "2026-03-26",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r2",
-        author: "Luis O.",
+        author: "Thiago L.",
         rating: 5,
-        date: "2025-12-08",
-        comment: "Realmente é uma indica com potencial em relaxar tá, percebi que ajuda bastante quando estou mais tenso ou com o corpo cansado."
+        date: "2026-01-15",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       },
       {
         id: "r3",
-        author: "Otavio H.",
+        author: "Vinícius S.",
         rating: 5,
-        date: "2025-11-30",
-        comment: "Dá pra perceber que o óleo é bem refinado tipo a qualidade em si, fazia tempo que não pegava algo bom assim."
+        date: "2026-01-03",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       },
       {
         id: "r4",
-        author: "Ana Paula C.",
-        rating: 5,
-        date: "2025-11-06",
-        comment: "Gente fiquei sim com receio de n chegar mas acreditem chegou hahaha uma indica bem boa pra quem quer sentir a mente desligar"
+        author: "Mariana T.",
+        rating: 4,
+        date: "2025-12-14",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
       },
       {
         id: "r5",
-        author: "José A.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2025-11-02",
-        comment: "Vapor limpo, sem aspereza na garganta, sinal claro de boa filtragem e destilado refinado."
+        date: "2025-11-19",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r6",
-        author: "Julia M.",
+        author: "Gabriel O.",
         rating: 5,
-        date: "2025-10-14",
-        comment: "A mente ficou mais leve, sem aquela correria de pensamentos, já usei de outras marcas e me dava ansiedade, mas essa foi a primeira que não deu. Quem busca algo pra se desligar de verdade essa é perfeita..."
+        date: "2025-10-20",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r7",
-        author: "Denis A.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2025-10-12",
-        comment: "Minha avaliação geral Sabor:⭐️⭐️⭐️⭐️ Alto:⭐️⭐️⭐️⭐️⭐️ Custo-benefício:⭐️⭐️⭐️⭐️⭐️"
+        date: "2025-10-15",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r8",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-10-01",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r9",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r10",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       }
     ]
   },
@@ -1557,113 +2313,190 @@ export const products: Product[] = [
     images: ["/images/lemon-og-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 37,
+    rating: 4.8,
+    reviewCount: 26,
     reviews: [
       {
-        id: "r10",
-        author: "Gabriel R.",
-        rating: 5,
-        date: "2026-04-06",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r11",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-03-24",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r12",
-        author: "Renato G.",
-        rating: 5,
-        date: "2026-03-01",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r13",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-18",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r14",
-        author: "Felipe N.",
-        rating: 5,
-        date: "2026-01-28",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r15",
-        author: "Zilda K.",
-        rating: 3,
-        date: "2026-01-11",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
         id: "r1",
-        author: "Gioavana M.",
+        author: "Carla B.",
         rating: 5,
-        date: "2025-12-26",
-        comment: "Ótima pra quem quer usar em festinha pelo menos na minha opinião ⭐️⭐️⭐️⭐️⭐️"
+        date: "2026-04-18",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       },
       {
         id: "r2",
-        author: "Kainan D.",
-        rating: 5,
-        date: "2025-12-03",
-        comment: "Vapor extremamente limpo, sem aspereza na garganta, sinal claro de boa filtragem e destilado refinado."
+        author: "Fábio T.",
+        rating: 4,
+        date: "2026-04-17",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r3",
-        author: "Luan E.",
+        author: "Paulo R.",
         rating: 5,
-        date: "2025-11-23",
-        comment: "Olha comprei pra fazer um teste pq fiquei sim receio mas chegou no prazo exato dado, o atendimento foi bem atencioso e me prestou total atenção sobre o rastreio, a caneta é bem de boa de levar pra qualquer lugar, vale o investimento!"
+        date: "2026-04-12",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r4",
-        author: "João P.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2025-11-03",
-        comment: "O azedinho do limão, uma híbrida perfeita!! Top demais, comprarei mais vezes"
+        date: "2026-03-27",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r5",
-        author: "Heitor G.",
+        author: "Davi R.",
         rating: 5,
-        date: "2025-10-30",
-        comment: "Tem um azedinho bem leve, durou 2 meses pq não uso todo dia, tudo dentro do esperado."
+        date: "2026-03-22",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r6",
-        author: "Oliver U.",
+        author: "Júlio J.",
         rating: 5,
-        date: "2025-10-28",
-        comment: "Na minha opinião é uma híbrida bem equilibrada. O envio foi ok e o que me chamou atenção foi que veio tudo lacrado, no plástico bolha, a caixa marrom padrão, passa segurança e privacidade."
+        date: "2026-02-22",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r7",
-        author: "Henrique L.",
+        author: "Bia C.",
         rating: 5,
-        date: "2025-10-19",
-        comment: "Envio rápido e discreto, embalagem bem selada. Produto chegou intacto e dentro do padrão!"
+        date: "2026-02-17",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       },
       {
         id: "r8",
-        author: "Jaqueline A.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-10-14",
-        comment: "É uma híbrida boa, consegui sentir a mente relaxar e uma leve euforia no corpo, bem equilibrada! Envio dentro do prazo."
+        date: "2026-02-15",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r9",
-        author: "Liandra N.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2025-09-30",
-        comment: "Foi meu primeiro uso e realmente o azedinho do limão é uma delícia, senti um misto de sensação tanto relax como uma vontade de dançar! Vale a pena!"
+        date: "2026-02-14",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r10",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r11",
+        author: "Renata V.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r12",
+        author: "Jéssica V.",
+        rating: 3,
+        date: "2026-01-07",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
+      },
+      {
+        id: "r13",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r14",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-12-23",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r15",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r16",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r17",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-11-03",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r18",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-10-17",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r19",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r20",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r21",
+        author: "Amanda K.",
+        rating: 3,
+        date: "2025-09-21",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r22",
+        author: "Lorena K.",
+        rating: 4,
+        date: "2025-09-20",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r23",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-09-14",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r24",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r25",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r26",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-08-05",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
   },
@@ -1690,154 +2523,154 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 41,
+    reviewCount: 21,
     reviews: [
       {
-        id: "r16",
-        author: "Estevão Q.",
-        rating: 3,
-        date: "2026-04-09",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
-      },
-      {
-        id: "r17",
-        author: "Bruno A.",
-        rating: 4,
-        date: "2026-03-25",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r18",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-03-08",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r19",
+        id: "r1",
         author: "Flávia R.",
         rating: 5,
-        date: "2026-02-20",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r20",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-08",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r21",
-        author: "Sabrina H.",
-        rating: 5,
-        date: "2026-01-23",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r1",
-        author: "Franco N.",
-        rating: 5,
-        date: "2026-01-05",
-        comment: "Ya he comprado en la frontera antes y llegó a tiempo, el servicio fue muy bueno, gracias Jeeter."
+        date: "2026-04-22",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       },
       {
         id: "r2",
-        author: "Martina Z.",
+        author: "Amanda K.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Lo compré en Brasil y lo probé en fiestas, bailé mucho, es una gran experiencia. 10"
+        date: "2026-04-12",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r3",
-        author: "Ravi I.",
+        author: "Murilo P.",
         rating: 5,
-        date: "2025-12-19",
-        comment: "Mesmo com 94% de THC, achei o efeito muito controlado. Não dá ansiedade, só energia boa."
+        date: "2026-03-21",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r4",
-        author: "Renan G.",
+        author: "Lucas M.",
         rating: 5,
-        date: "2025-12-11",
-        comment: "Gostei muito da estabilidade do efeito. Não tem pico estranho, é bem progressivo."
+        date: "2026-03-12",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r5",
-        author: "Miguel V.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2025-11-13",
-        comment: "Chegou hoje, dei uns tragos e gostei bastante! Atendimento no whats foi muito esclarecedor! 10⭐️⭐️⭐️⭐️⭐️"
+        date: "2026-03-11",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r6",
-        author: "Sandra E.",
+        author: "Fernanda S.",
         rating: 5,
-        date: "2025-11-04",
-        comment: "Pra quem prefere sativas puras e energéticas, essa é perfeita. Vão sem medo kkkk envio chega sim"
+        date: "2026-01-25",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       },
       {
         id: "r7",
-        author: "Benjamim O.",
+        author: "Rafael C.",
         rating: 5,
-        date: "2025-11-02",
-        comment: "A Jeeter mantém padrão premium perceptível desde a primeira tragada."
+        date: "2026-01-06",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       },
       {
         id: "r8",
-        author: "Julio P.",
+        author: "Carolina S.",
         rating: 5,
-        date: "2025-10-29",
-        comment: "Me despertou uma euforia clara e positiva, sem ansiedade. O envio foi ok! Já estou na terceira compra somente da tangie, minha favorita!"
+        date: "2025-12-11",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r9",
-        author: "Ravi W.",
+        author: "Thiago L.",
         rating: 5,
-        date: "2025-10-21",
-        comment: "Sim sim a melhor que temos, podem falar o que for da jeeter mas já usei outras e é limpa, não fica aquela sensação pesada no corpo, sou cliente fiel!"
+        date: "2025-12-04",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       },
       {
         id: "r10",
-        author: "Vinicius A.",
+        author: "Raissa B.",
         rating: 5,
-        date: "2025-10-13",
-        comment: "Segunda compra e chegou lacrada!!! Excelente opção para criatividade!!! Uso para trabalhar kkk e acreditem me ajuda muito no foco, já tive várias ideias depois de usar!!!"
+        date: "2025-12-01",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r11",
-        author: "Ana Carolina H.",
+        author: "Júlio J.",
         rating: 5,
-        date: "2025-10-13",
-        comment: "É a mais intensa, já experimentei outras sativas da jeeter e essa é a melhor. Recomendo!"
+        date: "2025-10-29",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r12",
-        author: "Renata Q.",
+        author: "Isabela W.",
         rating: 5,
-        date: "2025-10-09",
-        comment: "Perfil terpênico limpo, sem gosto artificial ou químico, isso fez o diferencial, totalmente diferente das outras marcas."
+        date: "2025-10-23",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
       },
       {
         id: "r13",
-        author: "Kleiton T.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2025-10-06",
-        comment: "Na minha humilde opinião é a mais forte da linha juice, quem quiser algo intenso essa é a certa!"
+        date: "2025-10-10",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r14",
-        author: "Dara C.",
+        author: "Bia C.",
         rating: 5,
-        date: "2025-10-04",
-        comment: "Ideal pra quem busca algo com intuito em foco e energia. O envio foi dentro do prazo dado, chegou lacrado."
+        date: "2025-10-01",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r15",
-        author: "Natan M.",
+        author: "Natália C.",
+        rating: 4,
+        date: "2025-09-29",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r16",
+        author: "André M.",
         rating: 5,
-        date: "2025-10-01",
-        comment: "A potência de 94,8% é sentida, mas muito bem controlada."
+        date: "2025-09-14",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r17",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r18",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-08-30",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r19",
+        author: "Paulo R.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r20",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-08-07",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r21",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-08-06",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       }
     ]
   },
@@ -1863,99 +2696,71 @@ export const products: Product[] = [
     images: ["/images/super-silver-haze-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 32,
+    rating: 4.4,
+    reviewCount: 9,
     reviews: [
       {
-        id: "r8",
-        author: "Sofia D.",
-        rating: 5,
-        date: "2026-04-05",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r9",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-03-20",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r10",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r11",
-        author: "Gabriel R.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r12",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-01-22",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r13",
-        author: "Wagner H.",
-        rating: 5,
-        date: "2026-01-07",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
         id: "r1",
-        author: "Henrique P.",
+        author: "Tiago R.",
         rating: 5,
-        date: "2025-12-17",
-        comment: "Fiz uma compra teste pq fiquei com receio, mas me surpreendi quando chegou kkkk. Vou comprar mais vezes."
+        date: "2026-03-30",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r2",
-        author: "Tomas M.",
-        rating: 5,
-        date: "2025-12-09",
-        comment: "Primeira compra e chegou lacrada, o cuidado do envio foi muito seguro, atendimento top! Já provei e me surpreendi, poucos tragos já senti bater bem limpo. Comprarei mais vezes com ctz!"
+        author: "Jéssica V.",
+        rating: 4,
+        date: "2026-03-04",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       },
       {
         id: "r3",
-        author: "Francisco V.",
+        author: "Gabriel O.",
         rating: 5,
-        date: "2025-11-23",
-        comment: "Uso pra trabalhar com criação e essa caneta virou minha preferida. Foco, ideias fluem."
+        date: "2026-02-15",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
-        author: "Brendon K.",
+        author: "Carla B.",
         rating: 5,
-        date: "2025-11-17",
-        comment: "A ativação é rápida, mas não agressiva, não deixa o corpo pesado. Em poucos minutos já bate aquela clareza mental boa pra trabalhar ou criar, bem sativa mesmo."
+        date: "2026-02-04",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r5",
-        author: "Bento R.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2025-10-22",
-        comment: "Uso sativas há anos e a Silver Haze me surpreendeu. Efeito limpo, cabeça clara e zero peso no corpo. Dá pra usar tranquilamente durante o dia."
+        date: "2026-01-10",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r6",
-        author: "Julia A.",
-        rating: 5,
-        date: "2025-10-21",
-        comment: "Ah minha favorita, me despertou uma sensação de alegria, a mente tive várias ideias, uso às vezes pra estudar e acreditem me ajuda muito, deixa esperta não sei expressar em palavras. 10/10000"
+        author: "Leandro V.",
+        rating: 3,
+        date: "2025-10-28",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r7",
-        author: "Francielle S.",
+        author: "Caio D.",
+        rating: 3,
+        date: "2025-10-07",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r8",
+        author: "Carolina S.",
         rating: 5,
-        date: "2025-10-14",
-        comment: "Já tinha ouvido falar da silver mas realmente é melhor do que esperava! 10 de 10!"
+        date: "2025-09-07",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r9",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-08-09",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
   },
@@ -1981,99 +2786,64 @@ export const products: Product[] = [
     images: ["/images/white-buffalo-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 39,
+    rating: 4.4,
+    reviewCount: 8,
     reviews: [
       {
-        id: "r8",
-        author: "Beatriz N.",
-        rating: 5,
-        date: "2026-04-08",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r9",
-        author: "Ully F.",
-        rating: 5,
-        date: "2026-03-19",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r10",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-03-06",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r11",
-        author: "Kaique W.",
-        rating: 3,
-        date: "2026-02-16",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r12",
-        author: "Flávia R.",
-        rating: 5,
-        date: "2026-01-30",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r13",
-        author: "Letícia X.",
-        rating: 4,
-        date: "2026-01-13",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
         id: "r1",
-        author: "Antonio A.",
+        author: "Júlia P.",
         rating: 5,
-        date: "2025-12-27",
-        comment: "Não senti queda de potência ao longo do uso. A caneta se mantém estável até o final."
+        date: "2026-03-08",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r2",
-        author: "Vicente H.",
-        rating: 5,
-        date: "2025-11-22",
-        comment: "A Jeeter realmente sabe trabalhar terpenos. Dá pra sentir o perfil clássico da Haze."
+        author: "Débora Q.",
+        rating: 4,
+        date: "2026-02-13",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r3",
-        author: "Mathias K.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2025-11-14",
-        comment: "Informação importante avaliar, não me deu ansiedade nem taquicardia, o que é raro em sativas tão fortes."
+        date: "2026-01-27",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r4",
-        author: "Gabriela S.",
-        rating: 5,
-        date: "2025-11-13",
-        comment: "Uso durante o dia e não interfere em nada na rotina. Pelo contrário, ajuda na produtividade. Envio foi ok!"
+        author: "Beatriz Q.",
+        rating: 3,
+        date: "2026-01-09",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r5",
-        author: "Tiago C.",
+        author: "Diego F.",
         rating: 5,
-        date: "2025-10-13",
-        comment: "Não me deixou acelerado demais, só desperto e de bom humor. Excelente sativa."
+        date: "2025-12-20",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r6",
-        author: "Icaro G.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2025-10-07",
-        comment: "Vapor bem suave, não arranha a garganta. Dá pra puxar mais longo sem desconforto."
+        date: "2025-12-05",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r7",
-        author: "Luiz M.",
-        rating: 5,
-        date: "2025-09-30",
-        comment: "Pra quem gosta de sativa de verdade, essa White Buffalo entrega exatamente o que promete."
+        author: "Caio D.",
+        rating: 4,
+        date: "2025-10-11",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r8",
+        author: "Zaqueu J.",
+        rating: 4,
+        date: "2025-09-13",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       }
     ]
   },
@@ -2100,113 +2870,78 @@ export const products: Product[] = [
     images: ["/images/hi-octane-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 34,
+    rating: 4.7,
+    reviewCount: 10,
     reviews: [
       {
-        id: "r10",
-        author: "Estevão Q.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r11",
-        author: "Suzana D.",
-        rating: 5,
-        date: "2026-03-25",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r12",
-        author: "Bruno A.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r13",
-        author: "Paula F.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r14",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-17",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r15",
-        author: "Vinícius G.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
         id: "r1",
-        author: "Rodrigo P.",
+        author: "Fernanda S.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, essa híbrida é braba demais! Relaxa na medida certa sem dar aquele sono. Sabor cremoso top!"
+        date: "2026-04-02",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r2",
-        author: "Amanda L.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Equilíbrio perfeito entre indica e sativa. Tô trincando aqui com muita criatividade!"
+        date: "2026-03-16",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r3",
-        author: "Felipe M.",
-        rating: 5,
-        date: "2026-01-08",
-        comment: "Sabor de berry com final cremoso é surreal mano. Melhor híbrida que já experimentei, braba!"
+        author: "Carolina S.",
+        rating: 4,
+        date: "2026-03-05",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
       },
       {
         id: "r4",
-        author: "Carolina R.",
+        author: "Vanessa M.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Top demais pra noites criativas! Me ajuda muito quando preciso trabalhar em projetos artísticos."
+        date: "2026-02-13",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r5",
-        author: "Bruno S.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Aroma terroso com toque cítrico é muito suave. Qualidade Jeeter de sempre, brabo!"
+        date: "2026-01-23",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r6",
-        author: "Juliana T.",
-        rating: 5,
-        date: "2025-11-25",
-        comment: "Brisa duradoura e consistente. Poucas tragadas já bate legal, tô rachando aqui!"
+        author: "Gustavo Z.",
+        rating: 4,
+        date: "2025-11-26",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       },
       {
         id: "r7",
-        author: "Marcelo K.",
-        rating: 5,
-        date: "2025-11-15",
-        comment: "Entrega rapidona e produto lacrado. A Hi-Octane é braba demais, recomendo!"
+        author: "Bruno A.",
+        rating: 4,
+        date: "2025-10-07",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r8",
-        author: "Fernanda G.",
+        author: "Gabriel O.",
         rating: 5,
-        date: "2025-11-08",
-        comment: "Genética top! Sunset Sherbet + Octane = combinação perfeita mano."
+        date: "2025-10-01",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r9",
-        author: "Ricardo A.",
+        author: "Letícia P.",
         rating: 5,
-        date: "2025-10-28",
-        comment: "Suave demais pra relaxar sem perder a clareza mental. Vibe muito boa!"
+        date: "2025-09-06",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r10",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-08-05",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
   },
@@ -2233,92 +2968,106 @@ export const products: Product[] = [
     images: ["/images/mac-n-cookies-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 31,
+    rating: 4.4,
+    reviewCount: 14,
     reviews: [
       {
-        id: "r5",
-        author: "Wanda H.",
+        id: "r1",
+        author: "Eduardo G.",
         rating: 5,
         date: "2026-04-11",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r6",
-        author: "Vitor G.",
-        rating: 5,
-        date: "2026-04-02",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r7",
-        author: "Lúcia W.",
-        rating: 5,
-        date: "2026-03-20",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-15",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r9",
-        author: "Marcos X.",
-        rating: 5,
-        date: "2026-02-28",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r10",
-        author: "Pablo A.",
-        rating: 5,
-        date: "2026-02-20",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r11",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2026-02-06",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r12",
-        author: "Vinícius G.",
-        rating: 5,
-        date: "2026-01-29",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r1",
-        author: "Lucas R.",
-        rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, sabor de queijo cremoso com cookies é surreal! Nunca experimentei nada igual, brabo demais!"
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r2",
-        author: "Bianca M.",
+        author: "Ícaro T.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Brisa eufórica mas relaxante ao mesmo tempo. Equilíbrio perfeito, tô rachando aqui!"
+        date: "2026-04-06",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r3",
-        author: "Pedro H.",
+        author: "Camila D.",
         rating: 5,
-        date: "2026-01-02",
-        comment: "A genética MAC x Alien Cheese é braba! Sabor único no mercado, top demais."
+        date: "2026-03-08",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
       },
       {
         id: "r4",
-        author: "Camila S.",
+        author: "Felipe N.",
+        rating: 4,
+        date: "2026-02-20",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
+      },
+      {
+        id: "r5",
+        author: "Otávio M.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Me deixa relaxada e feliz. Perfeita pra curtir o fim do dia, vibe muito boa!"
+        date: "2026-01-31",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r6",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2026-01-23",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r7",
+        author: "Mirella M.",
+        rating: 4,
+        date: "2026-01-20",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r8",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-01-13",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r9",
+        author: "Davi R.",
+        rating: 3,
+        date: "2025-12-24",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
+      },
+      {
+        id: "r10",
+        author: "Bianca U.",
+        rating: 3,
+        date: "2025-12-16",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r11",
+        author: "Lucas M.",
+        rating: 4,
+        date: "2025-11-20",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r12",
+        author: "Vitória E.",
+        rating: 3,
+        date: "2025-11-17",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r13",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-10-06",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r14",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-09-02",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       }
     ]
   },
@@ -2344,120 +3093,113 @@ export const products: Product[] = [
     images: ["/images/lemon-drop-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 41,
+    rating: 4.7,
+    reviewCount: 15,
     reviews: [
       {
-        id: "r11",
-        author: "Otacílio A.",
+        id: "r1",
+        author: "Murilo P.",
         rating: 5,
-        date: "2026-04-07",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+        date: "2026-03-13",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r2",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2026-03-08",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r3",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-01-27",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r4",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r5",
+        author: "Rafael C.",
+        rating: 4,
+        date: "2025-12-22",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r6",
+        author: "Otávio M.",
+        rating: 4,
+        date: "2025-12-13",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r7",
+        author: "Ricardo P.",
+        rating: 4,
+        date: "2025-11-30",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
+      },
+      {
+        id: "r8",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-11-16",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r9",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-11-14",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r10",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-10-26",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r11",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r12",
-        author: "Zaqueu J.",
+        author: "Wallace S.",
         rating: 5,
-        date: "2026-03-27",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
+        date: "2025-10-11",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       },
       {
         id: "r13",
-        author: "Jéssica V.",
+        author: "Leandro V.",
         rating: 3,
-        date: "2026-03-13",
+        date: "2025-09-30",
         comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
       },
       {
         id: "r14",
-        author: "Helena T.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-02-26",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
+        date: "2025-09-14",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r15",
-        author: "Xênia I.",
-        rating: 3,
-        date: "2026-02-17",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r16",
-        author: "Isabela Q.",
+        author: "Bianca U.",
         rating: 5,
-        date: "2026-02-01",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r1",
-        author: "Thiago R.",
-        rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, esse sabor de limão é brabo demais! Tragada suave e a brisa vem leve, top pra curtir o mundão."
-      },
-      {
-        id: "r2",
-        author: "Letícia M.",
-        rating: 5,
-        date: "2026-01-12",
-        comment: "Tô rachando de rir com os amigos, essa Lemon Drop é perfeita pra social. Vibe muito boa!"
-      },
-      {
-        id: "r3",
-        author: "Gabriel S.",
-        rating: 5,
-        date: "2026-01-05",
-        comment: "Brisa leve e refrescante, mano. Aroma cítrico top demais, parece que tô na praia trincando."
-      },
-      {
-        id: "r4",
-        author: "Natália P.",
-        rating: 5,
-        date: "2025-12-28",
-        comment: "Sabor tropical brabo! Parece balinha de limão mesmo, suave demais na garganta."
-      },
-      {
-        id: "r5",
-        author: "André L.",
-        rating: 5,
-        date: "2025-12-15",
-        comment: "Efeito eufórico sem paranoia, mano. Fiquei de boa curtindo a vibe o dia todo."
-      },
-      {
-        id: "r6",
-        author: "Juliana K.",
-        rating: 5,
-        date: "2025-11-28",
-        comment: "Chegou rapidão e lacrado. Qualidade braba como sempre, Jeeter nunca decepciona!"
-      },
-      {
-        id: "r7",
-        author: "Marcos F.",
-        rating: 5,
-        date: "2025-11-18",
-        comment: "Live Resin de respeito! Sabor de limão autêntico, tô trincando aqui mano."
-      },
-      {
-        id: "r8",
-        author: "Camila T.",
-        rating: 5,
-        date: "2025-11-05",
-        comment: "Minha favorita pra ir pra praia! Brisa leve e refrescante, top demais."
-      },
-      {
-        id: "r9",
-        author: "Roberto G.",
-        rating: 5,
-        date: "2025-10-25",
-        comment: "Suave demais mano, pra quem curte cítrico é a melhor opção. Recomendo!"
-      },
-      {
-        id: "r10",
-        author: "Fernanda A.",
-        rating: 5,
-        date: "2025-10-15",
-        comment: "A melhor opção para quem busca energia e bom humor. Recomendo!"
+        date: "2025-08-31",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       }
     ]
   },
@@ -2483,99 +3225,176 @@ export const products: Product[] = [
     images: ["/images/slurricane-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 40,
+    rating: 4.8,
+    reviewCount: 24,
     reviews: [
       {
-        id: "r6",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r7",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-04-05",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r8",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-03-25",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r9",
-        author: "Zaqueu J.",
-        rating: 5,
-        date: "2026-03-16",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r10",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r11",
-        author: "Kevin V.",
-        rating: 5,
-        date: "2026-02-21",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r12",
-        author: "Yago J.",
-        rating: 5,
-        date: "2026-02-13",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r13",
-        author: "Gabriel R.",
-        rating: 5,
-        date: "2026-01-29",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Gustavo R.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, essa Slurricane é braba demais! Sabor de berry doce com toque tropical, tô no mundão!"
+        date: "2026-04-15",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r2",
-        author: "Fernanda L.",
+        author: "Isabela W.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Indica perfeita pra relaxar! Body high intenso mas me deixou de bom humor. Top demais!"
+        date: "2026-03-23",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r3",
-        author: "Bruno M.",
+        author: "Ícaro T.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Sabor de furacão de frutas mano! Tragada suave e a brisa vem forte no corpo. Qualidade braba!"
+        date: "2026-02-17",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
       },
       {
         id: "r4",
-        author: "Juliana S.",
+        author: "Caio D.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "Essa indica é sinistro! Me deixou super relaxada mas ainda animada. Perfeita pro fim do dia."
+        date: "2026-02-15",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       },
       {
         id: "r5",
-        author: "Rafael T.",
+        author: "Helena S.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Slurricane virou minha favorita! Sabor doce com toque de terra, muito suave. Tô trincando!"
+        date: "2026-01-28",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r6",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r7",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2026-01-25",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r8",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-12-31",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r9",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r10",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-11-16",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r11",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-11-08",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r12",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-11-04",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r13",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r14",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-10-20",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r15",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r17",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-10-01",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r18",
+        author: "Júlia P.",
+        rating: 3,
+        date: "2025-09-28",
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
+      },
+      {
+        id: "r19",
+        author: "Vanessa M.",
+        rating: 4,
+        date: "2025-09-16",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r20",
+        author: "Wesley L.",
+        rating: 3,
+        date: "2025-09-13",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
+      },
+      {
+        id: "r21",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-09-06",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r22",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r23",
+        author: "Bia C.",
+        rating: 4,
+        date: "2025-08-31",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r24",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-08-30",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       }
     ]
   },
@@ -2603,113 +3422,197 @@ export const products: Product[] = [
     images: ["/images/forbidden-gelato-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 36,
+    rating: 4.9,
+    reviewCount: 27,
     reviews: [
       {
-        id: "r10",
-        author: "Fabiana Q.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r11",
-        author: "Eduarda M.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r12",
-        author: "Vivian J.",
-        rating: 3,
-        date: "2026-03-14",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r13",
-        author: "Henrique P.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r14",
-        author: "Helena T.",
-        rating: 4,
-        date: "2026-02-13",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r15",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-02-04",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
         id: "r1",
-        author: "Pedro R.",
+        author: "Vinícius S.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, essa Forbidden Gelato é sinistro! Sabor de berry com limão, tô no mundão relaxado e feliz!"
+        date: "2026-04-13",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r2",
-        author: "Mariana L.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Braba demais! A genética Gelato #33 x Forbidden Fruit é perfeita. Brisa eufórica e suave!"
+        date: "2026-04-12",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r3",
-        author: "Thiago M.",
+        author: "Priscila B.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Indica top demais! Me deixou relaxado mas ainda animado. Sabor de lavanda é diferenciado, tô trincando!"
+        date: "2026-04-06",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r4",
-        author: "Camila S.",
-        rating: 5,
-        date: "2025-12-12",
-        comment: "Essa é proibida mesmo mano, vicia! Sabor doce com toque de pinho, muito suave na tragada."
+        author: "Igor B.",
+        rating: 3,
+        date: "2026-03-09",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r5",
-        author: "Lucas K.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Forbidden Gelato virou minha favorita! Efeito edificante mesmo sendo indica. Qualidade braba!"
+        date: "2026-02-21",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
       },
       {
         id: "r6",
-        author: "Amanda T.",
+        author: "André M.",
         rating: 5,
-        date: "2025-11-15",
-        comment: "Aroma de lavanda com berry é surreal mano! Brisa boa pra curtir o fim de semana."
+        date: "2026-02-14",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r7",
-        author: "Rafael P.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2025-10-30",
-        comment: "Mano, o sabor cítrico com berry é autêntico! Entrega rapidona e produto lacrado. Recomendo!"
+        date: "2026-02-08",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       },
       {
         id: "r8",
-        author: "Juliana F.",
+        author: "Patrícia N.",
         rating: 5,
-        date: "2025-10-18",
-        comment: "Essa indica é diferente de tudo! Me deixou eufórica e relaxada, vibe muito boa!"
+        date: "2026-01-29",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r9",
-        author: "Bruno G.",
+        author: "Henrique A.",
         rating: 5,
-        date: "2025-10-05",
-        comment: "Forbidden Gelato é braba! Sabor de limão doce com notas de pinho, top demais mano!"
+        date: "2026-01-24",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r10",
+        author: "Camila D.",
+        rating: 4,
+        date: "2026-01-21",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r11",
+        author: "Helena S.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r12",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-12-29",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r13",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-12-27",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r14",
+        author: "Amanda K.",
+        rating: 5,
+        date: "2025-12-26",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r15",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r16",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r17",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r18",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r19",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r20",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-11-09",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r21",
+        author: "Sofia O.",
+        rating: 4,
+        date: "2025-11-04",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r22",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r23",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r24",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-09-24",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r25",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-09-20",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r26",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-08-23",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r27",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-08-06",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       }
     ]
   },
@@ -2735,78 +3638,64 @@ export const products: Product[] = [
     images: ["/images/lavender-jones-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 22,
+    rating: 4.4,
+    reviewCount: 8,
     reviews: [
       {
-        id: "r3",
-        author: "Henrique P.",
-        rating: 3,
-        date: "2026-04-13",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
-      },
-      {
-        id: "r4",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-03-30",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r5",
-        author: "Gabriela O.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r6",
-        author: "Flávia R.",
-        rating: 5,
-        date: "2026-03-11",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r7",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r8",
-        author: "Renato G.",
-        rating: 4,
-        date: "2026-02-22",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r9",
-        author: "Olívia Z.",
-        rating: 5,
-        date: "2026-02-12",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r10",
-        author: "Cauã N.",
-        rating: 5,
-        date: "2026-01-28",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Diego R.",
+        author: "Letícia P.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, essa Lavender Jones é braba! Sabor de blueberry com lavanda, tô focado demais no trampo!"
+        date: "2026-03-25",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r2",
-        author: "Patricia L.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "Sativa perfeita pra produtividade! Me deixou focada mas com um relaxamento suave no corpo. Top demais!"
+        date: "2026-03-13",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r3",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r4",
+        author: "Pedro H.",
+        rating: 4,
+        date: "2025-12-28",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r5",
+        author: "Mirella M.",
+        rating: 3,
+        date: "2025-11-16",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r6",
+        author: "Aline G.",
+        rating: 3,
+        date: "2025-11-01",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
+      },
+      {
+        id: "r7",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r8",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-08-14",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
   },
@@ -2832,92 +3721,183 @@ export const products: Product[] = [
     images: ["/images/chronic-thunder-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 35,
+    rating: 4.9,
+    reviewCount: 25,
     reviews: [
       {
-        id: "r7",
-        author: "Úrsula F.",
-        rating: 5,
-        date: "2026-04-07",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r8",
-        author: "Daniela O.",
-        rating: 3,
-        date: "2026-03-30",
-        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
-      },
-      {
-        id: "r9",
-        author: "Flávia R.",
-        rating: 5,
-        date: "2026-03-16",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r10",
-        author: "Letícia X.",
-        rating: 3,
-        date: "2026-03-02",
-        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
-      },
-      {
-        id: "r11",
-        author: "Túlio E.",
-        rating: 3,
-        date: "2026-02-16",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r12",
-        author: "Sabrina H.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
         id: "r1",
-        author: "Marcos R.",
+        author: "Vanessa M.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, essa Chronic Thunder é braba demais! Sabor de berries com frutas tropicais, tô derretido no sofá!"
+        date: "2026-04-20",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r2",
-        author: "Letícia M.",
+        author: "Mirella M.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Indica perfeita pra dia de chuva! Body high intenso, fiquei de boa curtindo série. Top demais!"
+        date: "2026-04-12",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r3",
-        author: "Felipe S.",
+        author: "Murilo P.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Essa indica é sinistro mano! Me deixou super relaxado, perfeita pra descansar. Sabor tropical brabo!"
+        date: "2026-04-10",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
-        author: "Camila T.",
+        author: "Marcelo F.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "Chronic Thunder virou minha favorita! Efeito pesado mas gostoso, tô trincando na cama assistindo filme."
+        date: "2026-04-06",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r5",
-        author: "Bruno K.",
+        author: "Henrique A.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Mano, o sabor de berries é autêntico! Body high intenso, perfeita pro fim de semana. Qualidade braba!"
+        date: "2026-03-16",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r6",
-        author: "Juliana L.",
+        author: "Diego F.",
         rating: 5,
-        date: "2025-11-12",
-        comment: "Essa indica é diferenciada! Me deixou super relaxada, vibe muito boa pra tarde aconchegante."
+        date: "2026-02-16",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r7",
+        author: "Lucas M.",
+        rating: 4,
+        date: "2026-02-01",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r8",
+        author: "André M.",
+        rating: 5,
+        date: "2026-01-10",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r9",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r10",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r11",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r12",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r13",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r14",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r15",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Vitória E.",
+        rating: 4,
+        date: "2025-11-13",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r17",
+        author: "Amanda K.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r18",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-09-24",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r19",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r20",
+        author: "Helena S.",
+        rating: 4,
+        date: "2025-09-16",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
+      },
+      {
+        id: "r21",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r22",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-08-27",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r23",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-08-23",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r24",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-08-07",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r25",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-08-03",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       }
     ]
   },
@@ -2943,113 +3923,106 @@ export const products: Product[] = [
     images: ["/images/sunshine-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 33,
+    rating: 4.6,
+    reviewCount: 14,
     reviews: [
       {
-        id: "r10",
-        author: "João V.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r11",
-        author: "Camila T.",
-        rating: 5,
-        date: "2026-03-27",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r12",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-03-12",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r13",
-        author: "Naiara Y.",
-        rating: 3,
-        date: "2026-03-04",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r14",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-17",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r15",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-02-06",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
         id: "r1",
-        author: "Thiago R.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, essa Sunshine é braba demais! Sabor de creme de laranja, acordei e já tô no pique pro dia!"
+        date: "2026-02-20",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r2",
-        author: "Fernanda L.",
-        rating: 5,
-        date: "2026-01-12",
-        comment: "Sativa perfeita pra manhã! Me deixou super animada e feliz. Sabor diferenciado, top demais!"
+        author: "Cíntia Y.",
+        rating: 4,
+        date: "2026-02-16",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
       },
       {
         id: "r3",
-        author: "Lucas M.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Essa sativa é sinistro mano! Brisa edificante e positiva, perfeita pra começar o dia trincando!"
+        date: "2026-01-17",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
       },
       {
         id: "r4",
-        author: "Camila S.",
+        author: "Caio D.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "Sunshine virou minha favorita! Efeito feliz e eufórico, vibe muito boa pra curtir o mundão."
+        date: "2026-01-09",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       },
       {
         id: "r5",
-        author: "Bruno K.",
+        author: "Carolina S.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Mano, o sabor de laranja cremosa é surreal! Me deixou super disposto, qualidade braba!"
+        date: "2026-01-01",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r6",
-        author: "Juliana T.",
-        rating: 5,
-        date: "2025-11-12",
-        comment: "Essa sativa é diferenciada! Toque terroso com creme de laranja, suave demais na tragada."
+        author: "Anderson N.",
+        rating: 4,
+        date: "2025-12-22",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
       },
       {
         id: "r7",
-        author: "Rafael P.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2025-10-25",
-        comment: "Entrega rápida e produto lacrado! Sunshine é perfeita pro dia a dia, recomendo demais!"
+        date: "2025-12-02",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r8",
-        author: "Amanda G.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2025-10-10",
-        comment: "Bom dia mesmo mano! Essa sativa me deixa feliz e produtiva, braba demais!"
+        date: "2025-11-15",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       },
       {
         id: "r9",
-        author: "Diego F.",
+        author: "Gustavo Z.",
         rating: 5,
-        date: "2025-10-02",
-        comment: "Sabor único de creme de laranja! Brisa positiva e edificante, tô rachando de rir aqui!"
+        date: "2025-10-31",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r10",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-10-23",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r11",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r12",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-09-09",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r13",
+        author: "Leandro V.",
+        rating: 4,
+        date: "2025-08-17",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r14",
+        author: "Paulo R.",
+        rating: 3,
+        date: "2025-08-09",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
       }
     ]
   },
@@ -3075,120 +4048,218 @@ export const products: Product[] = [
     images: ["/images/punch-breath-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 31,
+    rating: 4.7,
+    reviewCount: 30,
     reviews: [
       {
-        id: "r11",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r12",
-        author: "Natália D.",
-        rating: 5,
-        date: "2026-03-27",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r13",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2026-03-17",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r14",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-03-01",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r15",
-        author: "Wagner H.",
-        rating: 5,
-        date: "2026-02-18",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r16",
-        author: "Alex L.",
-        rating: 4,
-        date: "2026-02-02",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
         id: "r1",
-        author: "Gabriel R.",
+        author: "Igor B.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, essa Punch Breath é braba demais! Indica que dá energia, perfeita pra limpar a casa trincando!"
+        date: "2026-04-17",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
       },
       {
         id: "r2",
-        author: "Letícia M.",
+        author: "Caio D.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Indica diferenciada! Me deixou focada e animada, fiz faxina inteira de boa. Top demais!"
+        date: "2026-04-15",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r3",
-        author: "Bruno S.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Essa indica é sinistro mano! Sabor tropical suave e brisa edificante. Qualidade braba!"
+        date: "2026-04-13",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r4",
-        author: "Camila T.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2025-12-12",
-        comment: "Punch Breath virou minha favorita! Efeito ativo mesmo sendo indica, vibe muito boa pro dia a dia."
+        date: "2026-04-09",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r5",
-        author: "Felipe K.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2025-11-25",
-        comment: "Mano, o sabor tropical é suave demais! Me deixou focado pra fazer as tarefas, tô trincando!"
+        date: "2026-04-05",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
-        author: "Juliana L.",
-        rating: 5,
-        date: "2025-11-10",
-        comment: "Essa indica é diferente de tudo! Não dá sono, só foco e disposição. Recomendo demais!"
+        author: "Eduardo G.",
+        rating: 3,
+        date: "2026-04-04",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
       },
       {
         id: "r7",
-        author: "Rafael P.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2025-10-28",
-        comment: "Entrega rápida e produto lacrado! Punch Breath é perfeita pra quem quer indica funcional!"
+        date: "2026-04-02",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r8",
-        author: "Amanda G.",
+        author: "Felipe N.",
         rating: 5,
-        date: "2025-10-08",
-        comment: "Sabor frutado tropical é surreal mano! Brisa edificante, braba demais essa indica!"
+        date: "2026-03-02",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r9",
-        author: "Vinícius M.",
-        rating: 5,
-        date: "2025-09-22",
-        comment: "Essa indica funcional é braba! Me deixou produtivo o dia todo, vibe muito boa!"
+        author: "Flávia R.",
+        rating: 3,
+        date: "2026-02-27",
+        comment: "O sabor é meio fraco pro meu gosto, esperava algo mais marcante. Brisa é razoável, nada absurdo."
       },
       {
         id: "r10",
-        author: "Carla S.",
+        author: "Henrique A.",
         rating: 5,
-        date: "2025-09-10",
-        comment: "Mano, que indica diferenciada! Não esperava essa energia toda. Recomendo pra quem quer produtividade!"
+        date: "2026-02-20",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r11",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r12",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r13",
+        author: "Renata V.",
+        rating: 5,
+        date: "2026-02-06",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r14",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2026-02-04",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r15",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r16",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-02-01",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r17",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r18",
+        author: "Carla B.",
+        rating: 5,
+        date: "2026-01-16",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r19",
+        author: "Davi R.",
+        rating: 4,
+        date: "2026-01-12",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r20",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r21",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r22",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-12-04",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r23",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r24",
+        author: "Júlio J.",
+        rating: 4,
+        date: "2025-11-09",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r25",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r26",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r27",
+        author: "Yasmin L.",
+        rating: 3,
+        date: "2025-10-05",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r28",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r29",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-09-13",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r30",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
   },
@@ -3214,92 +4285,204 @@ export const products: Product[] = [
     images: ["/images/tk-lato-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 27,
+    rating: 4.9,
+    reviewCount: 28,
     reviews: [
       {
-        id: "r5",
-        author: "Matheus C.",
-        rating: 3,
-        date: "2026-04-14",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r6",
-        author: "Ramon C.",
-        rating: 4,
-        date: "2026-04-02",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r7",
-        author: "Pablo A.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r8",
-        author: "Marcos X.",
-        rating: 5,
-        date: "2026-03-14",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r9",
-        author: "Sofia D.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r10",
-        author: "Úrsula F.",
-        rating: 4,
-        date: "2026-02-20",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r11",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-02-09",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r12",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
         id: "r1",
-        author: "Lucas M.",
+        author: "Letícia P.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, essa TK Lato é braba demais! Indica que dá energia, sabor de gelato é surreal!"
+        date: "2026-04-11",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r2",
-        author: "Fernanda C.",
+        author: "Carolina S.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Indica diferenciada! Me deixou feliz e produtiva, fiz todas as tarefas de boa. Top demais!"
+        date: "2026-04-06",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r3",
-        author: "Thiago R.",
+        author: "Otávio M.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Essa indica é sinistro mano! Sabor de sobremesa cremosa e brisa motivadora. Qualidade braba!"
+        date: "2026-03-30",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
       },
       {
         id: "r4",
-        author: "Isabela S.",
+        author: "Flávia R.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "TK Lato virou minha favorita! Efeito energético mesmo sendo indica, vibe muito boa pro dia a dia."
+        date: "2026-03-07",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r5",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r6",
+        author: "Helena S.",
+        rating: 4,
+        date: "2026-02-18",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r7",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-02-10",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r8",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r9",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r10",
+        author: "Bianca U.",
+        rating: 3,
+        date: "2026-01-12",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
+      },
+      {
+        id: "r11",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r12",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2026-01-01",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r13",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r14",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-12-13",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r15",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-11-15",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r17",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-11-13",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r18",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r19",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-11-05",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r20",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r21",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r22",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r23",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2025-10-16",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r24",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r25",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r26",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-09-08",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r27",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-09-01",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r28",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       }
     ]
   },
@@ -3325,99 +4508,218 @@ export const products: Product[] = [
     images: ["/images/nebula-1.webp"],
     category: "Canetas",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 35,
+    rating: 4.9,
+    reviewCount: 30,
     reviews: [
       {
-        id: "r6",
-        author: "Sabrina H.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r7",
-        author: "Débora P.",
-        rating: 5,
-        date: "2026-04-01",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r8",
-        author: "Priscila B.",
-        rating: 4,
-        date: "2026-03-22",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r9",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-03-12",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r10",
-        author: "Estevão Q.",
-        rating: 5,
-        date: "2026-03-01",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r11",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-02-20",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r12",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r13",
-        author: "Henrique P.",
-        rating: 4,
-        date: "2026-01-29",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
         id: "r1",
-        author: "Pedro H.",
+        author: "Renata V.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, essa Nebula é braba demais! Híbrida equilibrada, perfeita pra ficar focado e chapado ao mesmo tempo!"
+        date: "2026-04-16",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r2",
-        author: "Marina L.",
+        author: "Patrícia N.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "Híbrida perfeita! Sabor de bala azeda é surreal, me deixou produtiva e feliz. Top demais!"
+        date: "2026-04-04",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       },
       {
         id: "r3",
-        author: "André S.",
+        author: "Helena S.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Essa híbrida é sinistro mano! Sabor doce herbal e brisa equilibrada. Qualidade braba!"
+        date: "2026-04-03",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r4",
-        author: "Beatriz T.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Nebula virou minha favorita! Efeito focado e elevado, vibe galáctica demais!"
+        date: "2026-03-19",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r5",
-        author: "Gustavo K.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2025-11-22",
-        comment: "Mano, o sabor de rainbow belts é insano! Me deixou energético e focado, tô trincando!"
+        date: "2026-03-15",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r6",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2026-02-24",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r7",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-02-23",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r8",
+        author: "Mirella M.",
+        rating: 3,
+        date: "2026-01-31",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
+      },
+      {
+        id: "r9",
+        author: "Caio D.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r10",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r11",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r12",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-12-23",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r13",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-12-22",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r14",
+        author: "Flávia R.",
+        rating: 4,
+        date: "2025-12-10",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r15",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-12-09",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r16",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-12-04",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r17",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r18",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r19",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r20",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-11-15",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r21",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-11-14",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r22",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r23",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r24",
+        author: "André M.",
+        rating: 5,
+        date: "2025-10-16",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r25",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-09-29",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r26",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-09-27",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r27",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r28",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-09-01",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r29",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r30",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-08-15",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       }
     ]
   },
@@ -3445,91 +4747,182 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 40,
+    reviewCount: 25,
     reviews: [
       {
-        id: "r7",
-        author: "Camila T.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r8",
-        author: "Quésia B.",
-        rating: 5,
-        date: "2026-03-30",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r9",
-        author: "Henrique P.",
-        rating: 5,
-        date: "2026-03-13",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r10",
-        author: "Renato G.",
-        rating: 4,
-        date: "2026-03-03",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r11",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-02-15",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r12",
-        author: "Yasmin L.",
-        rating: 3,
-        date: "2026-02-04",
-        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
-      },
-      {
         id: "r1",
-        author: "Lucas F.",
+        author: "Tainá I.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, esse Blue Dream é brabo demais! Vape All-in-One muito prático, só usar e aproveitar. Sabor de mirtilo suave, onda feliz e edificante!"
+        date: "2026-04-10",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r2",
-        author: "Amanda R.",
+        author: "Fernanda S.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Caraca, que vape top! O sabor é fresco e frutado, me deixou super animada e criativa. Perfeito pra um rolê com os amigos!"
+        date: "2026-03-21",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r3",
-        author: "Thiago M.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Blue Dream é clássico e esse vape faz jus ao nome! Brisa clean e edificante, onda suave mas potente. Recomendo demais!"
+        date: "2026-03-06",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r4",
-        author: "Juliana C.",
-        rating: 4,
-        date: "2026-01-05",
-        comment: "Gostei muito! O formato All-in-One é muito conveniente, não precisa de carregador separado. Sabor gostoso de mirtilo com toque de pinho."
+        author: "Rafael C.",
+        rating: 5,
+        date: "2026-02-24",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       },
       {
         id: "r5",
-        author: "Roberto S.",
+        author: "Murilo P.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Esse vape é sinistro! 1g rende bastante e a qualidade é braba. Sativa perfeita pra ficar de boa e feliz. Já virou favorito!"
+        date: "2026-02-04",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
-        author: "Carla N.",
+        author: "Thiago L.",
+        rating: 4,
+        date: "2026-01-31",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r7",
+        author: "Ricardo P.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Blue Dream nunca falha! Esse AIO Vape é muito prático e o sabor é autêntico. Me deixou super uplifted e happy!"
+        date: "2026-01-19",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r8",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2026-01-13",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r9",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-12-31",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r10",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-12-27",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r11",
+        author: "Mirella M.",
+        rating: 4,
+        date: "2025-12-24",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r12",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-12-08",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r13",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r14",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r15",
+        author: "Amanda K.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-10-09",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r17",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r18",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r19",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-09-24",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r20",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-09-19",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r21",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r22",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-09-11",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r23",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r24",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-08-20",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r25",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-08-05",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
   },
@@ -3557,98 +4950,154 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 39,
+    reviewCount: 21,
     reviews: [
       {
-        id: "r6",
-        author: "Igor U.",
+        id: "r1",
+        author: "Carolina S.",
         rating: 5,
-        date: "2026-04-14",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+        date: "2026-04-08",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r2",
+        author: "Bruno A.",
+        rating: 4,
+        date: "2026-04-05",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r3",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-04-03",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r4",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r5",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r6",
+        author: "Lucas M.",
+        rating: 4,
+        date: "2026-01-26",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
       },
       {
         id: "r7",
-        author: "Marcos X.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2026-03-31",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
+        date: "2026-01-24",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r8",
-        author: "Júlia U.",
+        author: "Raissa B.",
         rating: 5,
-        date: "2026-03-21",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+        date: "2026-01-10",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       },
       {
         id: "r9",
-        author: "Isabela Q.",
+        author: "Igor B.",
         rating: 5,
-        date: "2026-03-10",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
+        date: "2025-12-31",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r10",
-        author: "Otávio E.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-03-01",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
+        date: "2025-12-27",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r11",
-        author: "Helena T.",
-        rating: 5,
-        date: "2026-02-21",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+        author: "Matheus X.",
+        rating: 3,
+        date: "2025-12-26",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r12",
         author: "André M.",
-        rating: 4,
-        date: "2026-02-12",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
-        author: "Larissa B.",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r14",
+        author: "Vanessa M.",
         rating: 4,
-        date: "2026-01-28",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+        date: "2025-12-14",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       },
       {
-        id: "r1",
-        author: "Fernando A.",
+        id: "r15",
+        author: "Tiago R.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, esse Bubba G é demais! Indica perfeita pra relaxar no fim do dia. Sabor de chiclete é viciante, onda tranquila e feliz!"
+        date: "2025-12-05",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
-        id: "r2",
-        author: "Patricia L.",
+        id: "r16",
+        author: "Renata V.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Caraca, que vape top! O sabor de bubblegum é surreal, parece chiclete de verdade. Me deixou super relaxada, dormi que nem uma pedra!"
+        date: "2025-11-24",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
-        id: "r3",
-        author: "Marcos T.",
-        rating: 4,
-        date: "2026-01-05",
-        comment: "Curti demais! Indica potente com sabor doce. Perfeito pra maratonar série no sofá. Só queria que viesse com mais carga!"
-      },
-      {
-        id: "r4",
-        author: "Isabela R.",
+        id: "r17",
+        author: "Nathan O.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Bubba G virou minha favorita! Efeito relaxante perfeito pra ansiedade, e o sabor de chiclete é nostálgico demais!"
+        date: "2025-11-15",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
-        id: "r5",
-        author: "Diego C.",
+        id: "r18",
+        author: "Vinícius S.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Vape sinistro! Formato All-in-One muito prático, sabor de bubblegum com toque herbal. Recomendo pra quem quer relaxar!"
+        date: "2025-11-07",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r19",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r20",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r21",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-08-22",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       }
     ]
   },
@@ -3675,99 +5124,113 @@ export const products: Product[] = [
     images: ["/images/aio-acapulco-gold-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 28,
+    rating: 4.5,
+    reviewCount: 15,
     reviews: [
       {
-        id: "r8",
-        author: "Jéssica V.",
+        id: "r1",
+        author: "Fábio T.",
         rating: 5,
-        date: "2026-04-11",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
+        date: "2026-04-18",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r2",
+        author: "Helena S.",
+        rating: 3,
+        date: "2026-04-17",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r3",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-04-08",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r4",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2026-04-01",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r5",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2026-03-31",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r6",
+        author: "Wesley L.",
+        rating: 4,
+        date: "2026-03-02",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r7",
+        author: "Davi R.",
+        rating: 5,
+        date: "2026-02-05",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r8",
+        author: "Natália C.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r9",
-        author: "Naiara Y.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2026-03-30",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
+        date: "2026-01-05",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r10",
-        author: "Nara Z.",
+        author: "Sabrina T.",
         rating: 3,
-        date: "2026-03-15",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+        date: "2026-01-01",
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
       },
       {
         id: "r11",
         author: "Flávia R.",
         rating: 5,
-        date: "2026-03-02",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
+        date: "2025-12-14",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r12",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-02-14",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+        author: "Larissa F.",
+        rating: 4,
+        date: "2025-11-25",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r13",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-02-02",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r1",
-        author: "Ricardo M.",
-        rating: 5,
-        date: "2026-01-21",
-        comment: "Mano, Acapulco Gold é lendária e esse vape faz jus! Sabor tropical insano, brisa eufórica e edificante. Melhor sativa que já experimentei!"
-      },
-      {
-        id: "r2",
-        author: "Camila F.",
-        rating: 5,
-        date: "2026-01-16",
-        comment: "Caraca, que vape incrível! Gosto de manga e maracujá super autêntico. Me deixou super animada e criativa, perfeito pra trabalhar!"
-      },
-      {
-        id: "r3",
-        author: "Bruno T.",
-        rating: 5,
-        date: "2026-01-10",
-        comment: "Acapulco Gold é clássico demais! Esse AIO Vape entrega tudo que a strain promete. Euforia e energia na medida certa!"
-      },
-      {
-        id: "r4",
-        author: "Letícia R.",
+        author: "Marcelo F.",
         rating: 4,
-        date: "2026-01-03",
-        comment: "Gostei muito do sabor frutado! Sativa potente que deixa uplifted sem paranoia. Só queria que durasse mais tempo!"
+        date: "2025-09-26",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
       },
       {
-        id: "r5",
-        author: "Henrique S.",
+        id: "r14",
+        author: "Leandro V.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Esse vape é ouro puro! Sabor tropical delicioso e brisa limpa. Perfeito pra um rolê na praia ou churrasco com os amigos!"
+        date: "2025-08-14",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       },
       {
-        id: "r6",
-        author: "Natália C.",
+        id: "r15",
+        author: "Paulo R.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Melhor vape que já comprei! Acapulco Gold é lendária por um motivo. Sabor e efeito impecáveis, já virou minha favorita!"
-      },
-      {
-        id: "r7",
-        author: "Gabriel L.",
-        rating: 5,
-        date: "2025-12-10",
-        comment: "Sativa das antigas! Vape muito prático e sabor de frutas tropicais é viciante. Me deixa feliz e produtivo, mó vibe!"
+        date: "2025-08-09",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       }
     ]
   },
@@ -3794,92 +5257,162 @@ export const products: Product[] = [
     images: ["/images/aio-berry-white-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.8,
-    reviewCount: 25,
+    rating: 4.7,
+    reviewCount: 22,
     reviews: [
       {
-        id: "r5",
-        author: "Rodrigo C.",
-        rating: 5,
-        date: "2026-04-14",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r6",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-04-01",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r7",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r8",
-        author: "Matheus C.",
-        rating: 5,
-        date: "2026-03-10",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r9",
-        author: "Kevin V.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r10",
-        author: "Murilo Y.",
-        rating: 5,
-        date: "2026-02-16",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r11",
-        author: "Diego F.",
-        rating: 3,
-        date: "2026-02-07",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r12",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-02-01",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
         id: "r1",
-        author: "Vinícius P.",
+        author: "Ricardo P.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, Berry White é sinistro! Sabor de frutas vermelhas delicioso, me deixou super relaxado e feliz. Perfeito pra fim de tarde!"
+        date: "2026-04-19",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r2",
-        author: "Larissa M.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Caraca, que indica top! Gosto de morango e mirtilo é autêntico. Relaxei total depois de um dia corrido. Recomendo demais!"
+        date: "2026-04-13",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
       },
       {
         id: "r3",
-        author: "Eduardo R.",
-        rating: 4,
-        date: "2026-01-05",
-        comment: "Curti muito o sabor frutado! Indica suave que relaxa sem nocautear. Boa pra ver série e ficar de boa no sofá."
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2026-04-12",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
       },
       {
         id: "r4",
-        author: "Beatriz F.",
+        author: "Júlia P.",
+        rating: 4,
+        date: "2026-04-05",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r5",
+        author: "Bia C.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Berry White virou minha favorita! Vape prático, sabor incrível e efeito relaxante na medida. Tô viciada!"
+        date: "2026-04-03",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r6",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-03-30",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r7",
+        author: "Caio D.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r8",
+        author: "Helena S.",
+        rating: 4,
+        date: "2026-01-08",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r9",
+        author: "Thiago L.",
+        rating: 4,
+        date: "2026-01-05",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r10",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r11",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-12-08",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r12",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r13",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-11-09",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r14",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r15",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r16",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r17",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r18",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-10-01",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r19",
+        author: "Carolina S.",
+        rating: 4,
+        date: "2025-09-25",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r20",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r21",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r22",
+        author: "Murilo P.",
+        rating: 3,
+        date: "2025-08-12",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
       }
     ]
   },
@@ -3906,92 +5439,190 @@ export const products: Product[] = [
     images: ["/images/aio-sfv-og-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 35,
+    rating: 4.8,
+    reviewCount: 26,
     reviews: [
       {
-        id: "r7",
-        author: "Priscila B.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r8",
-        author: "Kevin V.",
-        rating: 4,
-        date: "2026-03-26",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r9",
-        author: "Natália D.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r10",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r11",
-        author: "André M.",
-        rating: 5,
-        date: "2026-02-13",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r12",
-        author: "Suzana D.",
-        rating: 5,
-        date: "2026-02-04",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
         id: "r1",
-        author: "Caio M.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "SFV OG é clássico por um motivo! Híbrida equilibrada, sabor de pinho e cítrico muito bom. Me deixou relaxado mas focado, perfeito pro trabalho!"
+        date: "2026-04-15",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r2",
-        author: "Renata S.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2026-01-14",
-        comment: "Caraca, que vape top! Sabor terroso com toque herbal, onda suave e consistente. Curti demais a vibe tranquila!"
+        date: "2026-03-31",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
       },
       {
         id: "r3",
-        author: "Felipe T.",
+        author: "Raissa B.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "SFV OG nunca decepciona! Esse AIO Vape é muito prático e o efeito é brabo. Relaxa e mantém o foco ao mesmo tempo!"
+        date: "2026-03-29",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r4",
-        author: "Amanda L.",
-        rating: 4,
-        date: "2025-12-30",
-        comment: "Gostei do sabor de pinho com cítrico! Híbrida equilibrada que funciona pra qualquer hora do dia. Recomendo!"
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       },
       {
         id: "r5",
-        author: "Rodrigo C.",
+        author: "Flávia R.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Mano, esse vape é sinistro! OG legítimo da San Fernando Valley. Brisa limpa e focada, qualidade braba!"
+        date: "2026-03-27",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       },
       {
         id: "r6",
-        author: "Juliana R.",
+        author: "Carla B.",
         rating: 5,
-        date: "2025-12-12",
-        comment: "SFV OG virou meu favorito! Vape All-in-One super conveniente, sabor autêntico e efeito na medida. Top demais!"
+        date: "2026-03-18",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r7",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r8",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r9",
+        author: "Igor B.",
+        rating: 4,
+        date: "2026-01-29",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r10",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2026-01-24",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r11",
+        author: "Mirella M.",
+        rating: 4,
+        date: "2025-12-11",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
+      },
+      {
+        id: "r12",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-11-02",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r13",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r14",
+        author: "Davi R.",
+        rating: 4,
+        date: "2025-10-22",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r15",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r16",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-10-17",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r17",
+        author: "Letícia P.",
+        rating: 4,
+        date: "2025-10-12",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r18",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-10-06",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r19",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r20",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-10-04",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r21",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-10-03",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r22",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-09-27",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r23",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-09-12",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r24",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-09-11",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r25",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r26",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       }
     ]
   },
@@ -4018,99 +5649,120 @@ export const products: Product[] = [
     images: ["/images/aio-granddaddy-purp-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 20,
+    rating: 4.5,
+    reviewCount: 16,
     reviews: [
       {
-        id: "r6",
-        author: "Wagner H.",
-        rating: 3,
+        id: "r1",
+        author: "Zaqueu J.",
+        rating: 5,
         date: "2026-04-13",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r2",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2026-04-09",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r3",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2026-03-20",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r4",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2026-03-17",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r5",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2026-02-15",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r6",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r7",
-        author: "Gabriel R.",
-        rating: 3,
-        date: "2026-03-31",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-12-13",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r8",
         author: "Bruno A.",
         rating: 5,
-        date: "2026-03-24",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
+        date: "2025-12-12",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r9",
-        author: "Olívia Z.",
+        author: "Ícaro T.",
         rating: 5,
-        date: "2026-03-16",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
+        date: "2025-11-18",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r10",
-        author: "Vinícius G.",
-        rating: 5,
-        date: "2026-03-05",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
+        author: "Bianca U.",
+        rating: 3,
+        date: "2025-11-11",
+        comment: "O sabor é meio fraco pro meu gosto, esperava algo mais marcante. Brisa é razoável, nada absurdo."
       },
       {
         id: "r11",
-        author: "Suzana D.",
-        rating: 5,
-        date: "2026-02-20",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+        author: "Roberto H.",
+        rating: 4,
+        date: "2025-11-04",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
       },
       {
         id: "r12",
-        author: "Henrique P.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
+        author: "Paulo R.",
+        rating: 3,
+        date: "2025-10-28",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
       },
       {
         id: "r13",
-        author: "Tales I.",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-10-09",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r14",
+        author: "Gabriel O.",
         rating: 4,
-        date: "2026-01-29",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
+        date: "2025-10-02",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       },
       {
-        id: "r1",
-        author: "Lucas A.",
+        id: "r15",
+        author: "Helena S.",
+        rating: 3,
+        date: "2025-09-30",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r16",
+        author: "Igor B.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, Granddaddy Purp é lendária! Sabor de uva doce é surreal, me deixou super relaxado e eufórico. Indica das boas!"
-      },
-      {
-        id: "r2",
-        author: "Fernanda M.",
-        rating: 5,
-        date: "2026-01-13",
-        comment: "Caraca, que vape incrível! Gosto de grape autêntico com toque terroso. Relaxei total, dormi que nem um bebê!"
-      },
-      {
-        id: "r3",
-        author: "Thiago R.",
-        rating: 5,
-        date: "2026-01-06",
-        comment: "GDP nunca falha! Esse AIO Vape é muito prático e o efeito é nocaute. Perfeito pra insônia, brisa roxa demais!"
-      },
-      {
-        id: "r4",
-        author: "Carolina S.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Gostei muito do sabor de uva! Indica potente que relaxa corpo e mente. Só queria mais carga, mas a qualidade é top!"
-      },
-      {
-        id: "r5",
-        author: "Pedro H.",
-        rating: 5,
-        date: "2025-12-18",
-        comment: "Granddaddy Purp é clássico por um motivo! Vape sinistro, sabor de grape candy e brisa eufórica. Mó vibe!"
+        date: "2025-09-07",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       }
     ]
   },
@@ -4138,91 +5790,63 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 41,
+    reviewCount: 8,
     reviews: [
       {
-        id: "r7",
-        author: "Kaique W.",
-        rating: 5,
-        date: "2026-04-07",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r8",
-        author: "Camila T.",
-        rating: 5,
-        date: "2026-03-25",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r9",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-03-15",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r10",
-        author: "Renato G.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r11",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-02-16",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r12",
-        author: "Sofia D.",
-        rating: 5,
-        date: "2026-02-02",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
         id: "r1",
-        author: "Matheus F.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, Watermelon ZKZ é braba demais! Sabor de melancia suculento, me deixou super feliz e relaxado. Indica perfeita!"
+        date: "2026-04-20",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       },
       {
         id: "r2",
-        author: "Camila R.",
+        author: "Anderson N.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Caraca, que vape delicioso! Gosto de watermelon é autêntico, parece bala de melancia. Relaxei total no fim do dia!"
+        date: "2026-03-13",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r3",
-        author: "Bruno S.",
+        author: "Letícia P.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "Zkittlez + Watermelon = combinação perfeita! Esse AIO Vape é muito saboroso e o efeito é na medida. Top demais!"
+        date: "2026-02-24",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r4",
-        author: "Isabela L.",
-        rating: 4,
-        date: "2025-12-30",
-        comment: "Curti muito o sabor frutado! Indica suave que deixa feliz e relaxado. Boa pra ver filme e descansar."
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r5",
-        author: "Rafael T.",
+        author: "Bia C.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Watermelon ZKZ virou minha favorita! Vape prático, sabor de melancia incrível e brisa boa. Recomendo!"
+        date: "2025-10-21",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r6",
-        author: "Amanda C.",
+        author: "Lorena K.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "Esse vape é sinistro! Sabor de frutas mistas com melancia dominante. Me deixou super de boa, mó vibe!"
+        date: "2025-10-13",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r7",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-09-08",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r8",
+        author: "Fernanda S.",
+        rating: 4,
+        date: "2025-08-16",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       }
     ]
   },
@@ -4250,98 +5874,231 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 41,
+    reviewCount: 32,
     reviews: [
       {
-        id: "r6",
-        author: "Erick P.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r7",
-        author: "Ully F.",
-        rating: 4,
-        date: "2026-04-03",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r8",
-        author: "João V.",
-        rating: 5,
-        date: "2026-03-23",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r9",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-03-16",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r10",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r11",
-        author: "Rodrigo C.",
-        rating: 4,
-        date: "2026-02-19",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r12",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r13",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
         id: "r1",
-        author: "Diego M.",
+        author: "Carla B.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, Blue ZKZ é demais! Sabor de cítrico com flores é único, me deixou super relaxado e eufórico. Indica top!"
+        date: "2026-04-13",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r2",
-        author: "Gabriela S.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Caraca, que vape incrível! Zkittlez + Blue Diamond = combinação perfeita. Relaxei total pra uma noite tranquila!"
+        date: "2026-03-29",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r3",
-        author: "Lucas R.",
+        author: "Roberto H.",
         rating: 4,
-        date: "2026-01-05",
-        comment: "Curti o sabor diferenciado! Cítrico azedo com toque floral. Indica boa pra descansar no fim do dia."
+        date: "2026-03-24",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
       },
       {
         id: "r4",
-        author: "Natália T.",
+        author: "Otávio M.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Blue ZKZ virou minha favorita! Vape prático, sabor rico e efeito relaxante na medida. Mó vibe!"
+        date: "2026-03-23",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r5",
-        author: "Pedro A.",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-03-03",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r6",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r7",
+        author: "Ícaro T.",
+        rating: 3,
+        date: "2026-01-31",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
+      },
+      {
+        id: "r8",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r9",
+        author: "Raissa B.",
+        rating: 4,
+        date: "2026-01-18",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r10",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r11",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r12",
+        author: "Larissa F.",
         rating: 5,
         date: "2025-12-18",
-        comment: "Esse vape é sinistro! Sabor de flores silvestres com cítrico, brisa eufórica e relaxante. Recomendo demais!"
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r13",
+        author: "Davi R.",
+        rating: 5,
+        date: "2025-12-13",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r14",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-12-08",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r15",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-12-02",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r16",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-12-01",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r17",
+        author: "Beatriz Q.",
+        rating: 3,
+        date: "2025-11-18",
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
+      },
+      {
+        id: "r18",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-11-15",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r19",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-11-01",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r20",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r21",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r22",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r23",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2025-10-01",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r24",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r25",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-09-17",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r26",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-09-06",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r27",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2025-09-02",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r28",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-08-25",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r29",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-08-22",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r30",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-08-18",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r31",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-08-09",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r32",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-08-01",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       }
     ]
   },
@@ -4368,92 +6125,99 @@ export const products: Product[] = [
     images: ["/images/aio-ultra-og-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 29,
+    rating: 4.7,
+    reviewCount: 13,
     reviews: [
       {
-        id: "r5",
-        author: "Estevão Q.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r6",
-        author: "Erick P.",
-        rating: 5,
-        date: "2026-04-03",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r7",
-        author: "Gabriela O.",
-        rating: 4,
-        date: "2026-03-25",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r8",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-03-17",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r9",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r10",
-        author: "Tales I.",
-        rating: 5,
-        date: "2026-02-20",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r11",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-10",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r12",
-        author: "Lúcia W.",
-        rating: 5,
-        date: "2026-02-01",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
         id: "r1",
-        author: "Fernando L.",
+        author: "Renata V.",
         rating: 5,
-        date: "2026-01-21",
-        comment: "Mano, Ultra OG é braba demais! Sabor de pinho e limão clássico das OGs. Híbrida equilibrada, me deixou relaxado e focado!"
+        date: "2026-04-20",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       },
       {
         id: "r2",
-        author: "Juliana M.",
-        rating: 5,
-        date: "2026-01-14",
-        comment: "Caraca, que vape top! Live Resin faz toda diferença no sabor. OG autêntico, brisa limpa e potente. Recomendo!"
+        author: "Caio D.",
+        rating: 4,
+        date: "2026-03-19",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       },
       {
         id: "r3",
-        author: "Marcos T.",
-        rating: 5,
-        date: "2026-01-06",
-        comment: "Ultra OG nunca decepciona! Esse AIO Vape é muito prático e o sabor terroso com pinho é incrível. Top demais!"
+        author: "Felipe N.",
+        rating: 4,
+        date: "2026-03-12",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       },
       {
         id: "r4",
-        author: "Carolina S.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Gostei do sabor clássico OG! Híbrida que funciona bem pra qualquer hora. Formato discreto e conveniente."
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r5",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-12-24",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r6",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-12-18",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r7",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-11-22",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r8",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r9",
+        author: "Fábio T.",
+        rating: 3,
+        date: "2025-10-15",
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
+      },
+      {
+        id: "r10",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-10-03",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r11",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r12",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-09-12",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r13",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-08-14",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       }
     ]
   },
@@ -4480,99 +6244,218 @@ export const products: Product[] = [
     images: ["/images/aio-sunkisss-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 39,
+    rating: 4.8,
+    reviewCount: 30,
     reviews: [
       {
-        id: "r6",
-        author: "Larissa B.",
+        id: "r1",
+        author: "Jéssica V.",
         rating: 5,
         date: "2026-04-16",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r7",
-        author: "Yago J.",
-        rating: 5,
-        date: "2026-04-03",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r8",
-        author: "Matheus C.",
-        rating: 5,
-        date: "2026-03-22",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r9",
-        author: "Yuri I.",
-        rating: 5,
-        date: "2026-03-15",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r10",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-02-28",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r11",
-        author: "João V.",
-        rating: 5,
-        date: "2026-02-21",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r12",
-        author: "Jéssica V.",
-        rating: 4,
-        date: "2026-02-11",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r13",
-        author: "Otávio E.",
-        rating: 5,
-        date: "2026-01-28",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r1",
-        author: "Ricardo F.",
-        rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, Sunkisss é demais! Sabor cítrico refrescante, me deixou super energético e criativo. Sativa perfeita pro dia!"
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r2",
-        author: "Beatriz L.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2026-01-14",
-        comment: "Caraca, que vape incrível! Gosto de laranja e tangerina é autêntico. Me deu aquela energia boa pra produzir!"
+        date: "2026-03-23",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r3",
-        author: "Thiago M.",
+        author: "Rafael C.",
         rating: 5,
-        date: "2026-01-07",
-        comment: "Sunkisss virou minha sativa favorita! Live Resin Full Spectrum faz toda diferença. Sabor tropical e brisa edificante!"
+        date: "2026-03-21",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r4",
-        author: "Amanda R.",
+        author: "Gustavo Z.",
         rating: 4,
-        date: "2025-12-30",
-        comment: "Curti muito o sabor cítrico! Sativa energética que deixa focado e criativo. Boa pra trabalhar ou curtir o dia."
+        date: "2026-03-12",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
       },
       {
         id: "r5",
-        author: "Gabriel S.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Esse vape é sinistro! Sabor de sol e cítricos, brisa alegre e motivadora. Recomendo demais pra quem curte sativa!"
+        date: "2026-03-07",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r6",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r7",
+        author: "Amanda K.",
+        rating: 4,
+        date: "2026-02-15",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r8",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2026-02-07",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r9",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r10",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r11",
+        author: "Davi R.",
+        rating: 5,
+        date: "2026-01-21",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r12",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2026-01-19",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r13",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r14",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2026-01-16",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r15",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r17",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-12-23",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r18",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r19",
+        author: "Tainá I.",
+        rating: 4,
+        date: "2025-11-07",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r20",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-10-25",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r21",
+        author: "Fábio T.",
+        rating: 4,
+        date: "2025-10-24",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r22",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r23",
+        author: "Igor B.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r24",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-10-04",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r25",
+        author: "Vinícius S.",
+        rating: 3,
+        date: "2025-09-08",
+        comment: "O sabor é meio fraco pro meu gosto, esperava algo mais marcante. Brisa é razoável, nada absurdo."
+      },
+      {
+        id: "r26",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-09-06",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r27",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r28",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-08-27",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r29",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-08-25",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r30",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
   },
@@ -4599,92 +6482,155 @@ export const products: Product[] = [
     images: ["/images/aio-og-kush-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 34,
+    rating: 4.7,
+    reviewCount: 21,
     reviews: [
       {
-        id: "r7",
-        author: "Eduarda M.",
-        rating: 4,
-        date: "2026-04-10",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r8",
-        author: "Isabela Q.",
-        rating: 3,
-        date: "2026-03-25",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r9",
-        author: "Kevin V.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r10",
-        author: "Hellen S.",
-        rating: 4,
-        date: "2026-03-04",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r11",
-        author: "Débora P.",
-        rating: 5,
-        date: "2026-02-19",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r12",
-        author: "Daniela O.",
-        rating: 4,
-        date: "2026-02-07",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
         id: "r1",
-        author: "Marcelo R.",
+        author: "Gustavo Z.",
         rating: 5,
-        date: "2026-01-21",
-        comment: "Mano, OG Kush é lendária por um motivo! Sabor de combustível e pinho clássico. Indica nocaute, dormi que nem pedra!"
+        date: "2026-04-19",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r2",
-        author: "Fernanda S.",
+        author: "Rafael C.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Caraca, que vape brabo! OG Kush autêntico, sabor terroso com limão. Me deixou super relaxada e feliz. Top demais!"
+        date: "2026-02-19",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r3",
-        author: "Bruno L.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "OG Kush nunca decepciona! Esse Live Resin é outro nível. Potência absurda, perfeito pra insônia. Recomendo!"
+        date: "2026-01-27",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       },
       {
         id: "r4",
-        author: "Juliana T.",
+        author: "Carla B.",
         rating: 5,
-        date: "2025-12-30",
-        comment: "Melhor indica que já experimentei! OG Kush clássico com sabor de combustível. Relaxamento profundo garantido!"
+        date: "2026-01-26",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r5",
-        author: "Carlos M.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Esse vape é sinistro! OG Kush da Califórnia legítima. Brisa pesada mas gostosa, mó vibe de night cap!"
+        date: "2026-01-21",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r6",
-        author: "Amanda F.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2025-12-14",
-        comment: "OG Kush virou minha favorita! Vape prático, sabor icônico e efeito potente. Qualidade braba da Jeeter!"
+        date: "2026-01-18",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r7",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2026-01-06",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r8",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r9",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-11-29",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r10",
+        author: "Larissa F.",
+        rating: 4,
+        date: "2025-11-22",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r11",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r12",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-11-08",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r13",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-10-28",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r14",
+        author: "Vitória E.",
+        rating: 3,
+        date: "2025-10-26",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
+      },
+      {
+        id: "r15",
+        author: "Juliana R.",
+        rating: 3,
+        date: "2025-10-18",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r16",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-10-15",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r17",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r18",
+        author: "Lorena K.",
+        rating: 4,
+        date: "2025-09-28",
+        comment: "Produto top, recomendo! Só achei que poderia render mais pelo preço, mas no geral tá show."
+      },
+      {
+        id: "r19",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-09-22",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r20",
+        author: "Ícaro T.",
+        rating: 4,
+        date: "2025-09-10",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r21",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-09-09",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
   },
@@ -4711,99 +6657,134 @@ export const products: Product[] = [
     images: ["/images/aio-jack-herer-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 35,
+    rating: 4.9,
+    reviewCount: 18,
     reviews: [
       {
-        id: "r6",
-        author: "Murilo Y.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r7",
-        author: "Olívia Z.",
-        rating: 5,
-        date: "2026-04-01",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Zaqueu J.",
-        rating: 5,
-        date: "2026-03-22",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r9",
-        author: "Zilda K.",
-        rating: 4,
-        date: "2026-03-14",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r10",
-        author: "Júlia U.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r11",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-02-19",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r12",
-        author: "Quésia B.",
-        rating: 4,
-        date: "2026-02-12",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r13",
-        author: "Alex L.",
-        rating: 3,
-        date: "2026-02-01",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
         id: "r1",
-        author: "Lucas T.",
+        author: "Débora Q.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, Jack Herer é lendária! Sabor de pinho e especiarias clássico. Sativa que deixa super focado e criativo. Top demais!"
+        date: "2026-04-20",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r2",
-        author: "Marina S.",
+        author: "Isabela W.",
         rating: 5,
-        date: "2026-01-14",
-        comment: "Caraca, que vape incrível! Jack Herer é perfeita pro dia. Me deu aquela energia boa pra produzir e criar!"
+        date: "2026-04-07",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       },
       {
         id: "r3",
-        author: "Pedro R.",
+        author: "Paulo R.",
         rating: 5,
-        date: "2026-01-07",
-        comment: "Jack Herer nunca falha! Esse Live Resin captura o sabor perfeitamente. Brisa energética e lúcida. Recomendo!"
+        date: "2026-04-06",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r4",
-        author: "Beatriz L.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Melhor sativa que existe! Jack Herer com sabor de pinho e cítrico. Foco e criatividade no máximo. Braba!"
+        date: "2026-03-15",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r5",
-        author: "Thiago M.",
+        author: "Natália C.",
+        rating: 5,
+        date: "2026-03-09",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r6",
+        author: "Caio D.",
+        rating: 5,
+        date: "2026-03-06",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r7",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2026-03-01",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r8",
+        author: "Bia C.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r9",
+        author: "Mariana T.",
+        rating: 4,
+        date: "2026-01-24",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r10",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r11",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-12-24",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r12",
+        author: "Wesley L.",
         rating: 5,
         date: "2025-12-18",
-        comment: "Esse vape é sinistro! Homenagem ao ativista Jack Herer com qualidade top. Brisa limpa e edificante, mó vibe!"
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r13",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-11-21",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r14",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r15",
+        author: "Beatriz Q.",
+        rating: 4,
+        date: "2025-09-28",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r16",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r17",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r18",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
       }
     ]
   },
@@ -4830,92 +6811,120 @@ export const products: Product[] = [
     images: ["/images/aio-og-lime-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 24,
+    rating: 4.5,
+    reviewCount: 16,
     reviews: [
       {
-        id: "r5",
-        author: "Henrique P.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r6",
-        author: "Suzana D.",
-        rating: 5,
-        date: "2026-04-05",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r7",
-        author: "Rodrigo C.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Alex L.",
-        rating: 5,
-        date: "2026-03-10",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r9",
-        author: "Murilo Y.",
-        rating: 4,
-        date: "2026-03-01",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r10",
-        author: "Vivian J.",
-        rating: 5,
-        date: "2026-02-22",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r11",
-        author: "Gabriela O.",
-        rating: 5,
-        date: "2026-02-08",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r12",
-        author: "Felipe N.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
         id: "r1",
-        author: "Rafael L.",
+        author: "André M.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Mano, OG Lime é refrescante demais! Sabor de lima com pinho, híbrida equilibrada. Me deixou relaxado mas funcional!"
+        date: "2026-04-17",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r2",
-        author: "Camila R.",
+        author: "Helena S.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Caraca, que vape top! Gosto cítrico azedo é viciante. OG com twist de limão, brisa equilibrada e gostosa!"
+        date: "2026-04-04",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r3",
-        author: "Eduardo T.",
-        rating: 4,
-        date: "2026-01-05",
-        comment: "Curti o sabor de lime! Híbrida que funciona bem pra qualquer hora. Efeito suave mas presente. Recomendo!"
+        author: "Felipe N.",
+        rating: 5,
+        date: "2026-02-05",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       },
       {
         id: "r4",
-        author: "Isabela M.",
+        author: "Carla B.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r5",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2026-01-27",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r6",
+        author: "Davi R.",
+        rating: 5,
+        date: "2026-01-07",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r7",
+        author: "Camila D.",
         rating: 5,
         date: "2025-12-26",
-        comment: "OG Lime virou minha favorita! Vape prático, sabor fresco de limão e efeito equilibrado. Qualidade Jeeter top!"
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r8",
+        author: "Priscila B.",
+        rating: 4,
+        date: "2025-12-21",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
+      },
+      {
+        id: "r9",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-11-24",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r10",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r11",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r12",
+        author: "Thiago L.",
+        rating: 4,
+        date: "2025-10-19",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r13",
+        author: "Paulo R.",
+        rating: 3,
+        date: "2025-09-28",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r14",
+        author: "Leandro V.",
+        rating: 4,
+        date: "2025-09-25",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r15",
+        author: "Yasmin L.",
+        rating: 3,
+        date: "2025-09-23",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r16",
+        author: "Isabela W.",
+        rating: 4,
+        date: "2025-08-27",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
       }
     ]
   },
@@ -4942,99 +6951,92 @@ export const products: Product[] = [
     images: ["/images/aio-banana-zkz-1.png"],
     category: "Vapes",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 41,
+    rating: 4.7,
+    reviewCount: 12,
     reviews: [
       {
-        id: "r6",
-        author: "Tales I.",
-        rating: 5,
-        date: "2026-04-15",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r7",
-        author: "Bianca M.",
-        rating: 5,
-        date: "2026-04-02",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Otacílio A.",
-        rating: 5,
-        date: "2026-03-23",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r9",
-        author: "Quésia B.",
-        rating: 5,
-        date: "2026-03-10",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r10",
-        author: "Yago J.",
-        rating: 5,
-        date: "2026-03-01",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r11",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-02-23",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r12",
-        author: "Fabiana Q.",
-        rating: 4,
-        date: "2026-02-09",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r13",
-        author: "Natália D.",
-        rating: 5,
-        date: "2026-02-01",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Gustavo M.",
+        author: "Camila D.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, Banana ZKZ é demais! Sabor de banana cremosa com Zkittlez. Indica nocaute, perfeita pra dormir!"
+        date: "2026-04-16",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r2",
-        author: "Larissa F.",
+        author: "Thiago L.",
         rating: 5,
-        date: "2026-01-13",
-        comment: "Caraca, que vape delicioso! Gosto de banana tropical é viciante. Me deixou super relaxada e feliz!"
+        date: "2026-03-21",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r3",
-        author: "Bruno R.",
-        rating: 5,
-        date: "2026-01-06",
-        comment: "Banana + Zkittlez = combinação perfeita! Esse Live Resin é outro nível. Relaxamento profundo garantido!"
+        author: "Vinícius S.",
+        rating: 4,
+        date: "2026-03-20",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
       },
       {
         id: "r4",
-        author: "Natália S.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Curti muito o sabor doce! Indica suave que ajuda a relaxar e dormir bem. Boa pra fim de noite."
+        author: "Bianca U.",
+        rating: 5,
+        date: "2026-03-09",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r5",
-        author: "Pedro T.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Banana ZKZ virou minha favorita! Vape prático, sabor de banana incrível e efeito relaxante. Top!"
+        date: "2026-02-28",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r6",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r7",
+        author: "Marcelo F.",
+        rating: 4,
+        date: "2026-01-14",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
+      },
+      {
+        id: "r8",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-12-29",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r9",
+        author: "Henrique A.",
+        rating: 3,
+        date: "2025-11-25",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r10",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-11-19",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r11",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-09-28",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r12",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-20",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
   },
@@ -5061,99 +7063,106 @@ export const products: Product[] = [
     images: ["/images/biscoitos-birthday-cake-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 32,
+    rating: 4.6,
+    reviewCount: 14,
     reviews: [
       {
-        id: "r6",
-        author: "Nara Z.",
-        rating: 5,
-        date: "2026-04-09",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r7",
-        author: "Cauã N.",
-        rating: 5,
-        date: "2026-03-28",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r8",
-        author: "Pablo A.",
-        rating: 3,
-        date: "2026-03-12",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r9",
-        author: "Wagner H.",
-        rating: 3,
-        date: "2026-03-03",
-        comment: "Achei a brisa um pouco mais leve do que esperava pelo preço. Não é ruim não, só não me impressionou tanto."
-      },
-      {
-        id: "r10",
-        author: "João V.",
-        rating: 5,
-        date: "2026-02-15",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r11",
-        author: "Túlio E.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r12",
-        author: "Vivian J.",
-        rating: 5,
-        date: "2026-01-21",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r13",
-        author: "Suzana D.",
-        rating: 3,
-        date: "2026-01-11",
-        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
-      },
-      {
         id: "r1",
-        author: "José F.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Apetitosos e chapantes! Já vou na quinta compra, indico pra todos! Sabor incrível de bolo de aniversário!"
+        date: "2026-01-16",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r2",
-        author: "Luiz S.",
+        author: "Amanda K.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Mano, que biscoito gostoso! Efeito demorou uns 40 minutos mas quando bateu, foi braba. Durou a noite toda!"
+        date: "2025-12-20",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       },
       {
         id: "r3",
-        author: "Amanda C.",
+        author: "Henrique A.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Melhor edible que já provei! Dose certinha e sabor de birthday cake perfeito. Super discreto pra usar!"
+        date: "2025-12-07",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r4",
-        author: "Carlos R.",
-        rating: 5,
-        date: "2025-12-05",
-        comment: "Curti demais! Perfeito pra quem não curte fumar. Efeito suave no começo e vai crescendo. Relaxamento total!"
+        author: "Pedro H.",
+        rating: 3,
+        date: "2025-11-28",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
       },
       {
         id: "r5",
-        author: "Beatriz M.",
+        author: "Beatriz Q.",
         rating: 5,
-        date: "2025-11-28",
-        comment: "Biscoito delicioso e efeito prolongado! Ótimo pra fim de semana. Vou comprar mais com certeza!"
+        date: "2025-11-19",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r6",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r7",
+        author: "Paulo R.",
+        rating: 4,
+        date: "2025-10-15",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r8",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r9",
+        author: "Caio D.",
+        rating: 4,
+        date: "2025-10-07",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r10",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-06",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r11",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r12",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-08-14",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r13",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-08-08",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r14",
+        author: "Priscila B.",
+        rating: 4,
+        date: "2025-08-02",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       }
     ]
   },
@@ -5180,99 +7189,232 @@ export const products: Product[] = [
     images: ["/images/biscoitos-red-velvet-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 38,
+    rating: 4.8,
+    reviewCount: 32,
     reviews: [
       {
-        id: "r6",
-        author: "Zaqueu J.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r7",
-        author: "Yasmin L.",
-        rating: 5,
-        date: "2026-04-01",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r8",
-        author: "Otávio E.",
-        rating: 5,
-        date: "2026-03-20",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r9",
-        author: "Hellen S.",
-        rating: 5,
-        date: "2026-03-07",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r10",
-        author: "Felipe N.",
-        rating: 5,
-        date: "2026-02-26",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r11",
-        author: "Lúcia W.",
-        rating: 5,
-        date: "2026-02-12",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r12",
-        author: "Bianca M.",
-        rating: 5,
-        date: "2026-01-30",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r13",
-        author: "Cauã N.",
-        rating: 3,
-        date: "2026-01-19",
-        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
-      },
-      {
         id: "r1",
-        author: "Fred P.",
+        author: "Diego F.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Sou viciado nesses comestíveis! Você acha que não vai bater, mas quando vê tá muito chapado. É muito bom!"
+        date: "2026-03-31",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
       },
       {
         id: "r2",
-        author: "Breno V.",
+        author: "Marcelo F.",
         rating: 5,
-        date: "2026-01-07",
-        comment: "Red Velvet ficou perfeito! Sabor incrível de bolo e a brisa vem suave. Curti demais a experiência!"
+        date: "2026-03-22",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r3",
-        author: "Camila S.",
+        author: "Patrícia N.",
         rating: 5,
-        date: "2025-12-28",
-        comment: "Melhor biscoito que já comi! Sabor de red velvet autêntico e efeito duradouro. Super discreto!"
+        date: "2026-03-14",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r4",
-        author: "Diego M.",
-        rating: 5,
-        date: "2025-12-20",
-        comment: "Mano, que delícia! Demorou uns 45 min pra bater mas valeu a pena. Relaxamento total a noite toda!"
+        author: "Pedro H.",
+        rating: 3,
+        date: "2026-03-13",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
       },
       {
         id: "r5",
+        author: "Priscila B.",
+        rating: 3,
+        date: "2026-03-01",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r6",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r7",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2026-02-23",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r8",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r9",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r10",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r11",
+        author: "Sabrina T.",
+        rating: 4,
+        date: "2026-01-06",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r12",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r13",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r14",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r15",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-12-07",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r16",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-12-02",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r17",
         author: "Juliana R.",
         rating: 5,
-        date: "2025-12-15",
-        comment: "Perfeito pra quem não quer fumar! Sabor gostoso demais e efeito controlado. Recomendo muito!"
+        date: "2025-11-15",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r18",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-11-02",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r19",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-10-23",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r20",
+        author: "Igor B.",
+        rating: 4,
+        date: "2025-10-15",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r21",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r22",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-10-09",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r23",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-10-07",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r24",
+        author: "Otávio M.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r25",
+        author: "Amanda K.",
+        rating: 5,
+        date: "2025-09-21",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r26",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-09-19",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r27",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r28",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-09-14",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r29",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-09-12",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r30",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r31",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r32",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-08-18",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       }
     ]
   },
@@ -5299,99 +7441,134 @@ export const products: Product[] = [
     images: ["/images/coned-milk-chocolate-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 26,
+    rating: 4.7,
+    reviewCount: 18,
     reviews: [
       {
-        id: "r6",
-        author: "Naiara Y.",
-        rating: 5,
-        date: "2026-04-10",
-        comment: "Que braba essa strain! Me deixou criativo, conversa fluiu, rolou aquela risada gostosa com os parça. Top!"
-      },
-      {
-        id: "r7",
-        author: "Diego F.",
-        rating: 3,
-        date: "2026-03-31",
-        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
-      },
-      {
-        id: "r8",
-        author: "Letícia X.",
-        rating: 3,
-        date: "2026-03-22",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r9",
-        author: "Gustavo S.",
-        rating: 5,
-        date: "2026-03-12",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r10",
-        author: "Helena T.",
-        rating: 3,
-        date: "2026-02-27",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r11",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-18",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r12",
-        author: "Bruno A.",
-        rating: 5,
-        date: "2026-02-11",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r13",
-        author: "Tales I.",
-        rating: 5,
-        date: "2026-01-30",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
         id: "r1",
-        author: "Marcos T.",
+        author: "Ricardo P.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mano, esse cone é muito bom! Chocolate cremoso e a brisa vem suave. Virou meu edible favorito!"
+        date: "2026-04-12",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r2",
-        author: "Letícia A.",
-        rating: 5,
-        date: "2026-01-12",
-        comment: "Que delícia! Parece aqueles cones de sorvete mas com chocolate. Efeito demorou mas valeu muito!"
+        author: "Amanda K.",
+        rating: 3,
+        date: "2026-03-25",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
       },
       {
         id: "r3",
-        author: "Gabriel F.",
+        author: "Débora Q.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Curti demais o formato! Chocolate ao leite perfeito e efeito relaxante. Super discreto pra usar!"
+        date: "2026-03-09",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r4",
-        author: "Isabela M.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Gostoso demais! Só queria que viesse mais unidades. Mas a qualidade é top, recomendo!"
+        author: "Caio D.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r5",
-        author: "Thiago R.",
+        author: "Mirella M.",
         rating: 5,
-        date: "2025-12-20",
-        comment: "Cone de chocolate chapante! Melhor edible que já provei. Sabor incrível e efeito prolongado!"
+        date: "2026-02-12",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r6",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r7",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2026-01-31",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r8",
+        author: "Jéssica V.",
+        rating: 4,
+        date: "2025-12-29",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r9",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-12-04",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+      },
+      {
+        id: "r10",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-12-02",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r11",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-11-01",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r13",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r14",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-10-27",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r15",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r16",
+        author: "Eduardo G.",
+        rating: 3,
+        date: "2025-10-13",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r17",
+        author: "Fábio T.",
+        rating: 4,
+        date: "2025-09-10",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r18",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-08-29",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       }
     ]
   },
@@ -5418,99 +7595,85 @@ export const products: Product[] = [
     images: ["/images/coned-strawberry-shortcake-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 43,
+    rating: 4.5,
+    reviewCount: 11,
     reviews: [
       {
-        id: "r6",
-        author: "Kaique W.",
-        rating: 4,
-        date: "2026-04-10",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r7",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-04-06",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r8",
-        author: "Ícaro T.",
-        rating: 4,
-        date: "2026-03-26",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r9",
-        author: "João V.",
-        rating: 5,
-        date: "2026-03-10",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r10",
-        author: "Bianca M.",
-        rating: 5,
-        date: "2026-03-01",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r11",
-        author: "Marcos X.",
-        rating: 5,
-        date: "2026-02-24",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r12",
-        author: "Gabriela O.",
-        rating: 5,
-        date: "2026-02-09",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r13",
-        author: "Vinícius G.",
-        rating: 5,
-        date: "2026-02-01",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
         id: "r1",
-        author: "Amanda L.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Morango com chocolate branco é perfeito! Cone delicioso e brisa suave. Meu favorito!"
+        date: "2026-04-15",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
       },
       {
         id: "r2",
-        author: "Felipe S.",
-        rating: 5,
-        date: "2026-01-14",
-        comment: "Mano, que sabor incrível! Parece sobremesa de restaurante. Efeito demorou mas foi muito bom!"
+        author: "Raissa B.",
+        rating: 4,
+        date: "2026-04-11",
+        comment: "Bom produto! Esperava uma brisa um pouco mais forte, mas pra relaxar tá perfeito. Recomendo."
       },
       {
         id: "r3",
-        author: "Carolina R.",
+        author: "Rafael C.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "Curti demais o strawberry shortcake! Doce na medida certa e efeito relaxante. Super discreto!"
+        date: "2026-03-22",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r4",
-        author: "Lucas M.",
-        rating: 4,
-        date: "2025-12-30",
-        comment: "Sabor de morango muito gostoso! Edible top pra quem não curte fumar. Recomendo!"
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2026-03-14",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r5",
-        author: "Bianca T.",
+        author: "Patrícia N.",
         rating: 5,
-        date: "2025-12-22",
-        comment: "Cone perfeito! Sabor de morango autêntico e efeito prolongado. Já virou meu edible favorito!"
+        date: "2026-01-17",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r6",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-10-17",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r7",
+        author: "Fábio T.",
+        rating: 3,
+        date: "2025-10-13",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
+      },
+      {
+        id: "r8",
+        author: "Beatriz Q.",
+        rating: 4,
+        date: "2025-10-04",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r9",
+        author: "Débora Q.",
+        rating: 4,
+        date: "2025-09-21",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r10",
+        author: "Fernanda S.",
+        rating: 5,
+        date: "2025-08-19",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r11",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-08-08",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
   },
@@ -5537,99 +7700,78 @@ export const products: Product[] = [
     images: ["/images/coned-mint-chip-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 34,
+    rating: 4.7,
+    reviewCount: 10,
     reviews: [
       {
-        id: "r6",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r7",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-04-06",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r8",
-        author: "Wesley K.",
-        rating: 5,
-        date: "2026-03-23",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r9",
-        author: "Wagner H.",
-        rating: 3,
-        date: "2026-03-10",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r10",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r11",
-        author: "Kevin V.",
-        rating: 5,
-        date: "2026-02-22",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r12",
-        author: "Renato G.",
-        rating: 3,
-        date: "2026-02-09",
-        comment: "Entrega atrasou alguns dias e fiquei preocupado. Mas o produto chegou inteiro e funciona bem, então tá valendo."
-      },
-      {
-        id: "r13",
-        author: "Helena T.",
-        rating: 5,
-        date: "2026-01-29",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
         id: "r1",
-        author: "Ricardo L.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Menta com chocolate é a melhor combinação! Cone refrescante e brisa relaxante. Curti demais!"
+        date: "2026-04-18",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r2",
-        author: "Fernanda M.",
+        author: "Roberto H.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Mint Chip virou meu favorito! Sabor refrescante e pedacinhos de chocolate. Efeito prolongado!"
+        date: "2026-04-17",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r3",
-        author: "Bruno S.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Mano, que cone delicioso! Menta na medida certa com chocolate. Perfeito pra relaxar no fim do dia!"
+        date: "2026-03-01",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r4",
-        author: "Juliana C.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Sabor muito bom! Refrescante e doce ao mesmo tempo. Edible top pra quem não fuma!"
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2026-02-13",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r5",
-        author: "Diego R.",
+        author: "Pedro H.",
+        rating: 3,
+        date: "2026-01-22",
+        comment: "O sabor é meio fraco pro meu gosto, esperava algo mais marcante. Brisa é razoável, nada absurdo."
+      },
+      {
+        id: "r6",
+        author: "Helena S.",
         rating: 5,
         date: "2025-12-20",
-        comment: "Cone de menta chapante! Sabor incrível e efeito duradouro. Já pedi mais pra ter em casa!"
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r7",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r8",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-10-14",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r9",
+        author: "Bia C.",
+        rating: 4,
+        date: "2025-10-09",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r10",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       }
     ]
   },
@@ -5656,99 +7798,148 @@ export const products: Product[] = [
     images: ["/images/gomas-sour-green-apple-1.webp"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 40,
+    rating: 4.7,
+    reviewCount: 20,
     reviews: [
       {
-        id: "r6",
-        author: "Vitor G.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r7",
-        author: "Murilo Y.",
-        rating: 5,
-        date: "2026-04-02",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r8",
-        author: "Pablo A.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r9",
-        author: "Matheus C.",
-        rating: 3,
-        date: "2026-03-11",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r10",
-        author: "Cauã N.",
-        rating: 3,
-        date: "2026-03-02",
-        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
-      },
-      {
-        id: "r11",
-        author: "Isabela Q.",
-        rating: 5,
-        date: "2026-02-17",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r12",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-09",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r13",
-        author: "Alex L.",
-        rating: 5,
-        date: "2026-01-29",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
         id: "r1",
-        author: "Matheus L.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Goma de maçã verde azeda é perfeita! Sabor refrescante e brisa relaxante. Curti demais!"
+        date: "2026-04-11",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       },
       {
         id: "r2",
-        author: "Larissa F.",
-        rating: 5,
-        date: "2026-01-11",
-        comment: "Mano, que goma deliciosa! Azedinho na medida certa. Efeito demorou mas foi muito bom!"
+        author: "Igor B.",
+        rating: 3,
+        date: "2026-04-09",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r3",
-        author: "Pedro H.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2026-01-04",
-        comment: "Sour Green Apple virou minha favorita! Sabor incrível e efeito prolongado. Super discreto!"
+        date: "2026-03-29",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       },
       {
         id: "r4",
-        author: "Camila R.",
-        rating: 4,
-        date: "2025-12-27",
-        comment: "Gostei muito do sabor azedo! Edible top pra quem não curte fumar. Recomendo!"
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r5",
-        author: "Bruno S.",
+        author: "Diego F.",
+        rating: 3,
+        date: "2026-03-12",
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
+      },
+      {
+        id: "r6",
+        author: "Lorena K.",
         rating: 5,
-        date: "2025-12-19",
-        comment: "Goma de maçã chapante! Sabor autêntico e efeito duradouro. Já pedi mais!"
+        date: "2026-02-27",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r7",
+        author: "Débora Q.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r8",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r9",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2026-01-26",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r10",
+        author: "Larissa F.",
+        rating: 4,
+        date: "2026-01-18",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r11",
+        author: "Renata V.",
+        rating: 5,
+        date: "2026-01-16",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r12",
+        author: "Natália C.",
+        rating: 4,
+        date: "2026-01-12",
+        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
+      },
+      {
+        id: "r13",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-12-26",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r14",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-12-21",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r15",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-11-01",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r16",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r17",
+        author: "André M.",
+        rating: 5,
+        date: "2025-10-22",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r18",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-09-23",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r19",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r20",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-08-21",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       }
     ]
   },
@@ -5775,92 +7966,85 @@ export const products: Product[] = [
     images: ["/images/gomas-georgia-peach-1.png"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.8,
-    reviewCount: 37,
+    rating: 4.3,
+    reviewCount: 11,
     reviews: [
       {
-        id: "r7",
-        author: "Úrsula F.",
-        rating: 3,
-        date: "2026-04-12",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r8",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-30",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r9",
-        author: "Igor U.",
-        rating: 4,
-        date: "2026-03-13",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r10",
-        author: "Cauã N.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r11",
-        author: "Júlia U.",
-        rating: 3,
-        date: "2026-02-16",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r12",
-        author: "Eduarda M.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Renata L.",
+        author: "Vitória E.",
         rating: 5,
-        date: "2026-01-17",
-        comment: "Mano, essas gomas de pêssego são braba demais! Sabor suculento e brisa suave. Virou minha favorita!"
+        date: "2026-03-21",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r2",
-        author: "Gabriel T.",
+        author: "Sabrina T.",
         rating: 5,
-        date: "2026-01-09",
-        comment: "Georgia Peach é top! Goma doce na medida e efeito relaxante. Demorou uns 40 min pra bater mas valeu!"
+        date: "2026-03-06",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r3",
-        author: "Amanda C.",
+        author: "Júlia P.",
         rating: 4,
-        date: "2025-12-30",
-        comment: "Curti o sabor de pêssego! Bem autêntico. Edible bom pra quem não curte fumar. Recomendo!"
+        date: "2025-12-26",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       },
       {
         id: "r4",
-        author: "Lucas M.",
-        rating: 5,
-        date: "2025-12-22",
-        comment: "Caraca, que goma deliciosa! Pêssego natural demais. 10mg por goma é perfeito pra controlar a dose!"
+        author: "Carla B.",
+        rating: 4,
+        date: "2025-12-23",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
       },
       {
         id: "r5",
-        author: "Juliana F.",
-        rating: 5,
+        author: "Gustavo Z.",
+        rating: 4,
         date: "2025-12-14",
-        comment: "Georgia Peach virou meu edible do dia a dia! Sabor incrível e efeito prolongado. Top demais!"
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       },
       {
         id: "r6",
-        author: "Pedro R.",
+        author: "Débora Q.",
         rating: 4,
         date: "2025-11-28",
-        comment: "Boa goma de pêssego! Sabor suave e brisa tranquila. Vem 30 unidades, rende bastante!"
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
+      },
+      {
+        id: "r7",
+        author: "Roberto H.",
+        rating: 3,
+        date: "2025-11-27",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r8",
+        author: "Fernanda S.",
+        rating: 3,
+        date: "2025-11-24",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
+      },
+      {
+        id: "r9",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-11-10",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r10",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-09-28",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r11",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-09-06",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
   },
@@ -5889,99 +8073,141 @@ export const products: Product[] = [
     images: ["/images/euphoria-cbd-candies-1.jpg"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 41,
+    rating: 4.8,
+    reviewCount: 19,
     reviews: [
       {
-        id: "r8",
-        author: "Yago J.",
-        rating: 4,
-        date: "2026-04-07",
-        comment: "Curti a vibe, brisa tranquila e duradoura. Tirei uma estrela porque o sabor poderia ser mais marcante, mas é boa."
-      },
-      {
-        id: "r9",
-        author: "Wesley K.",
-        rating: 5,
-        date: "2026-03-27",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r10",
-        author: "João V.",
-        rating: 5,
-        date: "2026-03-17",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r11",
-        author: "Natália D.",
-        rating: 4,
-        date: "2026-03-04",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r12",
-        author: "Daniela O.",
-        rating: 5,
-        date: "2026-02-18",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r13",
-        author: "André M.",
-        rating: 5,
-        date: "2026-02-04",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
         id: "r1",
-        author: "Thiago M.",
+        author: "Fábio T.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, essas gomas são insanas! A combinação de THC com CBD e THCV deixa a brisa super equilibrada. Risadas garantidas!"
+        date: "2026-04-09",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r2",
-        author: "Fernanda S.",
+        author: "Sofia O.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Euphoria é o nome certo! Me deixou super animada e sociável. Sabor de kiwi muito gostoso. Top demais!"
+        date: "2026-03-29",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
       },
       {
         id: "r3",
-        author: "Rafael C.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Curti muito a formulação! O THCV dá uma energia que outras gomas não têm. Perfeita pra rolês com os parças!"
+        date: "2026-02-01",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       },
       {
         id: "r4",
-        author: "Juliana P.",
-        rating: 4,
-        date: "2025-12-28",
-        comment: "Goma de qualidade! Vegana e sem glúten é um plus. Sabor de kiwi refrescante e efeito eufórico."
+        author: "Matheus X.",
+        rating: 5,
+        date: "2026-01-02",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       },
       {
         id: "r5",
-        author: "Carlos A.",
-        rating: 5,
-        date: "2025-12-19",
-        comment: "Delta Munchies manda muito bem! Goma premium com efeito funcional. Não deixa chapado demais, só feliz!"
+        author: "Otávio M.",
+        rating: 4,
+        date: "2025-12-30",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
       },
       {
         id: "r6",
-        author: "Mariana L.",
+        author: "Caio D.",
         rating: 5,
-        date: "2025-12-11",
-        comment: "Melhor goma que já provei! A combinação de canabinoides é genial. Euforia pura sem paranoia!"
+        date: "2025-12-28",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
       },
       {
         id: "r7",
-        author: "Diego F.",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2025-12-24",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r8",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-12-23",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r9",
+        author: "Bianca U.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r10",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r11",
+        author: "Renata V.",
+        rating: 5,
+        date: "2025-11-08",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r12",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-10-31",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-10-04",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r14",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-09-22",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r15",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-09-21",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r16",
+        author: "Beatriz Q.",
+        rating: 3,
+        date: "2025-08-28",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r17",
+        author: "Paulo R.",
         rating: 4,
-        date: "2025-12-03",
-        comment: "Boa goma pra quem quer se divertir! Sabor top e efeito social. Recomendo pra festas e rolês!"
+        date: "2025-08-24",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r18",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2025-08-08",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r19",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-08-07",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
   },
@@ -6010,92 +8236,141 @@ export const products: Product[] = [
     images: ["/images/euphoria-midnight-berry-1.png"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 35,
+    rating: 4.6,
+    reviewCount: 19,
     reviews: [
       {
-        id: "r7",
-        author: "Henrique P.",
+        id: "r1",
+        author: "Nathan O.",
         rating: 5,
         date: "2026-04-11",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r8",
-        author: "Matheus C.",
-        rating: 4,
-        date: "2026-03-31",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r9",
-        author: "Júlia U.",
-        rating: 5,
-        date: "2026-03-13",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r10",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r11",
-        author: "Ully F.",
-        rating: 5,
-        date: "2026-02-14",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r12",
-        author: "Renato G.",
-        rating: 3,
-        date: "2026-02-01",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r1",
-        author: "Patricia S.",
-        rating: 5,
-        date: "2026-01-19",
-        comment: "Finalmente uma goma que me faz dormir de verdade! O CBN junto com THC é perfeito. Acordo renovada!"
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r2",
-        author: "Ricardo M.",
-        rating: 5,
-        date: "2026-01-11",
-        comment: "Midnight Berry é braba demais pra insônia! Sabor de frutas vermelhas muito bom. Durmo que nem pedra!"
+        author: "Pedro H.",
+        rating: 4,
+        date: "2026-04-05",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
       },
       {
         id: "r3",
-        author: "Amanda T.",
-        rating: 5,
-        date: "2026-01-03",
-        comment: "Melhor goma pra dormir que já testei! O efeito indica é suave mas eficiente. Sem ressaca no outro dia!"
+        author: "Vitória E.",
+        rating: 3,
+        date: "2026-03-27",
+        comment: "Demorou um pouco mais do que eu esperava pra chegar, fiquei meio ansioso. Produto em si é legal, sem reclamar disso."
       },
       {
         id: "r4",
-        author: "Bruno C.",
-        rating: 4,
-        date: "2025-12-26",
-        comment: "Boa goma pra relaxar no fim do dia! Sabor gostoso e efeito calmante. Recomendo pra quem tem ansiedade!"
+        author: "Bia C.",
+        rating: 5,
+        date: "2026-03-26",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
       },
       {
         id: "r5",
-        author: "Letícia R.",
+        author: "Flávia R.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Sweet Dreams mesmo! Durmo muito melhor desde que comecei a usar. Vegana ainda por cima. Top!"
+        date: "2026-03-19",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r6",
-        author: "Felipe A.",
+        author: "Davi R.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "A combinação de THC com CBN é genial! Relaxa sem deixar grogue. Melhor noite de sono da vida!"
+        date: "2026-03-12",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r7",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-03-11",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r8",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-02-11",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r9",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r10",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-01-13",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r11",
+        author: "Ícaro T.",
+        rating: 3,
+        date: "2025-12-21",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+      },
+      {
+        id: "r12",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2025-12-17",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r13",
+        author: "Matheus X.",
+        rating: 3,
+        date: "2025-12-16",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r14",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-12-04",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r15",
+        author: "Paulo R.",
+        rating: 5,
+        date: "2025-12-03",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+      },
+      {
+        id: "r16",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r17",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r18",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-09-14",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r19",
+        author: "André M.",
+        rating: 5,
+        date: "2025-08-15",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
   },
@@ -6125,91 +8400,196 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 40,
+    reviewCount: 27,
     reviews: [
       {
-        id: "r7",
-        author: "Igor U.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r8",
-        author: "Isabela Q.",
-        rating: 5,
-        date: "2026-03-27",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r9",
-        author: "Helena T.",
-        rating: 3,
-        date: "2026-03-15",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r10",
-        author: "Murilo Y.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r11",
-        author: "Bruno A.",
-        rating: 5,
-        date: "2026-02-17",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r12",
-        author: "Caio O.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
         id: "r1",
-        author: "Lucas P.",
+        author: "Vinícius S.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Mango Crush é perfeita pra aquela hora da tarde! Dá uma energia boa sem deixar ansioso. Sabor de manga incrível!"
+        date: "2026-04-06",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       },
       {
         id: "r2",
-        author: "Camila F.",
+        author: "Paulo R.",
         rating: 5,
-        date: "2026-01-10",
-        comment: "Curti demais o efeito híbrido! Não é pesada demais nem leve demais. Equilíbrio perfeito!"
+        date: "2026-03-28",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r3",
-        author: "Rodrigo S.",
-        rating: 4,
-        date: "2026-01-02",
-        comment: "Boa goma pra recarregar! O CBG dá um up legal. Sabor tropical muito gostoso!"
+        author: "Sofia O.",
+        rating: 5,
+        date: "2026-03-10",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
-        author: "Beatriz M.",
+        author: "Marcelo F.",
         rating: 5,
-        date: "2025-12-25",
-        comment: "Minha favorita da linha! Manga natural demais e efeito energizante. Perfeita pro home office!"
+        date: "2026-02-24",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r5",
-        author: "Gustavo T.",
-        rating: 5,
-        date: "2025-12-17",
-        comment: "Recharge de verdade! Me deixa focado e animado. Vegana e sem glúten é um bônus!"
+        author: "Júlia P.",
+        rating: 4,
+        date: "2026-02-18",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
       },
       {
         id: "r6",
-        author: "Isabela C.",
+        author: "Helena S.",
+        rating: 5,
+        date: "2026-02-16",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r7",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2026-01-20",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r8",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2026-01-17",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r9",
+        author: "Priscila B.",
         rating: 4,
-        date: "2025-12-09",
-        comment: "Goma híbrida muito boa! Sabor de manga delicioso e efeito equilibrado. Recomendo!"
+        date: "2026-01-12",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r10",
+        author: "Ricardo P.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r11",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-12-23",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+      },
+      {
+        id: "r12",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2025-11-27",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r13",
+        author: "Lorena K.",
+        rating: 5,
+        date: "2025-11-25",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r14",
+        author: "Mariana T.",
+        rating: 3,
+        date: "2025-11-18",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
+      },
+      {
+        id: "r15",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r16",
+        author: "Leandro V.",
+        rating: 5,
+        date: "2025-10-24",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r17",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2025-10-23",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r18",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-10-06",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r19",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r20",
+        author: "Cíntia Y.",
+        rating: 5,
+        date: "2025-09-24",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r21",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r22",
+        author: "Gustavo Z.",
+        rating: 5,
+        date: "2025-09-04",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r23",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-08-22",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r24",
+        author: "Júlio J.",
+        rating: 4,
+        date: "2025-08-15",
+        comment: "Bem legal, parceiro! Só não foi 5 estrelas porque a entrega atrasou um dia, mas o produto é top."
+      },
+      {
+        id: "r25",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2025-08-14",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r26",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
+      },
+      {
+        id: "r27",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-08-07",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       }
     ]
   },
@@ -6238,99 +8618,120 @@ export const products: Product[] = [
     images: ["/images/euphoria-blue-dream-1.png"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 41,
+    rating: 4.8,
+    reviewCount: 16,
     reviews: [
       {
-        id: "r8",
-        author: "Alex L.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r9",
-        author: "Gabriela O.",
-        rating: 3,
-        date: "2026-03-26",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r10",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-03-16",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r11",
-        author: "Júlia U.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r12",
-        author: "Ícaro T.",
-        rating: 5,
-        date: "2026-02-15",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r13",
-        author: "Diego F.",
-        rating: 5,
-        date: "2026-01-31",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
         id: "r1",
-        author: "Marcos V.",
+        author: "Gustavo Z.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Blue Dream é garantia de risadas! Sabor de mirtilo muito gostoso e brisa eufórica. Perfeita pra rolês!"
+        date: "2026-04-16",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r2",
-        author: "Carolina S.",
+        author: "Mariana T.",
         rating: 5,
-        date: "2026-01-11",
-        comment: "Mano, essa goma é braba! Me deixa super animada e sociável. Certified Laugh Factory mesmo!"
+        date: "2026-04-06",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r3",
-        author: "Thiago R.",
+        author: "Bianca U.",
         rating: 5,
-        date: "2026-01-03",
-        comment: "Curti demais o efeito sativa! THCV dá aquela energia boa sem paranoia. Sabor top!"
+        date: "2026-04-01",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       },
       {
         id: "r4",
-        author: "Juliana M.",
+        author: "Paulo R.",
         rating: 4,
-        date: "2025-12-26",
-        comment: "Blue Dream virou minha favorita! Goma de qualidade e efeito feel-good. Recomendo!"
+        date: "2026-03-19",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
       },
       {
         id: "r5",
-        author: "Fernando C.",
+        author: "Isabela W.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Playful é o nome certo! Me deixa de bom humor o dia todo. Sabor de mirtilo incrível!"
+        date: "2026-03-17",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       },
       {
         id: "r6",
-        author: "Amanda L.",
+        author: "Murilo P.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Melhor goma sativa que já provei! Euforia pura e risadas garantidas. Top demais!"
+        date: "2026-03-15",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r7",
-        author: "Pedro H.",
+        author: "André M.",
         rating: 4,
-        date: "2025-12-02",
-        comment: "Boa goma pra quem quer se divertir! Sabor gostoso e efeito leve mas marcante!"
+        date: "2026-03-14",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r8",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2026-03-07",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r9",
+        author: "Nathan O.",
+        rating: 5,
+        date: "2025-12-25",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r10",
+        author: "Vanessa M.",
+        rating: 5,
+        date: "2025-12-20",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r11",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-12-19",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r12",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-12-11",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Raissa B.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r14",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2025-12-01",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r15",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-10-21",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Beatriz Q.",
+        rating: 3,
+        date: "2025-09-09",
+        comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
       }
     ]
   },
@@ -6359,92 +8760,71 @@ export const products: Product[] = [
     images: ["/images/euphoria-strawberry-shortcake-1.png"],
     category: "Comestíveis",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 31,
+    rating: 4.1,
+    reviewCount: 9,
     reviews: [
       {
-        id: "r7",
-        author: "Natália D.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r8",
-        author: "Letícia X.",
-        rating: 5,
-        date: "2026-03-28",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
-        id: "r9",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-03-16",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r10",
-        author: "Úrsula F.",
-        rating: 3,
-        date: "2026-03-04",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r11",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-14",
-        comment: "Tá de parabéns viu! Atendimento nota 10, produto chegou lacradinho. A vibe é maneira demais, deixa relaxado sem apagar."
-      },
-      {
-        id: "r12",
-        author: "Ully F.",
-        rating: 5,
-        date: "2026-02-02",
-        comment: "Caramba, chegou rapidinho e bem embalado. Testei ontem com a galera e todo mundo ficou doidão, qualidade absurda!"
-      },
-      {
         id: "r1",
-        author: "Larissa M.",
+        author: "Bianca U.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Strawberry Shortcake é a goma mais gostosa que já provei! Sabor de morango com bolo incrível. Brisa suave e feliz!"
+        date: "2026-04-01",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
       },
       {
         id: "r2",
-        author: "Rafael S.",
-        rating: 5,
-        date: "2026-01-12",
-        comment: "Good Vibes de verdade! Perfeita pro fim de semana. Me deixa animado mas relaxado ao mesmo tempo!"
+        author: "Priscila B.",
+        rating: 3,
+        date: "2026-03-22",
+        comment: "Esperava mais pelo preço, sinceramente. Não é ruim, mas também não é aquilo que prometeram nas reviews."
       },
       {
         id: "r3",
-        author: "Beatriz T.",
+        author: "Vanessa M.",
         rating: 5,
-        date: "2026-01-04",
-        comment: "Curti demais essa goma! O equilíbrio de THC com CBD é perfeito. Sem paranoia, só felicidade!"
+        date: "2026-03-01",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r4",
-        author: "Lucas C.",
-        rating: 4,
-        date: "2025-12-27",
-        comment: "Sabor de shortcake muito bom! Goma vegana e sem glúten. Efeito mood boost garantido!"
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-12-04",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       },
       {
         id: "r5",
-        author: "Fernanda R.",
-        rating: 5,
-        date: "2025-12-19",
-        comment: "Minha favorita da linha! Sabor delicioso e efeito leve. Perfeita pra dias de preguiça!"
+        author: "Nathan O.",
+        rating: 4,
+        date: "2025-11-10",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       },
       {
         id: "r6",
-        author: "Gustavo A.",
+        author: "Larissa F.",
         rating: 5,
-        date: "2025-12-11",
-        comment: "Weekend Energy é real! Me deixa de bom humor o dia todo. Sabor de morango top demais!"
+        date: "2025-10-15",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r7",
+        author: "Leandro V.",
+        rating: 3,
+        date: "2025-09-07",
+        comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
+      },
+      {
+        id: "r8",
+        author: "Wesley L.",
+        rating: 4,
+        date: "2025-08-24",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r9",
+        author: "Helena S.",
+        rating: 3,
+        date: "2025-08-13",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
       }
     ]
   },
@@ -6474,91 +8854,224 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 40,
+    reviewCount: 31,
     reviews: [
       {
-        id: "r7",
-        author: "Wesley K.",
-        rating: 5,
-        date: "2026-04-13",
-        comment: "Mandaram super rápido, embalagem discretíssima. O produto então... nem se fala, brisa de respeito!"
-      },
-      {
-        id: "r8",
-        author: "Murilo Y.",
-        rating: 4,
-        date: "2026-03-26",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r9",
-        author: "Yasmin L.",
-        rating: 4,
-        date: "2026-03-15",
-        comment: "Recomendo! Só não dou 5 estrelas porque achei a embalagem meio simples, mas o conteúdo é de respeito."
-      },
-      {
-        id: "r10",
-        author: "Larissa B.",
-        rating: 5,
-        date: "2026-03-02",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r11",
-        author: "Olívia Z.",
-        rating: 4,
-        date: "2026-02-12",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r12",
-        author: "Marcos X.",
-        rating: 5,
-        date: "2026-02-04",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
         id: "r1",
-        author: "Mariana C.",
+        author: "Carla B.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Pink Lemonade é sensacional! Sabor cítrico refrescante e brisa equilibrada. Virou minha favorita!"
+        date: "2026-04-14",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r2",
-        author: "Bruno T.",
+        author: "Lucas M.",
         rating: 5,
-        date: "2026-01-11",
-        comment: "Good Vibes garantido! Essa goma transforma qualquer dia ruim em ótimo. Sabor incrível!"
+        date: "2026-04-06",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       },
       {
         id: "r3",
-        author: "Juliana S.",
+        author: "Otávio M.",
         rating: 5,
-        date: "2026-01-03",
-        comment: "Curti demais o equilíbrio de THC com CBD! Mood boost sem exageros. Perfeita pro dia a dia!"
+        date: "2026-03-24",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       },
       {
         id: "r4",
-        author: "Ricardo M.",
-        rating: 4,
-        date: "2025-12-26",
-        comment: "Sabor de limonada rosa muito gostoso! Goma híbrida equilibrada. Recomendo pra iniciantes!"
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       },
       {
         id: "r5",
-        author: "Camila R.",
+        author: "Wallace S.",
         rating: 5,
-        date: "2025-12-18",
-        comment: "Pink Lemonade é a definição de bliss! Me deixa feliz e relaxada ao mesmo tempo. Top!"
+        date: "2026-03-08",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r6",
-        author: "Felipe L.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2025-12-10",
-        comment: "Melhor goma híbrida que já provei! Sabor refrescante e efeito perfeito. Vegana ainda!"
+        date: "2026-02-28",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r7",
+        author: "Júlio J.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r8",
+        author: "Anderson N.",
+        rating: 5,
+        date: "2026-02-26",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r9",
+        author: "Letícia P.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
+      },
+      {
+        id: "r10",
+        author: "Priscila B.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r11",
+        author: "André M.",
+        rating: 5,
+        date: "2026-01-27",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r12",
+        author: "Davi R.",
+        rating: 5,
+        date: "2026-01-18",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r13",
+        author: "Beatriz Q.",
+        rating: 5,
+        date: "2025-12-06",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r14",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r15",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-11-29",
+        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+      },
+      {
+        id: "r16",
+        author: "Caio D.",
+        rating: 5,
+        date: "2025-11-26",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r17",
+        author: "Matheus X.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Pqp que coisa boa! Já é a terceira vez que peço aqui na loja, nunca decepciona. Confiança total!"
+      },
+      {
+        id: "r18",
+        author: "Fábio T.",
+        rating: 5,
+        date: "2025-10-31",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r19",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
+      },
+      {
+        id: "r20",
+        author: "Fernanda S.",
+        rating: 4,
+        date: "2025-10-29",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r21",
+        author: "Bia C.",
+        rating: 5,
+        date: "2025-10-23",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r22",
+        author: "Tainá I.",
+        rating: 4,
+        date: "2025-10-19",
+        comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
+      },
+      {
+        id: "r23",
+        author: "Mirella M.",
+        rating: 5,
+        date: "2025-10-18",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r24",
+        author: "Wesley L.",
+        rating: 5,
+        date: "2025-10-08",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r25",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-09-28",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r26",
+        author: "Patrícia N.",
+        rating: 4,
+        date: "2025-09-26",
+        comment: "Boa compra! Embalagem chegou ok, produto bem feito. Só achei meio pequeno pelo valor, mas vale."
+      },
+      {
+        id: "r27",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-09-21",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r28",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-09-10",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r29",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-08-28",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r30",
+        author: "Carolina S.",
+        rating: 5,
+        date: "2025-08-13",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r31",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2025-08-10",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       }
     ]
   },
@@ -6585,92 +9098,162 @@ export const products: Product[] = [
     images: ["/images/kit-sunrise-sativa-1.webp"],
     category: "Kits",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 34,
+    rating: 4.7,
+    reviewCount: 22,
     reviews: [
       {
-        id: "r7",
-        author: "Vitor G.",
-        rating: 5,
-        date: "2026-04-09",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r8",
-        author: "Pablo A.",
-        rating: 4,
-        date: "2026-03-29",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r9",
-        author: "Priscila B.",
-        rating: 5,
-        date: "2026-03-17",
-        comment: "Sinistro demais essa parada! Pedi semana passada e já era, virei cliente fiel. Brisa que dura horas, mó mola."
-      },
-      {
-        id: "r10",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r11",
-        author: "Marcos X.",
-        rating: 3,
-        date: "2026-02-17",
-        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
-      },
-      {
-        id: "r12",
-        author: "Rodrigo C.",
-        rating: 3,
-        date: "2026-02-05",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
         id: "r1",
-        author: "Bruno S.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, que promoção insana! Paguei por 2 e levei 3, não tem como reclamar. Qualidade Jeeter de sempre, as sativas são perfeitas pra dar aquele gás no dia!"
+        date: "2026-04-21",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
       },
       {
         id: "r2",
-        author: "Amanda L.",
+        author: "Bruno A.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Kit perfeito pra quem curte sativa! Comprei pra dividir com as amigas e amamos. Sabores diferentes e efeito top. Super vale a promoção!"
+        date: "2026-04-19",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r3",
-        author: "Ricardo M.",
+        author: "Leandro V.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Compre 2 leve 3 é brabo demais! Economizei uma grana e ainda tenho estoque pra um tempão. Todas as canetas vieram perfeitas, embalagem lacrada."
+        date: "2026-04-09",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       },
       {
         id: "r4",
-        author: "Juliana C.",
+        author: "Pedro H.",
         rating: 4,
-        date: "2026-01-12",
-        comment: "Adorei o kit! As sativas me deixam super produtiva, uso pra trabalhar em casa. Só queria poder escolher os sabores, mas veio tudo bom!"
+        date: "2026-03-27",
+        comment: "Curti muito, viu! Não dou 5 estrelas porque demorou mais que o esperado, mas valeu a espera."
       },
       {
         id: "r5",
-        author: "Gustavo P.",
+        author: "André M.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "Melhor custo-benefício do site! Já é a segunda vez que compro esse kit. Entrega rápida e discreta. Recomendo demais!"
+        date: "2026-03-23",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r6",
-        author: "Carla F.",
+        author: "Júlio J.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Presente perfeito! Dei pra mim mesma de aniversário haha. Três sativas lindas, cada uma com sabor diferente. Amando!"
+        date: "2026-03-14",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+      },
+      {
+        id: "r7",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2026-03-02",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r8",
+        author: "Marcelo F.",
+        rating: 3,
+        date: "2026-01-09",
+        comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
+      },
+      {
+        id: "r9",
+        author: "Murilo P.",
+        rating: 5,
+        date: "2026-01-01",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
+      },
+      {
+        id: "r10",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r11",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-11-21",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r12",
+        author: "Vinícius S.",
+        rating: 5,
+        date: "2025-11-18",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Rafael C.",
+        rating: 5,
+        date: "2025-11-03",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r14",
+        author: "Sofia O.",
+        rating: 5,
+        date: "2025-10-29",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r15",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+      },
+      {
+        id: "r16",
+        author: "Patrícia N.",
+        rating: 5,
+        date: "2025-10-02",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r17",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-09-21",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r18",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-09-10",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r19",
+        author: "Yasmin L.",
+        rating: 4,
+        date: "2025-09-07",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r20",
+        author: "Paulo R.",
+        rating: 5,
+        date: "2025-09-03",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r21",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-08-18",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r22",
+        author: "Tainá I.",
+        rating: 3,
+        date: "2025-08-05",
+        comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
@@ -6699,91 +9282,182 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.9,
-    reviewCount: 41,
+    reviewCount: 25,
     reviews: [
       {
-        id: "r7",
-        author: "Olívia Z.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Que coisa boa meu Deus! Trampei a semana inteira e isso aqui me salvou no fim de semana. Relaxa de mais!"
-      },
-      {
-        id: "r8",
-        author: "Gabriela O.",
-        rating: 5,
-        date: "2026-03-25",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r9",
-        author: "Estevão Q.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r10",
-        author: "Tiago E.",
-        rating: 5,
-        date: "2026-03-04",
-        comment: "Brabíssimo! O sabor é fiel, parece de verdade. Fiquei numa vibe boa, rindo à toa. Vale cada centavo!"
-      },
-      {
-        id: "r11",
-        author: "Marcos X.",
-        rating: 4,
-        date: "2026-02-18",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r12",
-        author: "Yago J.",
-        rating: 3,
-        date: "2026-01-31",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
         id: "r1",
-        author: "Marcelo A.",
+        author: "Nathan O.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Kit perfeito pra quem quer relaxar! As indicas são muito boas, sabor suave e efeito potente. Durmo que nem pedra depois de usar. Promoção sensacional!"
+        date: "2026-04-21",
+        comment: "Brisa absurda, sabor incrível! Não tem como não recomendar. Já virei cliente fiel daqui."
       },
       {
         id: "r2",
-        author: "Patrícia M.",
+        author: "Yasmin L.",
         rating: 5,
-        date: "2026-01-17",
-        comment: "Sofro de insônia e esse kit me salvou! Três canetas de qualidade top, cada uma com sabor diferente. Recomendo demais pra quem precisa relaxar."
+        date: "2026-04-20",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       },
       {
         id: "r3",
-        author: "Roberto C.",
+        author: "Carolina S.",
         rating: 5,
-        date: "2026-01-14",
-        comment: "Compre 2 leve 3 é promoção braba! Veio tudo certinho, embalagem lacrada. As indicas são perfeitas pro fim do dia, relaxa todo o corpo."
+        date: "2026-04-19",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       },
       {
         id: "r4",
-        author: "Fernanda L.",
-        rating: 4,
-        date: "2026-01-10",
-        comment: "Adorei o kit! Uso depois do trabalho pra desestressar. Efeito relaxante sem deixar muito grogue. Só queria mais opções de sabor."
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2026-04-14",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       },
       {
         id: "r5",
-        author: "Diego S.",
+        author: "Débora Q.",
         rating: 5,
-        date: "2026-01-06",
-        comment: "Melhor investimento! Economizei uma grana boa e tenho 3 canetas top. Todas indica premium, qualidade Jeeter de sempre. Já vou pedir outro!"
+        date: "2026-03-28",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       },
       {
         id: "r6",
-        author: "Ana Paula R.",
+        author: "Juliana R.",
         rating: 5,
-        date: "2026-01-02",
-        comment: "Kit maravilhoso! Uso pra meditar e relaxar no final do dia. O vapor é suave e o efeito vem tranquilo. Super satisfeita!"
+        date: "2026-03-09",
+        comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
+      },
+      {
+        id: "r7",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2026-03-05",
+        comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
+      },
+      {
+        id: "r8",
+        author: "Igor B.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r9",
+        author: "Camila D.",
+        rating: 4,
+        date: "2026-02-21",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r10",
+        author: "Caio D.",
+        rating: 5,
+        date: "2026-02-03",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r11",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2026-01-29",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r12",
+        author: "Carla B.",
+        rating: 5,
+        date: "2025-12-16",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+      },
+      {
+        id: "r13",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-11-23",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r14",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r15",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r16",
+        author: "Ícaro T.",
+        rating: 5,
+        date: "2025-11-06",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r17",
+        author: "Helena S.",
+        rating: 5,
+        date: "2025-10-26",
+        comment: "Aí sim, hein loja! Sempre confio aqui e nunca me decepcionei. Brisa premium, qualidade de respeito."
+      },
+      {
+        id: "r18",
+        author: "Bianca U.",
+        rating: 3,
+        date: "2025-10-03",
+        comment: "Chegou tudo certo, só que a caixinha veio com um amassado feio. Sorte que o produto tava intacto. Brisa boa no fim."
+      },
+      {
+        id: "r19",
+        author: "Natália C.",
+        rating: 5,
+        date: "2025-09-20",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r20",
+        author: "Tiago R.",
+        rating: 5,
+        date: "2025-09-19",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r21",
+        author: "Henrique A.",
+        rating: 5,
+        date: "2025-09-18",
+        comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
+      },
+      {
+        id: "r22",
+        author: "Felipe N.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+      },
+      {
+        id: "r23",
+        author: "André M.",
+        rating: 5,
+        date: "2025-09-05",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r24",
+        author: "Tainá I.",
+        rating: 5,
+        date: "2025-08-28",
+        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+      },
+      {
+        id: "r25",
+        author: "Júlia P.",
+        rating: 5,
+        date: "2025-08-16",
+        comment: "Cara, simplesmente perfeito. Pedi na sexta, chegou na quarta, super bem embalado. Brisa de respeito!"
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
@@ -6811,92 +9485,85 @@ export const products: Product[] = [
     images: ["/images/kit-sweet-blend-hibrido-1.webp"],
     category: "Kits",
     inStock: true,
-    rating: 4.9,
-    reviewCount: 39,
+    rating: 4.6,
+    reviewCount: 11,
     reviews: [
       {
-        id: "r7",
-        author: "Lúcia W.",
-        rating: 4,
-        date: "2026-04-07",
-        comment: "Bom produto, atendimento ok. Chegou um pouco depois do prazo mas valeu a espera. Brisa boa!"
-      },
-      {
-        id: "r8",
-        author: "André M.",
-        rating: 5,
-        date: "2026-03-26",
-        comment: "Chocada com a qualidade! Tudo certinho, discreto e o produto é perfeito. Já indiquei pra três amigas, kkk."
-      },
-      {
-        id: "r9",
-        author: "Rodrigo C.",
-        rating: 5,
-        date: "2026-03-17",
-        comment: "Massa demais! O efeito vem batendo gostoso, sem aquela paranoia chata. Pra quem quer relaxar de verdade é isso aí."
-      },
-      {
-        id: "r10",
-        author: "Yago J.",
-        rating: 5,
-        date: "2026-03-03",
-        comment: "Galera, podem comprar sem medo! Já é a terceira vez que peço e nunca decepcionou. Padrão alto demais."
-      },
-      {
-        id: "r11",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-14",
-        comment: "Mano do céu, que parada absurda! Dois tragos e já tava no espaço, brisa muito gostosa. Recomendo de olhos fechados!"
-      },
-      {
-        id: "r12",
-        author: "Erick P.",
-        rating: 3,
-        date: "2026-02-06",
-        comment: "A brisa é boa, mas a embalagem chegou meio amassada. Conteúdo intacto, então beleza, mas dava pra caprichar mais no envio."
-      },
-      {
         id: "r1",
-        author: "Lucas T.",
+        author: "Letícia P.",
         rating: 5,
-        date: "2026-01-21",
-        comment: "Kit híbrido é o melhor dos dois mundos! Dá pra usar de dia ou de noite, dependendo do quanto você traga. Sabores doces deliciosos, qualidade absurda!"
+        date: "2026-04-01",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r2",
-        author: "Beatriz S.",
-        rating: 5,
-        date: "2026-01-18",
-        comment: "Amei esse kit! Os sabores são uma delícia, parece bala. Efeito equilibrado, fico relaxada mas funcional. Promoção compre 2 leve 3 é imperdível!"
+        author: "Larissa F.",
+        rating: 4,
+        date: "2026-03-05",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       },
       {
         id: "r3",
-        author: "Felipe M.",
+        author: "Rafael C.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Pra quem não sabe se prefere indica ou sativa, o híbrido é a resposta! Kit veio perfeito, três canetas lindas. Já virou meu favorito!"
+        date: "2026-02-21",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       },
       {
         id: "r4",
-        author: "Carolina L.",
-        rating: 4,
-        date: "2026-01-11",
-        comment: "Muito bom! Uso no final da tarde, dá aquele relaxamento sem apagar. Os sabores doces são viciantes. Só queria que viesse mais haha"
+        author: "Carla B.",
+        rating: 5,
+        date: "2026-02-08",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       },
       {
         id: "r5",
-        author: "André R.",
-        rating: 5,
+        author: "Felipe N.",
+        rating: 3,
         date: "2026-01-07",
-        comment: "Sweet Blend é sensacional! Cada caneta tem um sabor diferente e todos são incríveis. Economia boa com a promo e qualidade Jeeter garantida!"
+        comment: "Atrasou uns dias além do prazo, mas chegou. Produto cumpre, brisa é ok, nada do outro mundo pra mim."
       },
       {
         id: "r6",
-        author: "Mariana C.",
+        author: "Anderson N.",
         rating: 5,
-        date: "2026-01-03",
-        comment: "Kit perfeito pra presentear! Comprei pra mim e pro meu namorado, amamos. Efeito suave e gostoso, ótimo pra curtir junto."
+        date: "2025-12-14",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r7",
+        author: "Eduardo G.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
+      },
+      {
+        id: "r8",
+        author: "Camila D.",
+        rating: 5,
+        date: "2025-11-11",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r9",
+        author: "Ícaro T.",
+        rating: 4,
+        date: "2025-10-24",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+      },
+      {
+        id: "r10",
+        author: "Vitória E.",
+        rating: 5,
+        date: "2025-10-05",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
+      },
+      {
+        id: "r11",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2025-10-04",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
@@ -6925,91 +9592,147 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 5.0,
-    reviewCount: 37,
+    reviewCount: 20,
     reviews: [
       {
-        id: "r7",
-        author: "Matheus C.",
-        rating: 5,
-        date: "2026-04-11",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r8",
-        author: "Zilda K.",
-        rating: 5,
-        date: "2026-03-30",
-        comment: "Pô, achei que ia ser igual essas porcarias por aí mas é outro nível. Sabor limpo, brisa boa, vou pedir mais com certeza."
-      },
-      {
-        id: "r9",
-        author: "Fabiana Q.",
-        rating: 5,
-        date: "2026-03-18",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r10",
-        author: "Úrsula F.",
-        rating: 4,
-        date: "2026-03-04",
-        comment: "Produto bom, brisa de qualidade. Só achei que poderia render um pouquinho mais, mas no geral tá ótimo."
-      },
-      {
-        id: "r11",
-        author: "Xênia I.",
-        rating: 5,
-        date: "2026-02-16",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
-        id: "r12",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-02-03",
-        comment: "Ó loko meu, que delícia! Puxada suave, brisa potente. Perfeito pra zerar um fds tranquilo em casa."
-      },
-      {
         id: "r1",
-        author: "Thiago B.",
+        author: "Cíntia Y.",
         rating: 5,
-        date: "2026-01-21",
-        comment: "Kit perfeito pra quem quer conhecer todas as vibes! Veio uma de cada tipo e amei todas. Agora sei qual é minha favorita. Promoção sensacional!"
+        date: "2026-04-18",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r2",
-        author: "Larissa M.",
+        author: "Davi R.",
         rating: 5,
-        date: "2026-01-19",
-        comment: "Melhor kit pra iniciantes! Dá pra experimentar os três tipos e descobrir qual combina mais com você. Qualidade impecável em todas!"
+        date: "2026-04-13",
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
       },
       {
         id: "r3",
-        author: "Rodrigo S.",
-        rating: 5,
-        date: "2026-01-16",
-        comment: "Variety Pack é demais! Uso a sativa de dia, híbrida de tarde e indica de noite. Combo perfeito! Economizei muito com a promo."
+        author: "Priscila B.",
+        rating: 4,
+        date: "2026-04-10",
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       },
       {
         id: "r4",
-        author: "Amanda L.",
+        author: "Vanessa M.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Presente incrível! Dei pro meu irmão e ele amou. Três canetas diferentes, cada uma com sua vibe. Embalagem chegou perfeita!"
+        date: "2026-03-23",
+        comment: "Cara, que mundão! Produto de altíssima qualidade, atendimento impecável. Recomendo de olhos fechados."
       },
       {
         id: "r5",
-        author: "Gabriel P.",
+        author: "Matheus X.",
         rating: 5,
-        date: "2026-01-08",
-        comment: "O melhor custo-benefício do site! Três canetas top por um preço justo. Todas funcionam perfeitamente e o sabor é autêntico."
+        date: "2026-03-08",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
-        author: "Isabela R.",
+        author: "Leandro V.",
         rating: 5,
-        date: "2026-01-04",
-        comment: "Kit completo! Adorei poder experimentar as três linhas. A indica virou minha favorita, mas todas são excelentes!"
+        date: "2026-02-21",
+        comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
+      },
+      {
+        id: "r7",
+        author: "Sabrina T.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
+      },
+      {
+        id: "r8",
+        author: "Thiago L.",
+        rating: 5,
+        date: "2026-02-02",
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+      },
+      {
+        id: "r9",
+        author: "Zaqueu J.",
+        rating: 5,
+        date: "2026-01-09",
+        comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
+      },
+      {
+        id: "r10",
+        author: "Gabriel O.",
+        rating: 5,
+        date: "2025-12-14",
+        comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
+      },
+      {
+        id: "r11",
+        author: "Isabela W.",
+        rating: 5,
+        date: "2025-12-13",
+        comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
+      },
+      {
+        id: "r12",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2025-12-05",
+        comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Yasmin L.",
+        rating: 5,
+        date: "2025-11-21",
+        comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
+      },
+      {
+        id: "r14",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2025-11-17",
+        comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
+      },
+      {
+        id: "r15",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2025-10-13",
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+      },
+      {
+        id: "r16",
+        author: "Jéssica V.",
+        rating: 5,
+        date: "2025-10-11",
+        comment: "Que isso, cara! Pedi na quarta e na sexta tava aqui em casa. Produto impecável, brisa brisada. Top!"
+      },
+      {
+        id: "r17",
+        author: "Flávia R.",
+        rating: 5,
+        date: "2025-10-10",
+        comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
+      },
+      {
+        id: "r18",
+        author: "Mariana T.",
+        rating: 5,
+        date: "2025-09-26",
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+      },
+      {
+        id: "r19",
+        author: "Wallace S.",
+        rating: 5,
+        date: "2025-09-16",
+        comment: "Brabo demais! Entrega rápida, atendimento show e o produto então... nem se fala. Nota mil!"
+      },
+      {
+        id: "r20",
+        author: "Bruno A.",
+        rating: 5,
+        date: "2025-08-25",
+        comment: "Slk, que vibe boa! Pega rapidinho, brisa zen, sabor diferenciado. Vale muito, recomendo!"
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
@@ -7036,99 +9759,78 @@ export const products: Product[] = [
     images: ["/images/kit-mega-pack-10-unidades-1.png"],
     category: "Kits",
     inStock: true,
-    rating: 5.0,
-    reviewCount: 41,
+    rating: 4.6,
+    reviewCount: 10,
     reviews: [
       {
-        id: "r8",
-        author: "Débora P.",
-        rating: 3,
-        date: "2026-04-09",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
-        id: "r9",
-        author: "Ramon C.",
-        rating: 5,
-        date: "2026-03-29",
-        comment: "Cara, melhor compra que fiz esse mês! Sabor incrível, não arranha a garganta e a brisa é certeira. Top demais!"
-      },
-      {
-        id: "r10",
-        author: "Yasmin L.",
-        rating: 4,
-        date: "2026-03-15",
-        comment: "Gostei bastante! Sabor maneiro e efeito legal. Demora uns dias pra chegar mas chega tudo certinho."
-      },
-      {
-        id: "r11",
-        author: "Otávio E.",
-        rating: 3,
-        date: "2026-03-03",
-        comment: "O sabor é meio diferente do descrito, achei mais artificial. A brisa salva, mas esperava mais pelo valor."
-      },
-      {
-        id: "r12",
-        author: "Wanda H.",
-        rating: 5,
-        date: "2026-02-18",
-        comment: "Mó qualidade! Comprei meio na desconfiança mas vei, é coisa séria. Brisa redondinha, sem paranoia. Recomendo!"
-      },
-      {
-        id: "r13",
-        author: "Tales I.",
-        rating: 3,
-        date: "2026-01-31",
-        comment: "Produto cumpre o que promete, mas o sabor não é exatamente o que eu esperava. Brisa ok, mas nada surreal."
-      },
-      {
         id: "r1",
-        author: "Felipe D.",
+        author: "Murilo P.",
         rating: 5,
-        date: "2026-01-20",
-        comment: "Mano, esse kit é insano! 10 sabores diferentes por menos de 500 reais? Economia absurda! Cada caneta dura bastante e os sabores são todos incríveis. Melhor compra que já fiz!"
+        date: "2026-02-02",
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       },
       {
         id: "r2",
-        author: "Juliana T.",
+        author: "Paulo R.",
         rating: 5,
-        date: "2026-01-18",
-        comment: "Comprei pra dividir com os amigos e foi sucesso total! Cada um escolheu seu sabor favorito. Blue Zkittlez e Frozen Grapes são os melhores na minha opinião!"
+        date: "2025-12-29",
+        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
       },
       {
         id: "r3",
-        author: "Ricardo M.",
+        author: "Igor B.",
         rating: 5,
-        date: "2026-01-15",
-        comment: "Estoque garantido pro mês inteiro! Variedade incrível de sabores e a qualidade Jeeter Juice é sempre impecável. Recomendo demais o mega pack!"
+        date: "2025-12-27",
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       },
       {
         id: "r4",
-        author: "Camila S.",
+        author: "Wesley L.",
         rating: 5,
-        date: "2026-01-12",
-        comment: "Presente perfeito! Dei metade pro meu namorado e ficamos experimentando juntos. Cada sabor é uma viagem diferente. Peach Cobbler virou nosso favorito!"
+        date: "2025-11-28",
+        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       },
       {
         id: "r5",
-        author: "Bruno L.",
-        rating: 5,
-        date: "2026-01-08",
-        comment: "Custo-benefício surreal! Se comprasse separado ia gastar mais que o dobro. Chegou tudo certinho, bem embalado. Todas as canetas funcionando perfeitamente!"
+        author: "Isabela W.",
+        rating: 3,
+        date: "2025-11-25",
+        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
       },
       {
         id: "r6",
-        author: "Marina R.",
+        author: "Vinícius S.",
         rating: 5,
-        date: "2026-01-05",
-        comment: "Kit dos sonhos! 10 sabores pra experimentar e descobrir qual combina mais comigo. Sour Lemonade é perfeito pra de dia, Paradise pra relaxar. Amei!"
+        date: "2025-11-07",
+        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       },
       {
         id: "r7",
-        author: "Lucas P.",
+        author: "Leandro V.",
+        rating: 4,
+        date: "2025-09-21",
+        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+      },
+      {
+        id: "r8",
+        author: "Bia C.",
+        rating: 4,
+        date: "2025-09-10",
+        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+      },
+      {
+        id: "r9",
+        author: "Rafael C.",
         rating: 5,
-        date: "2026-01-02",
-        comment: "Esse mega pack é brabo demais! Nunca vi tanta variedade num kit só. Qualidade premium em todas as unidades. Já quero o próximo!"
+        date: "2025-09-05",
+        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+      },
+      {
+        id: "r10",
+        author: "Roberto H.",
+        rating: 5,
+        date: "2025-08-24",
+        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       }
     ],
     promoTag: "🚀 MEGA PACK!"
