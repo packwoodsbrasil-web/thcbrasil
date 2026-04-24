@@ -46,9 +46,9 @@ const handler = async (req: Request): Promise<Response> => {
         "Authorization": `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Packwoods Brasil <onboarding@resend.dev>",
+        from: "THC BRASIL <onboarding@resend.dev>",
         to: [customerEmail],
-        subject: "🎉 Obrigado pela sua compra! - Packwoods Brasil",
+        subject: "🎉 Obrigado pela sua compra! - THC BRASIL",
         html: `
           <!DOCTYPE html>
           <html>
@@ -58,7 +58,7 @@ const handler = async (req: Request): Promise<Response> => {
           </head>
           <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
             <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
-              <h1 style="color: #fff; margin: 0; font-size: 28px;">Packwoods Brasil</h1>
+              <h1 style="color: #fff; margin: 0; font-size: 28px;">THC BRASIL</h1>
             </div>
             
             <div style="background: #fff; padding: 30px; border: 1px solid #ddd; border-top: none; border-radius: 0 0 10px 10px;">
@@ -101,12 +101,12 @@ const handler = async (req: Request): Promise<Response> => {
               
               <p style="font-size: 14px; color: #666;">
                 Atenciosamente,<br>
-                <strong>Equipe Packwoods Brasil</strong>
+                <strong>Equipe THC BRASIL</strong>
               </p>
             </div>
             
             <div style="text-align: center; padding: 20px; color: #999; font-size: 12px;">
-              <p>© 2026 Packwoods Brasil. Todos os direitos reservados.</p>
+              <p>© 2026 THC BRASIL. Todos os direitos reservados.</p>
             </div>
           </body>
           </html>
