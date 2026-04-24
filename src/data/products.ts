@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 55,
+    reviewCount: 23,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "gap-r1", author: "Caio M.", rating: 5, date: "2026-04-24", comment: "Mano, esse Grape Ape é absurdo! Sabor de uva intenso, brisa relaxante na medida. Top demais!" },
@@ -51,7 +51,6 @@ export const products: Product[] = [
       { id: "gap-r21", author: "Leonardo A.", rating: 4, date: "2025-12-13", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte indica." },
       { id: "gap-r22", author: "Cristina M.", rating: 5, date: "2025-11-15", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
       { id: "gap-r23", author: "Igor S.", rating: 5, date: "2025-10-08", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "gap-r24", author: "Natália F.", rating: 5, date: "2025-08-25", comment: "Apaixonada! Sabor incrível, brisa relaxante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -78,7 +77,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 56,
+    reviewCount: 22,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "mim-r1", author: "Rafael C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Mimosa é sensacional! Sabor de laranja real, brisa anima demais. Top!" },
@@ -103,8 +102,6 @@ export const products: Product[] = [
       { id: "mim-r20", author: "Sabrina B.", rating: 5, date: "2026-01-01", comment: "Adorei o sabor! Cítrico docinho é genial. Efeito eleva o astral na hora." },
       { id: "mim-r21", author: "Otávio A.", rating: 4, date: "2025-12-12", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte sativa." },
       { id: "mim-r22", author: "Débora M.", rating: 5, date: "2025-11-14", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "mim-r23", author: "Felipe S.", rating: 5, date: "2025-10-07", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "mim-r24", author: "Bianca F.", rating: 5, date: "2025-08-24", comment: "Apaixonada! Sabor incrível, brisa animada e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -131,7 +128,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 57,
+    reviewCount: 21,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "sap-r1", author: "Murilo C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Apple Punch é absurdo! Maçã verde azedinha viciante, brisa top demais!" },
@@ -155,9 +152,6 @@ export const products: Product[] = [
       { id: "sap-r19", author: "Diego H.", rating: 5, date: "2026-01-11", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
       { id: "sap-r20", author: "Tatiana B.", rating: 5, date: "2026-01-01", comment: "Adorei o sabor! Maçã azedinha é genial. Efeito eleva o astral na hora." },
       { id: "sap-r21", author: "Leonardo A.", rating: 4, date: "2025-12-12", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte sour." },
-      { id: "sap-r22", author: "Cristina M.", rating: 5, date: "2025-11-14", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "sap-r23", author: "Igor S.", rating: 5, date: "2025-10-07", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "sap-r24", author: "Natália F.", rating: 5, date: "2025-08-24", comment: "Apaixonada! Sabor incrível, brisa eufórica e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -184,7 +178,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 58,
+    reviewCount: 20,
     promoTag: "24% OFF",
     reviews: [
       { id: "stg-r1", author: "Lucas A.", rating: 5, date: "2026-04-24", comment: "Mano, esse Sour Tangie é absurdo! Sabor cítrico viciante, brisa energética top demais!" },
@@ -207,10 +201,6 @@ export const products: Product[] = [
       { id: "stg-r18", author: "Mariana L.", rating: 5, date: "2026-01-22", comment: "Maravilha! Sabor real de tangerina, brisa equilibrada. 2g dura semanas." },
       { id: "stg-r19", author: "Gustavo H.", rating: 5, date: "2026-01-12", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
       { id: "stg-r20", author: "Mônica T.", rating: 5, date: "2026-01-02", comment: "Adorei! Sabor cítrico é genial. Efeito energético na hora, dá um up absurdo." },
-      { id: "stg-r21", author: "Alexandre B.", rating: 4, date: "2025-12-13", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte cítrico." },
-      { id: "stg-r22", author: "Carolina F.", rating: 5, date: "2025-11-15", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "stg-r23", author: "Igor S.", rating: 5, date: "2025-10-08", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "stg-r24", author: "Natália A.", rating: 5, date: "2025-08-25", comment: "Apaixonada! Sabor incrível, brisa energética e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -237,7 +227,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 59,
+    reviewCount: 19,
     promoTag: "24% OFF",
     reviews: [
       { id: "pkr-r1", author: "Júlia M.", rating: 5, date: "2026-04-24", comment: "Mano, esse Pink Rozay é absurdo! Sabor de frutas vermelhas elegante, brisa top demais!" },
@@ -259,11 +249,6 @@ export const products: Product[] = [
       { id: "pkr-r17", author: "Henrique P.", rating: 3, date: "2026-01-31", comment: "Vape muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
       { id: "pkr-r18", author: "Mariana L.", rating: 5, date: "2026-01-22", comment: "Maravilha! Sabor real de frutas vermelhas, brisa equilibrada. 2g dura semanas." },
       { id: "pkr-r19", author: "Gustavo H.", rating: 5, date: "2026-01-12", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
-      { id: "pkr-r20", author: "Mônica T.", rating: 5, date: "2026-01-02", comment: "Adorei! Sabor floral é genial. Efeito relaxa na hora, dá uma paz absurda." },
-      { id: "pkr-r21", author: "Alexandre B.", rating: 4, date: "2025-12-13", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte rosinha." },
-      { id: "pkr-r22", author: "Carolina F.", rating: 5, date: "2025-11-15", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "pkr-r23", author: "Igor S.", rating: 5, date: "2025-10-08", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "pkr-r24", author: "Natália A.", rating: 5, date: "2025-08-25", comment: "Apaixonada! Sabor incrível, brisa relaxante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -290,7 +275,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 60,
+    reviewCount: 18,
     promoTag: "24% OFF",
     reviews: [
       { id: "mln-r1", author: "Caio R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Melonade é absurdo! Sabor de melão refrescante, limonada na medida. Top demais!" },
@@ -311,12 +296,6 @@ export const products: Product[] = [
       { id: "mln-r16", author: "Daniela R.", rating: 5, date: "2026-02-08", comment: "Perfeito! Refresca na medida, eufórico na hora certa. Indico de olhos fechados." },
       { id: "mln-r17", author: "Henrique P.", rating: 3, date: "2026-01-31", comment: "Vape muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
       { id: "mln-r18", author: "Mariana L.", rating: 5, date: "2026-01-22", comment: "Maravilha! Sabor real de melão, brisa equilibrada. 2g dura semanas, vale demais." },
-      { id: "mln-r19", author: "Gustavo H.", rating: 5, date: "2026-01-12", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
-      { id: "mln-r20", author: "Mônica T.", rating: 5, date: "2026-01-02", comment: "Adorei! Sabor de melão é genial. Efeito eleva o astral na hora, dá uma paz." },
-      { id: "mln-r21", author: "Alexandre B.", rating: 4, date: "2025-12-13", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte refrescante." },
-      { id: "mln-r22", author: "Carolina F.", rating: 5, date: "2025-11-15", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "mln-r23", author: "Igor S.", rating: 5, date: "2025-10-08", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "mln-r24", author: "Natália A.", rating: 5, date: "2025-08-25", comment: "Apaixonada! Sabor incrível, brisa refrescante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -343,7 +322,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 61,
+    reviewCount: 17,
     promoTag: "24% OFF",
     reviews: [
       { id: "vog-r1", author: "Rodrigo M.", rating: 5, date: "2026-04-23", comment: "Mano, esse Venom OG é absurdo! Brisa potente de verdade, sabor terroso clássico. Top demais!" },
@@ -363,13 +342,6 @@ export const products: Product[] = [
       { id: "vog-r15", author: "Vinícius B.", rating: 5, date: "2026-02-14", comment: "Parça, esse aqui é viciante! Brisa pesada, sabor terroso inacreditável." },
       { id: "vog-r16", author: "Daniela R.", rating: 5, date: "2026-02-07", comment: "Perfeito! Relaxa na medida, sedativo na hora certa. Indico de olhos fechados." },
       { id: "vog-r17", author: "Henrique P.", rating: 3, date: "2026-01-30", comment: "Vape muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
-      { id: "vog-r18", author: "Mariana L.", rating: 5, date: "2026-01-21", comment: "Maravilha! Sabor real de OG, brisa equilibrada. 2g dura semanas, vale demais." },
-      { id: "vog-r19", author: "Gustavo H.", rating: 5, date: "2026-01-11", comment: "Brabo demais, mano! Puxada cremosa, brisa única. Tô viciado, segundo que peço." },
-      { id: "vog-r20", author: "Mônica T.", rating: 5, date: "2026-01-01", comment: "Adorei! Sabor terroso é genial. Efeito relaxante na hora, dá uma paz absurda." },
-      { id: "vog-r21", author: "Alexandre B.", rating: 4, date: "2025-12-12", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte indica." },
-      { id: "vog-r22", author: "Carolina F.", rating: 5, date: "2025-11-14", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "vog-r23", author: "Igor S.", rating: 5, date: "2025-10-07", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "vog-r24", author: "Natália A.", rating: 5, date: "2025-08-24", comment: "Apaixonada! Sabor incrível, brisa relaxante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -396,7 +368,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 62,
+    reviewCount: 16,
     promoTag: "24% OFF",
     reviews: [
       { id: "sbd-r1", author: "Thiago R.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Blue Dream é absurdo! Sabor de mirtilo com aquele azedinho viciante, brisa top." },
@@ -415,14 +387,6 @@ export const products: Product[] = [
       { id: "sbd-r14", author: "Vanessa M.", rating: 5, date: "2026-02-23", comment: "Que vape gostoso! Sour Blue Dream é estiloso e o sabor entrega tudo." },
       { id: "sbd-r15", author: "Rafael B.", rating: 5, date: "2026-02-15", comment: "Parça, esse aqui é viciante! Brisa potente, sabor azedinho inacreditável." },
       { id: "sbd-r16", author: "Aline R.", rating: 5, date: "2026-02-08", comment: "Perfeito! Doce na medida, criativo na hora certa. Indico de olhos fechados." },
-      { id: "sbd-r17", author: "Bruno P.", rating: 3, date: "2026-01-31", comment: "Vape muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
-      { id: "sbd-r18", author: "Mariana L.", rating: 5, date: "2026-01-22", comment: "Maravilha! Sabor real de mirtilo azedinho, brisa equilibrada. 2g dura semanas." },
-      { id: "sbd-r19", author: "Diego H.", rating: 5, date: "2026-01-12", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
-      { id: "sbd-r20", author: "Tatiana B.", rating: 5, date: "2026-01-02", comment: "Adorei o sabor! Cítrico azedinho é genial. Efeito eleva o astral na hora." },
-      { id: "sbd-r21", author: "Leonardo A.", rating: 4, date: "2025-12-13", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte sour." },
-      { id: "sbd-r22", author: "Cristina M.", rating: 5, date: "2025-11-15", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "sbd-r23", author: "Igor S.", rating: 5, date: "2025-10-08", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "sbd-r24", author: "Natália F.", rating: 5, date: "2025-08-25", comment: "Apaixonada! Sabor incrível, brisa relaxante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -5003,7 +4967,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 64,
+    reviewCount: 15,
     promoTag: "24% OFF",
     reviews: [
       { id: "gj-r1", author: "Bruno H.", rating: 5, date: "2026-04-23", comment: "Mano, esse Grape Juice é absurdo! Sabor de uva natural, brisa relaxante de verdade. 2g dura muito!" },
@@ -5021,15 +4985,6 @@ export const products: Product[] = [
       { id: "gj-r13", author: "Marcos D.", rating: 4, date: "2026-03-04", comment: "Muito bom o sabor, brisa de qualidade premium. Preço justo pelos 2g entregues." },
       { id: "gj-r14", author: "Sabrina V.", rating: 5, date: "2026-02-26", comment: "Que vape gostoso! Grape Juice é estiloso e o sabor de uva entrega tudo." },
       { id: "gj-r15", author: "Vinícius A.", rating: 5, date: "2026-02-18", comment: "Parça, esse aqui é viciante! Brisa potente, sabor roxinho inacreditável." },
-      { id: "gj-r16", author: "Daniela R.", rating: 5, date: "2026-02-11", comment: "Perfeito! Doce na medida, relaxante na hora certa. Indico de olhos fechados." },
-      { id: "gj-r17", author: "Rodrigo P.", rating: 3, date: "2026-02-03", comment: "Vape muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
-      { id: "gj-r18", author: "Adriana L.", rating: 5, date: "2026-01-25", comment: "Maravilha! Sabor real de uva, brisa equilibrada. 2g dura semanas, vale demais." },
-      { id: "gj-r19", author: "Henrique R.", rating: 5, date: "2026-01-15", comment: "Brabo demais, mano! Puxada cremosa, sabor único. Tô viciado, segundo que peço." },
-      { id: "gj-r20", author: "Mônica T.", rating: 5, date: "2026-01-05", comment: "Adorei o sabor! Uva docinha é genial. Efeito relaxante na hora, dá uma paz." },
-      { id: "gj-r21", author: "Alexandre B.", rating: 4, date: "2025-12-16", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte roxinho." },
-      { id: "gj-r22", author: "Carolina M.", rating: 5, date: "2025-11-19", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho da casa." },
-      { id: "gj-r23", author: "Igor S.", rating: 5, date: "2025-10-11", comment: "Top de linha, parça! Live Resin entrega demais, 2g é um sonho. Vale muito." },
-      { id: "gj-r24", author: "Natália F.", rating: 5, date: "2025-08-29", comment: "Apaixonada! Sabor incrível, brisa relaxante e duradoura. Recomendo demais!" }
     ]
   },
   {
@@ -5107,7 +5062,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 65,
+    reviewCount: 14,
     promoTag: "32% OFF",
     reviews: [
       { id: "sc-r1", author: "João V.", rating: 5, date: "2026-04-23", comment: "Mano, sabor de morango de verdade! Brisa energética, perfeita pro dia. Recomendo demais!" },
@@ -5124,16 +5079,6 @@ export const products: Product[] = [
       { id: "sc-r12", author: "Fernanda K.", rating: 5, date: "2026-03-10", comment: "Top, top, top! Sabor inesquecível e o efeito vem rapidinho. Recomendadíssimo!" },
       { id: "sc-r13", author: "Anderson D.", rating: 4, date: "2026-03-04", comment: "Muito bom o sabor, brisa de qualidade. Achei o preço justo pelo que entrega." },
       { id: "sc-r14", author: "Larissa G.", rating: 5, date: "2026-02-26", comment: "Que vape gostoso! Strawberry Cough é meu strain favorito e esse vape entrega tudo." },
-      { id: "sc-r15", author: "Tiago B.", rating: 5, date: "2026-02-18", comment: "Parça, esse aqui é viciante! Brisa potente e sabor inacreditável. Não tem erro." },
-      { id: "sc-r16", author: "Simone L.", rating: 5, date: "2026-02-11", comment: "Perfeito! Doce na medida, criativo na hora certa. Já indiquei pra galera." },
-      { id: "sc-r17", author: "Murilo P.", rating: 3, date: "2026-02-03", comment: "O vape é muito bom, mas a embalagem chegou meio amassada. Conteúdo perfeito." },
-      { id: "sc-r18", author: "Priscila O.", rating: 5, date: "2026-01-25", comment: "Maravilha! Sabor real de morango, brisa equilibrada. Vale cada centavo." },
-      { id: "sc-r19", author: "Caio R.", rating: 5, date: "2026-01-15", comment: "Brabo demais, mano! Puxada suave, sabor único. Tô viciado, já é o segundo que peço." },
-      { id: "sc-r20", author: "Tatiane V.", rating: 5, date: "2026-01-05", comment: "Adorei o sabor! Morango com toque herbal é genial. Efeito energético na hora." },
-      { id: "sc-r21", author: "Ronaldo C.", rating: 4, date: "2025-12-16", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte sativa." },
-      { id: "sc-r22", author: "Cristina M.", rating: 5, date: "2025-11-19", comment: "Que delícia! Sabor inconfundível, puxada cremosa. Virou meu queridinho." },
-      { id: "sc-r23", author: "Wagner B.", rating: 5, date: "2025-10-11", comment: "Top de linha, parça! Live Resin entrega muito bem, sabor puro. Vale demais." },
-      { id: "sc-r24", author: "Aline G.", rating: 5, date: "2025-08-29", comment: "Apaixonada! Sabor incrível, brisa energética e duradoura. Recomendo de olhos fechados." }
     ]
   },
   {
@@ -5210,7 +5155,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 66,
+    reviewCount: 13,
     promoTag: "32% OFF",
     reviews: [
       { id: "wc-r1", author: "Pedro H.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! Sabor de baunilha cremoso, brisa lisinha e potente. Wedding Cake é clássico, não tem erro!" },
@@ -5226,17 +5171,6 @@ export const products: Product[] = [
       { id: "wc-r11", author: "Matheus L.", rating: 5, date: "2026-03-15", comment: "Sensacional, irmão! Puxada lisinha, sabor doce bate forte. Pra relaxar à noite é perfeito." },
       { id: "wc-r12", author: "Bianca O.", rating: 5, date: "2026-03-10", comment: "Top, top, top! Sabor inesquecível e o efeito vem rapidinho. Recomendadíssimo!" },
       { id: "wc-r13", author: "André N.", rating: 4, date: "2026-03-04", comment: "Muito bom o sabor, brisa de qualidade. Achei o preço justo pelo que entrega." },
-      { id: "wc-r14", author: "Sabrina K.", rating: 5, date: "2026-02-26", comment: "Que vape gostoso, gente! Wedding Cake é meu strain favorito e esse vape entrega tudo. Comprarei mais!" },
-      { id: "wc-r15", author: "Fábio D.", rating: 5, date: "2026-02-18", comment: "Parça, esse aqui é parada séria! Brisa potente e sabor inacreditável. Não tem erro." },
-      { id: "wc-r16", author: "Daniela G.", rating: 5, date: "2026-02-10", comment: "Perfeito! Doce na medida, cremoso na hora certa. Fiquei encantada, já indiquei pra galera." },
-      { id: "wc-r17", author: "Otávio S.", rating: 3, date: "2026-02-03", comment: "O vape é muito bom, mas a embalagem chegou meio amassada. O conteúdo tava perfeito ainda bem." },
-      { id: "wc-r18", author: "Rafaela M.", rating: 5, date: "2026-01-25", comment: "Maravilha! Sabor real de Wedding Cake, brisa equilibrada. Dá pra sentir a qualidade, vale cada centavo." },
-      { id: "wc-r19", author: "Igor P.", rating: 5, date: "2026-01-15", comment: "Brabo demais, mano! Puxada suave, sabor único. Tô viciado nesse aí, já é o segundo que peço." },
-      { id: "wc-r20", author: "Mônica L.", rating: 5, date: "2026-01-05", comment: "Adorei o sabor! Baunilha amanteigada é uma combinação genial. Efeito relaxante na hora." },
-      { id: "wc-r21", author: "Bruno V.", rating: 4, date: "2025-12-18", comment: "Bem bom, sabor agradável e brisa de qualidade. Recomendo pra quem curte sabores doces." },
-      { id: "wc-r22", author: "Cristiane R.", rating: 5, date: "2025-11-20", comment: "Que delícia esse vape! Sabor inconfundível, puxada cremosa. Já virou meu queridinho da coleção." },
-      { id: "wc-r23", author: "Wesley C.", rating: 5, date: "2025-10-12", comment: "Top de linha, parça! Live Resin entrega muito bem, sabor puro do início ao fim. Vale demais." },
-      { id: "wc-r24", author: "Adriana B.", rating: 5, date: "2025-08-30", comment: "Apaixonada! Sabor incrível, brisa suave e duradoura. Recomendo de olhos fechados." }
     ]
   },
   {
