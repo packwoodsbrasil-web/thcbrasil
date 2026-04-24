@@ -4700,12 +4700,6 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "204",
-    name: "Packwoods x Runtz Strawberry Cough 1g",
-    slug: "packwoods-runtz-strawberry-cough",
-    price: 149.90,
-  },
-  {
     id: "205",
     name: "Packwoods x Runtz Sour Tang 1g",
     slug: "packwoods-runtz-sour-tang",
