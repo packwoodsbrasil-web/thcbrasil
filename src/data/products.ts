@@ -24,7 +24,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 28,
+    reviewCount: 41,
     reviews: [
       {
         id: "r1",
@@ -66,7 +66,7 @@ export const products: Product[] = [
         author: "Ricardo P.",
         rating: 5,
         date: "2026-03-23",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r7",
@@ -122,7 +122,7 @@ export const products: Product[] = [
         author: "Raissa B.",
         rating: 5,
         date: "2025-12-28",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de banana terrosa, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r15",
@@ -223,8 +223,7 @@ export const products: Product[] = [
         comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
       }
     ]
-  },
-  {
+  },  {
     id: "3",
     name: "Purple Pesos",
     slug: "purple-pesos",
@@ -247,7 +246,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 11,
+    reviewCount: 15,
     reviews: [
       {
         id: "r1",
@@ -327,8 +326,7 @@ export const products: Product[] = [
         comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
       }
     ]
-  },
-  {
+  },  {
     id: "4",
     name: "Cosmos",
     slug: "cosmos",
@@ -352,8 +350,8 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.5,
-    reviewCount: 8,
-    reviews: [
+    reviewCount: 11,
+   reviews: [
       {
         id: "r1",
         author: "Larissa F.",
@@ -387,7 +385,7 @@ export const products: Product[] = [
         author: "Carolina S.",
         rating: 5,
         date: "2025-10-24",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de alho é incrível. Comprarei mais!"
       },
       {
         id: "r6",
@@ -411,8 +409,7 @@ export const products: Product[] = [
         comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
-  },
-  {
+  }},  {
     id: "5",
     name: "CTF",
     slug: "ctf",
@@ -435,14 +432,14 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 31,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
         author: "Tiago R.",
         rating: 5,
         date: "2026-04-12",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de terpenos naturais da flor, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r2",
@@ -463,7 +460,7 @@ export const products: Product[] = [
         author: "Fábio T.",
         rating: 5,
         date: "2026-04-01",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de terpenos naturais da flor é incrível. Comprarei mais!"
       },
       {
         id: "r5",
@@ -484,7 +481,7 @@ export const products: Product[] = [
         author: "Mirella M.",
         rating: 5,
         date: "2026-03-20",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r8",
@@ -519,7 +516,7 @@ export const products: Product[] = [
         author: "Vinícius S.",
         rating: 4,
         date: "2026-01-19",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r13",
@@ -655,8 +652,7 @@ export const products: Product[] = [
         comment: "Sensacional, viu! Pedi um e já tô pensando em pedir mais 3. Brisa duradoura, gostosa, top!"
       }
     ]
-  },
-  {
+  },  {
     id: "2",
     name: "Cherry Punch",
     slug: "cherry-punch",
@@ -679,7 +675,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.6,
-    reviewCount: 16,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
@@ -728,14 +724,14 @@ export const products: Product[] = [
         author: "Carolina S.",
         rating: 5,
         date: "2025-11-23",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r8",
         author: "Wallace S.",
         rating: 5,
         date: "2025-11-17",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de cereja doce é incrível. Comprarei mais!"
       },
       {
         id: "r9",
@@ -794,8 +790,7 @@ export const products: Product[] = [
         comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       }
     ]
-  },
-  {
+  },  {
     id: "6",
     name: "Sour Strawberry",
     slug: "sour-strawberry",
@@ -818,7 +813,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 15,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -874,14 +869,14 @@ export const products: Product[] = [
         author: "Juliana R.",
         rating: 5,
         date: "2025-11-01",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de morango azedo é incrível. Comprarei mais!"
       },
       {
         id: "r9",
         author: "André M.",
         rating: 5,
         date: "2025-10-30",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r10",
@@ -895,14 +890,14 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-10-21",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r12",
         author: "Otávio M.",
         rating: 5,
         date: "2025-09-15",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r13",
@@ -926,8 +921,7 @@ export const products: Product[] = [
         comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
-  },
-  {
+  },  {
     id: "7",
     name: "Harambe",
     slug: "harambe",
@@ -950,7 +944,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 15,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -978,7 +972,7 @@ export const products: Product[] = [
         author: "Beatriz Q.",
         rating: 5,
         date: "2026-02-24",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r5",
@@ -1013,7 +1007,7 @@ export const products: Product[] = [
         author: "Juliana R.",
         rating: 5,
         date: "2025-12-29",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de terpenos naturais da flor, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r10",
@@ -1048,7 +1042,7 @@ export const products: Product[] = [
         author: "Thiago L.",
         rating: 5,
         date: "2025-10-27",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r15",
@@ -1058,8 +1052,7 @@ export const products: Product[] = [
         comment: "Sensacional! O atendimento é nota mil, suporte sempre presente. E o produto então, ah... outro patamar."
       }
     ]
-  },
-  {
+  },  {
     id: "8",
     name: "Sugar Melon",
     slug: "sugar-melon",
@@ -1082,7 +1075,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 12,
+    reviewCount: 17,
     reviews: [
       {
         id: "r1",
@@ -1169,8 +1162,7 @@ export const products: Product[] = [
         comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
-  },
-  {
+  },  {
     id: "9",
     name: "Durban Poison",
     slug: "durban-poison",
@@ -1193,7 +1185,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 31,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
@@ -1207,7 +1199,7 @@ export const products: Product[] = [
         author: "Zaqueu J.",
         rating: 5,
         date: "2026-03-31",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r3",
@@ -1256,7 +1248,7 @@ export const products: Product[] = [
         author: "Vitória E.",
         rating: 5,
         date: "2026-02-22",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de terpenos naturais é incrível. Comprarei mais!"
       },
       {
         id: "r10",
@@ -1312,7 +1304,7 @@ export const products: Product[] = [
         author: "Larissa F.",
         rating: 5,
         date: "2025-11-10",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de terpenos naturais, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r18",
@@ -1347,7 +1339,7 @@ export const products: Product[] = [
         author: "Isabela W.",
         rating: 5,
         date: "2025-10-19",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de terpenos naturais, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r23",
@@ -1396,7 +1388,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 4,
         date: "2025-08-13",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r30",
@@ -1413,8 +1405,7 @@ export const products: Product[] = [
         comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
       }
     ]
-  },
-  {
+  },  {
     id: "10",
     name: "Ice Cream Cake",
     slug: "ice-cream-cake",
@@ -1437,7 +1428,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 11,
+    reviewCount: 15,
     reviews: [
       {
         id: "r1",
@@ -1458,7 +1449,7 @@ export const products: Product[] = [
         author: "Bianca U.",
         rating: 5,
         date: "2026-03-05",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r4",
@@ -1479,7 +1470,7 @@ export const products: Product[] = [
         author: "Wallace S.",
         rating: 5,
         date: "2025-10-28",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de baunilha cremosa, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r7",
@@ -1517,8 +1508,7 @@ export const products: Product[] = [
         comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
-  },
-  {
+  },  {
     id: "11",
     name: "Papaya #5",
     slug: "papaya-5",
@@ -1541,7 +1531,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 29,
+    reviewCount: 42,
     reviews: [
       {
         id: "r1",
@@ -1604,7 +1594,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 5,
         date: "2026-01-15",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r10",
@@ -1625,7 +1615,7 @@ export const products: Product[] = [
         author: "Igor B.",
         rating: 5,
         date: "2026-01-03",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
@@ -1639,7 +1629,7 @@ export const products: Product[] = [
         author: "Marcelo F.",
         rating: 5,
         date: "2025-12-29",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r15",
@@ -1653,14 +1643,14 @@ export const products: Product[] = [
         author: "Ricardo P.",
         rating: 5,
         date: "2025-12-12",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de tropical, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r17",
         author: "Letícia P.",
         rating: 5,
         date: "2025-12-02",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r18",
@@ -1695,7 +1685,7 @@ export const products: Product[] = [
         author: "Natália C.",
         rating: 5,
         date: "2025-10-22",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r23",
@@ -1716,7 +1706,7 @@ export const products: Product[] = [
         author: "Wesley L.",
         rating: 5,
         date: "2025-09-07",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de tropical é incrível. Comprarei mais!"
       },
       {
         id: "r26",
@@ -1747,8 +1737,7 @@ export const products: Product[] = [
         comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
-  },
-  {
+  },  {
     id: "12",
     name: "Hurricane",
     slug: "hurricane",
@@ -1771,7 +1760,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 31,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
@@ -1827,14 +1816,14 @@ export const products: Product[] = [
         author: "Tainá I.",
         rating: 5,
         date: "2026-02-22",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r9",
         author: "Natália C.",
         rating: 5,
         date: "2026-01-31",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r10",
@@ -1855,7 +1844,7 @@ export const products: Product[] = [
         author: "Henrique A.",
         rating: 5,
         date: "2026-01-02",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
@@ -1883,7 +1872,7 @@ export const products: Product[] = [
         author: "Vanessa M.",
         rating: 5,
         date: "2025-11-05",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de terpenos naturais da flor é incrível. Comprarei mais!"
       },
       {
         id: "r17",
@@ -1897,7 +1886,7 @@ export const products: Product[] = [
         author: "Yasmin L.",
         rating: 5,
         date: "2025-10-27",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r19",
@@ -1932,7 +1921,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-09-21",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de terpenos naturais da flor, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r24",
@@ -1967,7 +1956,7 @@ export const products: Product[] = [
         author: "Bianca U.",
         rating: 5,
         date: "2025-08-20",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de terpenos naturais da flor, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r29",
@@ -1991,8 +1980,7 @@ export const products: Product[] = [
         comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       }
     ]
-  },
-  {
+  },  {
     id: "13",
     name: "Kish",
     slug: "kish",
@@ -2015,7 +2003,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 25,
+    reviewCount: 36,
     reviews: [
       {
         id: "r1",
@@ -2043,7 +2031,7 @@ export const products: Product[] = [
         author: "Renata V.",
         rating: 5,
         date: "2026-03-16",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r5",
@@ -2064,7 +2052,7 @@ export const products: Product[] = [
         author: "Pedro H.",
         rating: 5,
         date: "2026-01-22",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de terpenos naturais da flor, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r8",
@@ -2092,7 +2080,7 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2025-12-06",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de terpenos naturais da flor, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r12",
@@ -2106,7 +2094,7 @@ export const products: Product[] = [
         author: "Eduardo G.",
         rating: 5,
         date: "2025-11-19",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r14",
@@ -2127,7 +2115,7 @@ export const products: Product[] = [
         author: "André M.",
         rating: 5,
         date: "2025-10-05",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r17",
@@ -2148,7 +2136,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-09-13",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r20",
@@ -2183,7 +2171,7 @@ export const products: Product[] = [
         author: "Beatriz Q.",
         rating: 5,
         date: "2025-08-11",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r25",
@@ -2193,8 +2181,7 @@ export const products: Product[] = [
         comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
       }
     ]
-  },
-  {
+  },  {
     id: "16",
     name: "Kush Breath",
     slug: "kush-breath",
@@ -2217,14 +2204,14 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 10,
+    reviewCount: 14,
     reviews: [
       {
         id: "r1",
         author: "Matheus X.",
         rating: 5,
         date: "2026-03-26",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r2",
@@ -2252,7 +2239,7 @@ export const products: Product[] = [
         author: "Juliana R.",
         rating: 5,
         date: "2025-11-19",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r6",
@@ -2266,7 +2253,7 @@ export const products: Product[] = [
         author: "Cíntia Y.",
         rating: 5,
         date: "2025-10-15",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de terpenos naturais da flor, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r8",
@@ -2290,8 +2277,7 @@ export const products: Product[] = [
         comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
       }
     ]
-  },
-  {
+  },  {
     id: "17",
     name: "Lemon OG",
     slug: "lemon-og",
@@ -2314,7 +2300,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 26,
+    reviewCount: 38,
     reviews: [
       {
         id: "r1",
@@ -2391,7 +2377,7 @@ export const products: Product[] = [
         author: "Renata V.",
         rating: 5,
         date: "2026-01-15",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de limão azedo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r12",
@@ -2426,7 +2412,7 @@ export const products: Product[] = [
         author: "Igor B.",
         rating: 5,
         date: "2025-11-27",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de limão azedo, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r17",
@@ -2447,7 +2433,7 @@ export const products: Product[] = [
         author: "Tiago R.",
         rating: 5,
         date: "2025-10-14",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r20",
@@ -2499,8 +2485,7 @@ export const products: Product[] = [
         comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
-  },
-  {
+  },  {
     id: "18",
     name: "Sour Tangie",
     slug: "sour-tangie",
@@ -2523,7 +2508,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 21,
+    reviewCount: 30,
     reviews: [
       {
         id: "r1",
@@ -2544,7 +2529,7 @@ export const products: Product[] = [
         author: "Murilo P.",
         rating: 5,
         date: "2026-03-21",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de tangerina azeda, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r4",
@@ -2670,11 +2655,10 @@ export const products: Product[] = [
         author: "Sofia O.",
         rating: 5,
         date: "2025-08-06",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de tangerina azeda, nada artificial. Relaxa sem deixar mole, perfeito."
       }
     ]
-  },
-  {
+  },  {
     id: "19",
     name: "Super Silver Haze",
     slug: "super-silver-haze",
@@ -2697,8 +2681,8 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 9,
-    reviews: [
+    reviewCount: 12,
+   reviews: [
       {
         id: "r1",
         author: "Tiago R.",
@@ -2718,7 +2702,7 @@ export const products: Product[] = [
         author: "Gabriel O.",
         rating: 5,
         date: "2026-02-15",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de terpenos naturais da flor, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
@@ -2763,8 +2747,7 @@ export const products: Product[] = [
         comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
-  },
-  {
+  }},  {
     id: "20",
     name: "White Buffalo",
     slug: "white-buffalo",
@@ -2787,8 +2770,8 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 8,
-    reviews: [
+    reviewCount: 11,
+   reviews: [
       {
         id: "r1",
         author: "Júlia P.",
@@ -2846,8 +2829,7 @@ export const products: Product[] = [
         comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       }
     ]
-  },
-  {
+  }},  {
     id: "21",
     name: "Hi-Octane",
     slug: "hi-octane",
@@ -2871,14 +2853,14 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 10,
+    reviewCount: 14,
     reviews: [
       {
         id: "r1",
         author: "Fernanda S.",
         rating: 5,
         date: "2026-04-02",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r2",
@@ -2913,7 +2895,7 @@ export const products: Product[] = [
         author: "Gustavo Z.",
         rating: 4,
         date: "2025-11-26",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r7",
@@ -2927,7 +2909,7 @@ export const products: Product[] = [
         author: "Gabriel O.",
         rating: 5,
         date: "2025-10-01",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de berry cítrico, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r9",
@@ -2944,8 +2926,7 @@ export const products: Product[] = [
         comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
-  },
-  {
+  },  {
     id: "22",
     name: "Mac N Cookies",
     slug: "mac-n-cookies",
@@ -2969,14 +2950,14 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 14,
+    reviewCount: 20,
     reviews: [
       {
         id: "r1",
         author: "Eduardo G.",
         rating: 5,
         date: "2026-04-11",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r2",
@@ -3025,7 +3006,7 @@ export const products: Product[] = [
         author: "Fábio T.",
         rating: 5,
         date: "2026-01-13",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r9",
@@ -3070,8 +3051,7 @@ export const products: Product[] = [
         comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       }
     ]
-  },
-  {
+  },  {
     id: "23",
     name: "Lemon Drop",
     slug: "lemon-drop",
@@ -3094,7 +3074,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 15,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -3108,7 +3088,7 @@ export const products: Product[] = [
         author: "Raissa B.",
         rating: 5,
         date: "2026-03-08",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r3",
@@ -3150,7 +3130,7 @@ export const products: Product[] = [
         author: "Davi R.",
         rating: 5,
         date: "2025-11-16",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r9",
@@ -3171,7 +3151,7 @@ export const products: Product[] = [
         author: "Júlia P.",
         rating: 5,
         date: "2025-10-24",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r12",
@@ -3192,7 +3172,7 @@ export const products: Product[] = [
         author: "Sofia O.",
         rating: 5,
         date: "2025-09-14",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de limão doce, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r15",
@@ -3202,8 +3182,7 @@ export const products: Product[] = [
         comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       }
     ]
-  },
-  {
+  },  {
     id: "24",
     name: "Slurricane",
     slug: "slurricane",
@@ -3226,7 +3205,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 24,
+    reviewCount: 35,
     reviews: [
       {
         id: "r1",
@@ -3247,7 +3226,7 @@ export const products: Product[] = [
         author: "Ícaro T.",
         rating: 5,
         date: "2026-02-17",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de berry doce é incrível. Comprarei mais!"
       },
       {
         id: "r4",
@@ -3282,7 +3261,7 @@ export const products: Product[] = [
         author: "Eduardo G.",
         rating: 5,
         date: "2025-12-31",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r9",
@@ -3296,7 +3275,7 @@ export const products: Product[] = [
         author: "Matheus X.",
         rating: 5,
         date: "2025-11-16",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de berry doce, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r11",
@@ -3397,8 +3376,7 @@ export const products: Product[] = [
         comment: "Pô meu, top demais! Puxada macia, gosto incrível e a brisa é certeira. Voltarei a comprar com certeza."
       }
     ]
-  },
-  {
+  },  {
     id: "25",
     name: "Forbidden Gelato",
     slug: "forbidden-gelato",
@@ -3423,7 +3401,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 27,
+    reviewCount: 39,
     reviews: [
       {
         id: "r1",
@@ -3528,7 +3506,7 @@ export const products: Product[] = [
         author: "Ricardo P.",
         rating: 5,
         date: "2025-12-21",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r16",
@@ -3612,11 +3590,10 @@ export const products: Product[] = [
         author: "Nathan O.",
         rating: 5,
         date: "2025-08-06",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de limão doce, nada artificial. Relaxa sem deixar mole, perfeito."
       }
     ]
-  },
-  {
+  },  {
     id: "26",
     name: "Lavender Jones",
     slug: "lavender-jones",
@@ -3639,8 +3616,8 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 8,
-    reviews: [
+    reviewCount: 11,
+   reviews: [
       {
         id: "r1",
         author: "Letícia P.",
@@ -3660,14 +3637,14 @@ export const products: Product[] = [
         author: "Bianca U.",
         rating: 5,
         date: "2026-02-26",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r4",
         author: "Pedro H.",
         rating: 4,
         date: "2025-12-28",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r5",
@@ -3698,8 +3675,7 @@ export const products: Product[] = [
         comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
-  },
-  {
+  }},  {
     id: "27",
     name: "Chronic Thunder",
     slug: "chronic-thunder",
@@ -3722,7 +3698,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 25,
+    reviewCount: 36,
     reviews: [
       {
         id: "r1",
@@ -3736,14 +3712,14 @@ export const products: Product[] = [
         author: "Mirella M.",
         rating: 5,
         date: "2026-04-12",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r3",
         author: "Murilo P.",
         rating: 5,
         date: "2026-04-10",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de berries, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
@@ -3799,7 +3775,7 @@ export const products: Product[] = [
         author: "Davi R.",
         rating: 5,
         date: "2025-12-20",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r12",
@@ -3897,11 +3873,10 @@ export const products: Product[] = [
         author: "Cíntia Y.",
         rating: 5,
         date: "2025-08-03",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de berries, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       }
     ]
-  },
-  {
+  },  {
     id: "28",
     name: "Sunshine",
     slug: "sunshine",
@@ -3924,7 +3899,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.6,
-    reviewCount: 14,
+    reviewCount: 20,
     reviews: [
       {
         id: "r1",
@@ -3952,14 +3927,14 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2026-01-09",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r5",
         author: "Carolina S.",
         rating: 5,
         date: "2026-01-01",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r6",
@@ -3994,7 +3969,7 @@ export const products: Product[] = [
         author: "Helena S.",
         rating: 5,
         date: "2025-10-23",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de creme de laranja, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r11",
@@ -4015,7 +3990,7 @@ export const products: Product[] = [
         author: "Leandro V.",
         rating: 4,
         date: "2025-08-17",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r14",
@@ -4025,8 +4000,7 @@ export const products: Product[] = [
         comment: "A embalagem chegou meio amassada, fiquei com pé atrás. Mas testei e o produto tá ok, brisa normal."
       }
     ]
-  },
-  {
+  },  {
     id: "29",
     name: "Punch Breath",
     slug: "punch-breath",
@@ -4049,14 +4023,14 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 30,
+    reviewCount: 44,
     reviews: [
       {
         id: "r1",
         author: "Igor B.",
         rating: 5,
         date: "2026-04-17",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de tropical suave é incrível. Comprarei mais!"
       },
       {
         id: "r2",
@@ -4077,14 +4051,14 @@ export const products: Product[] = [
         author: "Bruno A.",
         rating: 5,
         date: "2026-04-09",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r5",
         author: "Sabrina T.",
         rating: 5,
         date: "2026-04-05",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de tropical suave, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
@@ -4133,7 +4107,7 @@ export const products: Product[] = [
         author: "Vitória E.",
         rating: 5,
         date: "2026-02-11",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de tropical suave, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r13",
@@ -4161,7 +4135,7 @@ export const products: Product[] = [
         author: "Bianca U.",
         rating: 5,
         date: "2026-02-01",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r17",
@@ -4203,7 +4177,7 @@ export const products: Product[] = [
         author: "Júlia P.",
         rating: 5,
         date: "2025-12-04",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r23",
@@ -4217,7 +4191,7 @@ export const products: Product[] = [
         author: "Júlio J.",
         rating: 4,
         date: "2025-11-09",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r25",
@@ -4262,8 +4236,7 @@ export const products: Product[] = [
         comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
-  },
-  {
+  },  {
     id: "30",
     name: "TK Lato",
     slug: "tk-lato",
@@ -4286,7 +4259,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 41,
     reviews: [
       {
         id: "r1",
@@ -4370,14 +4343,14 @@ export const products: Product[] = [
         author: "Tainá I.",
         rating: 5,
         date: "2026-01-01",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r13",
         author: "Vanessa M.",
         rating: 5,
         date: "2025-12-19",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de gelato doce, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r14",
@@ -4398,7 +4371,7 @@ export const products: Product[] = [
         author: "Zaqueu J.",
         rating: 5,
         date: "2025-11-15",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de gelato doce é incrível. Comprarei mais!"
       },
       {
         id: "r17",
@@ -4482,11 +4455,10 @@ export const products: Product[] = [
         author: "Raissa B.",
         rating: 5,
         date: "2025-08-13",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       }
     ]
-  },
-  {
+  },  {
     id: "31",
     name: "Nebula",
     slug: "nebula",
@@ -4509,7 +4481,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 30,
+    reviewCount: 44,
     reviews: [
       {
         id: "r1",
@@ -4586,14 +4558,14 @@ export const products: Product[] = [
         author: "Nathan O.",
         rating: 5,
         date: "2025-12-28",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de doce, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r12",
         author: "Eduardo G.",
         rating: 5,
         date: "2025-12-23",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
@@ -4670,7 +4642,7 @@ export const products: Product[] = [
         author: "Marcelo F.",
         rating: 5,
         date: "2025-10-24",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de doce, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r24",
@@ -4684,14 +4656,14 @@ export const products: Product[] = [
         author: "Priscila B.",
         rating: 5,
         date: "2025-09-29",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r26",
         author: "Carla B.",
         rating: 5,
         date: "2025-09-27",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de doce é incrível. Comprarei mais!"
       },
       {
         id: "r27",
@@ -4722,8 +4694,7 @@ export const products: Product[] = [
         comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       }
     ]
-  },
-  {
+  },  {
     id: "32",
     name: "Blue Dream AIO Vape",
     slug: "blue-dream-aio-vape",
@@ -4747,14 +4718,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 25,
+    reviewCount: 36,
     reviews: [
       {
         id: "r1",
         author: "Tainá I.",
         rating: 5,
         date: "2026-04-10",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de mirtilo, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r2",
@@ -4782,7 +4753,7 @@ export const products: Product[] = [
         author: "Murilo P.",
         rating: 5,
         date: "2026-02-04",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de mirtilo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
@@ -4831,7 +4802,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 5,
         date: "2025-12-08",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
@@ -4887,7 +4858,7 @@ export const products: Product[] = [
         author: "Cíntia Y.",
         rating: 5,
         date: "2025-09-19",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de mirtilo é incrível. Comprarei mais!"
       },
       {
         id: "r21",
@@ -4925,8 +4896,7 @@ export const products: Product[] = [
         comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
-  },
-  {
+  },  {
     id: "33",
     name: "Bubba G AIO Vape",
     slug: "bubba-g-aio-vape",
@@ -4950,14 +4920,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 21,
+    reviewCount: 30,
     reviews: [
       {
         id: "r1",
         author: "Carolina S.",
         rating: 5,
         date: "2026-04-08",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de chiclete é incrível. Comprarei mais!"
       },
       {
         id: "r2",
@@ -5020,7 +4990,7 @@ export const products: Product[] = [
         author: "Sofia O.",
         rating: 5,
         date: "2025-12-27",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de chiclete, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r11",
@@ -5034,7 +5004,7 @@ export const products: Product[] = [
         author: "André M.",
         rating: 5,
         date: "2025-12-21",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r13",
@@ -5062,14 +5032,14 @@ export const products: Product[] = [
         author: "Renata V.",
         rating: 5,
         date: "2025-11-24",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r17",
         author: "Nathan O.",
         rating: 5,
         date: "2025-11-15",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r18",
@@ -5100,8 +5070,7 @@ export const products: Product[] = [
         comment: "Que produto sinistro! Comprei pro fds com a galera e foi sucesso total. Vão querer pedir também kkk"
       }
     ]
-  },
-  {
+  },  {
     id: "34",
     name: "Acapulco Gold AIO Vape",
     slug: "acapulco-gold-aio-vape",
@@ -5125,7 +5094,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 15,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -5233,8 +5202,7 @@ export const products: Product[] = [
         comment: "Mano, que coisa linda! Embalagem discreta como prometido, produto perfeito. Brisa fenomenal."
       }
     ]
-  },
-  {
+  },  {
     id: "35",
     name: "Berry White AIO Vape",
     slug: "berry-white-aio-vape",
@@ -5258,7 +5226,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 22,
+    reviewCount: 32,
     reviews: [
       {
         id: "r1",
@@ -5272,7 +5240,7 @@ export const products: Product[] = [
         author: "Cíntia Y.",
         rating: 5,
         date: "2026-04-13",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de mirtilo é incrível. Comprarei mais!"
       },
       {
         id: "r3",
@@ -5293,7 +5261,7 @@ export const products: Product[] = [
         author: "Bia C.",
         rating: 5,
         date: "2026-04-03",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de mirtilo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r6",
@@ -5307,7 +5275,7 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2026-03-28",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r8",
@@ -5328,7 +5296,7 @@ export const products: Product[] = [
         author: "Igor B.",
         rating: 5,
         date: "2025-12-28",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r11",
@@ -5415,8 +5383,7 @@ export const products: Product[] = [
         comment: "Tá ok, mas esperava mais. A puxada arranha um pouquinho a garganta, brisa é mediana. Talvez não pegue de novo."
       }
     ]
-  },
-  {
+  },  {
     id: "36",
     name: "SFV OG AIO Vape",
     slug: "sfv-og-aio-vape",
@@ -5440,14 +5407,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 26,
+    reviewCount: 38,
     reviews: [
       {
         id: "r1",
         author: "Juliana R.",
         rating: 5,
         date: "2026-04-15",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r2",
@@ -5489,7 +5456,7 @@ export const products: Product[] = [
         author: "Rafael C.",
         rating: 5,
         date: "2026-03-10",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r8",
@@ -5510,7 +5477,7 @@ export const products: Product[] = [
         author: "Eduardo G.",
         rating: 5,
         date: "2026-01-24",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de terroso, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r11",
@@ -5587,7 +5554,7 @@ export const products: Product[] = [
         author: "Vinícius S.",
         rating: 5,
         date: "2025-10-03",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r22",
@@ -5625,8 +5592,7 @@ export const products: Product[] = [
         comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       }
     ]
-  },
-  {
+  },  {
     id: "37",
     name: "Granddaddy Purp AIO Vape",
     slug: "granddaddy-purp-aio-vape",
@@ -5650,14 +5616,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 16,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
         author: "Zaqueu J.",
         rating: 5,
         date: "2026-04-13",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de uva doce, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r2",
@@ -5671,7 +5637,7 @@ export const products: Product[] = [
         author: "Juliana R.",
         rating: 5,
         date: "2026-03-20",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de uva doce é incrível. Comprarei mais!"
       },
       {
         id: "r4",
@@ -5685,7 +5651,7 @@ export const products: Product[] = [
         author: "Beatriz Q.",
         rating: 5,
         date: "2026-02-15",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r6",
@@ -5741,7 +5707,7 @@ export const products: Product[] = [
         author: "Wallace S.",
         rating: 5,
         date: "2025-10-09",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de uva doce, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r14",
@@ -5765,8 +5731,7 @@ export const products: Product[] = [
         comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
       }
     ]
-  },
-  {
+  },  {
     id: "38",
     name: "Watermelon ZKZ AIO Vape",
     slug: "watermelon-zkz-aio-vape",
@@ -5790,8 +5755,8 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 8,
-    reviews: [
+    reviewCount: 23,
+   reviews: [
       {
         id: "r1",
         author: "Matheus X.",
@@ -5825,7 +5790,7 @@ export const products: Product[] = [
         author: "Bia C.",
         rating: 5,
         date: "2025-10-21",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r6",
@@ -5839,7 +5804,7 @@ export const products: Product[] = [
         author: "Eduardo G.",
         rating: 5,
         date: "2025-09-08",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r8",
@@ -5849,8 +5814,7 @@ export const products: Product[] = [
         comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       }
     ]
-  },
-  {
+  }},  {
     id: "39",
     name: "Blue ZKZ AIO Vape",
     slug: "blue-zkz-aio-vape",
@@ -5874,7 +5838,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 32,
+    reviewCount: 35,
     reviews: [
       {
         id: "r1",
@@ -5979,7 +5943,7 @@ export const products: Product[] = [
         author: "Carolina S.",
         rating: 5,
         date: "2025-12-02",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de cítrico azedo, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r16",
@@ -6021,7 +5985,7 @@ export const products: Product[] = [
         author: "Leandro V.",
         rating: 5,
         date: "2025-10-14",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r22",
@@ -6056,7 +6020,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-09-06",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r27",
@@ -6101,8 +6065,7 @@ export const products: Product[] = [
         comment: "Mds do céu, que produto incrível! Embalagem discreta, lacrada certinho. Brisa firmeza, recomendo!"
       }
     ]
-  },
-  {
+  },  {
     id: "40",
     name: "Ultra OG AIO Vape",
     slug: "ultra-og-aio-vape",
@@ -6126,7 +6089,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 13,
+    reviewCount: 28,
     reviews: [
       {
         id: "r1",
@@ -6147,7 +6110,7 @@ export const products: Product[] = [
         author: "Felipe N.",
         rating: 4,
         date: "2026-03-12",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r4",
@@ -6161,7 +6124,7 @@ export const products: Product[] = [
         author: "Vanessa M.",
         rating: 5,
         date: "2025-12-24",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r6",
@@ -6220,8 +6183,7 @@ export const products: Product[] = [
         comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
       }
     ]
-  },
-  {
+  },  {
     id: "41",
     name: "Sunkisss AIO Vape",
     slug: "sunkisss-aio-vape",
@@ -6245,7 +6207,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 30,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
@@ -6259,14 +6221,14 @@ export const products: Product[] = [
         author: "Vitória E.",
         rating: 5,
         date: "2026-03-23",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r3",
         author: "Rafael C.",
         rating: 5,
         date: "2026-03-21",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de cítrico, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r4",
@@ -6371,7 +6333,7 @@ export const products: Product[] = [
         author: "Priscila B.",
         rating: 5,
         date: "2025-12-21",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r19",
@@ -6392,7 +6354,7 @@ export const products: Product[] = [
         author: "Fábio T.",
         rating: 4,
         date: "2025-10-24",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r22",
@@ -6406,7 +6368,7 @@ export const products: Product[] = [
         author: "Igor B.",
         rating: 5,
         date: "2025-10-12",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de cítrico, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r24",
@@ -6427,7 +6389,7 @@ export const products: Product[] = [
         author: "Nathan O.",
         rating: 5,
         date: "2025-09-06",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r27",
@@ -6458,8 +6420,7 @@ export const products: Product[] = [
         comment: "Mó qualidade, irmão! Comprei meio na desconfiança e me surpreendeu pra caramba. Já é meu produto fixo."
       }
     ]
-  },
-  {
+  },  {
     id: "42",
     name: "OG Kush AIO Vape",
     slug: "og-kush-aio-vape",
@@ -6483,7 +6444,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 21,
+    reviewCount: 26,
     reviews: [
       {
         id: "r1",
@@ -6546,7 +6507,7 @@ export const products: Product[] = [
         author: "Bianca U.",
         rating: 5,
         date: "2025-11-29",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de combustível é incrível. Comprarei mais!"
       },
       {
         id: "r10",
@@ -6574,7 +6535,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-10-28",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r14",
@@ -6633,8 +6594,7 @@ export const products: Product[] = [
         comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
-  },
-  {
+  },  {
     id: "43",
     name: "Jack Herer AIO Vape",
     slug: "jack-herer-aio-vape",
@@ -6658,14 +6618,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 18,
+    reviewCount: 32,
     reviews: [
       {
         id: "r1",
         author: "Débora Q.",
         rating: 5,
         date: "2026-04-20",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r2",
@@ -6686,7 +6646,7 @@ export const products: Product[] = [
         author: "Matheus X.",
         rating: 5,
         date: "2026-03-15",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de pinho, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r5",
@@ -6700,7 +6660,7 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2026-03-06",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de pinho, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r7",
@@ -6756,7 +6716,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 5,
         date: "2025-11-19",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de pinho é incrível. Comprarei mais!"
       },
       {
         id: "r15",
@@ -6787,8 +6747,7 @@ export const products: Product[] = [
         comment: "Mt bom mesmo, parça! Pedi na dúvida e curti demais. Vale cada real investido, brisa brabíssima."
       }
     ]
-  },
-  {
+  },  {
     id: "44",
     name: "OG Lime AIO Vape",
     slug: "og-lime-aio-vape",
@@ -6812,7 +6771,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 16,
+    reviewCount: 25,
     reviews: [
       {
         id: "r1",
@@ -6847,7 +6806,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 5,
         date: "2026-01-27",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de lima, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r6",
@@ -6927,8 +6886,7 @@ export const products: Product[] = [
         comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
       }
     ]
-  },
-  {
+  },  {
     id: "45",
     name: "Banana ZKZ AIO Vape",
     slug: "banana-zkz-aio-vape",
@@ -6952,14 +6910,14 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 12,
+    reviewCount: 20,
     reviews: [
       {
         id: "r1",
         author: "Camila D.",
         rating: 5,
         date: "2026-04-16",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r2",
@@ -7039,8 +6997,7 @@ export const products: Product[] = [
         comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
-  },
-  {
+  },  {
     id: "46",
     name: "Biscoitos de THC - Birthday Cake - 200mg",
     slug: "biscoitos-thc-birthday-cake-200mg",
@@ -7064,7 +7021,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.6,
-    reviewCount: 14,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -7134,7 +7091,7 @@ export const products: Product[] = [
         author: "Sabrina T.",
         rating: 5,
         date: "2025-10-06",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r11",
@@ -7148,7 +7105,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2025-08-14",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r13",
@@ -7165,8 +7122,7 @@ export const products: Product[] = [
         comment: "Massa demais! Atendimento podia ser um pouco mais rápido nas respostas, mas o produto compensa."
       }
     ]
-  },
-  {
+  },  {
     id: "47",
     name: "Biscoitos de THC - Red Velvet - 200mg",
     slug: "biscoitos-thc-red-velvet-200mg",
@@ -7190,7 +7146,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 32,
+    reviewCount: 37,
     reviews: [
       {
         id: "r1",
@@ -7253,14 +7209,14 @@ export const products: Product[] = [
         author: "Larissa F.",
         rating: 5,
         date: "2026-02-08",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r10",
         author: "Henrique A.",
         rating: 5,
         date: "2026-02-03",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de red velvet, nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r11",
@@ -7302,7 +7258,7 @@ export const products: Product[] = [
         author: "Natália C.",
         rating: 5,
         date: "2025-12-02",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r17",
@@ -7358,7 +7314,7 @@ export const products: Product[] = [
         author: "Otávio M.",
         rating: 5,
         date: "2025-10-05",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r25",
@@ -7372,7 +7328,7 @@ export const products: Product[] = [
         author: "Débora Q.",
         rating: 5,
         date: "2025-09-19",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de red velvet é incrível. Comprarei mais!"
       },
       {
         id: "r27",
@@ -7414,11 +7370,10 @@ export const products: Product[] = [
         author: "Carolina S.",
         rating: 5,
         date: "2025-08-18",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de red velvet, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       }
     ]
-  },
-  {
+  },  {
     id: "48",
     name: "Coned THC - Milk Chocolate",
     slug: "coned-thc-milk-chocolate",
@@ -7442,14 +7397,14 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 18,
+    reviewCount: 24,
     reviews: [
       {
         id: "r1",
         author: "Ricardo P.",
         rating: 5,
         date: "2026-04-12",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r2",
@@ -7505,7 +7460,7 @@ export const products: Product[] = [
         author: "Aline G.",
         rating: 5,
         date: "2025-12-04",
-        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonado, já virou meu favorito."
+        comment: "Mano, essa parada é absurda! Brisa suave, sabor sinistro. Tô apaixonada, já virou meu favorito."
       },
       {
         id: "r10",
@@ -7571,8 +7526,7 @@ export const products: Product[] = [
         comment: "Bicho, isso aqui é coisa séria! Sabor marcante, brisa potente sem ser pesada. Recomendo demais, parça!"
       }
     ]
-  },
-  {
+  },  {
     id: "49",
     name: "Coned THC - Strawberry Shortcake",
     slug: "coned-thc-strawberry-shortcake",
@@ -7596,7 +7550,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.5,
-    reviewCount: 11,
+    reviewCount: 26,
     reviews: [
       {
         id: "r1",
@@ -7676,8 +7630,7 @@ export const products: Product[] = [
         comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
-  },
-  {
+  },  {
     id: "50",
     name: "Coned THC - Mint Chip",
     slug: "coned-thc-mint-chip",
@@ -7701,7 +7654,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 10,
+    reviewCount: 18,
     reviews: [
       {
         id: "r1",
@@ -7729,7 +7682,7 @@ export const products: Product[] = [
         author: "Vinícius S.",
         rating: 5,
         date: "2026-02-13",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r5",
@@ -7774,8 +7727,7 @@ export const products: Product[] = [
         comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       }
     ]
-  },
-  {
+  },  {
     id: "51",
     name: "Gomas THC - Sour Green Apple - 300mg",
     slug: "gomas-thc-sour-green-apple-300mg",
@@ -7799,7 +7751,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 20,
+    reviewCount: 24,
     reviews: [
       {
         id: "r1",
@@ -7848,7 +7800,7 @@ export const products: Product[] = [
         author: "Débora Q.",
         rating: 5,
         date: "2026-02-26",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de sour green apple (maçã verde azeda), nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r8",
@@ -7918,7 +7870,7 @@ export const products: Product[] = [
         author: "André M.",
         rating: 5,
         date: "2025-10-22",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de sour green apple (maçã verde azeda) é incrível. Comprarei mais!"
       },
       {
         id: "r18",
@@ -7942,8 +7894,7 @@ export const products: Product[] = [
         comment: "Demorou nadinha pra chegar, embalado super bem. Produto então... brisa de outro mundo, recomendo!"
       }
     ]
-  },
-  {
+  },  {
     id: "52",
     name: "Gomas THC - Georgia Peach - 300mg",
     slug: "gomas-thc-georgia-peach-300mg",
@@ -7967,7 +7918,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.3,
-    reviewCount: 11,
+    reviewCount: 15,
     reviews: [
       {
         id: "r1",
@@ -8047,8 +7998,7 @@ export const products: Product[] = [
         comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
-  },
-  {
+  },  {
     id: "53",
     name: "Delta 9 THC - Kiwi Burst - 300mg",
     slug: "gomas-delta9-euphoria-300mg",
@@ -8074,7 +8024,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 19,
+    reviewCount: 28,
     reviews: [
       {
         id: "r1",
@@ -8130,7 +8080,7 @@ export const products: Product[] = [
         author: "Tiago R.",
         rating: 5,
         date: "2025-12-23",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r9",
@@ -8144,7 +8094,7 @@ export const products: Product[] = [
         author: "Júlio J.",
         rating: 5,
         date: "2025-11-25",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de kiwi burst (explosão de kiwi), brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r11",
@@ -8210,8 +8160,7 @@ export const products: Product[] = [
         comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
-  },
-  {
+  },  {
     id: "54",
     name: "Delta 9 THC - Midnight Berry - 300mg",
     slug: "gomas-delta9-midnight-berry-300mg",
@@ -8237,7 +8186,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.6,
-    reviewCount: 19,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
@@ -8279,7 +8228,7 @@ export const products: Product[] = [
         author: "Davi R.",
         rating: 5,
         date: "2026-03-12",
-        comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
+        comment: "Cara, fiquei impressionado! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       },
       {
         id: "r7",
@@ -8373,8 +8322,7 @@ export const products: Product[] = [
         comment: "Maravilha! Comprei pra dar de presente e o cara amou. Embalagem linda, produto na descrição."
       }
     ]
-  },
-  {
+  },  {
     id: "55",
     name: "Delta 9 THC - Mango Crush - 300mg",
     slug: "gomas-delta9-mango-crush-300mg",
@@ -8400,7 +8348,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 27,
+    reviewCount: 35,
     reviews: [
       {
         id: "r1",
@@ -8421,14 +8369,14 @@ export const products: Product[] = [
         author: "Sofia O.",
         rating: 5,
         date: "2026-03-10",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de mango crush (manga tropical), nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r4",
         author: "Marcelo F.",
         rating: 5,
         date: "2026-02-24",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r5",
@@ -8442,7 +8390,7 @@ export const products: Product[] = [
         author: "Helena S.",
         rating: 5,
         date: "2026-02-16",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de mango crush (manga tropical), brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r7",
@@ -8470,7 +8418,7 @@ export const products: Product[] = [
         author: "Ricardo P.",
         rating: 5,
         date: "2025-12-30",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r11",
@@ -8505,7 +8453,7 @@ export const products: Product[] = [
         author: "Nathan O.",
         rating: 5,
         date: "2025-11-06",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de mango crush (manga tropical) é incrível. Comprarei mais!"
       },
       {
         id: "r16",
@@ -8575,7 +8523,7 @@ export const products: Product[] = [
         author: "Vitória E.",
         rating: 5,
         date: "2025-08-14",
-        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciado!"
+        comment: "Slk, que parada boa! Não arranha a garganta, sabor natural e o efeito é massa demais. Tô viciada!"
       },
       {
         id: "r26",
@@ -8592,8 +8540,7 @@ export const products: Product[] = [
         comment: "Bagulho doido demais! Brisa potente mas sem deixar mole, perfeito pra curtir um som. Top!"
       }
     ]
-  },
-  {
+  },  {
     id: "56",
     name: "Delta 9 THC - Blue Dream - 300mg",
     slug: "gomas-delta9-blue-dream-300mg",
@@ -8619,7 +8566,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 16,
+    reviewCount: 24,
     reviews: [
       {
         id: "r1",
@@ -8633,7 +8580,7 @@ export const products: Product[] = [
         author: "Mariana T.",
         rating: 5,
         date: "2026-04-06",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeita. Atendimento e produto nota 10."
       },
       {
         id: "r3",
@@ -8675,7 +8622,7 @@ export const products: Product[] = [
         author: "Tiago R.",
         rating: 5,
         date: "2026-03-07",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r9",
@@ -8696,7 +8643,7 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2025-12-19",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonado! Sabor de blue dream (mirtilo), nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r12",
@@ -8734,8 +8681,7 @@ export const products: Product[] = [
         comment: "Demorou uns 12 dias pra chegar, achei muito. Produto em si é bom, mas a logística precisa melhorar."
       }
     ]
-  },
-  {
+  },  {
     id: "57",
     name: "Delta 9 THC - Strawberry Shortcake - 300mg",
     slug: "gomas-delta9-strawberry-shortcake-300mg",
@@ -8761,8 +8707,8 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.1,
-    reviewCount: 9,
-    reviews: [
+    reviewCount: 21,
+   reviews: [
       {
         id: "r1",
         author: "Bianca U.",
@@ -8817,7 +8763,7 @@ export const products: Product[] = [
         author: "Wesley L.",
         rating: 4,
         date: "2025-08-24",
-        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquila."
+        comment: "Gostei, recomendo! Sabor é bom mas podia ser mais marcante pro meu gosto. Brisa tranquilo."
       },
       {
         id: "r9",
@@ -8827,8 +8773,7 @@ export const products: Product[] = [
         comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
       }
     ]
-  },
-  {
+  }},  {
     id: "58",
     name: "Delta 9 THC - Pink Lemonade - 300mg",
     slug: "gomas-delta9-pink-lemonade-300mg",
@@ -8854,7 +8799,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 31,
+    reviewCount: 38,
     reviews: [
       {
         id: "r1",
@@ -8896,7 +8841,7 @@ export const products: Product[] = [
         author: "Nathan O.",
         rating: 5,
         date: "2026-02-28",
-        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. Amando!"
+        comment: "Meu Deus, que delícia! Puxada bem suave, sem tossir. Brisa certinha, não pesa. amando!"
       },
       {
         id: "r7",
@@ -8910,7 +8855,7 @@ export const products: Product[] = [
         author: "Anderson N.",
         rating: 5,
         date: "2026-02-26",
-        comment: "Tô passada com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
+        comment: "Tô passado com a qualidade! Não esperava ser tão bom assim, sinceramente. Comprarei de novo, com certeza."
       },
       {
         id: "r9",
@@ -8952,7 +8897,7 @@ export const products: Product[] = [
         author: "Ícaro T.",
         rating: 5,
         date: "2025-11-30",
-        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de respeito e a brisa é incrível. Comprarei mais!"
+        comment: "Pô, simplesmente o melhor! Puxada macia, sabor de pink lemonade (limonada rosa) é incrível. Comprarei mais!"
       },
       {
         id: "r15",
@@ -8966,7 +8911,7 @@ export const products: Product[] = [
         author: "Caio D.",
         rating: 5,
         date: "2025-11-26",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim hein! Sabor de pink lemonade (limonada rosa), brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
       },
       {
         id: "r17",
@@ -9001,7 +8946,7 @@ export const products: Product[] = [
         author: "Bia C.",
         rating: 5,
         date: "2025-10-23",
-        comment: "Velho, tô apaixonada! Sabor de banana de verdade, nada artificial. Relaxa sem deixar mole, perfeito."
+        comment: "Velho, tô apaixonada! Sabor de pink lemonade (limonada rosa), nada artificial. Relaxa sem deixar mole, perfeito."
       },
       {
         id: "r22",
@@ -9022,7 +8967,7 @@ export const products: Product[] = [
         author: "Wesley L.",
         rating: 5,
         date: "2025-10-08",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. tô amando demais, já recomendei pra galera."
       },
       {
         id: "r25",
@@ -9074,8 +9019,7 @@ export const products: Product[] = [
         comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
       }
     ]
-  },
-  {
+  },  {
     id: "59",
     name: "Kit Sunrise Sativa - 3 Canetas THC Live Resin",
     slug: "kit-sunrise-sativa-3-unidades",
@@ -9257,8 +9201,7 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
-  },
-  {
+  },  {
     id: "60",
     name: "Kit Relaxation Indica - 3 Canetas THC Live Resin",
     slug: "kit-relaxation-indica-3-unidades",
@@ -9461,8 +9404,7 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
-  },
-  {
+  },  {
     id: "61",
     name: "Kit Sweet Blend Híbrido - 3 Canetas THC Live Resin",
     slug: "kit-sweet-blend-hibrido-3-unidades",
@@ -9567,8 +9509,7 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
-  },
-  {
+  },  {
     id: "62",
     name: "Kit Variety Pack - 3 Canetas THC Live Resin Variadas",
     slug: "kit-variety-pack-3-unidades",
@@ -9736,8 +9677,7 @@ export const products: Product[] = [
       }
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
-  },
-  {
+  },  {
     id: "63",
     name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
     slug: "kit-mega-pack-10-unidades",
