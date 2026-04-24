@@ -4862,6 +4862,7 @@ export const products: Product[] = [
     id: "224",
     name: "Packwoods x Runtz Red Velvet Cake 2g",
     slug: "packwoods-runtz-red-velvet-cake",
+    price: 179.90,
     description: "Packwoods x Runtz Red Velvet Cake 2g traz o sabor irresistível do clássico bolo americano em formato vape descartável premium. Notas doces e cremosas de baunilha com toques sutis de cacau, entregando uma brisa híbrida equilibrada que relaxa sem deixar mole. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
     details: [
       "Alta concentração de THC",
