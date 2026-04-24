@@ -7631,20 +7631,6 @@ export const products: Product[] = [
         rating: 4,
         date: "2025-12-22",
         comment: "O sabor morango é o melhor na minha opinião, bem docinho e natural. Achei a brisa um pouco leve, mas pra quem tá começando é perfeito. Recomendo!"
-      },
-      {
-        id: "r4",
-        author: "Thiago N.",
-        rating: 5,
-        date: "2025-12-09",
-        comment: "Chegou rapidinho, embalagem bonita e bem protegida. Os três sabores são ótimos, dá pra variar. Já virou meu doce favorito pra desacelerar."
-      },
-      {
-        id: "r5",
-        author: "Juliana O.",
-        rating: 5,
-        date: "2025-11-26",
-        comment: "Que delícia! Discreto, gostoso e funciona direitinho. Adorei poder levar na bolsa sem chamar atenção. Já tô planejando a próxima compra."
       }
     ]
   },  {
