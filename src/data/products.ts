@@ -7169,6 +7169,60 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "215",
+    name: "Cannabis Lollipops - Northern Lights x Pineapple Express",
+    slug: "cannabis-lollipops-northern-lights-pineapple",
+    price: 39.90,
+    originalPrice: 59.90,
+    description: "Cannabis Lollipops Northern Lights x Pineapple Express é o pirulito artesanal da Dr. Greenlove Amsterdam que une o sabor doce e tropical do abacaxi com o toque herbal e relaxante da Northern Lights. Cada pirulito traz uma experiência saborosa, discreta e prática, perfeita pra quem curte um docinho com vibe canábica sem precisar fumar. Embalagem individual, ideal pra levar pra qualquer rolê e curtir aquela brisa leve com gostinho de festa.",
+    details: [
+      "Tipo: Pirulito Cannabis",
+      "Sabor: Northern Lights x Pineapple Express",
+      "Notas: Abacaxi tropical, toque herbal canábico",
+      "Formato: Pirulito individual",
+      "Marca: Dr. Greenlove Amsterdam",
+      "Efeitos principais: Relaxado, Feliz, Suave",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito moderado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/cannabis-lollipops-northern-lights-pineapple-1.jpg"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.7,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Bruno T.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Cara, esse pirulito é braba demais! Sabor de abacaxi de verdade, nada artificial. A brisa veio bem leve, perfeita pra um rolê tranquilo no fim de tarde."
+      },
+      {
+        id: "r2",
+        author: "Camila R.",
+        rating: 5,
+        date: "2025-12-28",
+        comment: "Amei! Discreto, fácil de levar na bolsa e o gostinho de Pineapple é viciante. Já tô pedindo mais."
+      },
+      {
+        id: "r3",
+        author: "Diego P.",
+        rating: 4,
+        date: "2025-12-15",
+        comment: "Brisa boa, sabor top, mas demorou uns 50 minutos pra bater. Vale a paciência. Recomendo pra quem nunca experimentou comestível."
+      },
+      {
+        id: "r4",
+        author: "Letícia M.",
+        rating: 5,
+        date: "2025-11-30",
+        comment: "Chegou rapidinho, embalado direitinho. Adorei a mistura do abacaxi com a Northern, ficou chapado de boa, sem exagero."
+      }
+    ]
+  },  {
     id: "46",
     name: "Biscoitos de THC - Birthday Cake - 200mg",
     slug: "biscoitos-thc-birthday-cake-200mg",
