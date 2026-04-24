@@ -55,7 +55,6 @@ export const products: Product[] = [
     ]
   },
   {
-  {
     id: "209",
     name: "Packwoods x Runtz Sour Apple Punch 2g",
     slug: "packwoods-runtz-sour-apple-punch",
