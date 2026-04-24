@@ -4706,7 +4706,6 @@ export const products: Product[] = [
     price: 149.90,
     originalPrice: 219.90,
     description: "Packwoods x Runtz Wedding Cake é uma das strains mais cultuadas da Califórnia, agora em formato vape descartável premium. Sabor doce e cremoso de baunilha com toques amanteigados e um final terroso característico da Wedding Cake. Tecnologia Live Resin + Diamonds entregando brisa potente, suave e duradoura. A colaboração lendária entre Packwoods e Runtz para quem busca relaxamento profundo e sabor inesquecível.",
-    description: "Packwoods x Runtz Wedding Cake é uma das strains mais cultuadas da Califórnia, agora em formato vape descartável premium. Sabor doce e cremoso de baunilha com toques amanteigados e um final terroso característico da Wedding Cake. Tecnologia Live Resin + Diamonds entregando brisa potente, suave e duradoura. A colaboração lendária entre Packwoods e Runtz para quem busca relaxamento profundo e sabor inesquecível.",
     details: [
       "Alta concentração de THC",
       "Tipo: Híbrida (Indica dominante)",
