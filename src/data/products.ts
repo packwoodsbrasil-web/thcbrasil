@@ -4698,10 +4698,6 @@ export const products: Product[] = [
         comment: "Cara, fiquei impressionada! O sabor é de longe o melhor que já experimentei. Vou pedir mais!"
       }
     ]
-  },  {
-    id: "200",
-    name: "Packwoods Runtz Fruta Proibida",
-    slug: "packwoods-runtz-fruta-proibida-placeholder-marker",
   },
   {
     id: "201",
