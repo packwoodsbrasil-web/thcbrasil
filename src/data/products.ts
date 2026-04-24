@@ -7169,6 +7169,54 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "219",
+    name: "Euphoria Cannabis Gummies - Strawberry Haze",
+    slug: "euphoria-cannabis-gummies-morango-haze",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Euphoria Cannabis Gummies Strawberry Haze são gomas artesanais sabor morango infusionadas com 90mg de óleo de cannabis por goma. Embalagem de 50g com aquela arte psicodélica que já virou marca registrada. Sabor doce e marcante de morango maduro, perfeito pra um momento de relaxamento, criatividade ou rolê descontraído. Discreto, prático e com dose generosa pra curtir aos poucos.",
+    details: [
+      "Tipo: Goma Cannabis",
+      "Quantidade: 50g por embalagem",
+      "Sabor: Strawberry Haze (Morango)",
+      "Dosagem: 90mg de óleo de cannabis por goma",
+      "Notas: Doce, frutado e suave",
+      "Marca: Euphoria",
+      "Efeitos principais: Relaxado, Feliz, Criativo",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/euphoria-cannabis-gummies-morango-haze-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 8,
+    reviews: [
+      {
+        id: "r1",
+        author: "Isabela M.",
+        rating: 5,
+        date: "2026-03-04",
+        comment: "Sabor de morango maravilhoso, parece bala de morango de verdade! Brisa veio bem gostosa, super criativa. Já é minha favorita da linha Euphoria."
+      },
+      {
+        id: "r2",
+        author: "Gabriel P.",
+        rating: 5,
+        date: "2026-02-19",
+        comment: "Embalagem linda, arte muito daora. Comprei junto com a Apple OG e essa de morango ganhou disparado. Efeito forte e duradouro, vale cada centavo."
+      },
+      {
+        id: "r3",
+        author: "Natália V.",
+        rating: 4,
+        date: "2026-01-30",
+        comment: "Bem gostosa, sabor natural sem aquele gosto químico de outras gomas. Achei a dose um pouco forte pra quem é iniciante, mas nada que cortar ao meio não resolva."
+      }
+    ]
+  },  {
     id: "218",
     name: "Euphoria Cannabis Gummies - Apple OG",
     slug: "euphoria-cannabis-gummies-apple-og",
