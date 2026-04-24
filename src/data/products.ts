@@ -7172,8 +7172,8 @@ export const products: Product[] = [
     id: "220",
     name: "Twisted Extracts - Sour Grape",
     slug: "twisted-extracts-sour-grape",
-    price: 59.90,
-    originalPrice: 89.90,
+    price: 72.90,
+    originalPrice: 99.90,
     description: "Twisted Extracts Sour Grape Twisted Singles são gomas indica de uva azedinha com 160mg de THC total (16 unidades x 10mg). Dose precisa, sabor marcante de uva sour e efeito relaxante característico das cepas indica. Perfeitas pra desligar a mente no fim do dia, melhorar o sono e curtir aquele relaxamento profundo. Embalagem prática com selo de qualidade canadense, ideais pra quem busca controle total da dosagem.",
     details: [
       "Tipo: Goma Cannabis Indica",
