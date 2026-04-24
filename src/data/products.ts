@@ -4700,11 +4700,6 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "201",
-    name: "Packwoods x Runtz Sour Banana Kush",
-    slug: "packwoods-runtz-sour-banana-kush-MARKER-REMOVE",
-  },
-  {
     id: "202",
     name: "Packwoods x Runtz Wedding Cake",
     slug: "packwoods-runtz-wedding-cake",
