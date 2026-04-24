@@ -7576,6 +7576,13 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-12-30",
         comment: "Pra quem não curte THC mas quer aproveitar o CBD, é perfeito. Relaxa de verdade sem alterar nada. Levei numa viagem e foi ótimo pra dormir bem."
+      },
+      {
+        id: "r5",
+        author: "Aline G.",
+        rating: 5,
+        date: "2025-12-12",
+        comment: "Bala de menta com CBD é a combinação perfeita pra ansiedade. Uso uma de manhã antes do trabalho e me ajuda a focar sem ficar lesada."
       }
     ]
   },  {
