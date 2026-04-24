@@ -10273,9 +10273,47 @@ export const products: Product[] = [
     ],
     promoTag: "🚀 MEGA PACK!"
   }
+  ,
+  {
+    id: "229",
+    name: "Packwoods x Packs Ice Cream Indica Long Edition 2g",
+    slug: "packwoods-packs-ice-cream-indica",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods x Packs Ice Cream Indica 2g é um blunt premium infundido, com flor de qualidade selecionada e cobertura de kief, embalado no clássico tubo Packs com tampa drip roxa. Sabor doce e cremoso de sorvete, brisa indica relaxante que acalma corpo e mente. Pré-rolado pronto pra fumar, ideal pra desacelerar no fim do dia.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica",
+      "Potência: 42% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Premium Flower + Kief Coating",
+      "Efeitos principais: Relaxante, Sonolento, Calmante",
+      "Sabor: Sorvete cremoso, baunilha doce, toque terroso",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Packs - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-packs-ice-cream-indica-1.png"],
+    category: "Blunts",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 11,
+    reviews: [
+      { id: "pic-r1", author: "Henrique B.", rating: 5, date: "2026-04-22", comment: "Mano, esse blunt é outro nível! Sabor de sorvete real, brisa indica que relaxa geral." },
+    { id: "pic-r2", author: "Larissa M.", rating: 5, date: "2026-04-15", comment: "Apaixonei! Cremoso, suave e a indica bate certinho pra dormir bem. Top demais." },
+      { id: "pic-r3", author: "Vinicius A.", rating: 4, date: "2026-04-08", comment: "Muito bom, queima parelha e o kief por fora dá um up no sabor. Vale o preço promocional." },
+      { id: "pic-r4", author: "Patrícia N.", rating: 5, date: "2026-03-30", comment: "Sensacional! Sabor doce na medida, brisa pesada gostosa. Embalagem linda também." },
+      { id: "pic-r5", author: "Eduardo F.", rating: 5, date: "2026-03-22", comment: "Brabo demais! 2g rendendo super bem, perfeito pra dividir com os amigos." },
+      { id: "pic-r6", author: "Juliana T.", rating: 5, date: "2026-03-12", comment: "Que delícia de blunt! Indica relaxante de verdade, sabor cremoso viciante." },
+      { id: "pic-r7", author: "Marcelo D.", rating: 5, date: "2026-03-01", comment: "Top dos tops! Pré-rolado perfeito, não precisa mexer em nada. Brisa gostosa e duradoura." },
+      { id: "pic-r8", author: "Aline R.", rating: 4, date: "2026-02-18", comment: "Produto excelente, chegou rapidinho. Sabor de sorvete aparece bonito nas primeiras tragadas." }
+    ],
+    promoTag: "39% OFF"
+  }
 ];
 
-export const categories: string[] = ["Canetas", "Vapes", "Comestíveis", "Kits"];
+export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Kits"];
 
 export const getProductBySlug = (slug: string): Product | undefined => {
   return products.find((product) => product.slug === slug);
