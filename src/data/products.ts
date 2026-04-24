@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 19,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "mln-r1", author: "Caio R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Melonade é absurdo! Sabor de melão refrescante, limonada na medida. Top demais!" },
@@ -78,7 +78,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 47,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "sap-r1", author: "Murilo C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Apple Punch é absurdo! Maçã verde azedinha viciante, brisa top demais!" },
@@ -131,7 +131,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 63,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "vog-r1", author: "Rodrigo M.", rating: 5, date: "2026-04-23", comment: "Mano, esse Venom OG é absurdo! Brisa potente de verdade, sabor terroso clássico. Top demais!" },
@@ -184,7 +184,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 34,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "sbd-r1", author: "Thiago R.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Blue Dream é absurdo! Sabor de mirtilo com aquele azedinho viciante, brisa top." },
@@ -4935,7 +4935,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 52,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "gj-r1", author: "Bruno H.", rating: 5, date: "2026-04-23", comment: "Mano, esse Grape Juice é absurdo! Sabor de uva natural, brisa relaxante de verdade. 2g dura muito!" },
