@@ -4701,7 +4701,7 @@ export const products: Product[] = [
   },
   {
     id: "204",
-    name: "Packwoods x Runtz Strawberry Cough",
+    name: "Packwoods x Runtz Strawberry Cough 1g",
     slug: "packwoods-runtz-strawberry-cough",
     price: 149.90,
     originalPrice: 219.90,
@@ -4754,7 +4754,7 @@ export const products: Product[] = [
   },
   {
     id: "203",
-    name: "Packwoods x Runtz White Gummy",
+    name: "Packwoods x Runtz White Gummy 1g",
     slug: "packwoods-runtz-white-gummy",
     price: 149.90,
     originalPrice: 219.90,
@@ -4807,7 +4807,7 @@ export const products: Product[] = [
   },
   {
     id: "202",
-    name: "Packwoods x Runtz Wedding Cake",
+    name: "Packwoods x Runtz Wedding Cake 1g",
     slug: "packwoods-runtz-wedding-cake",
     price: 149.90,
     originalPrice: 219.90,
@@ -4860,7 +4860,7 @@ export const products: Product[] = [
   },
   {
     id: "201",
-    name: "Packwoods x Runtz Sour Banana Kush",
+    name: "Packwoods x Runtz Sour Banana Kush 1g",
     slug: "packwoods-runtz-sour-banana-kush",
     price: 149.90,
     originalPrice: 219.90,
@@ -4913,7 +4913,7 @@ export const products: Product[] = [
   },
   {
     id: "200",
-    name: "Packwoods x Runtz Fruta Proibida",
+    name: "Packwoods x Runtz Fruta Proibida 1g",
     slug: "packwoods-runtz-fruta-proibida",
     price: 149.90,
     originalPrice: 219.90,
