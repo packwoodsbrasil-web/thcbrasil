@@ -21,7 +21,7 @@ export const products: Product[] = [
       "Certificado: 100% State Certified Clean",
       "Origem: Packwoods x Runtz - Califórnia, EUA"
     ],
-    images: ["/images/sour-apple-punch-1.jpg", "/images/sour-apple-punch-2.jpg"],
+    images: ["/images/sour-apple-punch-1.jpg"],
     category: "Vapes",
     inStock: true,
     rating: 4.9,
