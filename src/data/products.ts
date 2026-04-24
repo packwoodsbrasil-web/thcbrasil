@@ -26,7 +26,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 24,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "stg-r1", author: "Lucas A.", rating: 5, date: "2026-04-24", comment: "Mano, esse Sour Tangie é absurdo! Sabor cítrico viciante, brisa energética top demais!" },
       { id: "stg-r2", author: "Beatriz P.", rating: 5, date: "2026-04-23", comment: "Apaixonada nesse vape! Tangerina na medida, azedinho equilibrado. 2g rende muito." },
@@ -79,7 +79,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 38,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "pkr-r1", author: "Júlia M.", rating: 5, date: "2026-04-24", comment: "Mano, esse Pink Rozay é absurdo! Sabor de frutas vermelhas elegante, brisa top demais!" },
       { id: "pkr-r2", author: "Rafaela P.", rating: 5, date: "2026-04-23", comment: "Apaixonada nesse vape! Floral na medida, doce equilibrado. 2g rende muito." },
@@ -132,7 +132,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 19,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "mln-r1", author: "Caio R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Melonade é absurdo! Sabor de melão refrescante, limonada na medida. Top demais!" },
       { id: "mln-r2", author: "Júlia P.", rating: 5, date: "2026-04-23", comment: "Apaixonada nesse vape! Refresca de um jeito único, sabor marcante. 2g rende muito." },
@@ -238,7 +238,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 63,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "vog-r1", author: "Rodrigo M.", rating: 5, date: "2026-04-23", comment: "Mano, esse Venom OG é absurdo! Brisa potente de verdade, sabor terroso clássico. Top demais!" },
       { id: "vog-r2", author: "Patrícia L.", rating: 5, date: "2026-04-22", comment: "Apaixonada nesse vape! Relaxa de um jeito único, sabor marcante. 2g rende muito." },
@@ -291,7 +291,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 34,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "sbd-r1", author: "Thiago R.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Blue Dream é absurdo! Sabor de mirtilo com aquele azedinho viciante, brisa top." },
       { id: "sbd-r2", author: "Camila P.", rating: 5, date: "2026-04-22", comment: "Apaixonada nesse vape! Cítrico na medida, doce equilibrado. 2g rende demais, vale cada centavo." },
@@ -5042,7 +5042,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 52,
-    promoTag: "NOVIDADE",
+    promoTag: "24% OFF",
     reviews: [
       { id: "gj-r1", author: "Bruno H.", rating: 5, date: "2026-04-23", comment: "Mano, esse Grape Juice é absurdo! Sabor de uva natural, brisa relaxante de verdade. 2g dura muito!" },
       { id: "gj-r2", author: "Larissa M.", rating: 5, date: "2026-04-22", comment: "Apaixonada nesse vape! Uva docinha na medida, puxada cremosa. Vale cada centavo." },
@@ -5095,7 +5095,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 27,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       { id: "st-r1", author: "Felipe A.", rating: 5, date: "2026-04-23", comment: "Mano, esse sabor cítrico é viciante! Tangerina de verdade, brisa animada. Top demais!" },
       { id: "st-r2", author: "Camila R.", rating: 5, date: "2026-04-22", comment: "Apaixonada nesse vape! Azedinho na medida certa, super suave. Já é meu favorito." },
@@ -5148,7 +5148,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 26,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       { id: "sc-r1", author: "João V.", rating: 5, date: "2026-04-23", comment: "Mano, sabor de morango de verdade! Brisa energética, perfeita pro dia. Recomendo demais!" },
       { id: "sc-r2", author: "Mariana T.", rating: 5, date: "2026-04-21", comment: "Apaixonada! Doce na medida certa, super suave na garganta. Já é meu vape favorito." },
@@ -5201,7 +5201,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 25,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       { id: "wg-r1", author: "Lucas M.", rating: 5, date: "2026-04-23", comment: "Mano, esse aqui é parada séria! Sabor de goma branca igualzinho, brisa lisa e potente. Recomendo demais!" },
       { id: "wg-r2", author: "Beatriz S.", rating: 5, date: "2026-04-21", comment: "Apaixonada! Sabor doce na medida certa, super suave na garganta. Já é meu favorito da coleção." },
@@ -5254,7 +5254,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 27,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       { id: "wc-r1", author: "Pedro H.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! Sabor de baunilha cremoso, brisa lisinha e potente. Wedding Cake é clássico, não tem erro!" },
       { id: "wc-r2", author: "Isabela M.", rating: 5, date: "2026-04-19", comment: "Apaixonada nesse vape! Sabor amanteigado é maravilhoso, super suave na garganta. Já é meu favorito!" },
@@ -5307,7 +5307,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 26,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       { id: "sbk-r1", author: "Thiago R.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! O sabor de banana com aquele azedinho é viciante demais. Brisa lisa, sem travar a garganta. Recomendo geral!" },
       { id: "sbk-r2", author: "Camila S.", rating: 5, date: "2026-04-20", comment: "Apaixonada nesse vape! O sabor de Kush no final é maravilhoso, fica suave e relaxante. Já é meu favorito da coleção." },
@@ -5360,7 +5360,7 @@ export const products: Product[] = [
     inStock: true,
     rating: 4.9,
     reviewCount: 28,
-    promoTag: "NOVIDADE",
+    promoTag: "32% OFF",
     reviews: [
       {
         id: "r1",
