@@ -7686,6 +7686,20 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-11-30",
         comment: "Chegou rapidinho, embalado direitinho. Adorei a mistura do abacaxi com a Northern, ficou chapado de boa, sem exagero."
+      },
+      {
+        id: "r5",
+        author: "Marcelo F.",
+        rating: 5,
+        date: "2025-11-12",
+        comment: "Pirulito top! Sabor de abacaxi parece doce de verdade, nada artificial. Brisa relaxante, perfeita pra fim de semana."
+      },
+      {
+        id: "r6",
+        author: "Renata J.",
+        rating: 4,
+        date: "2025-10-25",
+        comment: "Gostei bastante, sabor diferente. Demora um pouco pra fazer efeito mas vale a pena esperar. Recomendo pra iniciantes."
       }
     ]
   },  {
