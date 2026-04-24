@@ -4930,6 +4930,40 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "226",
+    name: "Packwoods x Runtz Blue Berry Souffle 2g",
+    slug: "packwoods-runtz-blue-berry-souffle",
+    price: 179.90,
+    description: "Packwoods x Runtz Blue Berry Souffle 2g é uma sobremesa em formato vape descartável premium! Sabor irresistível de mirtilo maduro com aquele toque cremoso de souffle francês, doce e sofisticado. Brisa híbrida equilibrada que entrega relaxamento profundo, bom humor e sensação de leveza. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 93% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Relaxante, Feliz, Eufórico",
+      "Sabor: Mirtilo doce, creme aveludado, sobremesa",
+      "Qualidade: 100% Potency Disposable",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-blue-berry-souffle-1.jpg"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 12,
+    reviews: [
+      { id: "bbs-r1", author: "Renato C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Blue Berry Souffle é absurdo! Sabor de mirtilo cremoso, brisa massa demais." },
+      { id: "bbs-r2", author: "Tatiana L.", rating: 5, date: "2026-04-17", comment: "Apaixonada! Doce na medida, parece sobremesa de verdade. 2g rende muito, recomendo!" },
+      { id: "bbs-r3", author: "Felipe A.", rating: 5, date: "2026-04-11", comment: "Brabo, parça! Híbrida equilibrada, relaxa sem apagar. Sabor de blueberry explode na boca." },
+      { id: "bbs-r4", author: "Mariane S.", rating: 4, date: "2026-04-04", comment: "Muito bom, sabor sofisticado e diferente. Só achei a puxada um pouco forte no começo." },
+      { id: "bbs-r5", author: "Gustavo P.", rating: 5, date: "2026-03-27", comment: "Sensacional! Live Resin entrega demais, sabor cremoso e duradouro. Top de linha." },
+      { id: "bbs-r6", author: "Larissa K.", rating: 5, date: "2026-03-18", comment: "Que delícia, gente! Perfeito pra fim de noite, brisa relaxante. Já é meu favorito." },
+      { id: "bbs-r7", author: "Bruno T.", rating: 5, date: "2026-03-08", comment: "Top demais! Embalagem discreta, chegou rápido. Sabor de mirtilo é simplesmente único." }
+    ]
+  },
+  {
     id: "206",
     name: "Packwoods x Runtz Grape Juice 2g",
     slug: "packwoods-runtz-grape-juice",
