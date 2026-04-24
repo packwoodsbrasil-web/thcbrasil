@@ -4859,6 +4859,42 @@ export const products: Product[] = [
     ]
   },
   {
+    id: "224",
+    name: "Packwoods x Runtz Red Velvet Cake 2g",
+    slug: "packwoods-runtz-red-velvet-cake",
+    price: 179.90,
+    description: "Packwoods x Runtz Red Velvet Cake 2g traz o sabor irresistível do clássico bolo americano em formato vape descartável premium. Notas doces e cremosas de baunilha com toques sutis de cacau, entregando uma brisa híbrida equilibrada que relaxa sem deixar mole. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 93% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 2g (0.070oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Relaxante, Feliz, Criativo",
+      "Sabor: Bolo doce, baunilha, cacau cremoso",
+      "Qualidade: 100% Potency Disposable",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-red-velvet-cake-1.jpg"],
+    category: "Canetas",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 14,
+    reviews: [
+      { id: "rvc-r1", author: "Thiago M.", rating: 5, date: "2026-04-22", comment: "Mano, esse Red Velvet é absurdo! Sabor de bolinho doce de verdade, brisa massa. Recomendo!" },
+      { id: "rvc-r2", author: "Camila P.", rating: 5, date: "2026-04-18", comment: "Apaixonada! Doce na medida, cremoso, parece sobremesa mesmo. 2g dura muito tempo." },
+      { id: "rvc-r3", author: "Lucas B.", rating: 5, date: "2026-04-14", comment: "Brabo demais, parça! Híbrida equilibrada, relaxa sem apagar. Top de linha." },
+      { id: "rvc-r4", author: "Beatriz N.", rating: 4, date: "2026-04-09", comment: "Muito bom, sabor diferente e gostoso. Só achei a puxada um pouco forte no começo." },
+      { id: "rvc-r5", author: "Rodrigo S.", rating: 5, date: "2026-04-02", comment: "Sensacional! Live Resin entrega muito, sabor de baunilha explode. Já virou meu favorito." },
+      { id: "rvc-r6", author: "Aline V.", rating: 5, date: "2026-03-25", comment: "Mds, que delícia! Cremoso, doce na medida certa. Perfeito pra fim de tarde." },
+      { id: "rvc-r7", author: "Felipe R.", rating: 5, date: "2026-03-19", comment: "Top demais! Chegou rápido, embalagem discreta e o produto é puro luxo. Vale cada real." },
+      { id: "rvc-r8", author: "Gabriela T.", rating: 5, date: "2026-03-10", comment: "Que vape gostoso! Sabor único, não enjoa. Brisa suave e duradoura. Amando!" },
+      { id: "rvc-r9", author: "Henrique D.", rating: 5, date: "2026-02-28", comment: "Pqp, sabor sinistro! Parece que tô comendo bolo de verdade. 2g vale demais o preço." }
+    ]
+  },
+  {
     id: "206",
     name: "Packwoods x Runtz Grape Juice 2g",
     slug: "packwoods-runtz-grape-juice",
