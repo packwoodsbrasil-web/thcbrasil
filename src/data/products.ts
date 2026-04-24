@@ -4952,7 +4952,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 12,
+    reviewCount: 11,
     reviews: [
       { id: "bbs-r1", author: "Renato C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Blue Berry Souffle é absurdo! Sabor de mirtilo cremoso, brisa massa demais." },
       { id: "bbs-r2", author: "Tatiana L.", rating: 5, date: "2026-04-17", comment: "Apaixonada! Doce na medida, parece sobremesa de verdade. 2g rende muito, recomendo!" },
