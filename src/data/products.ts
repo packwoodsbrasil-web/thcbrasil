@@ -409,7 +409,8 @@ export const products: Product[] = [
         comment: "Caraca, que produto sensacional! Chegou rapidinho, embalagem discreta e bem feita. Recomendo de olhos fechados, mano!"
       }
     ]
-  }},  {
+  },
+  {
     id: "5",
     name: "CTF",
     slug: "ctf",
@@ -2747,7 +2748,8 @@ export const products: Product[] = [
         comment: "Aí sim, brisa de qualidade! Não dá ressaca de bagulho, acordo zero, leve. Top demais!"
       }
     ]
-  }},  {
+  },
+  {
     id: "20",
     name: "White Buffalo",
     slug: "white-buffalo",
@@ -2829,7 +2831,8 @@ export const products: Product[] = [
         comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       }
     ]
-  }},  {
+  },
+  {
     id: "21",
     name: "Hi-Octane",
     slug: "hi-octane",
@@ -3675,7 +3678,8 @@ export const products: Product[] = [
         comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
       }
     ]
-  }},  {
+  },
+  {
     id: "27",
     name: "Chronic Thunder",
     slug: "chronic-thunder",
@@ -5814,7 +5818,8 @@ export const products: Product[] = [
         comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
       }
     ]
-  }},  {
+  },
+  {
     id: "39",
     name: "Blue ZKZ AIO Vape",
     slug: "blue-zkz-aio-vape",
@@ -8773,7 +8778,8 @@ export const products: Product[] = [
         comment: "Veio com a caixa rasgadinha, mas o lacre interno tava intacto. Produto cumpre o que promete, sem mais."
       }
     ]
-  }},  {
+  },
+  {
     id: "58",
     name: "Delta 9 THC - Pink Lemonade - 300mg",
     slug: "gomas-delta9-pink-lemonade-300mg",
