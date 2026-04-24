@@ -7397,27 +7397,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-03-15",
         comment: "Indica de verdade! Tomei duas antes de dormir e apaguei como nunca. Sabor de uva azedinha bem natural, lembra aquelas balinhas de uva. Recomendo demais."
-      },
-      {
-        id: "r2",
-        author: "Beatriz S.",
-        rating: 5,
-        date: "2026-02-27",
-        comment: "Pra quem sofre com insônia, é a salvação. Dose de 10mg por goma é perfeita pra ajustar do jeito que você quer. Twisted Extracts entrega qualidade sempre."
-      },
-      {
-        id: "r3",
-        author: "Marcelo H.",
-        rating: 4,
-        date: "2026-02-09",
-        comment: "Sabor é sensacional, das melhores gomas que já experimentei. Efeito é bem relaxante mesmo, tem que tomar à noite. Tirei uma estrela porque achei pouca quantidade."
-      },
-      {
-        id: "r4",
-        author: "Carolina D.",
-        rating: 5,
-        date: "2026-01-22",
-        comment: "Embalagem profissional, gomas individuais perfeitas pra controlar a dose. Sour Grape é meu sabor favorito, azedinho na medida certa. Já tô na terceira compra."
       }
     ]
   },  {
