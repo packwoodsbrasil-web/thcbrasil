@@ -7169,6 +7169,55 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "222",
+    name: "Twisted Extracts - Sour Strawberry Kiwi",
+    slug: "twisted-extracts-sour-strawberry-kiwi",
+    price: 72.90,
+    originalPrice: 99.90,
+    description: "Twisted Extracts Sour Strawberry Kiwi Twisted Singles são gomas sativa de morango com kiwi azedinho com 160mg de THC total (16 unidades x 10mg). Dose precisa, sabor exótico e equilibrado de morango com kiwi e efeito energético característico das cepas sativa. Perfeitas pra atividades criativas, socializar com a galera ou começar o dia bem disposto. Embalagem prática com selo de qualidade canadense, ideais pra quem busca controle total da dosagem.",
+    details: [
+      "Tipo: Goma Cannabis Sativa",
+      "Quantidade: 16 unidades",
+      "Sabor: Sour Strawberry Kiwi (Morango com Kiwi Azedinho)",
+      "Dosagem: 10mg de THC por goma (160mg total)",
+      "Notas: Frutado, exótico e azedo",
+      "Marca: Twisted Extracts",
+      "Cepa: Sativa",
+      "Efeitos principais: Energético, Criativo, Social",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/twisted-extracts-sour-strawberry-kiwi-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 12,
+    reviews: [
+      {
+        id: "r1",
+        author: "Renata G.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Combinação de morango com kiwi é genial! Sabor super refrescante, diferente de tudo que já experimentei. Brisa sativa bem leve e agradável."
+      },
+      {
+        id: "r2",
+        author: "Diego P.",
+        rating: 5,
+        date: "2026-03-18",
+        comment: "Perfeitas pra rolê com amigos. Dose de 10mg é ideal pra ir tomando aos poucos e não exagerar. Twisted Extracts é referência no quesito gomas."
+      },
+      {
+        id: "r3",
+        author: "Aline F.",
+        rating: 4,
+        date: "2026-02-25",
+        comment: "Sabor diferente, gostei bastante. Achei o efeito sativa bem energético, ótimo pra fazer trilha ou alguma atividade ao ar livre. Recomendo!"
+      }
+    ]
+  },  {
     id: "221",
     name: "Twisted Extracts - Sour Green Apple",
     slug: "twisted-extracts-sour-green-apple",
