@@ -4699,6 +4699,202 @@ export const products: Product[] = [
       }
     ]
   },  {
+    id: "200",
+    name: "Packwoods Runtz Fruta Proibida",
+    slug: "packwoods-runtz-fruta-proibida",
+    price: 159.90,
+    originalPrice: 219.90,
+    description: "Packwoods x Runtz Fruta Proibida é a colaboração lendária entre duas das marcas mais cobiçadas da Califórnia! Esta edição especial entrega uma explosão de sabores frutados exóticos com notas de frutas vermelhas tropicais e um toque doce de gelato. Vape descartável premium com tecnologia de ponta, perfeito para quem busca uma experiência intensa e suave ao mesmo tempo. Brisa potente, equilibrada e duradoura.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (Indica dominante)",
+      "Potência: 92% THC",
+      "Formato: All-in-One Disposable Vape",
+      "Conteúdo: 1g (0.035oz)",
+      "Tecnologia: Live Resin + Diamonds",
+      "Efeitos principais: Relaxado, Eufórico, Feliz",
+      "Sabor: Frutas vermelhas tropicais, Gelato doce",
+      "Qualidade: High Potency & Pure Quality",
+      "Certificado: 100% State Certified Clean",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/fruta-proibida-1.webp", "/images/fruta-proibida-2.jpg"],
+    category: "Vapes",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 28,
+    promoTag: "NOVIDADE",
+    reviews: [
+      {
+        id: "r1",
+        author: "Lucas M.",
+        rating: 5,
+        date: "2026-04-22",
+        comment: "Mano, que parada absurda! Sabor de fruta vermelha bate na hora, brisa potente sem deixar mole. Top dos tops, recomendo geral!"
+      },
+      {
+        id: "r2",
+        author: "Camila R.",
+        rating: 5,
+        date: "2026-04-19",
+        comment: "Mds, fiquei apaixonada! Embalagem original, lacrada certinho. Sabor frutado é viciante, brisa duradoura. Vou pedir mais!"
+      },
+      {
+        id: "r3",
+        author: "Rafael T.",
+        rating: 5,
+        date: "2026-04-15",
+        comment: "Aí sim hein, parça! Packwoods x Runtz é outro nível, original demais. Atendimento nota mil, chegou rapidinho."
+      },
+      {
+        id: "r4",
+        author: "Beatriz N.",
+        rating: 4,
+        date: "2026-04-10",
+        comment: "Curti muito viu! Sabor de gelato doce é uma delícia. Só não dou 5 porque demorou um pouquinho mais que o esperado."
+      },
+      {
+        id: "r5",
+        author: "Gustavo A.",
+        rating: 5,
+        date: "2026-04-04",
+        comment: "Slk, comprei meio na desconfiança e dá-le! Produto original, brisa fenomenal. Recomendo de olhos fechados."
+      },
+      {
+        id: "r6",
+        author: "Mariana L.",
+        rating: 3,
+        date: "2026-03-28",
+        comment: "O produto é bom, sabor gostoso, mas a embalagem chegou um pouco amassada. Por sorte o vape veio intacto, então não atrapalhou."
+      },
+      {
+        id: "r7",
+        author: "Pedro H.",
+        rating: 5,
+        date: "2026-03-22",
+        comment: "Bicho, isso aqui é coisa séria! Puxada macia, sabor marcante de frutas vermelhas. Brisa equilibrada, dura bastante."
+      },
+      {
+        id: "r8",
+        author: "Larissa F.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Velho, tô viciada! Sabor de fruta proibida é o nome certo, dá vontade de não parar. Embalagem discreta, perfeito."
+      },
+      {
+        id: "r9",
+        author: "Thiago S.",
+        rating: 5,
+        date: "2026-03-08",
+        comment: "Caraca, melhor vape que já provei! Live resin faz toda diferença, sabor puro. Vale cada centavo, parça."
+      },
+      {
+        id: "r10",
+        author: "Juliana C.",
+        rating: 4,
+        date: "2026-02-28",
+        comment: "Muito bom mesmo! Brisa gostosa, equilibrada. Tirei uma estrela só pq esperava uma duração um tiquinho maior."
+      },
+      {
+        id: "r11",
+        author: "Felipe O.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Pô, simplesmente sensacional! Packwoods nunca decepciona, e essa colab com Runtz tá no topo. Brisa fenomenal."
+      },
+      {
+        id: "r12",
+        author: "Amanda P.",
+        rating: 5,
+        date: "2026-02-12",
+        comment: "Mds do céu, que produto incrível! Chegou super rápido, embalagem discreta. Sabor doce, brisa firmeza, recomendo!"
+      },
+      {
+        id: "r13",
+        author: "Bruno V.",
+        rating: 3,
+        date: "2026-02-03",
+        comment: "Produto bom, sabor original. Demorou um pouco pra chegar, mas no fim valeu a pena. Brisa boa, sem reclamações do vape."
+      },
+      {
+        id: "r14",
+        author: "Carolina M.",
+        rating: 5,
+        date: "2026-01-25",
+        comment: "Cara, fiquei impressionada! Sabor frutado autêntico, nada artificial. Atendimento excelente, voltarei a comprar."
+      },
+      {
+        id: "r15",
+        author: "Ricardo B.",
+        rating: 5,
+        date: "2026-01-15",
+        comment: "Top demais mano! Brisa potente, equilibrada, dura horas. Packwoods x Runtz é parada séria, recomendo!"
+      },
+      {
+        id: "r16",
+        author: "Natália K.",
+        rating: 5,
+        date: "2026-01-05",
+        comment: "Que delícia de produto! Sabor de gelato com fruta é viciante. Embalagem original, lacrada. Perfeito."
+      },
+      {
+        id: "r17",
+        author: "Murilo D.",
+        rating: 4,
+        date: "2025-12-22",
+        comment: "Curti muito! Sabor original, brisa boa. Tirei uma estrela só pq a entrega podia ser um pouquinho mais rápida."
+      },
+      {
+        id: "r18",
+        author: "Isabela R.",
+        rating: 5,
+        date: "2025-12-10",
+        comment: "Bagulho doido demais! Comprei pra curtir um som e foi outro patamar. Sabor sensacional, brisa equilibrada."
+      },
+      {
+        id: "r19",
+        author: "Diego F.",
+        rating: 5,
+        date: "2025-11-28",
+        comment: "Slk, esse aqui virou meu favorito! Live resin entrega tudo que promete. Atendimento top, suporte sempre presente."
+      },
+      {
+        id: "r20",
+        author: "Patrícia L.",
+        rating: 3,
+        date: "2025-11-15",
+        comment: "Produto bom, sabor agradável. A caixa chegou meio amassada, mas o conteúdo veio perfeito, então tudo certo no fim."
+      },
+      {
+        id: "r21",
+        author: "Henrique S.",
+        rating: 5,
+        date: "2025-10-30",
+        comment: "Mano, parada absurda mesmo! Original, lacrado, brisa potente sem ser pesada. Recomendo de olhos fechados, parça!"
+      },
+      {
+        id: "r22",
+        author: "Gabriela A.",
+        rating: 5,
+        date: "2025-10-12",
+        comment: "Velho, tô apaixonada por esse vape! Sabor de fruta vermelha é incrível. Embalagem discreta como prometido."
+      },
+      {
+        id: "r23",
+        author: "Vitor J.",
+        rating: 4,
+        date: "2025-09-25",
+        comment: "Muito bom! Brisa gostosa, sabor marcante. Demorou um pouco mais do que esperava mas valeu a espera."
+      },
+      {
+        id: "r24",
+        author: "Letícia M.",
+        rating: 5,
+        date: "2025-09-08",
+        comment: "Mds, que produto sensacional! Packwoods x Runtz é colab dos sonhos. Sabor frutado, brisa firmeza. Top!"
+      }
+    ]
+  },  {
     id: "32",
     name: "Blue Dream AIO Vape",
     slug: "blue-dream-aio-vape",
