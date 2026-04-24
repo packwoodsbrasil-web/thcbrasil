@@ -4701,7 +4701,7 @@ export const products: Product[] = [
   },
   {
     id: "201",
-    name: "Packwoods Runtz Sour Banana Kush",
+    name: "Packwoods x Runtz Sour Banana Kush",
     slug: "packwoods-runtz-sour-banana-kush",
     price: 149.90,
     originalPrice: 219.90,
@@ -4754,7 +4754,7 @@ export const products: Product[] = [
   },
   {
     id: "200",
-    name: "Packwoods Runtz Fruta Proibida",
+    name: "Packwoods x Runtz Fruta Proibida",
     slug: "packwoods-runtz-fruta-proibida",
     price: 149.90,
     originalPrice: 219.90,
