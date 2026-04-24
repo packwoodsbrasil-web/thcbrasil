@@ -11,6 +11,7 @@ interface ProductCardProps {
 export function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart();
   const navigate = useNavigate();
+  const imageFitClass = product.imageFit === 'contain' ? 'object-contain p-3' : 'object-cover';
 
   const handleBuyNow = () => {
     addItem(product);
@@ -31,11 +32,11 @@ export function ProductCard({ product }: ProductCardProps) {
       )}
 
       {/* Image */}
-      <Link to={`/produto/${product.slug}`} className="block aspect-square overflow-hidden">
+      <Link to={`/produto/${product.slug}`} className="block aspect-square overflow-hidden bg-muted/30">
         <img
           src={product.images[0]}
           alt={product.name}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          className={`w-full h-full ${imageFitClass} transition-transform duration-500 group-hover:scale-105`}
         />
       </Link>
 

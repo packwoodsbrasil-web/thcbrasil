@@ -10295,6 +10295,7 @@ export const products: Product[] = [
       "Origem: Packwoods x Packs - Los Angeles, EUA"
     ],
     images: ["/images/packwoods-packs-ice-cream-indica-1.png"],
+    imageFit: "contain",
     category: "Blunts",
     inStock: true,
     rating: 4.8,

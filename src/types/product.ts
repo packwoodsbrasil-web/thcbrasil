@@ -15,6 +15,7 @@ export interface Product {
   description: string;
   details: string[];
   images: string[];
+  imageFit?: 'cover' | 'contain';
   category: string;
   inStock: boolean;
   rating: number;

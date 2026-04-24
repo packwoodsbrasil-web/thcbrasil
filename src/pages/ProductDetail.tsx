@@ -52,6 +52,7 @@ const ProductDetail = () => {
   const relatedProducts = products
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
+  const imageFitClass = product.imageFit === 'contain' ? 'object-contain p-6 bg-muted/30' : 'object-cover';
 
   // Guardrail: if any client/device ends up showing a wrong word, normalize it here.
   const safeDetails = product.details.map((detail) =>
@@ -86,7 +87,7 @@ const ProductDetail = () => {
                 <img
                   src={product.images[selectedImage]}
                   alt={product.name}
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full ${imageFitClass}`}
                 />
               </div>
               {product.images.length > 1 && (
