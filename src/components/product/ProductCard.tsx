@@ -21,7 +21,7 @@ export function ProductCard({ product }: ProductCardProps) {
     <div className="group relative bg-card rounded-2xl overflow-hidden shadow-card hover:shadow-glow transition-all duration-300 border border-border/50">
       {/* Promo Tag Badge */}
       {product.promoTag ? (
-        <div className="absolute top-3 left-3 z-10 px-3 py-1.5 rounded-full bg-destructive text-destructive-foreground text-xs font-bold shadow-lg animate-pulse">
+        <div className={`absolute top-3 left-3 z-10 px-3 py-1.5 rounded-full text-xs font-bold shadow-lg ${/OFF/i.test(product.promoTag) ? "bg-secondary text-secondary-foreground" : "bg-destructive text-destructive-foreground animate-pulse"}`}>
           {product.promoTag}
         </div>
       ) : product.originalPrice && (
