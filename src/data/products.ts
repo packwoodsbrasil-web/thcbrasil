@@ -4860,7 +4860,7 @@ export const products: Product[] = [
   },
   {
     id: "224",
-    name: "Packwoods x Runtz Red Velvet Cake 2g",
+    name: "Packwoods x Runtz Red Velvet Cake Long Edition 2g",
     slug: "packwoods-runtz-red-velvet-cake",
     price: 179.90,
     description: "Packwoods x Runtz Red Velvet Cake 2g traz o sabor irresistível do clássico bolo americano em formato vape descartável premium. Notas doces e cremosas de baunilha com toques sutis de cacau, entregando uma brisa híbrida equilibrada que relaxa sem deixar mole. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
@@ -4896,7 +4896,7 @@ export const products: Product[] = [
   },
   {
     id: "225",
-    name: "Packwoods x Runtz Blow Pop 2g",
+    name: "Packwoods x Runtz Blow Pop Long Edition 2g",
     slug: "packwoods-runtz-blow-pop",
     price: 179.90,
     description: "Packwoods x Runtz Blow Pop 2g é pura nostalgia em formato vape descartável premium! Sabor autêntico daquele pirulito clássico de frutas, doce e divertido, com toques cremosos que lembram chiclete. Brisa híbrida equilibrada que entrega bom humor, criatividade e relaxamento na medida certa. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
@@ -4931,7 +4931,7 @@ export const products: Product[] = [
   },
   {
     id: "226",
-    name: "Packwoods x Runtz Blue Berry Souffle 2g",
+    name: "Packwoods x Runtz Blue Berry Souffle Long Edition 2g",
     slug: "packwoods-runtz-blue-berry-souffle",
     price: 179.90,
     description: "Packwoods x Runtz Blue Berry Souffle 2g é uma sobremesa em formato vape descartável premium! Sabor irresistível de mirtilo maduro com aquele toque cremoso de souffle francês, doce e sofisticado. Brisa híbrida equilibrada que entrega relaxamento profundo, bom humor e sensação de leveza. Tecnologia Live Resin + Diamonds em 2g de puro prazer, com a qualidade lendária da parceria Packwoods x Runtz.",
@@ -4969,7 +4969,7 @@ export const products: Product[] = [
   },
   {
     id: "227",
-    name: "Packwoods x Runtz Strawberry Shortcake Long 2g",
+    name: "Packwoods x Runtz Strawberry Shortcake Long Edition 2g",
     slug: "packwoods-runtz-strawberry-shortcake-long",
     price: 179.90,
     description: "Packwoods x Runtz Strawberry Shortcake Long 2g entrega aquele perfil doce de morango com bolo amanteigado em um vape descartável premium de 2g. A combinação cremosa e frutada vem com uma brisa híbrida equilibrada, gostosa pra relaxar sem apagar. Tecnologia Live Resin + Diamonds com o acabamento marcante da collab Packwoods x Runtz.",
@@ -5006,7 +5006,7 @@ export const products: Product[] = [
   },
   {
     id: "228",
-    name: "Packwoods x Runtz Key Lime Pie 2g",
+    name: "Packwoods x Runtz Key Lime Pie Long Edition 2g",
     slug: "packwoods-runtz-key-lime-pie",
     price: 179.90,
     description: "Packwoods x Runtz Key Lime Pie 2g traz aquele perfil cítrico cremoso da clássica torta de limão em vape descartável premium. Mistura limão fresco com toque doce de biscoito amanteigado, brisa híbrida equilibrada que relaxa sem derrubar. Tecnologia Live Resin + Diamonds com o acabamento marcante da collab Packwoods x Runtz.",
