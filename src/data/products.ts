@@ -4702,7 +4702,7 @@ export const products: Product[] = [
     id: "200",
     name: "Packwoods Runtz Fruta Proibida",
     slug: "packwoods-runtz-fruta-proibida",
-    price: 159.90,
+    price: 149.90,
     originalPrice: 219.90,
     description: "Packwoods x Runtz Fruta Proibida é a colaboração lendária entre duas das marcas mais cobiçadas da Califórnia! Esta edição especial entrega uma explosão de sabores frutados exóticos com notas de frutas vermelhas tropicais e um toque doce de gelato. Vape descartável premium com tecnologia de ponta, perfeito para quem busca uma experiência intensa e suave ao mesmo tempo. Brisa potente, equilibrada e duradoura.",
     details: [
