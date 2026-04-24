@@ -7169,6 +7169,61 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "217",
+    name: "Euphoria Cannabis Candies CBD",
+    slug: "euphoria-cannabis-candies-cbd",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Euphoria Cannabis Candies CBD são balas duras artesanais infusionadas com CBD, perfeitas pra um relaxamento suave e discreto a qualquer hora do dia. Sabores frutados intensos, embalagem prática e dose equilibrada de CBD pra trazer aquela sensação de bem-estar sem efeitos psicoativos. Ideais pra aliviar o estresse, melhorar o foco e deixar o dia mais leve. Cada embalagem traz 20 unidades, ótimas pra levar na bolsa, dividir com a galera ou curtir aos pouquinhos.",
+    details: [
+      "Tipo: Bala Cannabis CBD",
+      "Quantidade: 20 unidades",
+      "Sabores: Frutas variadas",
+      "Notas: Doce, frutado e refrescante",
+      "Composição: CBD",
+      "Marca: Euphoria",
+      "Efeitos principais: Relaxado, Calmo, Bem-estar",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito moderado",
+      "Sem THC, sem efeito psicoativo",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/euphoria-cannabis-candies-cbd-1.jpg"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.7,
+    reviewCount: 9,
+    reviews: [
+      {
+        id: "r1",
+        author: "Camila R.",
+        rating: 5,
+        date: "2026-02-10",
+        comment: "Adorei! Bala bem gostosa, lembra aquelas duras tradicionais. O CBD age suave, fica bem relaxada sem ficar lesada. Ótimo pra usar antes de dormir."
+      },
+      {
+        id: "r2",
+        author: "Eduardo M.",
+        rating: 4,
+        date: "2026-01-28",
+        comment: "Comprei pra ajudar com a ansiedade do trabalho e funcionou bem. Sabor de frutas é gostoso, embalagem discreta. Só achei que poderia ter mais unidades pelo preço."
+      },
+      {
+        id: "r3",
+        author: "Larissa P.",
+        rating: 5,
+        date: "2026-01-12",
+        comment: "Produto excelente! Uso uma no fim do dia e ajuda demais a desligar a mente. Sabor agradável, nada artificial. Já comprei de novo."
+      },
+      {
+        id: "r4",
+        author: "Bruno T.",
+        rating: 5,
+        date: "2025-12-30",
+        comment: "Pra quem não curte THC mas quer aproveitar o CBD, é perfeito. Relaxa de verdade sem alterar nada. Levei numa viagem e foi ótimo pra dormir bem."
+      }
+    ]
+  },  {
     id: "216",
     name: "Cannabis Pirulito - Cheesecake x Morango x Chiclete",
     slug: "cannabis-pirulito-cheesecake-morango-chiclete",
