@@ -7215,6 +7215,20 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-03-10",
         comment: "Produto bom, sabor diferente e marcante. Embalagem chama atenção. Achei a dose um pouco fraca pra mim, mas é questão de tomar mais uma e tá tudo certo."
+      },
+      {
+        id: "r4",
+        author: "Larissa T.",
+        rating: 5,
+        date: "2026-02-20",
+        comment: "Já é minha terceira compra dessas! O sabor blue raspberry é simplesmente o melhor da linha. Indica de verdade, relaxa demais sem deixar pesado."
+      },
+      {
+        id: "r5",
+        author: "Murilo D.",
+        rating: 4,
+        date: "2026-02-05",
+        comment: "Chegou rápido e bem embalado. Sabor doce e azedo na medida certa, viciante. O efeito demora uns 45 min pra bater mas vale a espera, fica bem chapado."
       }
     ]
   },  {
