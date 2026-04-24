@@ -7,11 +7,11 @@ const Privacy = () => {
       <Header />
       <main className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto prose prose-invert">
-          <h1 className="text-3xl font-bold mb-2">Política de Privacidade – Packwoods Brasil</h1>
+          <h1 className="text-3xl font-bold mb-2">Política de Privacidade – THC BRASIL</h1>
           <p className="text-muted-foreground mb-8">Última atualização: 09/01/2026</p>
           
           <p className="mb-6">
-            A Packwoods Brasil está comprometida em garantir que sua privacidade seja protegida. 
+            A THC BRASIL está comprometida em garantir que sua privacidade seja protegida. 
             Esta política explica como usamos as informações que coletamos sobre você.
           </p>
 

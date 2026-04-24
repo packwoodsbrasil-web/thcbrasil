@@ -22,12 +22,12 @@ const Index = () => {
           <div className="container relative py-24 md:py-40">
             <div className="max-w-2xl text-center mx-auto">
               <h1 className="text-5xl md:text-7xl font-black mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                <span className="text-white drop-shadow-[0_0_30px_rgba(255,215,0,0.8)]" style={{ textShadow: '0 0 40px rgba(255,215,0,0.9), 0 0 80px rgba(255,215,0,0.5), 2px 2px 4px rgba(0,0,0,0.9)' }}>
-                  Jeeter Juice
+                <span translate="no" className="text-white drop-shadow-[0_0_30px_rgba(255,215,0,0.8)]" style={{ textShadow: '0 0 40px rgba(255,215,0,0.9), 0 0 80px rgba(255,215,0,0.5), 2px 2px 4px rgba(0,0,0,0.9)' }}>
+                  THC BRASIL
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-white font-medium mb-10 animate-fade-in drop-shadow-lg" style={{ animationDelay: '0.2s', textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
-                Canetas, vapes e comestíveis THC premium. Produtos exclusivos da linha Jeeter Juice com entrega para todo o Brasil.
+                Canetas, vapes e comestíveis THC premium com entrega para todo o Brasil.
               </p>
               <div className="flex flex-wrap gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
                 <Link to="/produtos">

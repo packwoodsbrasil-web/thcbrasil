@@ -7,11 +7,11 @@ const Terms = () => {
       <Header />
       <main className="flex-1 container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto prose prose-invert">
-          <h1 className="text-3xl font-bold mb-2">Termos de Uso – Packwoods Brasil</h1>
+          <h1 className="text-3xl font-bold mb-2">Termos de Uso – THC BRASIL</h1>
           <p className="text-muted-foreground mb-8">Última atualização: 09/01/2026</p>
           
           <p className="mb-6">
-            Bem-vindo ao site Packwoods Brasil. Ao acessar e utilizar este site, você concorda em 
+            Bem-vindo ao site THC BRASIL. Ao acessar e utilizar este site, você concorda em 
             cumprir e estar vinculado aos seguintes termos e condições de uso.
           </p>
 
@@ -53,7 +53,7 @@ const Terms = () => {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">6. Limitação de Responsabilidade</h2>
           <p className="text-muted-foreground mb-6">
-            A Packwoods Brasil não será responsável por quaisquer danos resultantes do uso ou da 
+            A THC BRASIL não será responsável por quaisquer danos resultantes do uso ou da 
             incapacidade de usar os materiais deste site ou do desempenho dos produtos comprados 
             através do site.
           </p>

@@ -35,9 +35,9 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Jeeter Juice BR Logo" className="h-10 sm:h-12 w-auto object-contain" />
+          <img src={logo} alt="THC Brasil Logo" className="h-10 sm:h-12 w-auto object-contain" />
           <span translate="no" className="font-bold text-base sm:text-xl bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 bg-clip-text text-transparent">
-            Jeeter Juice
+            THC BRASIL
           </span>
         </Link>
 
