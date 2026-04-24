@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 19,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "mln-r1", author: "Caio R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Melonade é absurdo! Sabor de melão refrescante, limonada na medida. Top demais!" },
