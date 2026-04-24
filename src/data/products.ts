@@ -7521,13 +7521,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2026-02-08",
         comment: "Apaixonada nessas gominhas! Dosagem generosa, dá pra cortar no meio se quiser começar leve. Sessão de filme com elas é outra coisa."
-      },
-      {
-        id: "r3",
-        author: "Rodrigo F.",
-        rating: 4,
-        date: "2026-01-19",
-        comment: "Produto top, embalagem chamou minha atenção logo de cara. Efeito demora um pouco mais do que esperava, mas quando bate é forte e duradouro."
       }
     ]
   },  {
