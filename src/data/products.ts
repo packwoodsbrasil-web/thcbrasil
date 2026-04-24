@@ -25,7 +25,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 31,
+    reviewCount: 55,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "gap-r1", author: "Caio M.", rating: 5, date: "2026-04-24", comment: "Mano, esse Grape Ape é absurdo! Sabor de uva intenso, brisa relaxante na medida. Top demais!" },
@@ -78,7 +78,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 29,
+    reviewCount: 56,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "mim-r1", author: "Rafael C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Mimosa é sensacional! Sabor de laranja real, brisa anima demais. Top!" },
@@ -131,7 +131,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 47,
+    reviewCount: 57,
     promoTag: "NOVIDADE",
     reviews: [
       { id: "sap-r1", author: "Murilo C.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Apple Punch é absurdo! Maçã verde azedinha viciante, brisa top demais!" },
@@ -184,7 +184,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 24,
+    reviewCount: 58,
     promoTag: "24% OFF",
     reviews: [
       { id: "stg-r1", author: "Lucas A.", rating: 5, date: "2026-04-24", comment: "Mano, esse Sour Tangie é absurdo! Sabor cítrico viciante, brisa energética top demais!" },
@@ -237,7 +237,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 38,
+    reviewCount: 59,
     promoTag: "24% OFF",
     reviews: [
       { id: "pkr-r1", author: "Júlia M.", rating: 5, date: "2026-04-24", comment: "Mano, esse Pink Rozay é absurdo! Sabor de frutas vermelhas elegante, brisa top demais!" },
@@ -290,7 +290,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 19,
+    reviewCount: 60,
     promoTag: "24% OFF",
     reviews: [
       { id: "mln-r1", author: "Caio R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Melonade é absurdo! Sabor de melão refrescante, limonada na medida. Top demais!" },
@@ -343,7 +343,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 63,
+    reviewCount: 61,
     promoTag: "24% OFF",
     reviews: [
       { id: "vog-r1", author: "Rodrigo M.", rating: 5, date: "2026-04-23", comment: "Mano, esse Venom OG é absurdo! Brisa potente de verdade, sabor terroso clássico. Top demais!" },
@@ -396,7 +396,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 34,
+    reviewCount: 62,
     promoTag: "24% OFF",
     reviews: [
       { id: "sbd-r1", author: "Thiago R.", rating: 5, date: "2026-04-23", comment: "Mano, esse Sour Blue Dream é absurdo! Sabor de mirtilo com aquele azedinho viciante, brisa top." },
@@ -448,7 +448,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 41,
+    reviewCount: 75,
     reviews: [
       {
         id: "r1",
@@ -670,7 +670,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 15,
+    reviewCount: 20,
     reviews: [
       {
         id: "r1",
@@ -774,7 +774,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.5,
-    reviewCount: 11,
+    reviewCount: 8,
    reviews: [
       {
         id: "r1",
@@ -857,7 +857,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 45,
+    reviewCount: 78,
     reviews: [
       {
         id: "r1",
@@ -1100,7 +1100,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.6,
-    reviewCount: 23,
+    reviewCount: 38,
     reviews: [
       {
         id: "r1",
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 21,
+    reviewCount: 34,
     reviews: [
       {
         id: "r1",
@@ -1369,7 +1369,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 20,
+    reviewCount: 35,
     reviews: [
       {
         id: "r1",
@@ -1500,7 +1500,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 17,
+    reviewCount: 25,
     reviews: [
       {
         id: "r1",
@@ -1610,7 +1610,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 44,
+    reviewCount: 79,
     reviews: [
       {
         id: "r1",
@@ -1853,7 +1853,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 14,
+    reviewCount: 21,
     reviews: [
       {
         id: "r1",
@@ -1956,7 +1956,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 42,
+    reviewCount: 76,
     reviews: [
       {
         id: "r1",
@@ -2185,7 +2185,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 43,
+    reviewCount: 80,
     reviews: [
       {
         id: "r1",
@@ -2428,7 +2428,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 36,
+    reviewCount: 67,
     reviews: [
       {
         id: "r1",
@@ -2629,7 +2629,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 13,
+    reviewCount: 15,
     reviews: [
       {
         id: "r1",
@@ -2725,7 +2725,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 37,
+    reviewCount: 72,
     reviews: [
       {
         id: "r1",
@@ -2933,7 +2933,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 5.0,
-    reviewCount: 30,
+    reviewCount: 49,
     reviews: [
       {
         id: "r1",
@@ -3196,7 +3196,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 10,
+    reviewCount: 5,
    reviews: [
       {
         id: "r1",
@@ -3232,27 +3232,6 @@ export const products: Product[] = [
         rating: 5,
         date: "2025-12-20",
         comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
-      },
-      {
-        id: "r6",
-        author: "Sabrina T.",
-        rating: 5,
-        date: "2025-12-05",
-        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
-      },
-      {
-        id: "r7",
-        author: "Caio D.",
-        rating: 4,
-        date: "2025-10-11",
-        comment: "Gostei bastante! Brisa boa, sabor agradável. Tirei uma estrela porque a embalagem podia ser mais caprichada."
-      },
-      {
-        id: "r8",
-        author: "Zaqueu J.",
-        rating: 4,
-        date: "2025-09-13",
-        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
       }
     ]
   },
@@ -3280,7 +3259,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 9,
+    reviewCount: 16,
     reviews: [
       {
         id: "r1",
@@ -3377,7 +3356,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 18,
+    reviewCount: 30,
     reviews: [
       {
         id: "r1",
@@ -3501,7 +3480,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 16,
+    reviewCount: 36,
     reviews: [
       {
         id: "r1",
@@ -3632,7 +3611,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.8,
-    reviewCount: 35,
+    reviewCount: 63,
     reviews: [
       {
         id: "r1",
@@ -3828,7 +3807,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 39,
+    reviewCount: 73,
     reviews: [
       {
         id: "r1",
@@ -4043,7 +4022,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.4,
-    reviewCount: 8,
+    reviewCount: 9,
    reviews: [
       {
         id: "r1",
@@ -4126,7 +4105,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 33,
+    reviewCount: 68,
     reviews: [
       {
         id: "r1",
@@ -4327,7 +4306,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.6,
-    reviewCount: 24,
+    reviewCount: 31,
     reviews: [
       {
         id: "r1",
@@ -4451,7 +4430,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.7,
-    reviewCount: 23,
+    reviewCount: 54,
     reviews: [
       {
         id: "r1",
@@ -4639,7 +4618,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 25,
+    reviewCount: 69,
     reviews: [
       {
         id: "r1",
@@ -4841,7 +4820,7 @@ export const products: Product[] = [
     category: "Canetas",
     inStock: true,
     rating: 4.9,
-    reviewCount: 22,
+    reviewCount: 51,
     reviews: [
       {
         id: "r1",
@@ -5024,7 +5003,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 26,
+    reviewCount: 64,
     promoTag: "24% OFF",
     reviews: [
       { id: "gj-r1", author: "Bruno H.", rating: 5, date: "2026-04-23", comment: "Mano, esse Grape Juice é absurdo! Sabor de uva natural, brisa relaxante de verdade. 2g dura muito!" },
@@ -5077,7 +5056,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 21,
+    reviewCount: 50,
     promoTag: "32% OFF",
     reviews: [
       { id: "st-r1", author: "Felipe A.", rating: 5, date: "2026-04-23", comment: "Mano, esse sabor cítrico é viciante! Tangerina de verdade, brisa animada. Top demais!" },
@@ -5128,7 +5107,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 27,
+    reviewCount: 65,
     promoTag: "32% OFF",
     reviews: [
       { id: "sc-r1", author: "João V.", rating: 5, date: "2026-04-23", comment: "Mano, sabor de morango de verdade! Brisa energética, perfeita pro dia. Recomendo demais!" },
@@ -5181,7 +5160,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 20,
+    reviewCount: 46,
     promoTag: "32% OFF",
     reviews: [
       { id: "wg-r1", author: "Lucas M.", rating: 5, date: "2026-04-23", comment: "Mano, esse aqui é parada séria! Sabor de goma branca igualzinho, brisa lisa e potente. Recomendo demais!" },
@@ -5231,7 +5210,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 28,
+    reviewCount: 66,
     promoTag: "32% OFF",
     reviews: [
       { id: "wc-r1", author: "Pedro H.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! Sabor de baunilha cremoso, brisa lisinha e potente. Wedding Cake é clássico, não tem erro!" },
@@ -5284,7 +5263,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 11,
+    reviewCount: 22,
     promoTag: "32% OFF",
     reviews: [
       { id: "sbk-r1", author: "Thiago R.", rating: 5, date: "2026-04-22", comment: "Mano, que parada absurda! O sabor de banana com aquele azedinho é viciante demais. Brisa lisa, sem travar a garganta. Recomendo geral!" },
@@ -5325,7 +5304,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 8,
+    reviewCount: 10,
     promoTag: "32% OFF",
     reviews: [
       {
@@ -5410,7 +5389,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 31,
+    reviewCount: 70,
     reviews: [
       {
         id: "r1",
@@ -5612,7 +5591,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 16,
+    reviewCount: 39,
     reviews: [
       {
         id: "r1",
@@ -5752,7 +5731,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 15,
+    reviewCount: 37,
     reviews: [
       {
         id: "r1",
@@ -5884,7 +5863,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 14,
+    reviewCount: 32,
     reviews: [
       {
         id: "r1",
@@ -6010,7 +5989,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 12,
+    reviewCount: 26,
     reviews: [
       {
         id: "r1",
@@ -6122,7 +6101,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 30,
+    reviewCount: 40,
     reviews: [
       {
         id: "r1",
@@ -6261,7 +6240,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 10,
+    reviewCount: 11,
    reviews: [
       {
         id: "r1",
@@ -6345,7 +6324,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 29,
+    reviewCount: 77,
     reviews: [
       {
         id: "r1",
@@ -6576,7 +6555,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 32,
+    reviewCount: 27,
     reviews: [
       {
         id: "r1",
@@ -6694,7 +6673,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.8,
-    reviewCount: 25,
+    reviewCount: 71,
     reviews: [
       {
         id: "r1",
@@ -6897,7 +6876,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 10,
+    reviewCount: 17,
     reviews: [
       {
         id: "r1",
@@ -6995,7 +6974,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.9,
-    reviewCount: 26,
+    reviewCount: 43,
     reviews: [
       {
         id: "r1",
@@ -7148,7 +7127,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.5,
-    reviewCount: 21,
+    reviewCount: 41,
     reviews: [
       {
         id: "r1",
@@ -7287,7 +7266,7 @@ export const products: Product[] = [
     category: "Vapes",
     inStock: true,
     rating: 4.7,
-    reviewCount: 9,
+    reviewCount: 13,
     reviews: [
       {
         id: "r1",
@@ -7455,7 +7434,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 13,
+    reviewCount: 28,
     reviews: [
       {
         id: "r1",
@@ -7574,7 +7553,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 14,
+    reviewCount: 33,
     reviews: [
       {
         id: "r1",
@@ -7700,7 +7679,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.5,
-    reviewCount: 17,
+    reviewCount: 23,
     reviews: [
       {
         id: "r1",
@@ -7804,7 +7783,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 19,
+    reviewCount: 18,
     reviews: [
       {
         id: "r1",
@@ -7901,7 +7880,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
-    reviewCount: 27,
+    reviewCount: 47,
     reviews: [
       {
         id: "r1",
@@ -8140,7 +8119,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 18,
+    reviewCount: 44,
     reviews: [
       {
         id: "r1",
@@ -8296,7 +8275,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.6,
-    reviewCount: 33,
+    reviewCount: 45,
     reviews: [
       {
         id: "r1",
@@ -8458,7 +8437,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 30,
+    reviewCount: 74,
     reviews: [
       {
         id: "r1",
@@ -8676,7 +8655,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
-    reviewCount: 34,
+    reviewCount: 42,
     reviews: [
       {
         id: "r1",
@@ -8817,7 +8796,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.1,
-    reviewCount: 35,
+    reviewCount: 14,
    reviews: [
       {
         id: "r1",
@@ -8910,7 +8889,7 @@ export const products: Product[] = [
     category: "Comestíveis",
     inStock: true,
     rating: 4.9,
-    reviewCount: 22,
+    reviewCount: 52,
     reviews: [
       {
         id: "r1",
@@ -9092,7 +9071,7 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.7,
-    reviewCount: 32,
+    reviewCount: 53,
     reviews: [
       {
         id: "r1",
@@ -9274,7 +9253,7 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.9,
-    reviewCount: 13,
+    reviewCount: 29,
     reviews: [
       {
         id: "r1",
@@ -9394,7 +9373,7 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 4.6,
-    reviewCount: 18,
+    reviewCount: 24,
     reviews: [
       {
         id: "r1",
@@ -9499,7 +9478,7 @@ export const products: Product[] = [
     category: "Kits",
     inStock: true,
     rating: 5.0,
-    reviewCount: 20,
+    reviewCount: 48,
     reviews: [
       {
         id: "r1",
