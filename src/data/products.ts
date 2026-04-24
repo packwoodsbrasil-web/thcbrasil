@@ -7169,6 +7169,62 @@ export const products: Product[] = [
 
     ]
   },  {
+    id: "220",
+    name: "Twisted Extracts - Sour Grape",
+    slug: "twisted-extracts-sour-grape",
+    price: 59.90,
+    originalPrice: 89.90,
+    description: "Twisted Extracts Sour Grape Twisted Singles são gomas indica de uva azedinha com 160mg de THC total (16 unidades x 10mg). Dose precisa, sabor marcante de uva sour e efeito relaxante característico das cepas indica. Perfeitas pra desligar a mente no fim do dia, melhorar o sono e curtir aquele relaxamento profundo. Embalagem prática com selo de qualidade canadense, ideais pra quem busca controle total da dosagem.",
+    details: [
+      "Tipo: Goma Cannabis Indica",
+      "Quantidade: 16 unidades",
+      "Sabor: Sour Grape (Uva Azedinha)",
+      "Dosagem: 10mg de THC por goma (160mg total)",
+      "Notas: Azedo, frutado e doce",
+      "Marca: Twisted Extracts",
+      "Cepa: Indica",
+      "Efeitos principais: Relaxado, Sono, Tranquilo",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito prolongado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/twisted-extracts-sour-grape-1.webp"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 14,
+    reviews: [
+      {
+        id: "r1",
+        author: "André L.",
+        rating: 5,
+        date: "2026-03-15",
+        comment: "Indica de verdade! Tomei duas antes de dormir e apaguei como nunca. Sabor de uva azedinha bem natural, lembra aquelas balinhas de uva. Recomendo demais."
+      },
+      {
+        id: "r2",
+        author: "Beatriz S.",
+        rating: 5,
+        date: "2026-02-27",
+        comment: "Pra quem sofre com insônia, é a salvação. Dose de 10mg por goma é perfeita pra ajustar do jeito que você quer. Twisted Extracts entrega qualidade sempre."
+      },
+      {
+        id: "r3",
+        author: "Marcelo H.",
+        rating: 4,
+        date: "2026-02-09",
+        comment: "Sabor é sensacional, das melhores gomas que já experimentei. Efeito é bem relaxante mesmo, tem que tomar à noite. Tirei uma estrela porque achei pouca quantidade."
+      },
+      {
+        id: "r4",
+        author: "Carolina D.",
+        rating: 5,
+        date: "2026-01-22",
+        comment: "Embalagem profissional, gomas individuais perfeitas pra controlar a dose. Sour Grape é meu sabor favorito, azedinho na medida certa. Já tô na terceira compra."
+      }
+    ]
+  },  {
     id: "219",
     name: "Euphoria Cannabis Gummies - Strawberry Haze",
     slug: "euphoria-cannabis-gummies-morango-haze",
