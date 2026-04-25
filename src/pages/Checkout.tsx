@@ -139,6 +139,7 @@ const Checkout = () => {
   const handleCepChange = async (raw: string) => {
     const formatted = formatCEP(raw);
     setFormData(prev => ({ ...prev, zip: formatted }));
+    clearError('zip');
     const clean = raw.replace(/\D/g, '');
     if (clean.length === 8) {
       setIsLoadingCep(true);
@@ -146,11 +147,7 @@ const Checkout = () => {
         const res = await fetch(`https://viacep.com.br/ws/${clean}/json/`);
         const data = await res.json();
         if (data.erro) {
-          toast({
-            title: "CEP não encontrado",
-            description: "Verifique o CEP digitado.",
-            variant: "destructive",
-          });
+          setErrors(prev => ({ ...prev, zip: 'CEP não encontrado. Verifique o número digitado.' }));
         } else {
           setFormData(prev => ({
             ...prev,
@@ -159,13 +156,19 @@ const Checkout = () => {
             city: data.localidade || prev.city,
             state: data.uf || prev.state,
           }));
+          setErrors(prev => {
+            const { zip, address, district, city, state, ...rest } = prev;
+            return rest;
+          });
+          if (!data.logradouro) {
+            toast({
+              title: 'Preencha a rua manualmente',
+              description: 'Este CEP é genérico (atende vários endereços). Digite o nome da rua.',
+            });
+          }
         }
       } catch {
-        toast({
-          title: "Erro ao buscar CEP",
-          description: "Tente novamente ou preencha manualmente.",
-          variant: "destructive",
-        });
+        setErrors(prev => ({ ...prev, zip: 'Erro ao buscar CEP. Preencha manualmente.' }));
       } finally {
         setIsLoadingCep(false);
       }
