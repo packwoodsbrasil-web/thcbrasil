@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { ChevronLeft, Copy, Check, Smartphone, Loader2, Bitcoin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
+import { QRCodeSVG } from 'qrcode.react';
 import {
   Dialog,
   DialogContent,
@@ -667,16 +668,20 @@ const Checkout = () => {
             </div>
 
             {/* QR Code - Use base64 image from SigiloPay */}
-            {pixData?.qrCodeImage && (
+            {(pixData?.qrCodeImage || pixData?.qrCodeText) && (
               <div className="flex justify-center">
                 <div className="bg-white p-4 rounded-xl">
-                  <img 
-                    src={`data:image/png;base64,${pixData.qrCodeImage}`}
-                    alt="QR Code PIX"
-                    width={200}
-                    height={200}
-                    className="w-[200px] h-[200px]"
-                  />
+                  {pixData?.qrCodeImage ? (
+                    <img
+                      src={`data:image/png;base64,${pixData.qrCodeImage}`}
+                      alt="QR Code PIX"
+                      width={200}
+                      height={200}
+                      className="w-[200px] h-[200px]"
+                    />
+                  ) : (
+                    <QRCodeSVG value={pixData!.qrCodeText} size={200} level="M" />
+                  )}
                 </div>
               </div>
             )}
@@ -760,16 +765,20 @@ const Checkout = () => {
               </p>
             </div>
 
-            {cryptoData?.qrCodeImage && (
+            {(cryptoData?.qrCodeImage || cryptoData?.qrCodeText) && (
               <div className="flex justify-center">
                 <div className="bg-white p-4 rounded-xl">
-                  <img
-                    src={`data:image/png;base64,${cryptoData.qrCodeImage}`}
-                    alt="QR Code Crypto"
-                    width={200}
-                    height={200}
-                    className="w-[200px] h-[200px]"
-                  />
+                  {cryptoData?.qrCodeImage ? (
+                    <img
+                      src={`data:image/png;base64,${cryptoData.qrCodeImage}`}
+                      alt="QR Code Crypto"
+                      width={200}
+                      height={200}
+                      className="w-[200px] h-[200px]"
+                    />
+                  ) : (
+                    <QRCodeSVG value={cryptoData!.qrCodeText} size={200} level="M" />
+                  )}
                 </div>
               </div>
             )}
