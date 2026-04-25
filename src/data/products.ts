@@ -10469,6 +10469,43 @@ export const products: Product[] = [
       { id: "phac-r6", author: "Juliana T.", rating: 5, date: "2026-03-19", comment: "Higgs entregando outro nível, o live resin se sente em cada tapa. Sabor doce que não enjoa e relaxa de mansinho até desligar tudo." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "234",
+    name: "Packwoods Chemdawg Long Edition 2g",
+    slug: "packwoods-chemdawg",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods Chemdawg 2g é um blunt premium da clássica cepa Chemdawg, infundido com live resin e revestido com kief indoor. Embalado em tubo de vidro com tampa drip verde holográfica, traz aroma diesel marcante com fundo terroso e brisa híbrida potente que desperta a mente sem travar o corpo, ideal pra rolê criativo ou desenrolar uma ideia com a galera.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (Chemdawg)",
+      "Potência: 44% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Live Resin + Indoor Kief Coating",
+      "Efeitos principais: Cerebral, Eufórico, Relaxante leve",
+      "Sabor: Diesel marcante com fundo terroso",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-chemdawg-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 25,
+    reviews: [
+      { id: "pcd-r1", author: "Henrique B.", rating: 5, date: "2026-04-25", comment: "Chemdawg é clássico que não falha, e nesse formato ficou ainda mais brabo. Diesel raiz no bagulho, puxada densa e sabor que marca." },
+      { id: "pcd-r2", author: "Aline F.", rating: 5, date: "2026-04-19", comment: "Brisa cerebral parruda, fiquei criativa demais, terminei umas artes que tava enrolando faz tempo. Tampa verde é linda, parece bala." },
+      { id: "pcd-r3", author: "Diego M.", rating: 5, date: "2026-04-12", comment: "Aroma de diesel toma a sala inteira quando abre o tubo, viajei na hora. Queima parelha, sem aquele sufoco no meio." },
+      { id: "pcd-r4", author: "Sabrina L.", rating: 5, date: "2026-04-04", comment: "Híbrida na régua, sobe a cabeça e ainda dá pra papear sem travar. Dividi com o mano e rendeu uma noite inteira." },
+      { id: "pcd-r5", author: "Vitor P.", rating: 4, date: "2026-03-27", comment: "Bom blunt, perfil terroso bem presente. Só achei a brisa acelerada demais pra fim de noite, mas pra começar o rolê tá show." },
+      { id: "pcd-r6", author: "Camila A.", rating: 5, date: "2026-03-20", comment: "Live resin nesse Chemdawg fez milagre, o sabor entra cheio mas suave. Comprei dois, já garanti o estoque do mês." },
+      { id: "pcd-r7", author: "Rafael N.", rating: 5, date: "2026-03-13", comment: "Embalagem coleção, blunt parrudo e brisa de respeito. Packwoods sabe entregar consistência, esse aqui é prova viva disso." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
