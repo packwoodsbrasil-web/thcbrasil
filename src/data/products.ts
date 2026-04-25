@@ -10176,6 +10176,54 @@ export const products: Product[] = [
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
   },  {
+    id: "237",
+    name: "Packwoods x Runtz Pure Flavor Trio 2g",
+    slug: "packwoods-runtz-pure-flavor-trio-2g",
+    price: 379.80,
+    originalPrice: 569.90,
+    description: "Mds, esse kit é um espetáculo! O Packwoods x Runtz Pure Flavor Trio é a colab dos sonhos: 3 vapes descartáveis 2g cada, com sabores premium da linha Runtz, embalados numa caixa magnética de luxo. Vem com vape verde (Watermelon Runtz), laranja (Pineapple Runtz) e roxo (Grape Runtz) — cada um com seu próprio carregador USB-C e perfil de terpenos único. Hardware top de linha, ceramic coil, bateria recarregável e óleo destilado puríssimo. Pra quem quer experimentar o melhor da parceria entre as duas marcas mais cultuadas do game.",
+    details: [
+      "🔥 PROMO: Compre 2, Leve 3 + 33% OFF",
+      "Conteúdo: 3 vapes descartáveis Packwoods x Runtz",
+      "Capacidade: 2g por unidade (6g total)",
+      "Sabores: Watermelon Runtz, Pineapple Runtz, Grape Runtz",
+      "Hardware: Ceramic coil + bateria recarregável",
+      "Carregador USB-C incluso",
+      "Embalagem: Caixa magnética premium colecionável",
+      "Potência: 90%+ THC destilado",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-pure-flavor-trio-1.png"],
+    imageFit: "contain",
+    category: "Kits",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 24,
+    reviews: [
+      {
+        id: "prft-r1",
+        author: "Henrique B.",
+        rating: 5,
+        date: "2026-04-22",
+        comment: "Slk, kit absurdo! A caixa é linda demais e os 3 sabores são show. O Watermelon é meu favorito, brisa zen e duradoura."
+      },
+      {
+        id: "prft-r2",
+        author: "Larissa P.",
+        rating: 5,
+        date: "2026-04-15",
+        comment: "Mano, vale cada centavo. Hardware top, puxada macia e o sabor é insano. Já recomendei pra geral!"
+      },
+      {
+        id: "prft-r3",
+        author: "Diego F.",
+        rating: 5,
+        date: "2026-03-28",
+        comment: "Aí sim! Comprei na promo do leve 3 e não me arrependi. Embalagem de luxo, produto na descrição."
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },  {
     id: "63",
     name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
     slug: "kit-mega-pack-10-unidades",
