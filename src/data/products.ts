@@ -10506,6 +10506,49 @@ export const products: Product[] = [
       { id: "pcd-r7", author: "Rafael N.", rating: 5, date: "2026-03-13", comment: "Embalagem coleção, blunt parrudo e brisa de respeito. Packwoods sabe entregar consistência, esse aqui é prova viva disso." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "235",
+    name: "Packwoods Purple Punch Long Edition 2g",
+    slug: "packwoods-purple-punch",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods Purple Punch 2g é um blunt premium da cepa indica Purple Punch, infundido com live resin e revestido com kief indoor. Embalado em tubo de vidro com tampa drip roxa holográfica, traz aroma adocicado de uva com fundo de frutas vermelhas e brisa relaxante densa que desliga o corpo, ideal pra fim de noite, maratona de série ou desencanar do rolê pesado.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica (Purple Punch)",
+      "Potência: 45% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Live Resin + Indoor Kief Coating",
+      "Efeitos principais: Relaxante, Sedativo, Euforia leve",
+      "Sabor: Uva doce com fundo de frutas vermelhas",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-purple-punch-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 17,
+    reviews: [
+      { id: "ppp-r1", author: "Murilo S.", rating: 5, date: "2026-04-25", comment: "Purple Punch é nocaute, irmão. Acendi depois do trampo e apaguei numa boa, dormi tipo criança que tomou Danoninho." },
+      { id: "ppp-r2", author: "Letícia V.", rating: 5, date: "2026-04-22", comment: "Sabor de uva é surreal, parece bala juju de verdade. Brisa cai pesada nas pernas, recomendo só pra fim de noite mesmo." },
+      { id: "ppp-r3", author: "Bruno T.", rating: 5, date: "2026-04-17", comment: "Indica raiz, desligou minha cabeça das paranoia da semana. Tubo roxo é estiloso demais, ficou de enfeite na estante." },
+      { id: "ppp-r4", author: "Júlia R.", rating: 5, date: "2026-04-11", comment: "Aroma frutado bate forte assim que destampa, e a queima é mansa do começo ao fim. Cama foi consequência, dormi bonito." },
+      { id: "ppp-r5", author: "Eduardo C.", rating: 4, date: "2026-04-05", comment: "Brisa boa, mas é pra quem quer relaxar mesmo, não rola produtividade depois desse. Pra desencanar é tiro certeiro." },
+      { id: "ppp-r6", author: "Carolina P.", rating: 5, date: "2026-03-30", comment: "Apaga as dores das costas e ainda manda um sono raiz. Tô virando fã da linha Long Edition, qualidade absurda." },
+      { id: "ppp-r7", author: "Felipe A.", rating: 5, date: "2026-03-24", comment: "Dividi com a mina num cineminha em casa, ficamos derretidos no sofá. Sabor doce permanece na boca, fica gostoso." },
+      { id: "ppp-r8", author: "Natália G.", rating: 5, date: "2026-03-17", comment: "Cheguei doidona em poucas tragadas, calma na mente e corpo bambo. Frutadinho que nem suco, viciante demais." },
+      { id: "ppp-r9", author: "Renato M.", rating: 5, date: "2026-03-10", comment: "Pra dor crônica esse aqui é remédio. Dormi feito pedra e acordei sem aquela ressaca de cabeça pesada, top." },
+      { id: "ppp-r10", author: "Beatriz N.", rating: 4, date: "2026-03-03", comment: "Gostei bastante, só achei meio derrubante pro meu gosto. Mas pro propósito de relaxar tá entregando direitinho." },
+      { id: "ppp-r11", author: "Lucas D.", rating: 5, date: "2026-02-25", comment: "Quem curte indica vai amar, já viciei. Tampa drip roxa é detalhe que faz diferença, embalagem de respeito." },
+      { id: "ppp-r12", author: "Amanda F.", rating: 5, date: "2026-02-18", comment: "Comprei pra um rolê tranquilo em casa e foi perfeito. Brisa abraço, sabor de uva e cama gostosa, trio campeão." },
+      { id: "ppp-r13", author: "Pedro H.", rating: 5, date: "2026-02-11", comment: "Live resin faz toda diferença, dá pra sentir a pegada do extrato logo de cara. Purple Punch nessa pegada é monstro." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
