@@ -89,6 +89,62 @@ const Checkout = () => {
     return `${v.slice(0, 5)}-${v.slice(5, 8)}`;
   };
 
+  // Validate CPF using official check digit algorithm
+  const isValidCPF = (cpf: string): boolean => {
+    const c = cpf.replace(/\D/g, '');
+    if (c.length !== 11) return false;
+    if (/^(\d)\1{10}$/.test(c)) return false;
+    let sum = 0;
+    for (let i = 0; i < 9; i++) sum += parseInt(c[i]) * (10 - i);
+    let d1 = (sum * 10) % 11;
+    if (d1 === 10) d1 = 0;
+    if (d1 !== parseInt(c[9])) return false;
+    sum = 0;
+    for (let i = 0; i < 10; i++) sum += parseInt(c[i]) * (11 - i);
+    let d2 = (sum * 10) % 11;
+    if (d2 === 10) d2 = 0;
+    return d2 === parseInt(c[10]);
+  };
+
+  const [isLoadingCep, setIsLoadingCep] = useState(false);
+
+  // Auto-fill address from CEP using ViaCEP
+  const handleCepChange = async (raw: string) => {
+    const formatted = formatCEP(raw);
+    setFormData(prev => ({ ...prev, zip: formatted }));
+    const clean = raw.replace(/\D/g, '');
+    if (clean.length === 8) {
+      setIsLoadingCep(true);
+      try {
+        const res = await fetch(`https://viacep.com.br/ws/${clean}/json/`);
+        const data = await res.json();
+        if (data.erro) {
+          toast({
+            title: "CEP não encontrado",
+            description: "Verifique o CEP digitado.",
+            variant: "destructive",
+          });
+        } else {
+          setFormData(prev => ({
+            ...prev,
+            address: data.logradouro || prev.address,
+            district: data.bairro || prev.district,
+            city: data.localidade || prev.city,
+            state: data.uf || prev.state,
+          }));
+        }
+      } catch {
+        toast({
+          title: "Erro ao buscar CEP",
+          description: "Tente novamente ou preencha manualmente.",
+          variant: "destructive",
+        });
+      } finally {
+        setIsLoadingCep(false);
+      }
+    }
+  };
+
   const copyPixCode = async () => {
     if (!pixData?.qrCodeText) return;
     try {
@@ -166,7 +222,16 @@ const Checkout = () => {
       });
       return false;
     }
-    
+
+    if (!isValidCPF(cleanCpf)) {
+      toast({
+        title: "CPF inválido",
+        description: "O CPF informado não é válido. Verifique os dígitos.",
+        variant: "destructive"
+      });
+      return false;
+    }
+
     return true;
   };
 
@@ -468,11 +533,16 @@ const Checkout = () => {
                         id="zip"
                         name="zip"
                         value={formData.zip}
-                        onChange={(e) => setFormData(prev => ({ ...prev, zip: formatCEP(e.target.value) }))}
+                        onChange={(e) => handleCepChange(e.target.value)}
                         placeholder="00000-000"
                         maxLength={9}
                         className="mt-1"
                       />
+                      {isLoadingCep && (
+                        <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
+                          <Loader2 className="h-3 w-3 animate-spin" /> Buscando endereço...
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>

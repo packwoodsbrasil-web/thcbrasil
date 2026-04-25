@@ -12,6 +12,16 @@ function validateCPF(cpf: string) {
   const c = cpf?.replace(/\D/g, '');
   if (!c || c.length !== 11) return { valid: false, error: 'CPF deve ter 11 dígitos' };
   if (/^(\d)\1+$/.test(c)) return { valid: false, error: 'CPF inválido' };
+  let sum = 0;
+  for (let i = 0; i < 9; i++) sum += parseInt(c[i]) * (10 - i);
+  let d1 = (sum * 10) % 11;
+  if (d1 === 10) d1 = 0;
+  if (d1 !== parseInt(c[9])) return { valid: false, error: 'CPF inválido' };
+  sum = 0;
+  for (let i = 0; i < 10; i++) sum += parseInt(c[i]) * (11 - i);
+  let d2 = (sum * 10) % 11;
+  if (d2 === 10) d2 = 0;
+  if (d2 !== parseInt(c[10])) return { valid: false, error: 'CPF inválido' };
   return { valid: true };
 }
 
