@@ -6,7 +6,7 @@ import { useCart } from '@/contexts/CartContext';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { ChevronLeft, Copy, Check, Smartphone, Loader2, CreditCard } from 'lucide-react';
+import { ChevronLeft, Copy, Check, Smartphone, Loader2, Bitcoin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { QRCodeSVG } from 'qrcode.react';
 import { supabase } from '@/integrations/supabase/client';
@@ -37,14 +37,22 @@ const Checkout = () => {
   const { toast } = useToast();
   const [isProcessing, setIsProcessing] = useState(false);
   const [isLoadingPix, setIsLoadingPix] = useState(false);
-  const [isLoadingCard, setIsLoadingCard] = useState(false);
+  const [isLoadingCrypto, setIsLoadingCrypto] = useState(false);
   const [pixCopied, setPixCopied] = useState(false);
   const [showPixModal, setShowPixModal] = useState(false);
-  const [paymentMethod, setPaymentMethod] = useState<'pix' | 'card'>('pix');
+  const [showCryptoModal, setShowCryptoModal] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState<'pix' | 'crypto'>('pix');
+  const [cryptoNetwork, setCryptoNetwork] = useState<string>('BTC');
   const [pixData, setPixData] = useState<{
-    qrCodeImage: string; // Base64 image from Appmax
-    qrCodeText: string; // EMV code for copy/paste
+    qrCodeImage: string;
+    qrCodeText: string;
     transactionId: string;
+  } | null>(null);
+  const [cryptoData, setCryptoData] = useState<{
+    qrCodeImage: string | null;
+    qrCodeText: string;
+    transactionId: string;
+    network: string;
   } | null>(null);
 
   const [formData, setFormData] = useState({
@@ -61,34 +69,9 @@ const Checkout = () => {
     zip: '',
   });
 
-  const [cardData, setCardData] = useState({
-    number: '',
-    holderName: '',
-    expirationMonth: '',
-    expirationYear: '',
-    cvv: '',
-    installments: '1',
-  });
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleCardInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setCardData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const formatCardNumber = (value: string) => {
-    const v = value.replace(/\s+/g, '').replace(/[^0-9]/gi, '');
-    const matches = v.match(/\d{4,16}/g);
-    const match = (matches && matches[0]) || '';
-    const parts = [];
-    for (let i = 0, len = match.length; i < len; i += 4) {
-      parts.push(match.substring(i, i + 4));
-    }
-    return parts.length ? parts.join(' ') : value;
   };
 
   const formatCPF = (value: string) => {
