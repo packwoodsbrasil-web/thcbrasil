@@ -10347,7 +10347,9 @@ export const products: Product[] = [
       { id: "prfi-r5", author: "Felipe G.", rating: 5, date: "2026-03-24", comment: "Veio muito bem montado e queimou por igual. Dá pra sentir que é produto mais premium já na primeira puxada." },
       { id: "prfi-r6", author: "Mariana C.", rating: 5, date: "2026-03-15", comment: "Tava procurando um blunt mais saboroso e esse acertou em cheio. O tubo de vidro ainda deixa tudo com cara de edição especial." },
       { id: "prfi-r7", author: "Lucas H.", rating: 5, date: "2026-03-05", comment: "Usei num pós-rolê e foi perfeito. Brisa equilibrada, cabeça leve e corpo relaxando sem travar conversa." },
-      { id: "prfi-r8", author: "Renata V.", rating: 5, date: "2026-02-22", comment: "Pra mim foi um dos melhores blunts novos dessa leva. Sabor fica presente de verdade e o rendimento dos 2g impressiona." }
+      { id: "prfi-r8", author: "Renata V.", rating: 5, date: "2026-02-22", comment: "Pra mim foi um dos melhores blunts novos dessa leva. Sabor fica presente de verdade e o rendimento dos 2g impressiona." },
+      { id: "prfi-r9", author: "Vinícius A.", rating: 5, date: "2026-02-10", comment: "O kief por fora faz diferença, queima devagar e mantém o sabor da Runtz vivo até a última tragada. Recomendo demais." },
+      { id: "prfi-r10", author: "Patrícia N.", rating: 4, date: "2026-01-30", comment: "Achei o aroma incrível ao abrir o tubo, bem doce e tropical. A brisa veio gostosa, ideal pra final de tarde tranquilo." }
     ],
     promoTag: "39% OFF"
   }
