@@ -533,11 +533,16 @@ const Checkout = () => {
                         id="zip"
                         name="zip"
                         value={formData.zip}
-                        onChange={(e) => setFormData(prev => ({ ...prev, zip: formatCEP(e.target.value) }))}
+                        onChange={(e) => handleCepChange(e.target.value)}
                         placeholder="00000-000"
                         maxLength={9}
                         className="mt-1"
                       />
+                      {isLoadingCep && (
+                        <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
+                          <Loader2 className="h-3 w-3 animate-spin" /> Buscando endereço...
+                        </p>
+                      )}
                     </div>
                   </div>
                 </div>
