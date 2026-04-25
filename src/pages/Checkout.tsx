@@ -142,53 +142,25 @@ const Checkout = () => {
     return true;
   };
 
-  const createAppmaxCustomer = async () => {
-    const { data, error } = await supabase.functions.invoke('appmax-create-customer', {
-      body: {
-        firstName: formData.firstName,
-        lastName: formData.lastName,
-        email: formData.email,
-        phone: formData.phone,
-        cpf: formData.cpf,
-        address: formData.address,
-        number: formData.number,
-        district: formData.district,
-        city: formData.city,
-        state: formData.state,
-        zip: formData.zip,
-      }
-    });
-
-    if (error) throw error;
-    if (!data.success) throw new Error(data.error || 'Erro ao criar cliente');
-    
-    return { customerId: data.customerId, customerHash: data.customerHash };
+  const generateExternalId = () => {
+    return `ord_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
   };
 
-  const createAppmaxOrder = async (customerId: number) => {
-    const products = items.map(item => ({
-      id: item.product.id,
-      name: item.product.name,
-      price: item.product.price,
-      quantity: item.quantity,
-    }));
+  const buildCustomerPayload = () => ({
+    name: `${formData.firstName} ${formData.lastName}`.trim(),
+    email: formData.email.trim(),
+    phone: formData.phone,
+    document: formData.cpf,
+  });
 
-    const { data, error } = await supabase.functions.invoke('appmax-create-order', {
-      body: {
-        customerId,
-        products,
-        total: totalPrice,
-        shipping: 0,
-      }
-    });
+  const buildProductsPayload = () => items.map(item => ({
+    id: item.product.id,
+    name: item.product.name,
+    price: item.product.price,
+    quantity: item.quantity,
+  }));
 
-    if (error) throw error;
-    if (!data.success) throw new Error(data.error || 'Erro ao criar pedido');
-    
-    return { orderId: data.orderId };
-  };
-
-  const saveOrder = async (orderId: string, method: 'pix' | 'card') => {
+  const saveOrder = async (orderId: string, method: 'pix' | 'crypto') => {
     // Get current user
     const { data: { user } } = await supabase.auth.getUser();
     
@@ -230,21 +202,15 @@ const Checkout = () => {
     setIsLoadingPix(true);
     
     try {
-      // Step 1: Create customer in Appmax
-      const { customerId } = await createAppmaxCustomer();
-      
-      // Step 2: Create order in Appmax
-      const { orderId } = await createAppmaxOrder(customerId);
-      
-      // Step 3: Save order to our database
-      await saveOrder(String(orderId), 'pix');
+      const externalId = generateExternalId();
+      await saveOrder(externalId, 'pix');
 
-      // Step 4: Create PIX payment
-      const { data, error } = await supabase.functions.invoke('appmax-payment-pix', {
+      const { data, error } = await supabase.functions.invoke('sigilopay-payment-pix', {
         body: {
-          orderId,
-          customerId,
-          cpf: formData.cpf,
+          externalId,
+          amount: totalPrice,
+          customer: buildCustomerPayload(),
+          products: buildProductsPayload(),
         }
       });
 
@@ -255,9 +221,9 @@ const Checkout = () => {
       }
 
       setPixData({
-        qrCodeImage: data.qrCodeImage, // Base64 image
-        qrCodeText: data.qrCodeText, // EMV code for copy
-        transactionId: data.transactionId || String(orderId),
+        qrCodeImage: data.qrCodeImage,
+        qrCodeText: data.qrCodeText,
+        transactionId: data.transactionId || externalId,
       });
       setShowPixModal(true);
     } catch (error) {
@@ -272,110 +238,48 @@ const Checkout = () => {
     }
   };
 
-  const handleCardPayment = async (e: React.FormEvent) => {
+  const handleCryptoPayment = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    // Validate card data
-    if (!cardData.number || !cardData.holderName || !cardData.expirationMonth || !cardData.expirationYear || !cardData.cvv) {
-      toast({
-        title: "Dados do cartão incompletos",
-        description: "Por favor, preencha todos os dados do cartão.",
-        variant: "destructive"
-      });
-      return;
-    }
+    setIsLoadingCrypto(true);
 
-    setIsLoadingCard(true);
-    
     try {
-      // Step 1: Create customer in Appmax
-      const { customerId } = await createAppmaxCustomer();
-      
-      // Step 2: Create order in Appmax
-      const { orderId } = await createAppmaxOrder(customerId);
-      
-      // Step 3: Save order to our database
-      await saveOrder(String(orderId), 'card');
+      const externalId = generateExternalId();
+      await saveOrder(externalId, 'crypto');
 
-      // Step 4: Create card payment
-      const { data, error } = await supabase.functions.invoke('appmax-payment-card', {
+      const { data, error } = await supabase.functions.invoke('sigilopay-payment-crypto', {
         body: {
-          orderId,
-          customerId,
-          cpf: formData.cpf,
-          card: {
-            number: cardData.number.replace(/\s/g, ''),
-            holderName: cardData.holderName,
-            expirationMonth: cardData.expirationMonth,
-            expirationYear: cardData.expirationYear,
-            cvv: cardData.cvv,
-          },
-          installments: parseInt(cardData.installments),
+          externalId,
+          amount: totalPrice,
+          customer: buildCustomerPayload(),
+          products: buildProductsPayload(),
+          network: cryptoNetwork,
         }
       });
 
       if (error) throw error;
-      
+
       if (!data.success) {
-        // Update order status to failed via edge function
-        await supabase.functions.invoke('update-order-status', {
-          body: {
-            externalId: String(orderId),
-            status: 'failed',
-          }
-        });
-          
-        throw new Error(data.error || 'Pagamento não aprovado');
+        throw new Error(data.error || 'Erro ao gerar pagamento crypto');
       }
 
-      // Update order status to paid via edge function
-      await supabase.functions.invoke('update-order-status', {
-        body: {
-          externalId: String(orderId),
-          status: 'paid',
-          transactionId: data.transactionId,
-        }
+      setCryptoData({
+        qrCodeImage: data.qrCodeImage,
+        qrCodeText: data.qrCodeText,
+        transactionId: data.transactionId || externalId,
+        network: data.network || cryptoNetwork,
       });
-
-      // Send confirmation email
-      await supabase.functions.invoke('send-order-confirmation', {
-        body: {
-          customerName: `${formData.firstName} ${formData.lastName}`,
-          customerEmail: formData.email,
-          orderId: data.transactionId || String(orderId),
-          items: items.map(item => ({
-            name: item.product.name,
-            quantity: item.quantity,
-            price: item.product.price,
-          })),
-          total: totalPrice,
-        }
-      });
-
-      toast({
-        title: "Pagamento aprovado!",
-        description: "Seu pedido foi confirmado.",
-      });
-
-      clearCart();
-      navigate('/confirmacao', { 
-        state: { 
-          orderId: data.transactionId || String(orderId),
-          total: totalPrice,
-          items: items,
-          paymentMethod: 'Cartão de Crédito'
-        } 
-      });
+      setShowCryptoModal(true);
     } catch (error) {
-      console.error('Error processing card payment:', error);
+      console.error('Error processing crypto payment:', error);
       toast({
         title: "Erro no pagamento",
-        description: error instanceof Error ? error.message : "Tente novamente ou use outro método de pagamento.",
+        description: error instanceof Error ? error.message : "Tente novamente ou use PIX.",
         variant: "destructive"
       });
     } finally {
-      setIsLoadingCard(false);
+      setIsLoadingCrypto(false);
     }
   };
 
