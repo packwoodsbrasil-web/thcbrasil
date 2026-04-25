@@ -10224,6 +10224,82 @@ export const products: Product[] = [
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
   },  {
+    id: "238",
+    name: "Packwoods x Runtz Pure Flavor Trio 1g",
+    slug: "packwoods-runtz-pure-flavor-trio-1g",
+    price: 299.80,
+    originalPrice: 449.70,
+    description: "Aí sim, mano! O Packwoods x Runtz Pure Flavor Trio 1g é a versão compacta do kit dos sonhos: 3 vapes descartáveis 1g cada, com sabores premium da linha Runtz e embalagem magnética de colecionador. Vem com a caneta roxa Runtz (1000mg) + dois cartuchos Honey Runtz Vape (preto e dourado, 1000mg cada) com perfil híbrido balanceado. Hardware top, ceramic coil, óleo destilado puríssimo e aquele acabamento premium que só a colab Packwoods x Runtz entrega. Perfeito pra quem quer experimentar o trio sem pesar tanto no bolso.",
+    details: [
+      "🔥 PROMO: Compre 2, Leve 3 + 33% OFF",
+      "Conteúdo: 1 vape Packwoods x Runtz roxo + 2 cartuchos Honey Runtz Vape",
+      "Capacidade: 1g por unidade (3g total)",
+      "Sabores: Runtz Original, Honey Runtz Black, Honey Runtz Gold (Hybrid)",
+      "Hardware: Ceramic coil + bateria recarregável",
+      "Carregador USB-C incluso",
+      "Embalagem: Caixa magnética premium colecionável",
+      "Potência: 90%+ THC destilado",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-pure-flavor-trio-1g-1.png"],
+    imageFit: "contain",
+    category: "Kits",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 22,
+    reviews: [
+      {
+        id: "prft1g-r1",
+        author: "Rafaela M.",
+        rating: 5,
+        date: "2026-04-23",
+        comment: "Mds, kit lindo demais! A caixa magnética é um luxo e os 3 sabores entregam bem. O Honey Runtz dourado é meu queridinho, brisa zen e duradoura."
+      },
+      {
+        id: "prft1g-r2",
+        author: "Caio S.",
+        rating: 5,
+        date: "2026-04-18",
+        comment: "Slk, vale cada real! Puxada macia, sabor real e a embalagem parece coisa de loja gringa. Comprei na promo do leve 3 e tô abastecido."
+      },
+      {
+        id: "prft1g-r3",
+        author: "Tainá L.",
+        rating: 5,
+        date: "2026-04-10",
+        comment: "Aí sim, mano! Versão menor é perfeita pra carregar e testar os 3 perfis. Hardware top, nada de entupir, brisa na hora."
+      },
+      {
+        id: "prft1g-r4",
+        author: "Vitor H.",
+        rating: 5,
+        date: "2026-04-02",
+        comment: "Pacote chegou rapidão e bem embalado. O trio é show, cada um com sua vibe. Recomendo demais!"
+      },
+      {
+        id: "prft1g-r5",
+        author: "Juliana R.",
+        rating: 5,
+        date: "2026-03-25",
+        comment: "Top demais! Comprei pra presentear e o cara amou. Caixa premium, sabores variados e o desconto do leve 3 é imperdível."
+      },
+      {
+        id: "prft1g-r6",
+        author: "Felipe O.",
+        rating: 5,
+        date: "2026-03-12",
+        comment: "Mano, hardware impecável. Bateria aguenta firme e o sabor não cai. A versão 1g é perfeita pra quem quer variedade sem exagero."
+      },
+      {
+        id: "prft1g-r7",
+        author: "Marina C.",
+        rating: 5,
+        date: "2026-02-28",
+        comment: "Brisa premium de verdade! Os terpenos são reais, sabor limpinho. Vale muito a promo, já é meu segundo pedido."
+      }
+    ],
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
+  },  {
     id: "63",
     name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
     slug: "kit-mega-pack-10-unidades",
