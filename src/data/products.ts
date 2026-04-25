@@ -10312,6 +10312,45 @@ export const products: Product[] = [
     ],
     promoTag: "39% OFF"
   }
+  ,
+  {
+    id: "230",
+    name: "Packwoods x Runtz Flower Infused Long Edition 2g",
+    slug: "packwoods-runtz-flower-infused",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods x Runtz Flower Infused 2g é um blunt premium da lendária collab Packwoods x Runtz, infundido com Nugrun Sauce e coberto com Indoor Kief. Sabor doce e frutado característico da Runtz, brisa equilibrada e potente. Pré-rolado em tubo de vidro com tampa drip roxa, pronto pra fumar e impressionar.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 43% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Nugrun Sauce + Indoor Kief Coating",
+      "Efeitos principais: Relaxante, Eufórico, Feliz",
+      "Sabor: Runtz doce, frutado tropical, toque cremoso",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods x Runtz - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-runtz-flower-infused-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 13,
+    reviews: [
+      { id: "prfi-r1", author: "Thiago M.", rating: 5, date: "2026-04-23", comment: "Mano, esse aqui é o blunt definitivo! Sabor Runtz autêntico, doce e frutado, brisa pesada na medida certa." },
+      { id: "prfi-r2", author: "Camila P.", rating: 5, date: "2026-04-16", comment: "Apaixonada! O Nugrun Sauce com o kief por fora faz toda diferença. Queima lenta e parelha, top demais." },
+      { id: "prfi-r3", author: "Rodrigo L.", rating: 5, date: "2026-04-09", comment: "Brabíssimo! Packwoods x Runtz nunca decepciona, esse 2g rende muito e a brisa é equilibrada." },
+      { id: "prfi-r4", author: "Beatriz S.", rating: 4, date: "2026-04-01", comment: "Muito gostoso, sabor frutado aparece bem nas primeiras tragadas. Embalagem linda, vale cada centavo na promo." },
+      { id: "prfi-r5", author: "Felipe G.", rating: 5, date: "2026-03-24", comment: "Sensacional! Pré-rolado perfeito, não precisa fazer nada. Brisa híbrida que deixa feliz e relaxado ao mesmo tempo." },
+      { id: "prfi-r6", author: "Mariana C.", rating: 5, date: "2026-03-15", comment: "Que delícia! Sabor de Runtz puro, doce e cremoso. O tubo de vidro com a tampa roxa é estiloso demais." },
+      { id: "prfi-r7", author: "Lucas H.", rating: 5, date: "2026-03-05", comment: "Top dos tops! 2g rendendo absurdo, dividi com a galera e todo mundo amou. Recomendo geral." },
+      { id: "prfi-r8", author: "Renata V.", rating: 5, date: "2026-02-22", comment: "Produto premium de verdade! Chegou rapidinho, bem embalado. Sabor e brisa nota 10, vou comprar de novo." }
+    ],
+    promoTag: "39% OFF"
+  }
 ];
 
 export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Kits"];
