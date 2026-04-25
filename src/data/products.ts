@@ -10301,14 +10301,14 @@ export const products: Product[] = [
     rating: 4.8,
     reviewCount: 11,
     reviews: [
-      { id: "pic-r1", author: "Henrique B.", rating: 5, date: "2026-04-22", comment: "Mano, esse blunt é outro nível! Sabor de sorvete real, brisa indica que relaxa geral." },
-    { id: "pic-r2", author: "Larissa M.", rating: 5, date: "2026-04-15", comment: "Apaixonei! Cremoso, suave e a indica bate certinho pra dormir bem. Top demais." },
-      { id: "pic-r3", author: "Vinicius A.", rating: 4, date: "2026-04-08", comment: "Muito bom, queima parelha e o kief por fora dá um up no sabor. Vale o preço promocional." },
-      { id: "pic-r4", author: "Patrícia N.", rating: 5, date: "2026-03-30", comment: "Sensacional! Sabor doce na medida, brisa pesada gostosa. Embalagem linda também." },
-      { id: "pic-r5", author: "Eduardo F.", rating: 5, date: "2026-03-22", comment: "Brabo demais! 2g rendendo super bem, perfeito pra dividir com os amigos." },
-      { id: "pic-r6", author: "Juliana T.", rating: 5, date: "2026-03-12", comment: "Que delícia de blunt! Indica relaxante de verdade, sabor cremoso viciante." },
-      { id: "pic-r7", author: "Marcelo D.", rating: 5, date: "2026-03-01", comment: "Top dos tops! Pré-rolado perfeito, não precisa mexer em nada. Brisa gostosa e duradoura." },
-      { id: "pic-r8", author: "Aline R.", rating: 4, date: "2026-02-18", comment: "Produto excelente, chegou rapidinho. Sabor de sorvete aparece bonito nas primeiras tragadas." }
+      { id: "pic-r1", author: "Henrique B.", rating: 5, date: "2026-04-22", comment: "Curti muito esse Ice Cream, mano. Tragada macia, gosto cremoso mesmo e uma onda indica que desacelera bonito." },
+      { id: "pic-r2", author: "Larissa M.", rating: 5, date: "2026-04-15", comment: "Esse foi pra minha lista fixa. O docinho lembra sobremesa e a sessão fica longa porque os 2g rendem bem demais." },
+      { id: "pic-r3", author: "Vinicius A.", rating: 4, date: "2026-04-08", comment: "Queima bem certinha e o acabamento vem caprichado. Curti mais no período da noite, bate relaxando sem pressa." },
+      { id: "pic-r4", author: "Patrícia N.", rating: 5, date: "2026-03-30", comment: "O aroma quando abre o tubo já entrega qualidade. Baunilha suave, fundinho terroso e uma brisa bem confortável." },
+      { id: "pic-r5", author: "Eduardo F.", rating: 5, date: "2026-03-22", comment: "Peguei pra dividir no rolê e geral elogiou. Não esfarela fácil, vem bonito e segura legal a intensidade do começo ao fim." },
+      { id: "pic-r6", author: "Juliana T.", rating: 5, date: "2026-03-12", comment: "Pra quem gosta de blunt mais encorpado, esse acerta muito. Sabor doce presente e finalização bem limpa na puxada." },
+      { id: "pic-r7", author: "Marcelo D.", rating: 5, date: "2026-03-01", comment: "Achei bem acima da média. Visual premium, tubo firme e efeito daquele tipo que deixa o corpo soltinho rapidão." },
+      { id: "pic-r8", author: "Aline R.", rating: 4, date: "2026-02-18", comment: "Veio bem embalado e o perfil de sabor aparece mais que em outros infused que já peguei. Promo nesse valor compensa bastante." }
     ],
     promoTag: "39% OFF"
   }
@@ -10340,14 +10340,14 @@ export const products: Product[] = [
     rating: 4.9,
     reviewCount: 13,
     reviews: [
-      { id: "prfi-r1", author: "Thiago M.", rating: 5, date: "2026-04-23", comment: "Mano, esse aqui é o blunt definitivo! Sabor Runtz autêntico, doce e frutado, brisa pesada na medida certa." },
-      { id: "prfi-r2", author: "Camila P.", rating: 5, date: "2026-04-16", comment: "Apaixonada! O Nugrun Sauce com o kief por fora faz toda diferença. Queima lenta e parelha, top demais." },
-      { id: "prfi-r3", author: "Rodrigo L.", rating: 5, date: "2026-04-09", comment: "Brabíssimo! Packwoods x Runtz nunca decepciona, esse 2g rende muito e a brisa é equilibrada." },
-      { id: "prfi-r4", author: "Beatriz S.", rating: 4, date: "2026-04-01", comment: "Muito gostoso, sabor frutado aparece bem nas primeiras tragadas. Embalagem linda, vale cada centavo na promo." },
-      { id: "prfi-r5", author: "Felipe G.", rating: 5, date: "2026-03-24", comment: "Sensacional! Pré-rolado perfeito, não precisa fazer nada. Brisa híbrida que deixa feliz e relaxado ao mesmo tempo." },
-      { id: "prfi-r6", author: "Mariana C.", rating: 5, date: "2026-03-15", comment: "Que delícia! Sabor de Runtz puro, doce e cremoso. O tubo de vidro com a tampa roxa é estiloso demais." },
-      { id: "prfi-r7", author: "Lucas H.", rating: 5, date: "2026-03-05", comment: "Top dos tops! 2g rendendo absurdo, dividi com a galera e todo mundo amou. Recomendo geral." },
-      { id: "prfi-r8", author: "Renata V.", rating: 5, date: "2026-02-22", comment: "Produto premium de verdade! Chegou rapidinho, bem embalado. Sabor e brisa nota 10, vou comprar de novo." }
+      { id: "prfi-r1", author: "Thiago M.", rating: 5, date: "2026-04-23", comment: "Esse Flower Infused veio nervoso. O toque doce da Runtz aparece logo de cara e depois fica uma sensação mais cremosa bem daora." },
+      { id: "prfi-r2", author: "Camila P.", rating: 5, date: "2026-04-16", comment: "Curti porque não tem gosto apagado. O infusion segura o sabor até o final e a fumaça sai redonda, sem arranhar." },
+      { id: "prfi-r3", author: "Rodrigo L.", rating: 5, date: "2026-04-09", comment: "A collab entregou bonito aqui. Bate feliz primeiro, depois vem aquele relaxamento bom sem derrubar de uma vez." },
+      { id: "prfi-r4", author: "Beatriz S.", rating: 4, date: "2026-04-01", comment: "Gostei bastante do perfil frutado, lembra bala doce com fundo herbal. Pelo preço promocional, achei um achado." },
+      { id: "prfi-r5", author: "Felipe G.", rating: 5, date: "2026-03-24", comment: "Veio muito bem montado e queimou por igual. Dá pra sentir que é produto mais premium já na primeira puxada." },
+      { id: "prfi-r6", author: "Mariana C.", rating: 5, date: "2026-03-15", comment: "Tava procurando um blunt mais saboroso e esse acertou em cheio. O tubo de vidro ainda deixa tudo com cara de edição especial." },
+      { id: "prfi-r7", author: "Lucas H.", rating: 5, date: "2026-03-05", comment: "Usei num pós-rolê e foi perfeito. Brisa equilibrada, cabeça leve e corpo relaxando sem travar conversa." },
+      { id: "prfi-r8", author: "Renata V.", rating: 5, date: "2026-02-22", comment: "Pra mim foi um dos melhores blunts novos dessa leva. Sabor fica presente de verdade e o rendimento dos 2g impressiona." }
     ],
     promoTag: "39% OFF"
   }
