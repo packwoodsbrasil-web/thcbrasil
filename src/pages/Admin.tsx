@@ -192,7 +192,7 @@ export default function Admin() {
                 <Table>
                   <TableHeader>
                     <TableRow>
-                      <TableHead>ID Appmax</TableHead>
+                      <TableHead>ID Externo</TableHead>
                       <TableHead>Cliente</TableHead>
                       <TableHead>Email</TableHead>
                       <TableHead>Valor</TableHead>

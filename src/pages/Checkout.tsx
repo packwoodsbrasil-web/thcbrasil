@@ -6,9 +6,8 @@ import { useCart } from '@/contexts/CartContext';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { ChevronLeft, Copy, Check, Smartphone, Loader2, CreditCard } from 'lucide-react';
+import { ChevronLeft, Copy, Check, Smartphone, Loader2, Bitcoin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { QRCodeSVG } from 'qrcode.react';
 import { supabase } from '@/integrations/supabase/client';
 import {
   Dialog,
@@ -37,14 +36,23 @@ const Checkout = () => {
   const { toast } = useToast();
   const [isProcessing, setIsProcessing] = useState(false);
   const [isLoadingPix, setIsLoadingPix] = useState(false);
-  const [isLoadingCard, setIsLoadingCard] = useState(false);
+  const [isLoadingCrypto, setIsLoadingCrypto] = useState(false);
   const [pixCopied, setPixCopied] = useState(false);
   const [showPixModal, setShowPixModal] = useState(false);
-  const [paymentMethod, setPaymentMethod] = useState<'pix' | 'card'>('pix');
+  const [showCryptoModal, setShowCryptoModal] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState<'pix' | 'crypto'>('pix');
+  const [cryptoNetwork, setCryptoNetwork] = useState<string>('BTC');
+  const [cryptoCopied, setCryptoCopied] = useState(false);
   const [pixData, setPixData] = useState<{
-    qrCodeImage: string; // Base64 image from Appmax
-    qrCodeText: string; // EMV code for copy/paste
+    qrCodeImage: string;
+    qrCodeText: string;
     transactionId: string;
+  } | null>(null);
+  const [cryptoData, setCryptoData] = useState<{
+    qrCodeImage: string | null;
+    qrCodeText: string;
+    transactionId: string;
+    network: string;
   } | null>(null);
 
   const [formData, setFormData] = useState({
@@ -61,34 +69,9 @@ const Checkout = () => {
     zip: '',
   });
 
-  const [cardData, setCardData] = useState({
-    number: '',
-    holderName: '',
-    expirationMonth: '',
-    expirationYear: '',
-    cvv: '',
-    installments: '1',
-  });
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleCardInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
-    setCardData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const formatCardNumber = (value: string) => {
-    const v = value.replace(/\s+/g, '').replace(/[^0-9]/gi, '');
-    const matches = v.match(/\d{4,16}/g);
-    const match = (matches && matches[0]) || '';
-    const parts = [];
-    for (let i = 0, len = match.length; i < len; i += 4) {
-      parts.push(match.substring(i, i + 4));
-    }
-    return parts.length ? parts.join(' ') : value;
   };
 
   const formatCPF = (value: string) => {
@@ -122,6 +105,47 @@ const Checkout = () => {
         variant: "destructive"
       });
     }
+  };
+
+  const copyCryptoCode = async () => {
+    if (!cryptoData?.qrCodeText) return;
+    try {
+      await navigator.clipboard.writeText(cryptoData.qrCodeText);
+      setCryptoCopied(true);
+      toast({ title: "Código copiado!", description: "Cole na sua carteira crypto." });
+      setTimeout(() => setCryptoCopied(false), 3000);
+    } catch {
+      toast({ title: "Erro ao copiar", variant: "destructive" });
+    }
+  };
+
+  const handleConfirmCryptoPayment = async () => {
+    setIsProcessing(true);
+    setShowCryptoModal(false);
+
+    await supabase.functions.invoke('send-order-confirmation', {
+      body: {
+        customerName: `${formData.firstName} ${formData.lastName}`,
+        customerEmail: formData.email,
+        orderId: cryptoData?.transactionId || `ORD-${Date.now()}`,
+        items: items.map(item => ({
+          name: item.product.name,
+          quantity: item.quantity,
+          price: item.product.price,
+        })),
+        total: totalPrice,
+      }
+    });
+
+    clearCart();
+    navigate('/confirmacao', {
+      state: {
+        orderId: cryptoData?.transactionId || `ORD-${Date.now()}`,
+        total: totalPrice,
+        items: items,
+        paymentMethod: `Crypto (${cryptoData?.network || cryptoNetwork})`
+      }
+    });
   };
 
   const validateForm = () => {
@@ -159,53 +183,25 @@ const Checkout = () => {
     return true;
   };
 
-  const createAppmaxCustomer = async () => {
-    const { data, error } = await supabase.functions.invoke('appmax-create-customer', {
-      body: {
-        firstName: formData.firstName,
-        lastName: formData.lastName,
-        email: formData.email,
-        phone: formData.phone,
-        cpf: formData.cpf,
-        address: formData.address,
-        number: formData.number,
-        district: formData.district,
-        city: formData.city,
-        state: formData.state,
-        zip: formData.zip,
-      }
-    });
-
-    if (error) throw error;
-    if (!data.success) throw new Error(data.error || 'Erro ao criar cliente');
-    
-    return { customerId: data.customerId, customerHash: data.customerHash };
+  const generateExternalId = () => {
+    return `ord_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
   };
 
-  const createAppmaxOrder = async (customerId: number) => {
-    const products = items.map(item => ({
-      id: item.product.id,
-      name: item.product.name,
-      price: item.product.price,
-      quantity: item.quantity,
-    }));
+  const buildCustomerPayload = () => ({
+    name: `${formData.firstName} ${formData.lastName}`.trim(),
+    email: formData.email.trim(),
+    phone: formData.phone,
+    document: formData.cpf,
+  });
 
-    const { data, error } = await supabase.functions.invoke('appmax-create-order', {
-      body: {
-        customerId,
-        products,
-        total: totalPrice,
-        shipping: 0,
-      }
-    });
+  const buildProductsPayload = () => items.map(item => ({
+    id: item.product.id,
+    name: item.product.name,
+    price: item.product.price,
+    quantity: item.quantity,
+  }));
 
-    if (error) throw error;
-    if (!data.success) throw new Error(data.error || 'Erro ao criar pedido');
-    
-    return { orderId: data.orderId };
-  };
-
-  const saveOrder = async (orderId: string, method: 'pix' | 'card') => {
+  const saveOrder = async (orderId: string, method: 'pix' | 'crypto') => {
     // Get current user
     const { data: { user } } = await supabase.auth.getUser();
     
@@ -247,21 +243,15 @@ const Checkout = () => {
     setIsLoadingPix(true);
     
     try {
-      // Step 1: Create customer in Appmax
-      const { customerId } = await createAppmaxCustomer();
-      
-      // Step 2: Create order in Appmax
-      const { orderId } = await createAppmaxOrder(customerId);
-      
-      // Step 3: Save order to our database
-      await saveOrder(String(orderId), 'pix');
+      const externalId = generateExternalId();
+      await saveOrder(externalId, 'pix');
 
-      // Step 4: Create PIX payment
-      const { data, error } = await supabase.functions.invoke('appmax-payment-pix', {
+      const { data, error } = await supabase.functions.invoke('sigilopay-payment-pix', {
         body: {
-          orderId,
-          customerId,
-          cpf: formData.cpf,
+          externalId,
+          amount: totalPrice,
+          customer: buildCustomerPayload(),
+          products: buildProductsPayload(),
         }
       });
 
@@ -272,9 +262,9 @@ const Checkout = () => {
       }
 
       setPixData({
-        qrCodeImage: data.qrCodeImage, // Base64 image
-        qrCodeText: data.qrCodeText, // EMV code for copy
-        transactionId: data.transactionId || String(orderId),
+        qrCodeImage: data.qrCodeImage,
+        qrCodeText: data.qrCodeText,
+        transactionId: data.transactionId || externalId,
       });
       setShowPixModal(true);
     } catch (error) {
@@ -289,110 +279,48 @@ const Checkout = () => {
     }
   };
 
-  const handleCardPayment = async (e: React.FormEvent) => {
+  const handleCryptoPayment = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateForm()) return;
 
-    // Validate card data
-    if (!cardData.number || !cardData.holderName || !cardData.expirationMonth || !cardData.expirationYear || !cardData.cvv) {
-      toast({
-        title: "Dados do cartão incompletos",
-        description: "Por favor, preencha todos os dados do cartão.",
-        variant: "destructive"
-      });
-      return;
-    }
+    setIsLoadingCrypto(true);
 
-    setIsLoadingCard(true);
-    
     try {
-      // Step 1: Create customer in Appmax
-      const { customerId } = await createAppmaxCustomer();
-      
-      // Step 2: Create order in Appmax
-      const { orderId } = await createAppmaxOrder(customerId);
-      
-      // Step 3: Save order to our database
-      await saveOrder(String(orderId), 'card');
+      const externalId = generateExternalId();
+      await saveOrder(externalId, 'crypto');
 
-      // Step 4: Create card payment
-      const { data, error } = await supabase.functions.invoke('appmax-payment-card', {
+      const { data, error } = await supabase.functions.invoke('sigilopay-payment-crypto', {
         body: {
-          orderId,
-          customerId,
-          cpf: formData.cpf,
-          card: {
-            number: cardData.number.replace(/\s/g, ''),
-            holderName: cardData.holderName,
-            expirationMonth: cardData.expirationMonth,
-            expirationYear: cardData.expirationYear,
-            cvv: cardData.cvv,
-          },
-          installments: parseInt(cardData.installments),
+          externalId,
+          amount: totalPrice,
+          customer: buildCustomerPayload(),
+          products: buildProductsPayload(),
+          network: cryptoNetwork,
         }
       });
 
       if (error) throw error;
-      
+
       if (!data.success) {
-        // Update order status to failed via edge function
-        await supabase.functions.invoke('update-order-status', {
-          body: {
-            externalId: String(orderId),
-            status: 'failed',
-          }
-        });
-          
-        throw new Error(data.error || 'Pagamento não aprovado');
+        throw new Error(data.error || 'Erro ao gerar pagamento crypto');
       }
 
-      // Update order status to paid via edge function
-      await supabase.functions.invoke('update-order-status', {
-        body: {
-          externalId: String(orderId),
-          status: 'paid',
-          transactionId: data.transactionId,
-        }
+      setCryptoData({
+        qrCodeImage: data.qrCodeImage,
+        qrCodeText: data.qrCodeText,
+        transactionId: data.transactionId || externalId,
+        network: data.network || cryptoNetwork,
       });
-
-      // Send confirmation email
-      await supabase.functions.invoke('send-order-confirmation', {
-        body: {
-          customerName: `${formData.firstName} ${formData.lastName}`,
-          customerEmail: formData.email,
-          orderId: data.transactionId || String(orderId),
-          items: items.map(item => ({
-            name: item.product.name,
-            quantity: item.quantity,
-            price: item.product.price,
-          })),
-          total: totalPrice,
-        }
-      });
-
-      toast({
-        title: "Pagamento aprovado!",
-        description: "Seu pedido foi confirmado.",
-      });
-
-      clearCart();
-      navigate('/confirmacao', { 
-        state: { 
-          orderId: data.transactionId || String(orderId),
-          total: totalPrice,
-          items: items,
-          paymentMethod: 'Cartão de Crédito'
-        } 
-      });
+      setShowCryptoModal(true);
     } catch (error) {
-      console.error('Error processing card payment:', error);
+      console.error('Error processing crypto payment:', error);
       toast({
         title: "Erro no pagamento",
-        description: error instanceof Error ? error.message : "Tente novamente ou use outro método de pagamento.",
+        description: error instanceof Error ? error.message : "Tente novamente ou use PIX.",
         variant: "destructive"
       });
     } finally {
-      setIsLoadingCard(false);
+      setIsLoadingCrypto(false);
     }
   };
 
@@ -608,15 +536,15 @@ const Checkout = () => {
               <div className="bg-card rounded-2xl border border-border p-6">
                 <h2 className="text-xl font-semibold mb-4">Forma de Pagamento</h2>
                 
-                <Tabs value={paymentMethod} onValueChange={(v) => setPaymentMethod(v as 'pix' | 'card')}>
+                <Tabs value={paymentMethod} onValueChange={(v) => setPaymentMethod(v as 'pix' | 'crypto')}>
                   <TabsList className="grid w-full grid-cols-2">
                     <TabsTrigger value="pix" className="flex items-center gap-2">
                       <Smartphone className="h-4 w-4" />
                       PIX
                     </TabsTrigger>
-                    <TabsTrigger value="card" className="flex items-center gap-2">
-                      <CreditCard className="h-4 w-4" />
-                      Cartão
+                    <TabsTrigger value="crypto" className="flex items-center gap-2">
+                      <Bitcoin className="h-4 w-4" />
+                      Crypto
                     </TabsTrigger>
                   </TabsList>
                   
@@ -635,91 +563,38 @@ const Checkout = () => {
                     </div>
                   </TabsContent>
                   
-                  <TabsContent value="card" className="mt-4 space-y-4">
-                    <div>
-                      <Label htmlFor="cardNumber">Número do Cartão</Label>
-                      <Input
-                        id="cardNumber"
-                        name="number"
-                        value={cardData.number}
-                        onChange={(e) => setCardData(prev => ({ ...prev, number: formatCardNumber(e.target.value) }))}
-                        placeholder="0000 0000 0000 0000"
-                        maxLength={19}
-                        className="mt-1"
-                      />
-                    </div>
-                    
-                    <div>
-                      <Label htmlFor="holderName">Nome no Cartão</Label>
-                      <Input
-                        id="holderName"
-                        name="holderName"
-                        value={cardData.holderName}
-                        onChange={handleCardInputChange}
-                        placeholder="NOME COMO NO CARTÃO"
-                        className="mt-1 uppercase"
-                      />
-                    </div>
-                    
-                    <div className="grid grid-cols-3 gap-4">
-                      <div>
-                        <Label htmlFor="expirationMonth">Mês</Label>
-                        <Input
-                          id="expirationMonth"
-                          name="expirationMonth"
-                          value={cardData.expirationMonth}
-                          onChange={handleCardInputChange}
-                          placeholder="MM"
-                          maxLength={2}
-                          className="mt-1"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="expirationYear">Ano</Label>
-                        <Input
-                          id="expirationYear"
-                          name="expirationYear"
-                          value={cardData.expirationYear}
-                          onChange={handleCardInputChange}
-                          placeholder="AA"
-                          maxLength={2}
-                          className="mt-1"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="cvv">CVV</Label>
-                        <Input
-                          id="cvv"
-                          name="cvv"
-                          value={cardData.cvv}
-                          onChange={handleCardInputChange}
-                          placeholder="123"
-                          maxLength={4}
-                          type="password"
-                          className="mt-1"
-                        />
+                  <TabsContent value="crypto" className="mt-4 space-y-4">
+                    <div className="bg-primary/10 rounded-xl p-6">
+                      <div className="text-center">
+                        <p className="text-sm text-muted-foreground mb-2">Valor a pagar</p>
+                        <p className="text-3xl font-bold text-primary">
+                          R$ {totalPrice.toFixed(2).replace('.', ',')}
+                        </p>
                       </div>
                     </div>
-                    
+
                     <div>
-                      <Label htmlFor="installments">Parcelas</Label>
-                      <Select 
-                        value={cardData.installments} 
-                        onValueChange={(v) => setCardData(prev => ({ ...prev, installments: v }))}
-                      >
+                      <Label htmlFor="cryptoNetwork">Rede / Moeda</Label>
+                      <Select value={cryptoNetwork} onValueChange={setCryptoNetwork}>
                         <SelectTrigger className="mt-1">
-                          <SelectValue placeholder="Selecione" />
+                          <SelectValue placeholder="Selecione a rede" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1">1x de R$ {totalPrice.toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="2">2x de R$ {(totalPrice / 2).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="3">3x de R$ {(totalPrice / 3).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="4">4x de R$ {(totalPrice / 4).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="5">5x de R$ {(totalPrice / 5).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="6">6x de R$ {(totalPrice / 6).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
+                          <SelectItem value="BTC">Bitcoin (BTC)</SelectItem>
+                          <SelectItem value="ETH">Ethereum (ETH)</SelectItem>
+                          <SelectItem value="USDT_TRC20">USDT (Tron - TRC20)</SelectItem>
+                          <SelectItem value="USDT_ERC20">USDT (Ethereum - ERC20)</SelectItem>
+                          <SelectItem value="USDT_BEP20">USDT (BSC - BEP20)</SelectItem>
+                          <SelectItem value="BNB">BNB</SelectItem>
+                          <SelectItem value="SOL">Solana (SOL)</SelectItem>
+                          <SelectItem value="MATIC">Polygon (MATIC)</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
+
+                    <p className="text-sm text-muted-foreground">
+                      Ao confirmar, você verá o QR Code e o endereço da carteira para enviar o pagamento.
+                    </p>
                   </TabsContent>
                 </Tabs>
               </div>
@@ -794,20 +669,20 @@ const Checkout = () => {
                     type="button"
                     size="lg"
                     className="w-full mt-6 font-semibold shadow-glow"
-                    disabled={isProcessing || isLoadingCard}
-                    onClick={handleCardPayment}
+                    disabled={isProcessing || isLoadingCrypto}
+                    onClick={handleCryptoPayment}
                   >
                     {isProcessing ? (
                       <>Processando...</>
-                    ) : isLoadingCard ? (
+                    ) : isLoadingCrypto ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        Processando...
+                        Gerando QR Code...
                       </>
                     ) : (
                       <>
-                        <CreditCard className="mr-2 h-4 w-4" />
-                        Pagar com Cartão
+                        <Bitcoin className="mr-2 h-4 w-4" />
+                        Pagar com Crypto
                       </>
                     )}
                   </Button>
@@ -846,7 +721,7 @@ const Checkout = () => {
               </p>
             </div>
 
-            {/* QR Code - Use base64 image from Appmax */}
+            {/* QR Code - Use base64 image from SigiloPay */}
             {pixData?.qrCodeImage && (
               <div className="flex justify-center">
                 <div className="bg-white p-4 rounded-xl">
@@ -910,6 +785,85 @@ const Checkout = () => {
               size="lg"
               className="w-full font-semibold"
             >
+              <Check className="mr-2 h-4 w-4" />
+              Já fiz o pagamento
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {/* Crypto QR Code Modal */}
+      <Dialog open={showCryptoModal} onOpenChange={setShowCryptoModal}>
+        <DialogContent className="sm:max-w-md max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-center">
+              <span className="flex items-center justify-center gap-2">
+                <Bitcoin className="h-5 w-5 text-primary" />
+                Pague com Crypto ({cryptoData?.network || cryptoNetwork})
+              </span>
+            </DialogTitle>
+            <DialogDescription className="text-center">
+              Escaneie o QR Code ou copie o endereço/código para pagar
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="space-y-6 py-4">
+            <div className="text-center">
+              <p className="text-sm text-muted-foreground">Valor a pagar</p>
+              <p className="text-3xl font-bold text-primary">
+                R$ {totalPrice.toFixed(2).replace('.', ',')}
+              </p>
+            </div>
+
+            {cryptoData?.qrCodeImage && (
+              <div className="flex justify-center">
+                <div className="bg-white p-4 rounded-xl">
+                  <img
+                    src={`data:image/png;base64,${cryptoData.qrCodeImage}`}
+                    alt="QR Code Crypto"
+                    width={200}
+                    height={200}
+                    className="w-[200px] h-[200px]"
+                  />
+                </div>
+              </div>
+            )}
+
+            {cryptoData?.qrCodeText && (
+              <div>
+                <p className="text-sm text-muted-foreground mb-2 text-center">Endereço / código:</p>
+                <div className="flex gap-2">
+                  <div className="flex-1 bg-muted rounded-lg px-3 py-2 text-xs font-mono break-all max-h-20 overflow-y-auto">
+                    {cryptoData.qrCodeText}
+                  </div>
+                  <Button type="button" variant="outline" size="icon" onClick={copyCryptoCode} className="shrink-0">
+                    {cryptoCopied ? (
+                      <Check className="h-4 w-4 text-green-500" />
+                    ) : (
+                      <Copy className="h-4 w-4" />
+                    )}
+                  </Button>
+                </div>
+              </div>
+            )}
+
+            {cryptoData?.transactionId && (
+              <div className="text-center text-sm">
+                <p className="text-muted-foreground">ID da Transação</p>
+                <p className="font-semibold font-mono text-xs">{cryptoData.transactionId}</p>
+              </div>
+            )}
+
+            <div className="bg-muted/50 rounded-lg p-4 text-sm text-muted-foreground">
+              <ol className="list-decimal list-inside space-y-1">
+                <li>Escaneie o QR Code ou copie o endereço</li>
+                <li>Abra sua carteira crypto</li>
+                <li>Envie o valor exato pela rede selecionada</li>
+                <li>Aguarde a confirmação na blockchain</li>
+              </ol>
+            </div>
+
+            <Button onClick={handleConfirmCryptoPayment} size="lg" className="w-full font-semibold">
               <Check className="mr-2 h-4 w-4" />
               Já fiz o pagamento
             </Button>
