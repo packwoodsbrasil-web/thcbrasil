@@ -10433,6 +10433,42 @@ export const products: Product[] = [
       { id: "pdtla-r14", author: "Isabela Q.", rating: 5, date: "2026-01-25", comment: "Fechou a noite com chave de ouro. Brisa criativa que vira chillzão depois de uns minutos, perfil DTLA é diferenciado mesmo." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "233",
+    name: "Packwoods Higgs Animal Cookies Long Edition 2g",
+    slug: "packwoods-higgs-animal-cookies",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods Higgs Animal Cookies 2g é um blunt premium da linha Higgs, infundido com live resin da cepa Animal Cookies e coberto com kief indoor. Embalado em tubo de vidro com tampa drip vermelha holográfica, entrega aroma doce de baunilha com toque terroso e brisa indica pesada que relaxa corpo e mente, ideal pra fechar o dia em modo cinema ou desligar de vez.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Indica (Animal Cookies)",
+      "Potência: 44% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Live Resin + Indoor Kief Coating",
+      "Efeitos principais: Relaxante, Sedativo, Eufórico no início",
+      "Sabor: Doce baunilha com fundo terroso",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-higgs-animal-cookies-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 22,
+    reviews: [
+      { id: "phac-r1", author: "Thiago M.", rating: 5, date: "2026-04-25", comment: "Mano, esse Animal Cookies é monstro. Puxei dois tapas e já apaguei a luz da sala, brisa pesadona de verdade." },
+      { id: "phac-r2", author: "Larissa C.", rating: 5, date: "2026-04-18", comment: "Aroma de baunilha quando abre o tubinho é viciante, parece sobremesa. Indica raiz, fechou meu sono que tava bagunçado faz semanas." },
+      { id: "phac-r3", author: "Gabriel S.", rating: 5, date: "2026-04-11", comment: "Tampa drip vermelha holográfica é estilosa demais, mas o que segura mesmo é a queima parelha e o fundo terroso na puxada." },
+      { id: "phac-r4", author: "Renata P.", rating: 5, date: "2026-04-03", comment: "Comprei pra desligar depois de uma semana puxada de trampo e foi terapia pura. Corpo derretido no sofá em poucos minutos." },
+      { id: "phac-r5", author: "Bruno A.", rating: 4, date: "2026-03-26", comment: "Blunt parrudo, kief por fora dá um charme. Só achei a brisa um tiquinho sedativa demais pra rolê em grupo, mas pra noite tá show." },
+      { id: "phac-r6", author: "Juliana T.", rating: 5, date: "2026-03-19", comment: "Higgs entregando outro nível, o live resin se sente em cada tapa. Sabor doce que não enjoa e relaxa de mansinho até desligar tudo." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
