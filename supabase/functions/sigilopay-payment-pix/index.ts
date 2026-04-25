@@ -103,7 +103,10 @@ serve(async (req) => {
         document: customer.document.replace(/\D/g, ''),
         address: shippingAddress ? {
           country: 'BR',
-          zipCode: String(shippingAddress.zip || '').replace(/\D/g, ''),
+          zipCode: (() => {
+            const z = String(shippingAddress.zip || '').replace(/\D/g, '');
+            return z.length === 8 ? `${z.slice(0,5)}-${z.slice(5)}` : z;
+          })(),
           state: shippingAddress.state || '',
           city: shippingAddress.city || '',
           neighborhood: shippingAddress.district || '',
@@ -129,7 +132,7 @@ serve(async (req) => {
     });
 
     const data = await resp.json();
-    console.log('SigiloPay PIX response:', JSON.stringify({ status: resp.status, ok: resp.ok, transactionId: data?.transactionId, statusEnum: data?.status }));
+    console.log('SigiloPay PIX response:', JSON.stringify({ status: resp.status, ok: resp.ok, body: data }));
 
     if (!resp.ok || (data.status && data.status !== 'OK' && data.status !== 'PENDING')) {
       return new Response(JSON.stringify({
