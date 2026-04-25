@@ -10389,6 +10389,50 @@ export const products: Product[] = [
       { id: "pbj-r7", author: "Bruno K.", rating: 5, date: "2026-02-25", comment: "Pelo preço promocional foi um achado. Os 2g rendem pra caramba e o sabor não cai no meio do caminho, recomendo geral." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "232",
+    name: "Packwoods DTLA Long Edition 2g",
+    slug: "packwoods-dtla",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods DTLA 2g é um blunt premium inspirado nas ruas de Downtown Los Angeles. Pré-rolado infundido com live resin, coberto com kief indoor e finalizado em tubo de vidro com tampa drip azul holográfica. Perfil de sabor frutado com toque cítrico e fundo doce, brisa equilibrada que mistura euforia da sativa com o relax indica, ideal pra rolê em grupo ou maratona tranquila.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida (DTLA Blend)",
+      "Potência: 43% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Live Resin + Indoor Kief Coating",
+      "Efeitos principais: Eufórico, Relaxante, Social",
+      "Sabor: Frutado cítrico com fundo doce",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-dtla-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 31,
+    reviews: [
+      { id: "pdtla-r1", author: "Caio P.", rating: 5, date: "2026-04-24", comment: "Esse DTLA é viagem, tio. Puxada cítrica leve no começo e depois bate aquele docinho que segura a brisa por horas." },
+      { id: "pdtla-r2", author: "Marina S.", rating: 5, date: "2026-04-20", comment: "Achei o equilíbrio perfeito, sobe a cabeça e ainda relaxa o corpo. Daora pra desenrolar com a galera num churrasco." },
+      { id: "pdtla-r3", author: "Felipe N.", rating: 5, date: "2026-04-15", comment: "Tubinho com tampa azul é estiloso demais, parece item de coleção. E o blunt em si é parrudo, queima lenta e sem falhar." },
+      { id: "pdtla-r4", author: "Beatriz L.", rating: 5, date: "2026-04-10", comment: "Mano do céu, o aroma quando abre o tubo já entrega que vai ser top. Frutado cítrico bem marcante, viciei nesse perfil." },
+      { id: "pdtla-r5", author: "Lucas M.", rating: 4, date: "2026-04-05", comment: "Brisa social na régua, fiquei papeando até tarde sem travar. Só não dei 5 porque queria um tiquinho mais de potência." },
+      { id: "pdtla-r6", author: "Amanda R.", rating: 5, date: "2026-03-28", comment: "Dividi com duas amigas e ainda sobrou pro outro dia. Os 2g rendem absurdo, e o sabor não morre no meio." },
+      { id: "pdtla-r7", author: "Vinícius B.", rating: 5, date: "2026-03-22", comment: "Pra quem curte sativa com pegada chill, esse aqui é o caminho. Inspiração e tranquilidade no mesmo bagulho." },
+      { id: "pdtla-r8", author: "Camila O.", rating: 5, date: "2026-03-15", comment: "Confesso que comprei pelo design da embalagem, mas o produto é fora da curva. Kief por fora dá uma textura linda." },
+      { id: "pdtla-r9", author: "Rodrigo F.", rating: 5, date: "2026-03-08", comment: "Acendeu redondo, sem aquela cinza estranha caindo. Queima parelha do começo ao fim, percebe que é coisa séria." },
+      { id: "pdtla-r10", author: "Tatiane V.", rating: 5, date: "2026-02-28", comment: "Bati nesse depois de um dia tenso de trampo e foi uma terapia. Fundo docinho que abraça, recomendo demais." },
+      { id: "pdtla-r11", author: "Eduardo H.", rating: 4, date: "2026-02-20", comment: "Bom blunt, sem firula. Perfil cítrico frescor que combina com fim de tarde no terraço, vou pedir mais um pra estoque." },
+      { id: "pdtla-r12", author: "Priscila G.", rating: 5, date: "2026-02-12", comment: "Live resin nesse blunt fez toda diferença, sabor entra denso mas suave. Galera ficou impressionada no rolê." },
+      { id: "pdtla-r13", author: "Matheus C.", rating: 5, date: "2026-02-04", comment: "Comprei na promo e foi um tiro certeiro. Sai mais barato que rolar dois normais e a experiência é outro nível." },
+      { id: "pdtla-r14", author: "Isabela Q.", rating: 5, date: "2026-01-25", comment: "Fechou a noite com chave de ouro. Brisa criativa que vira chillzão depois de uns minutos, perfil DTLA é diferenciado mesmo." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
