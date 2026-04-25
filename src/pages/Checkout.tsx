@@ -107,14 +107,50 @@ const Checkout = () => {
     return d2 === parseInt(c[10]);
   };
 
-  // Validate email with stricter format (requires valid domain + TLD)
+  // Validate email with stricter format (requires valid domain + known TLD, blocks disposables)
   const isValidEmail = (email: string): boolean => {
-    const e = email.trim();
-    if (e.length < 5 || e.length > 255) return false;
-    // Local@domain.tld — TLD with at least 2 letters, no consecutive dots
+    const e = email.trim().toLowerCase();
+    if (e.length < 6 || e.length > 255) return false;
+    if (e.includes('..')) return false;
+    if (e.startsWith('.') || e.startsWith('-')) return false;
+
+    // Basic structure: local@domain.tld
     const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}$/;
     if (!re.test(e)) return false;
-    if (e.includes('..')) return false;
+
+    const [local, domain] = e.split('@');
+    if (!local || !domain) return false;
+    if (local.length > 64) return false;
+    if (local.startsWith('.') || local.endsWith('.')) return false;
+
+    // Domain checks
+    const domainParts = domain.split('.');
+    if (domainParts.length < 2) return false;
+    const tld = domainParts[domainParts.length - 1];
+    if (tld.length < 2) return false;
+    // TLD must be only letters
+    if (!/^[a-zA-Z]+$/.test(tld)) return false;
+    // Each domain part must be valid
+    for (const part of domainParts) {
+      if (!part || part.length > 63) return false;
+      if (part.startsWith('-') || part.endsWith('-')) return false;
+    }
+
+    // Reject obvious fakes / test domains
+    const blockedDomains = [
+      'test.com', 'teste.com', 'example.com', 'example.org', 'exemplo.com',
+      'email.com', 'mail.com', 'asdf.com', 'aaa.com', 'abc.com',
+      'tempmail.com', 'mailinator.com', '10minutemail.com', 'guerrillamail.com',
+      'yopmail.com', 'trashmail.com', 'fakeinbox.com', 'sharklasers.com',
+      'a.com', 'b.com', 'c.com', '123.com',
+    ];
+    if (blockedDomains.includes(domain)) return false;
+
+    // Reject local parts that are obviously fake
+    if (/^(test|teste|asdf|aaaa|abcd|qwerty|1234|admin|user|fake)\d*$/i.test(local)) return false;
+    // Reject local part with only repeated chars (e.g. aaaaa, 11111)
+    if (/^(.)\1+$/.test(local)) return false;
+
     return true;
   };
 
