@@ -77,12 +77,6 @@ serve(async (req) => {
         phone: customer.phone || '',
         document: customer.document.replace(/\D/g, ''),
       },
-      products: Array.isArray(products) ? products.map((p: any) => ({
-        id: String(p.id),
-        name: String(p.name).slice(0, 100),
-        quantity: Number(p.quantity) || 1,
-        price: Number(p.price),
-      })) : [],
       metadata: { provider: 'Lovable Checkout', externalId },
       callbackUrl,
     };
