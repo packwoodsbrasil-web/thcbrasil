@@ -495,15 +495,15 @@ const Checkout = () => {
               <div className="bg-card rounded-2xl border border-border p-6">
                 <h2 className="text-xl font-semibold mb-4">Forma de Pagamento</h2>
                 
-                <Tabs value={paymentMethod} onValueChange={(v) => setPaymentMethod(v as 'pix' | 'card')}>
+                <Tabs value={paymentMethod} onValueChange={(v) => setPaymentMethod(v as 'pix' | 'crypto')}>
                   <TabsList className="grid w-full grid-cols-2">
                     <TabsTrigger value="pix" className="flex items-center gap-2">
                       <Smartphone className="h-4 w-4" />
                       PIX
                     </TabsTrigger>
-                    <TabsTrigger value="card" className="flex items-center gap-2">
-                      <CreditCard className="h-4 w-4" />
-                      Cartão
+                    <TabsTrigger value="crypto" className="flex items-center gap-2">
+                      <Bitcoin className="h-4 w-4" />
+                      Crypto
                     </TabsTrigger>
                   </TabsList>
                   
@@ -522,91 +522,38 @@ const Checkout = () => {
                     </div>
                   </TabsContent>
                   
-                  <TabsContent value="card" className="mt-4 space-y-4">
-                    <div>
-                      <Label htmlFor="cardNumber">Número do Cartão</Label>
-                      <Input
-                        id="cardNumber"
-                        name="number"
-                        value={cardData.number}
-                        onChange={(e) => setCardData(prev => ({ ...prev, number: formatCardNumber(e.target.value) }))}
-                        placeholder="0000 0000 0000 0000"
-                        maxLength={19}
-                        className="mt-1"
-                      />
-                    </div>
-                    
-                    <div>
-                      <Label htmlFor="holderName">Nome no Cartão</Label>
-                      <Input
-                        id="holderName"
-                        name="holderName"
-                        value={cardData.holderName}
-                        onChange={handleCardInputChange}
-                        placeholder="NOME COMO NO CARTÃO"
-                        className="mt-1 uppercase"
-                      />
-                    </div>
-                    
-                    <div className="grid grid-cols-3 gap-4">
-                      <div>
-                        <Label htmlFor="expirationMonth">Mês</Label>
-                        <Input
-                          id="expirationMonth"
-                          name="expirationMonth"
-                          value={cardData.expirationMonth}
-                          onChange={handleCardInputChange}
-                          placeholder="MM"
-                          maxLength={2}
-                          className="mt-1"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="expirationYear">Ano</Label>
-                        <Input
-                          id="expirationYear"
-                          name="expirationYear"
-                          value={cardData.expirationYear}
-                          onChange={handleCardInputChange}
-                          placeholder="AA"
-                          maxLength={2}
-                          className="mt-1"
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="cvv">CVV</Label>
-                        <Input
-                          id="cvv"
-                          name="cvv"
-                          value={cardData.cvv}
-                          onChange={handleCardInputChange}
-                          placeholder="123"
-                          maxLength={4}
-                          type="password"
-                          className="mt-1"
-                        />
+                  <TabsContent value="crypto" className="mt-4 space-y-4">
+                    <div className="bg-primary/10 rounded-xl p-6">
+                      <div className="text-center">
+                        <p className="text-sm text-muted-foreground mb-2">Valor a pagar</p>
+                        <p className="text-3xl font-bold text-primary">
+                          R$ {totalPrice.toFixed(2).replace('.', ',')}
+                        </p>
                       </div>
                     </div>
-                    
+
                     <div>
-                      <Label htmlFor="installments">Parcelas</Label>
-                      <Select 
-                        value={cardData.installments} 
-                        onValueChange={(v) => setCardData(prev => ({ ...prev, installments: v }))}
-                      >
+                      <Label htmlFor="cryptoNetwork">Rede / Moeda</Label>
+                      <Select value={cryptoNetwork} onValueChange={setCryptoNetwork}>
                         <SelectTrigger className="mt-1">
-                          <SelectValue placeholder="Selecione" />
+                          <SelectValue placeholder="Selecione a rede" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="1">1x de R$ {totalPrice.toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="2">2x de R$ {(totalPrice / 2).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="3">3x de R$ {(totalPrice / 3).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="4">4x de R$ {(totalPrice / 4).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="5">5x de R$ {(totalPrice / 5).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
-                          <SelectItem value="6">6x de R$ {(totalPrice / 6).toFixed(2).replace('.', ',')} (sem juros)</SelectItem>
+                          <SelectItem value="BTC">Bitcoin (BTC)</SelectItem>
+                          <SelectItem value="ETH">Ethereum (ETH)</SelectItem>
+                          <SelectItem value="USDT_TRC20">USDT (Tron - TRC20)</SelectItem>
+                          <SelectItem value="USDT_ERC20">USDT (Ethereum - ERC20)</SelectItem>
+                          <SelectItem value="USDT_BEP20">USDT (BSC - BEP20)</SelectItem>
+                          <SelectItem value="BNB">BNB</SelectItem>
+                          <SelectItem value="SOL">Solana (SOL)</SelectItem>
+                          <SelectItem value="MATIC">Polygon (MATIC)</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
+
+                    <p className="text-sm text-muted-foreground">
+                      Ao confirmar, você verá o QR Code e o endereço da carteira para enviar o pagamento.
+                    </p>
                   </TabsContent>
                 </Tabs>
               </div>
@@ -681,20 +628,20 @@ const Checkout = () => {
                     type="button"
                     size="lg"
                     className="w-full mt-6 font-semibold shadow-glow"
-                    disabled={isProcessing || isLoadingCard}
-                    onClick={handleCardPayment}
+                    disabled={isProcessing || isLoadingCrypto}
+                    onClick={handleCryptoPayment}
                   >
                     {isProcessing ? (
                       <>Processando...</>
-                    ) : isLoadingCard ? (
+                    ) : isLoadingCrypto ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        Processando...
+                        Gerando QR Code...
                       </>
                     ) : (
                       <>
-                        <CreditCard className="mr-2 h-4 w-4" />
-                        Pagar com Cartão
+                        <Bitcoin className="mr-2 h-4 w-4" />
+                        Pagar com Crypto
                       </>
                     )}
                   </Button>
