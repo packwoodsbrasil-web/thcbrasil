@@ -442,8 +442,9 @@ const Checkout = () => {
                         value={formData.firstName}
                         onChange={handleInputChange}
                         placeholder="João"
-                        className="mt-1"
+                        className={`mt-1 ${errors.firstName ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.firstName && <p className="text-xs text-destructive mt-1">{errors.firstName}</p>}
                     </div>
                     <div>
                       <Label htmlFor="lastName">Sobrenome</Label>
@@ -453,8 +454,9 @@ const Checkout = () => {
                         value={formData.lastName}
                         onChange={handleInputChange}
                         placeholder="Silva"
-                        className="mt-1"
+                        className={`mt-1 ${errors.lastName ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.lastName && <p className="text-xs text-destructive mt-1">{errors.lastName}</p>}
                     </div>
                   </div>
                   
@@ -468,8 +470,9 @@ const Checkout = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         placeholder="seu@email.com"
-                        className="mt-1"
+                        className={`mt-1 ${errors.email ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.email && <p className="text-xs text-destructive mt-1">{errors.email}</p>}
                     </div>
                     <div>
                       <Label htmlFor="phone">Telefone</Label>
@@ -479,8 +482,9 @@ const Checkout = () => {
                         value={formData.phone}
                         onChange={handleInputChange}
                         placeholder="11999999999"
-                        className="mt-1"
+                        className={`mt-1 ${errors.phone ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.phone && <p className="text-xs text-destructive mt-1">{errors.phone}</p>}
                     </div>
                   </div>
 
@@ -490,11 +494,12 @@ const Checkout = () => {
                       id="cpf"
                       name="cpf"
                       value={formData.cpf}
-                      onChange={(e) => setFormData(prev => ({ ...prev, cpf: formatCPF(e.target.value) }))}
+                      onChange={(e) => { setFormData(prev => ({ ...prev, cpf: formatCPF(e.target.value) })); clearError('cpf'); }}
                       placeholder="000.000.000-00"
                       maxLength={14}
-                      className="mt-1"
+                      className={`mt-1 ${errors.cpf ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                     />
+                    {errors.cpf && <p className="text-xs text-destructive mt-1">{errors.cpf}</p>}
                   </div>
 
                   <div className="grid grid-cols-3 gap-4">
@@ -506,8 +511,9 @@ const Checkout = () => {
                         value={formData.address}
                         onChange={handleInputChange}
                         placeholder="Rua das Flores"
-                        className="mt-1"
+                        className={`mt-1 ${errors.address ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.address && <p className="text-xs text-destructive mt-1">{errors.address}</p>}
                     </div>
                     <div>
                       <Label htmlFor="number">Número</Label>
@@ -517,8 +523,9 @@ const Checkout = () => {
                         value={formData.number}
                         onChange={handleInputChange}
                         placeholder="123"
-                        className="mt-1"
+                        className={`mt-1 ${errors.number ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.number && <p className="text-xs text-destructive mt-1">{errors.number}</p>}
                     </div>
                   </div>
 
@@ -530,8 +537,9 @@ const Checkout = () => {
                       value={formData.district}
                       onChange={handleInputChange}
                       placeholder="Centro"
-                      className="mt-1"
+                      className={`mt-1 ${errors.district ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                     />
+                    {errors.district && <p className="text-xs text-destructive mt-1">{errors.district}</p>}
                   </div>
 
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -543,8 +551,9 @@ const Checkout = () => {
                         value={formData.city}
                         onChange={handleInputChange}
                         placeholder="São Paulo"
-                        className="mt-1"
+                        className={`mt-1 ${errors.city ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.city && <p className="text-xs text-destructive mt-1">{errors.city}</p>}
                     </div>
                     <div>
                       <Label htmlFor="state">Estado</Label>
@@ -555,8 +564,9 @@ const Checkout = () => {
                         onChange={handleInputChange}
                         placeholder="SP"
                         maxLength={2}
-                        className="mt-1"
+                        className={`mt-1 ${errors.state ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.state && <p className="text-xs text-destructive mt-1">{errors.state}</p>}
                     </div>
                     <div>
                       <Label htmlFor="zip">CEP</Label>
@@ -567,13 +577,14 @@ const Checkout = () => {
                         onChange={(e) => handleCepChange(e.target.value)}
                         placeholder="00000-000"
                         maxLength={9}
-                        className="mt-1"
+                        className={`mt-1 ${errors.zip ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
                       {isLoadingCep && (
                         <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
                           <Loader2 className="h-3 w-3 animate-spin" /> Buscando endereço...
                         </p>
                       )}
+                      {errors.zip && !isLoadingCep && <p className="text-xs text-destructive mt-1">{errors.zip}</p>}
                     </div>
                   </div>
                 </div>
