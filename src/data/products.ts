@@ -10340,7 +10340,7 @@ export const products: Product[] = [
       { id: "prle-r14", author: "Renata K.", rating: 5, date: "2026-02-26", comment: "Aí sim, mano! Brisa longa, sabor real e aquele acabamento premium. A colab Packwoods x Runtz é insuperável." },
       { id: "prle-r15", author: "Marcelo D.", rating: 5, date: "2026-02-20", comment: "Top de linha! Cada vape parece uma joia. Hybrid balanceado é perfeito pra qualquer hora do dia. Recomendadíssimo!" }
     ],
-    promoTag: "🎁 COLLECTOR'S EDITION"
+    promoTag: "🎁 COMPRE 2, LEVE 3!"
   },  {
     id: "63",
     name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
