@@ -73,6 +73,7 @@ const Checkout = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    clearError(name);
   };
 
   const formatCPF = (value: string) => {
@@ -118,6 +119,21 @@ const Checkout = () => {
   };
 
   const [isLoadingCep, setIsLoadingCep] = useState(false);
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  const clearError = (field: string) => {
+    setErrors(prev => {
+      if (!prev[field]) return prev;
+      const { [field]: _, ...rest } = prev;
+      return rest;
+    });
+  };
+
+  const isValidName = (name: string) => /^[A-Za-zÀ-ÿ' -]{2,}$/.test(name.trim());
+  const isValidPhone = (phone: string) => {
+    const p = phone.replace(/\D/g, '');
+    return p.length >= 10 && p.length <= 11;
+  };
 
   // Auto-fill address from CEP using ViaCEP
   const handleCepChange = async (raw: string) => {
