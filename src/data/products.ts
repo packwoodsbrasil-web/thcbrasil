@@ -10549,6 +10549,39 @@ export const products: Product[] = [
       { id: "ppp-r13", author: "Pedro H.", rating: 5, date: "2026-02-11", comment: "Live resin faz toda diferença, dá pra sentir a pegada do extrato logo de cara. Purple Punch nessa pegada é monstro." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "236",
+    name: "Packwoods Super Sour Diesel Infused 2g",
+    slug: "packwoods-super-sour-diesel-infused",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods Super Sour Diesel Infused 2g é um blunt clássico da linha Packwoods, infundido com concentrado e revestido com kief indoor. Embalado em tubo de vidro com tampa drip verde neon, traz o aroma diesel cítrico marcante da lendária Super Sour Diesel, com brisa sativa elétrica que acende a mente, levanta o astral e bota pra rodar o rolê com energia de sobra.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Sativa (Super Sour Diesel)",
+      "Potência: 43% THC",
+      "Formato: Infused Pre-Roll Blunt Classic",
+      "Conteúdo: 2g (0.09oz)",
+      "Tecnologia: Concentrate Infused + Indoor Kief Coating",
+      "Efeitos principais: Energético, Eufórico, Cerebral",
+      "Sabor: Diesel cítrico com toque ácido",
+      "Qualidade: Classic Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-super-sour-diesel-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 12,
+    reviews: [
+      { id: "pssd-r1", author: "Marcelo T.", rating: 5, date: "2026-04-25", comment: "Sativa parruda da pesada, mano. Acendi de manhã e fiquei elétrico o dia todo, produtividade nas alturas e humor lá em cima." },
+      { id: "pssd-r2", author: "Renata K.", rating: 5, date: "2026-04-21", comment: "Diesel cítrico estourando no nariz, sabor ácido bate gostoso na puxada. Levantou meu astral num dia que tava embaçado." },
+      { id: "pssd-r3", author: "Otávio L.", rating: 5, date: "2026-01-30", comment: "Classic da Packwoods é raiz, esse SSD entregou tudo que prometeu. Brisa criativa, fui pro estúdio e saiu música nova." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
