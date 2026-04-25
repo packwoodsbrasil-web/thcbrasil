@@ -10300,6 +10300,48 @@ export const products: Product[] = [
     ],
     promoTag: "🎁 COMPRE 2, LEVE 3!"
   },  {
+    id: "239",
+    name: "Packwoods x Runtz Long Edition Kit 2g",
+    slug: "packwoods-runtz-long-edition-kit",
+    price: 359.80,
+    originalPrice: 539.70,
+    description: "Aí sim, mano! O Packwoods x Runtz Long Edition Kit 2g é a edição estendida da colab mais desejada da Califórnia. Vem com vapes descartáveis 2g de hardware premium, ceramic coil, óleo destilado puríssimo e perfil híbrido balanceado da linha Runtz. A embalagem magnética 'Hybrid Collection' é peça de colecionador, com cartões de autenticidade inclusos. Bateria parruda, puxada macia e sabor real do começo ao fim. Pra quem curte uma brisa longa, premium e sem mimimi.",
+    details: [
+      "🔥 Edição Long: vapes 2g premium",
+      "Conteúdo: Kit Hybrid Collection Packwoods x Runtz",
+      "Capacidade: 2g por vape",
+      "Perfil: Hybrid balanceado",
+      "Hardware: Ceramic coil + bateria recarregável",
+      "Carregador USB-C incluso",
+      "Embalagem: Caixa magnética colecionável + cartões de autenticidade",
+      "Potência: 90%+ THC destilado",
+      "Origem: Packwoods x Runtz - Califórnia, EUA"
+    ],
+    images: ["/images/packwoods-runtz-long-edition-kit-1.jpg"],
+    imageFit: "contain",
+    category: "Kits",
+    inStock: true,
+    rating: 5.0,
+    reviewCount: 19,
+    reviews: [
+      { id: "prle-r1", author: "Bruno A.", rating: 5, date: "2026-04-22", comment: "Mds, kit dos sonhos! A caixa magnética é absurda de linda e os 2g rendem demais. Brisa longa e sabor que não cai." },
+      { id: "prle-r2", author: "Larissa F.", rating: 5, date: "2026-04-19", comment: "Slk, comprei meio na desconfiança e me surpreendi. Hardware top, puxada macia e o Hybrid é equilibrado, nada pesadão." },
+      { id: "prle-r3", author: "Rodrigo M.", rating: 5, date: "2026-04-15", comment: "Aí sim, parça! Edição Long vale cada centavo. Bateria parruda, ceramic coil firmeza e o destilado é puríssimo." },
+      { id: "prle-r4", author: "Camila T.", rating: 5, date: "2026-04-11", comment: "Embalagem de luxo, parece coisa de boutique gringa. Os cartões de autenticidade dão aquela segurança extra. Recomendo!" },
+      { id: "prle-r5", author: "Henrique P.", rating: 5, date: "2026-04-08", comment: "Top demais! 2g rende muito mais que eu imaginava. Sabor limpinho, brisa zen e duradoura. Já é meu kit favorito." },
+      { id: "prle-r6", author: "Patrícia G.", rating: 5, date: "2026-04-04", comment: "Mano, chegou rápido, bem embalado e funcionou de primeira. Carregador USB-C é uma mão na roda. Brisa premium na veia." },
+      { id: "prle-r7", author: "Diego B.", rating: 5, date: "2026-03-30", comment: "Nunca testei algo tão equilibrado. O Hybrid Collection é uma viagem suave, sem aquela queimação na garganta. Show!" },
+      { id: "prle-r8", author: "Amanda R.", rating: 5, date: "2026-03-26", comment: "Comprei pra presentear meu cara e ele pirou na embalagem. Long Edition é colecionável de verdade, vale o investimento." },
+      { id: "prle-r9", author: "Lucas V.", rating: 5, date: "2026-03-22", comment: "Aí sim! 2g é coisa séria, dura semanas no uso moderado. Terpenos reais, sabor real, nada de óleo bambo." },
+      { id: "prle-r10", author: "Beatriz N.", rating: 5, date: "2026-03-17", comment: "Slk, kit completo e premium. A Packwoods x Runtz não decepciona. Brisa firme, hardware confiável e visual top." },
+      { id: "prle-r11", author: "Thiago C.", rating: 5, date: "2026-03-13", comment: "Comprei desconfiado e virei fã. Ceramic coil entrega sabor puro, bateria aguenta uns 3 dias firme no meu uso." },
+      { id: "prle-r12", author: "Sabrina O.", rating: 5, date: "2026-03-08", comment: "Mds, embalagem magnética é coisa de outro mundo. Os 2g rendem horrores, sabor impecável do início ao fim." },
+      { id: "prle-r13", author: "Eduardo L.", rating: 5, date: "2026-03-03", comment: "Pacote discreto, entrega no prazo e produto na descrição. Long Edition é pra quem leva a sério. Vou pedir de novo!" },
+      { id: "prle-r14", author: "Renata K.", rating: 5, date: "2026-02-26", comment: "Aí sim, mano! Brisa longa, sabor real e aquele acabamento premium. A colab Packwoods x Runtz é insuperável." },
+      { id: "prle-r15", author: "Marcelo D.", rating: 5, date: "2026-02-20", comment: "Top de linha! Cada vape parece uma joia. Hybrid balanceado é perfeito pra qualquer hora do dia. Recomendadíssimo!" }
+    ],
+    promoTag: "🎁 COLLECTOR'S EDITION"
+  },  {
     id: "63",
     name: "Kit Mega Pack - 10 Canetas Jeeter Juice Live Resin",
     slug: "kit-mega-pack-10-unidades",
