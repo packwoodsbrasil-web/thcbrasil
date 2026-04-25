@@ -7,6 +7,11 @@ import { ArrowRight, Sparkles, Truck, Shield, Headphones } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
+  const productsByCategory = categories.reduce((acc, category) => {
+    acc[category] = products.filter((p) => p.category === category);
+    return acc;
+  }, {} as Record<string, typeof products>);
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -97,12 +102,32 @@ const Index = () => {
               <h2 className="text-3xl md:text-4xl font-bold mt-2">Nossos Produtos</h2>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {products.map((product, index) => (
-                <div key={product.id} className="animate-fade-in" style={{ animationDelay: `${Math.min(index * 0.05, 0.5)}s` }}>
-                  <ProductCard product={product} />
-                </div>
-              ))}
+            <div className="space-y-12">
+              {categories.map((category) => {
+                const categoryProducts = productsByCategory[category];
+                if (!categoryProducts || categoryProducts.length === 0) return null;
+
+                return (
+                  <section key={category}>
+                    <div className="flex items-center justify-between mb-6">
+                      <h2 className="text-2xl md:text-3xl font-bold">{category}</h2>
+                      <Link
+                        to={`/produtos?categoria=${category}`}
+                        className="text-sm font-medium text-primary hover:text-primary/80"
+                      >
+                        Ver todos →
+                      </Link>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      {categoryProducts.map((product, index) => (
+                        <div key={product.id} className="animate-fade-in" style={{ animationDelay: `${Math.min(index * 0.03, 0.3)}s` }}>
+                          <ProductCard product={product} />
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                );
+              })}
             </div>
           </div>
         </section>
