@@ -792,6 +792,85 @@ const Checkout = () => {
         </DialogContent>
       </Dialog>
 
+      {/* Crypto QR Code Modal */}
+      <Dialog open={showCryptoModal} onOpenChange={setShowCryptoModal}>
+        <DialogContent className="sm:max-w-md max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle className="text-center">
+              <span className="flex items-center justify-center gap-2">
+                <Bitcoin className="h-5 w-5 text-primary" />
+                Pague com Crypto ({cryptoData?.network || cryptoNetwork})
+              </span>
+            </DialogTitle>
+            <DialogDescription className="text-center">
+              Escaneie o QR Code ou copie o endereço/código para pagar
+            </DialogDescription>
+          </DialogHeader>
+
+          <div className="space-y-6 py-4">
+            <div className="text-center">
+              <p className="text-sm text-muted-foreground">Valor a pagar</p>
+              <p className="text-3xl font-bold text-primary">
+                R$ {totalPrice.toFixed(2).replace('.', ',')}
+              </p>
+            </div>
+
+            {cryptoData?.qrCodeImage && (
+              <div className="flex justify-center">
+                <div className="bg-white p-4 rounded-xl">
+                  <img
+                    src={`data:image/png;base64,${cryptoData.qrCodeImage}`}
+                    alt="QR Code Crypto"
+                    width={200}
+                    height={200}
+                    className="w-[200px] h-[200px]"
+                  />
+                </div>
+              </div>
+            )}
+
+            {cryptoData?.qrCodeText && (
+              <div>
+                <p className="text-sm text-muted-foreground mb-2 text-center">Endereço / código:</p>
+                <div className="flex gap-2">
+                  <div className="flex-1 bg-muted rounded-lg px-3 py-2 text-xs font-mono break-all max-h-20 overflow-y-auto">
+                    {cryptoData.qrCodeText}
+                  </div>
+                  <Button type="button" variant="outline" size="icon" onClick={copyCryptoCode} className="shrink-0">
+                    {cryptoCopied ? (
+                      <Check className="h-4 w-4 text-green-500" />
+                    ) : (
+                      <Copy className="h-4 w-4" />
+                    )}
+                  </Button>
+                </div>
+              </div>
+            )}
+
+            {cryptoData?.transactionId && (
+              <div className="text-center text-sm">
+                <p className="text-muted-foreground">ID da Transação</p>
+                <p className="font-semibold font-mono text-xs">{cryptoData.transactionId}</p>
+              </div>
+            )}
+
+            <div className="bg-muted/50 rounded-lg p-4 text-sm text-muted-foreground">
+              <ol className="list-decimal list-inside space-y-1">
+                <li>Escaneie o QR Code ou copie o endereço</li>
+                <li>Abra sua carteira crypto</li>
+                <li>Envie o valor exato pela rede selecionada</li>
+                <li>Aguarde a confirmação na blockchain</li>
+              </ol>
+            </div>
+
+            <Button onClick={handleConfirmCryptoPayment} size="lg" className="w-full font-semibold">
+              <Check className="mr-2 h-4 w-4" />
+              Já fiz o pagamento
+            </Button>
+          </div>
+        </DialogContent>
+      </Dialog>
+
       <Footer />
     </div>
   );
