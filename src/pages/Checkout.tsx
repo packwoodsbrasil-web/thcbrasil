@@ -106,6 +106,17 @@ const Checkout = () => {
     return d2 === parseInt(c[10]);
   };
 
+  // Validate email with stricter format (requires valid domain + TLD)
+  const isValidEmail = (email: string): boolean => {
+    const e = email.trim();
+    if (e.length < 5 || e.length > 255) return false;
+    // Local@domain.tld — TLD with at least 2 letters, no consecutive dots
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*\.[a-zA-Z]{2,}$/;
+    if (!re.test(e)) return false;
+    if (e.includes('..')) return false;
+    return true;
+  };
+
   const [isLoadingCep, setIsLoadingCep] = useState(false);
 
   // Auto-fill address from CEP using ViaCEP
@@ -196,6 +207,15 @@ const Checkout = () => {
       toast({
         title: "Campos obrigatórios",
         description: "Por favor, preencha todos os campos.",
+        variant: "destructive"
+      });
+      return false;
+    }
+
+    if (!isValidEmail(formData.email)) {
+      toast({
+        title: "E-mail inválido",
+        description: "Digite um e-mail válido (ex: nome@dominio.com).",
         variant: "destructive"
       });
       return false;
