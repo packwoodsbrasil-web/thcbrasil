@@ -222,51 +222,43 @@ const Checkout = () => {
   };
 
   const validateForm = () => {
-    if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone || !formData.cpf || !formData.address || !formData.number || !formData.district || !formData.city || !formData.state || !formData.zip) {
-      toast({
-        title: "Campos obrigatórios",
-        description: "Por favor, preencha todos os campos.",
-        variant: "destructive"
-      });
-      return false;
-    }
+    const newErrors: Record<string, string> = {};
 
-    if (!isValidEmail(formData.email)) {
-      toast({
-        title: "E-mail inválido",
-        description: "Digite um e-mail válido (ex: nome@dominio.com).",
-        variant: "destructive"
-      });
-      return false;
-    }
-    
-    // Validate CEP has 8 digits
-    const cleanZip = formData.zip.replace(/\D/g, '');
-    if (cleanZip.length !== 8) {
-      toast({
-        title: "CEP inválido",
-        description: "O CEP deve ter 8 dígitos.",
-        variant: "destructive"
-      });
-      return false;
-    }
-    
-    // Validate CPF has 11 digits
+    if (!formData.firstName.trim()) newErrors.firstName = 'Nome é obrigatório';
+    else if (!isValidName(formData.firstName)) newErrors.firstName = 'Nome inválido (apenas letras)';
+
+    if (!formData.lastName.trim()) newErrors.lastName = 'Sobrenome é obrigatório';
+    else if (!isValidName(formData.lastName)) newErrors.lastName = 'Sobrenome inválido (apenas letras)';
+
+    if (!formData.email.trim()) newErrors.email = 'E-mail é obrigatório';
+    else if (!isValidEmail(formData.email)) newErrors.email = 'E-mail inválido (ex: nome@dominio.com)';
+
+    if (!formData.phone.trim()) newErrors.phone = 'Telefone é obrigatório';
+    else if (!isValidPhone(formData.phone)) newErrors.phone = 'Telefone deve ter 10 ou 11 dígitos';
+
     const cleanCpf = formData.cpf.replace(/\D/g, '');
-    if (cleanCpf.length !== 11) {
-      toast({
-        title: "CPF inválido",
-        description: "O CPF deve ter 11 dígitos.",
-        variant: "destructive"
-      });
-      return false;
-    }
+    if (!cleanCpf) newErrors.cpf = 'CPF é obrigatório';
+    else if (cleanCpf.length !== 11) newErrors.cpf = 'CPF deve ter 11 dígitos';
+    else if (!isValidCPF(cleanCpf)) newErrors.cpf = 'CPF inválido. Verifique os dígitos';
 
-    if (!isValidCPF(cleanCpf)) {
+    const cleanZip = formData.zip.replace(/\D/g, '');
+    if (!cleanZip) newErrors.zip = 'CEP é obrigatório';
+    else if (cleanZip.length !== 8) newErrors.zip = 'CEP deve ter 8 dígitos';
+
+    if (!formData.address.trim()) newErrors.address = 'Rua é obrigatória';
+    if (!formData.number.trim()) newErrors.number = 'Número é obrigatório';
+    if (!formData.district.trim()) newErrors.district = 'Bairro é obrigatório';
+    if (!formData.city.trim()) newErrors.city = 'Cidade é obrigatória';
+    if (!formData.state.trim()) newErrors.state = 'Estado é obrigatório';
+    else if (formData.state.trim().length !== 2) newErrors.state = 'Use a sigla (2 letras)';
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length > 0) {
       toast({
-        title: "CPF inválido",
-        description: "O CPF informado não é válido. Verifique os dígitos.",
-        variant: "destructive"
+        title: 'Verifique os campos destacados',
+        description: 'Corrija os erros em vermelho antes de continuar.',
+        variant: 'destructive',
       });
       return false;
     }
