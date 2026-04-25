@@ -10371,70 +10371,70 @@ export const products: Product[] = [
         author: "Murilo P.",
         rating: 5,
         date: "2026-02-02",
-        comment: "Mds, que produto top! Suavinho, gostoso e a viagem é linda. Tô amando demais, já recomendei pra galera."
+        comment: "Comprei pra revender na quebrada e saiu tudo em menos de uma semana, parça! Margem ótima e a galera voltou pedindo mais."
       },
       {
         id: "r2",
         author: "Paulo R.",
         rating: 5,
         date: "2025-12-29",
-        comment: "Show de bola, parceiro! Embalagem caprichada, produto na descrição certinho. Brisa firmeza!"
+        comment: "Fechei o kit com os parceiros, dividimos em 5 e ainda sobrou pra cada um aproveitar geral. Preço por unidade ficou imbatível."
       },
       {
         id: "r3",
         author: "Igor B.",
         rating: 5,
         date: "2025-12-27",
-        comment: "Top demais, parceiro! Já tô na minha terceira compra, sempre satisfeito. Atendimento e produto nota 10."
+        comment: "Segunda vez que peço o mega pack pra abastecer o estoque. Chegou tudo lacradinho, sabores variados e zero dor de cabeça."
       },
       {
         id: "r4",
         author: "Wesley L.",
         rating: 5,
         date: "2025-11-28",
-        comment: "Comprei achando que era propaganda enganosa, mas dá-le! Surpreendeu demais, brisa muito gostosa."
+        comment: "Garanti pro ano todo, mano! 10 canetas dão um gás absurdo e ainda ajudo uns brothers que sempre pedem. Vale demais."
       },
       {
         id: "r5",
         author: "Isabela W.",
         rating: 3,
         date: "2025-11-25",
-        comment: "A entrega atrasou e ninguém respondia no chat. No final chegou e o produto tá ok, brisa mediana."
+        comment: "A entrega demorou mais do que esperava e o suporte sumiu por uns dias. As canetas vieram certinhas, mas o atendimento podia melhorar."
       },
       {
         id: "r6",
         author: "Vinícius S.",
         rating: 5,
         date: "2025-11-07",
-        comment: "Que delícia, parça! Relaxou geral depois de um dia pesado de trampo. Vale cada centavo, recomendadíssimo!"
+        comment: "Peguei pro rolê do final de ano com a galera e foi sucesso! Cada um escolheu um sabor e ainda sobrou pra levar pra casa."
       },
       {
         id: "r7",
         author: "Leandro V.",
         rating: 4,
         date: "2025-09-21",
-        comment: "Bem bom, parça! Só não dou 5 porque queria que durasse mais um pouco, mas a qualidade é braba."
+        comment: "Comprei pra revenda e girou rápido, só não dou 5 porque queria mais variedade de indica no kit. Mesmo assim compensou muito."
       },
       {
         id: "r8",
         author: "Bia C.",
         rating: 4,
         date: "2025-09-10",
-        comment: "Tá no precinho! Qualidade boa, só queria mais variedade de sabores na linha. Voltarei a comprar."
+        comment: "Dividi com duas amigas e ficou super em conta pra cada uma. Já tô combinando o próximo pedido pra manter o estoque em casa."
       },
       {
         id: "r9",
         author: "Rafael C.",
         rating: 5,
         date: "2025-09-05",
-        comment: "Tipo, melhor compra do mês! Qualidade premium mesmo, dá pra sentir a diferença na hora."
+        comment: "Melhor investimento do mês! Comprei pra revender no meu corre e em duas semanas paguei o kit todo, lucro puro daqui pra frente."
       },
       {
         id: "r10",
         author: "Roberto H.",
         rating: 5,
         date: "2025-08-24",
-        comment: "Aí sim hein! Sabor de outro mundo, brisa equilibrada e duradoura. Top dos tops, recomendo geral!"
+        comment: "Aí sim, parça! Fechei o kit com os parceiros e cada um ficou com 2 canetas, saiu por menos de R$ 60 a unidade. Imbatível!"
       }
     ],
     promoTag: "🚀 MEGA PACK!"
