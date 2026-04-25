@@ -1,4 +1,5 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
@@ -36,7 +37,7 @@ serve(async (req) => {
     }
 
     const body = await req.json();
-    const { externalId, amount, customer, products } = body;
+    const { externalId, amount, customer, products, shippingAddress } = body;
 
     if (!externalId || typeof externalId !== 'string') {
       return new Response(JSON.stringify({ success: false, error: 'externalId é obrigatório' }),
@@ -63,6 +64,24 @@ serve(async (req) => {
 
     const supabaseUrl = Deno.env.get('SUPABASE_URL')!;
     const callbackUrl = `${supabaseUrl}/functions/v1/sigilopay-webhook`;
+
+    // Persist order using service role (bypasses RLS) — guest checkout supported
+    const serviceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
+    const admin = createClient(supabaseUrl, serviceKey);
+    const { error: orderErr } = await admin.from('orders').insert({
+      external_id: externalId,
+      customer_name: customer.name.trim(),
+      customer_email: customer.email.trim(),
+      customer_phone: customer.phone || null,
+      amount: Number(amount.toFixed(2)),
+      payment_method: 'pix',
+      status: 'pending',
+      shipping_address: shippingAddress || null,
+      items: Array.isArray(products) ? products : [],
+    });
+    if (orderErr) {
+      console.error('Error saving order:', orderErr);
+    }
 
     const payload = {
       identifier: externalId,

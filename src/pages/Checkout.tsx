@@ -123,20 +123,6 @@ const Checkout = () => {
     setIsProcessing(true);
     setShowCryptoModal(false);
 
-    await supabase.functions.invoke('send-order-confirmation', {
-      body: {
-        customerName: `${formData.firstName} ${formData.lastName}`,
-        customerEmail: formData.email,
-        orderId: cryptoData?.transactionId || `ORD-${Date.now()}`,
-        items: items.map(item => ({
-          name: item.product.name,
-          quantity: item.quantity,
-          price: item.product.price,
-        })),
-        total: totalPrice,
-      }
-    });
-
     clearCart();
     navigate('/confirmacao', {
       state: {
@@ -201,40 +187,14 @@ const Checkout = () => {
     quantity: item.quantity,
   }));
 
-  const saveOrder = async (orderId: string, method: 'pix' | 'crypto') => {
-    // Get current user
-    const { data: { user } } = await supabase.auth.getUser();
-    
-    const orderData = {
-      external_id: orderId,
-      customer_name: `${formData.firstName} ${formData.lastName}`,
-      customer_email: formData.email,
-      customer_phone: formData.phone,
-      amount: totalPrice,
-      payment_method: method,
-      status: 'pending',
-      user_id: user?.id, // Link order to authenticated user
-      shipping_address: {
-        address: formData.address,
-        number: formData.number,
-        district: formData.district,
-        city: formData.city,
-        state: formData.state,
-        zip: formData.zip,
-      },
-      items: items.map(item => ({
-        id: item.product.id,
-        name: item.product.name,
-        price: item.product.price,
-        quantity: item.quantity,
-      })),
-    };
-
-    const { error } = await supabase.from('orders').insert(orderData);
-    if (error) {
-      console.error('Error saving order:', error);
-    }
-  };
+  const buildShippingAddress = () => ({
+    address: formData.address,
+    number: formData.number,
+    district: formData.district,
+    city: formData.city,
+    state: formData.state,
+    zip: formData.zip,
+  });
 
   const handleOpenPixModal = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -244,7 +204,6 @@ const Checkout = () => {
     
     try {
       const externalId = generateExternalId();
-      await saveOrder(externalId, 'pix');
 
       const { data, error } = await supabase.functions.invoke('sigilopay-payment-pix', {
         body: {
@@ -252,6 +211,7 @@ const Checkout = () => {
           amount: totalPrice,
           customer: buildCustomerPayload(),
           products: buildProductsPayload(),
+          shippingAddress: buildShippingAddress(),
         }
       });
 
@@ -287,7 +247,6 @@ const Checkout = () => {
 
     try {
       const externalId = generateExternalId();
-      await saveOrder(externalId, 'crypto');
 
       const { data, error } = await supabase.functions.invoke('sigilopay-payment-crypto', {
         body: {
@@ -296,6 +255,7 @@ const Checkout = () => {
           customer: buildCustomerPayload(),
           products: buildProductsPayload(),
           network: cryptoNetwork,
+          shippingAddress: buildShippingAddress(),
         }
       });
 
@@ -327,21 +287,6 @@ const Checkout = () => {
   const handleConfirmPayment = async () => {
     setIsProcessing(true);
     setShowPixModal(false);
-
-    // Send confirmation email for PIX payment
-    await supabase.functions.invoke('send-order-confirmation', {
-      body: {
-        customerName: `${formData.firstName} ${formData.lastName}`,
-        customerEmail: formData.email,
-        orderId: pixData?.transactionId || `ORD-${Date.now()}`,
-        items: items.map(item => ({
-          name: item.product.name,
-          quantity: item.quantity,
-          price: item.product.price,
-        })),
-        total: totalPrice,
-      }
-    });
 
     clearCart();
     navigate('/confirmacao', { 
