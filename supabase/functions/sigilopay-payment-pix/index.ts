@@ -129,7 +129,7 @@ serve(async (req) => {
     });
 
     const data = await resp.json();
-    console.log('SigiloPay PIX response:', JSON.stringify({ status: resp.status, ok: resp.ok, transactionId: data?.transactionId, statusEnum: data?.status }));
+    console.log('SigiloPay PIX response:', JSON.stringify({ status: resp.status, ok: resp.ok, body: data }));
 
     if (!resp.ok || (data.status && data.status !== 'OK' && data.status !== 'PENDING')) {
       return new Response(JSON.stringify({
