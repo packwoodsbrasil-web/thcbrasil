@@ -10180,7 +10180,7 @@ export const products: Product[] = [
     name: "Packwoods x Runtz Pure Flavor Trio 2g",
     slug: "packwoods-runtz-pure-flavor-trio-2g",
     price: 379.80,
-    originalPrice: 569.90,
+    originalPrice: 569.70,
     description: "Mds, esse kit é um espetáculo! O Packwoods x Runtz Pure Flavor Trio é a colab dos sonhos: 3 vapes descartáveis 2g cada, com sabores premium da linha Runtz, embalados numa caixa magnética de luxo. Vem com vape verde (Watermelon Runtz), laranja (Pineapple Runtz) e roxo (Grape Runtz) — cada um com seu próprio carregador USB-C e perfil de terpenos único. Hardware top de linha, ceramic coil, bateria recarregável e óleo destilado puríssimo. Pra quem quer experimentar o melhor da parceria entre as duas marcas mais cultuadas do game.",
     details: [
       "🔥 PROMO: Compre 2, Leve 3 + 33% OFF",
