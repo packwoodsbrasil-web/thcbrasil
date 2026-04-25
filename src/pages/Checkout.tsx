@@ -721,7 +721,7 @@ const Checkout = () => {
               </p>
             </div>
 
-            {/* QR Code - Use base64 image from Appmax */}
+            {/* QR Code - Use base64 image from SigiloPay */}
             {pixData?.qrCodeImage && (
               <div className="flex justify-center">
                 <div className="bg-white p-4 rounded-xl">
