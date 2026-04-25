@@ -8,7 +8,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { ChevronLeft, Copy, Check, Smartphone, Loader2, Bitcoin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { QRCodeSVG } from 'qrcode.react';
 import { supabase } from '@/integrations/supabase/client';
 import {
   Dialog,
@@ -43,6 +42,7 @@ const Checkout = () => {
   const [showCryptoModal, setShowCryptoModal] = useState(false);
   const [paymentMethod, setPaymentMethod] = useState<'pix' | 'crypto'>('pix');
   const [cryptoNetwork, setCryptoNetwork] = useState<string>('BTC');
+  const [cryptoCopied, setCryptoCopied] = useState(false);
   const [pixData, setPixData] = useState<{
     qrCodeImage: string;
     qrCodeText: string;
@@ -105,6 +105,47 @@ const Checkout = () => {
         variant: "destructive"
       });
     }
+  };
+
+  const copyCryptoCode = async () => {
+    if (!cryptoData?.qrCodeText) return;
+    try {
+      await navigator.clipboard.writeText(cryptoData.qrCodeText);
+      setCryptoCopied(true);
+      toast({ title: "Código copiado!", description: "Cole na sua carteira crypto." });
+      setTimeout(() => setCryptoCopied(false), 3000);
+    } catch {
+      toast({ title: "Erro ao copiar", variant: "destructive" });
+    }
+  };
+
+  const handleConfirmCryptoPayment = async () => {
+    setIsProcessing(true);
+    setShowCryptoModal(false);
+
+    await supabase.functions.invoke('send-order-confirmation', {
+      body: {
+        customerName: `${formData.firstName} ${formData.lastName}`,
+        customerEmail: formData.email,
+        orderId: cryptoData?.transactionId || `ORD-${Date.now()}`,
+        items: items.map(item => ({
+          name: item.product.name,
+          quantity: item.quantity,
+          price: item.product.price,
+        })),
+        total: totalPrice,
+      }
+    });
+
+    clearCart();
+    navigate('/confirmacao', {
+      state: {
+        orderId: cryptoData?.transactionId || `ORD-${Date.now()}`,
+        total: totalPrice,
+        items: items,
+        paymentMethod: `Crypto (${cryptoData?.network || cryptoNetwork})`
+      }
+    });
   };
 
   const validateForm = () => {
