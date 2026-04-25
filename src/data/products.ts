@@ -10441,6 +10441,51 @@ export const products: Product[] = [
   }
   ,
   {
+    id: "240",
+    name: "Kit Packwoods x Runtz - 10 Vapes 1g",
+    slug: "kit-packwoods-runtz-10-vapes",
+    price: 999.00,
+    originalPrice: 1499.00,
+    description: "🔥 KIT EXCLUSIVO PACKWOODS X RUNTZ! 🔥 O kit definitivo da collab mais desejada do mercado! Inclui 10 vapes descartáveis Packwoods x Runtz de 1g cada, em uma seleção variada de sabores premium da linha Runtz. Ideal para revendedores, micro empreendedores ou para quem quer garantir variedade e economia em um único pedido. Cada vape entrega o sabor doce e frutado característico da Runtz, com a qualidade lendária da Packwoods. O preço por unidade fica abaixo de R$ 100 — imbatível para revenda ou consumo próprio!",
+    details: [
+      "🚀 KIT EXCLUSIVO: 10 Vapes Packwoods x Runtz 1g!",
+      "Conteúdo: 10 Vapes Descartáveis Premium",
+      "Capacidade: 1g por unidade",
+      "Sabores: Mix variado da linha Runtz (sabores sortidos)",
+      "Potência: 90%+ THC por unidade",
+      "Formato: Disposable Vape (Canetas Descartáveis)",
+      "Variedade: Mix de Sativa, Indica e Híbridas",
+      "Marca: Packwoods x Runtz - Los Angeles, EUA",
+      "Bateria: Recarregável integrada",
+      "Economia: R$ 500,00 de desconto no kit completo!"
+    ],
+    images: ["/images/kit-packwoods-runtz-10-vapes-1.jpg"],
+    category: "Kits",
+    inStock: true,
+    rating: 4.7,
+    reviewCount: 28,
+    reviews: [
+      { id: "kpr-r1", author: "Diego M.", rating: 5, date: "2026-04-20", comment: "Comprei pra revender e em uma semana já tinha girado metade do kit, parça! Margem absurda e a galera amou os sabores variados." },
+      { id: "kpr-r2", author: "Fernanda L.", rating: 5, date: "2026-04-12", comment: "Fechei o kit com três amigas e cada uma ficou com algumas. Saiu menos de R$ 100 a unidade, imbatível pro padrão Packwoods x Runtz." },
+      { id: "kpr-r3", author: "Lucas T.", rating: 5, date: "2026-04-05", comment: "Garanti pro ano todo, mano! 10 vapes da collab mais top do mercado, cada sabor uma viagem diferente. Vale muito a pena." },
+      { id: "kpr-r4", author: "Camila R.", rating: 5, date: "2026-03-28", comment: "Segunda vez que peço pra abastecer o estoque do meu corre. Chegou tudo lacrado, sabores variados e clientela voltou pedindo mais." },
+      { id: "kpr-r5", author: "Rodrigo A.", rating: 4, date: "2026-03-20", comment: "Kit bom demais, só queria saber antes quais sabores viriam. Mesmo assim todos eram top, deu pra agradar geral no rolê." },
+      { id: "kpr-r6", author: "Patrícia N.", rating: 5, date: "2026-03-12", comment: "Peguei pro final de ano e foi sucesso na firma! Cada parceiro escolheu um sabor e ainda sobrou pra mim. Recomendo demais." },
+      { id: "kpr-r7", author: "Marcos V.", rating: 5, date: "2026-03-04", comment: "Melhor investimento do mês! Comprei pra revender e em duas semanas já tinha pago o kit todo, lucro puro daqui pra frente." },
+      { id: "kpr-r8", author: "Isabela W.", rating: 3, date: "2026-02-25", comment: "Os vapes vieram impecáveis, mas a entrega demorou mais do que esperava. Suporte podia responder mais rápido nas dúvidas." },
+      { id: "kpr-r9", author: "Thiago B.", rating: 5, date: "2026-02-18", comment: "Aí sim, brother! Fechei com os parceiros e dividimos em 5, cada um com 2 vapes. Saiu praticamente de graça pelo padrão Packwoods." },
+      { id: "kpr-r10", author: "Juliana S.", rating: 4, date: "2026-02-10", comment: "Comprei pra revenda no meu corre e girou rápido. Só não dou 5 porque queria ter escolhido alguns sabores específicos." },
+      { id: "kpr-r11", author: "Felipe C.", rating: 5, date: "2026-02-02", comment: "Padrão Packwoods x Runtz é outro nível! Cada vape entrega o sabor doce e frutado da Runtz com a potência da Packwoods. Top demais!" },
+      { id: "kpr-r12", author: "Bruna D.", rating: 5, date: "2026-01-25", comment: "Garanti o estoque pro ano e ainda dividi com a galera. Preço por unidade fica camarada e a qualidade é a mesma do produto avulso." },
+      { id: "kpr-r13", author: "André P.", rating: 5, date: "2026-01-15", comment: "Comprei pra revender e os clientes amaram a variedade. Já tô programando o próximo pedido pra manter o giro firme." },
+      { id: "kpr-r14", author: "Renata K.", rating: 5, date: "2026-01-08", comment: "Kit completo e caprichado! Cada vape vem na embalagem original, perfeito pra revender ou guardar. Economia surreal." },
+      { id: "kpr-r15", author: "Gustavo H.", rating: 5, date: "2025-12-28", comment: "Fechei o kit com os parceiros do rolê e foi a melhor decisão do mês. Variedade de sabores e potência consistente em todos." },
+      { id: "kpr-r16", author: "Mariana O.", rating: 5, date: "2025-12-20", comment: "Aí sim, parça! Padrão Packwoods x Runtz com economia de revenda. Comprei pra estoque e ainda paguei o kit em uma semana." }
+    ],
+    promoTag: "🚀 KIT EXCLUSIVO!"
+  }
+  ,
+  {
     id: "229",
     name: "Packwoods x Packs Ice Cream Indica Long Edition 2g",
     slug: "packwoods-packs-ice-cream-indica",
