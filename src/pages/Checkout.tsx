@@ -73,6 +73,7 @@ const Checkout = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    clearError(name);
   };
 
   const formatCPF = (value: string) => {
@@ -118,11 +119,27 @@ const Checkout = () => {
   };
 
   const [isLoadingCep, setIsLoadingCep] = useState(false);
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  const clearError = (field: string) => {
+    setErrors(prev => {
+      if (!prev[field]) return prev;
+      const { [field]: _, ...rest } = prev;
+      return rest;
+    });
+  };
+
+  const isValidName = (name: string) => /^[A-Za-zÀ-ÿ' -]{2,}$/.test(name.trim());
+  const isValidPhone = (phone: string) => {
+    const p = phone.replace(/\D/g, '');
+    return p.length >= 10 && p.length <= 11;
+  };
 
   // Auto-fill address from CEP using ViaCEP
   const handleCepChange = async (raw: string) => {
     const formatted = formatCEP(raw);
     setFormData(prev => ({ ...prev, zip: formatted }));
+    clearError('zip');
     const clean = raw.replace(/\D/g, '');
     if (clean.length === 8) {
       setIsLoadingCep(true);
@@ -130,11 +147,7 @@ const Checkout = () => {
         const res = await fetch(`https://viacep.com.br/ws/${clean}/json/`);
         const data = await res.json();
         if (data.erro) {
-          toast({
-            title: "CEP não encontrado",
-            description: "Verifique o CEP digitado.",
-            variant: "destructive",
-          });
+          setErrors(prev => ({ ...prev, zip: 'CEP não encontrado. Verifique o número digitado.' }));
         } else {
           setFormData(prev => ({
             ...prev,
@@ -143,13 +156,19 @@ const Checkout = () => {
             city: data.localidade || prev.city,
             state: data.uf || prev.state,
           }));
+          setErrors(prev => {
+            const { zip, address, district, city, state, ...rest } = prev;
+            return rest;
+          });
+          if (!data.logradouro) {
+            toast({
+              title: 'Preencha a rua manualmente',
+              description: 'Este CEP é genérico (atende vários endereços). Digite o nome da rua.',
+            });
+          }
         }
       } catch {
-        toast({
-          title: "Erro ao buscar CEP",
-          description: "Tente novamente ou preencha manualmente.",
-          variant: "destructive",
-        });
+        setErrors(prev => ({ ...prev, zip: 'Erro ao buscar CEP. Preencha manualmente.' }));
       } finally {
         setIsLoadingCep(false);
       }
@@ -203,51 +222,43 @@ const Checkout = () => {
   };
 
   const validateForm = () => {
-    if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone || !formData.cpf || !formData.address || !formData.number || !formData.district || !formData.city || !formData.state || !formData.zip) {
-      toast({
-        title: "Campos obrigatórios",
-        description: "Por favor, preencha todos os campos.",
-        variant: "destructive"
-      });
-      return false;
-    }
+    const newErrors: Record<string, string> = {};
 
-    if (!isValidEmail(formData.email)) {
-      toast({
-        title: "E-mail inválido",
-        description: "Digite um e-mail válido (ex: nome@dominio.com).",
-        variant: "destructive"
-      });
-      return false;
-    }
-    
-    // Validate CEP has 8 digits
-    const cleanZip = formData.zip.replace(/\D/g, '');
-    if (cleanZip.length !== 8) {
-      toast({
-        title: "CEP inválido",
-        description: "O CEP deve ter 8 dígitos.",
-        variant: "destructive"
-      });
-      return false;
-    }
-    
-    // Validate CPF has 11 digits
+    if (!formData.firstName.trim()) newErrors.firstName = 'Nome é obrigatório';
+    else if (!isValidName(formData.firstName)) newErrors.firstName = 'Nome inválido (apenas letras)';
+
+    if (!formData.lastName.trim()) newErrors.lastName = 'Sobrenome é obrigatório';
+    else if (!isValidName(formData.lastName)) newErrors.lastName = 'Sobrenome inválido (apenas letras)';
+
+    if (!formData.email.trim()) newErrors.email = 'E-mail é obrigatório';
+    else if (!isValidEmail(formData.email)) newErrors.email = 'E-mail inválido (ex: nome@dominio.com)';
+
+    if (!formData.phone.trim()) newErrors.phone = 'Telefone é obrigatório';
+    else if (!isValidPhone(formData.phone)) newErrors.phone = 'Telefone deve ter 10 ou 11 dígitos';
+
     const cleanCpf = formData.cpf.replace(/\D/g, '');
-    if (cleanCpf.length !== 11) {
-      toast({
-        title: "CPF inválido",
-        description: "O CPF deve ter 11 dígitos.",
-        variant: "destructive"
-      });
-      return false;
-    }
+    if (!cleanCpf) newErrors.cpf = 'CPF é obrigatório';
+    else if (cleanCpf.length !== 11) newErrors.cpf = 'CPF deve ter 11 dígitos';
+    else if (!isValidCPF(cleanCpf)) newErrors.cpf = 'CPF inválido. Verifique os dígitos';
 
-    if (!isValidCPF(cleanCpf)) {
+    const cleanZip = formData.zip.replace(/\D/g, '');
+    if (!cleanZip) newErrors.zip = 'CEP é obrigatório';
+    else if (cleanZip.length !== 8) newErrors.zip = 'CEP deve ter 8 dígitos';
+
+    if (!formData.address.trim()) newErrors.address = 'Rua é obrigatória';
+    if (!formData.number.trim()) newErrors.number = 'Número é obrigatório';
+    if (!formData.district.trim()) newErrors.district = 'Bairro é obrigatório';
+    if (!formData.city.trim()) newErrors.city = 'Cidade é obrigatória';
+    if (!formData.state.trim()) newErrors.state = 'Estado é obrigatório';
+    else if (formData.state.trim().length !== 2) newErrors.state = 'Use a sigla (2 letras)';
+
+    setErrors(newErrors);
+
+    if (Object.keys(newErrors).length > 0) {
       toast({
-        title: "CPF inválido",
-        description: "O CPF informado não é válido. Verifique os dígitos.",
-        variant: "destructive"
+        title: 'Verifique os campos destacados',
+        description: 'Corrija os erros em vermelho antes de continuar.',
+        variant: 'destructive',
       });
       return false;
     }
@@ -431,8 +442,9 @@ const Checkout = () => {
                         value={formData.firstName}
                         onChange={handleInputChange}
                         placeholder="João"
-                        className="mt-1"
+                        className={`mt-1 ${errors.firstName ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.firstName && <p className="text-xs text-destructive mt-1">{errors.firstName}</p>}
                     </div>
                     <div>
                       <Label htmlFor="lastName">Sobrenome</Label>
@@ -442,8 +454,9 @@ const Checkout = () => {
                         value={formData.lastName}
                         onChange={handleInputChange}
                         placeholder="Silva"
-                        className="mt-1"
+                        className={`mt-1 ${errors.lastName ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.lastName && <p className="text-xs text-destructive mt-1">{errors.lastName}</p>}
                     </div>
                   </div>
                   
@@ -457,8 +470,9 @@ const Checkout = () => {
                         value={formData.email}
                         onChange={handleInputChange}
                         placeholder="seu@email.com"
-                        className="mt-1"
+                        className={`mt-1 ${errors.email ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.email && <p className="text-xs text-destructive mt-1">{errors.email}</p>}
                     </div>
                     <div>
                       <Label htmlFor="phone">Telefone</Label>
@@ -468,8 +482,9 @@ const Checkout = () => {
                         value={formData.phone}
                         onChange={handleInputChange}
                         placeholder="11999999999"
-                        className="mt-1"
+                        className={`mt-1 ${errors.phone ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.phone && <p className="text-xs text-destructive mt-1">{errors.phone}</p>}
                     </div>
                   </div>
 
@@ -479,11 +494,12 @@ const Checkout = () => {
                       id="cpf"
                       name="cpf"
                       value={formData.cpf}
-                      onChange={(e) => setFormData(prev => ({ ...prev, cpf: formatCPF(e.target.value) }))}
+                      onChange={(e) => { setFormData(prev => ({ ...prev, cpf: formatCPF(e.target.value) })); clearError('cpf'); }}
                       placeholder="000.000.000-00"
                       maxLength={14}
-                      className="mt-1"
+                      className={`mt-1 ${errors.cpf ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                     />
+                    {errors.cpf && <p className="text-xs text-destructive mt-1">{errors.cpf}</p>}
                   </div>
 
                   <div className="grid grid-cols-3 gap-4">
@@ -495,8 +511,9 @@ const Checkout = () => {
                         value={formData.address}
                         onChange={handleInputChange}
                         placeholder="Rua das Flores"
-                        className="mt-1"
+                        className={`mt-1 ${errors.address ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.address && <p className="text-xs text-destructive mt-1">{errors.address}</p>}
                     </div>
                     <div>
                       <Label htmlFor="number">Número</Label>
@@ -506,8 +523,9 @@ const Checkout = () => {
                         value={formData.number}
                         onChange={handleInputChange}
                         placeholder="123"
-                        className="mt-1"
+                        className={`mt-1 ${errors.number ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.number && <p className="text-xs text-destructive mt-1">{errors.number}</p>}
                     </div>
                   </div>
 
@@ -519,8 +537,9 @@ const Checkout = () => {
                       value={formData.district}
                       onChange={handleInputChange}
                       placeholder="Centro"
-                      className="mt-1"
+                      className={`mt-1 ${errors.district ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                     />
+                    {errors.district && <p className="text-xs text-destructive mt-1">{errors.district}</p>}
                   </div>
 
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
@@ -532,8 +551,9 @@ const Checkout = () => {
                         value={formData.city}
                         onChange={handleInputChange}
                         placeholder="São Paulo"
-                        className="mt-1"
+                        className={`mt-1 ${errors.city ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.city && <p className="text-xs text-destructive mt-1">{errors.city}</p>}
                     </div>
                     <div>
                       <Label htmlFor="state">Estado</Label>
@@ -544,8 +564,9 @@ const Checkout = () => {
                         onChange={handleInputChange}
                         placeholder="SP"
                         maxLength={2}
-                        className="mt-1"
+                        className={`mt-1 ${errors.state ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
+                      {errors.state && <p className="text-xs text-destructive mt-1">{errors.state}</p>}
                     </div>
                     <div>
                       <Label htmlFor="zip">CEP</Label>
@@ -556,13 +577,14 @@ const Checkout = () => {
                         onChange={(e) => handleCepChange(e.target.value)}
                         placeholder="00000-000"
                         maxLength={9}
-                        className="mt-1"
+                        className={`mt-1 ${errors.zip ? 'border-destructive focus-visible:ring-destructive' : ''}`}
                       />
                       {isLoadingCep && (
                         <p className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
                           <Loader2 className="h-3 w-3 animate-spin" /> Buscando endereço...
                         </p>
                       )}
+                      {errors.zip && !isLoadingCep && <p className="text-xs text-destructive mt-1">{errors.zip}</p>}
                     </div>
                   </div>
                 </div>
