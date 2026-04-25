@@ -10352,6 +10352,43 @@ export const products: Product[] = [
       { id: "prfi-r10", author: "Patrícia N.", rating: 4, date: "2026-01-30", comment: "Achei o aroma incrível ao abrir o tubo, bem doce e tropical. A brisa veio gostosa, ideal pra final de tarde tranquilo." }
     ],
     promoTag: "39% OFF"
+  },
+  {
+    id: "231",
+    name: "Packwoods Black Jack Long Edition 2g",
+    slug: "packwoods-black-jack",
+    price: 54.90,
+    originalPrice: 89.90,
+    description: "Packwoods Black Jack 2g é um blunt premium com o clássico sabor Black Jack, mistura de Jack Herer com Black Domina. Pré-rolado infundido, coberto com kief indoor e finalizado em tubo de vidro com tampa drip rosa. Brisa potente, sabor terroso e apimentado com fundo doce, perfeito pra quem curte algo robusto e cheio de personalidade.",
+    details: [
+      "Alta concentração de THC",
+      "Tipo: Híbrida",
+      "Potência: 42% THC",
+      "Formato: Infused Pre-Roll Blunt",
+      "Conteúdo: 2g (0.07oz)",
+      "Tecnologia: Live Resin + Indoor Kief Coating",
+      "Efeitos principais: Relaxante, Eufórico, Criativo",
+      "Sabor: Black Jack terroso, apimentado, fundo adocicado",
+      "Qualidade: Jumbo Rolled Premium",
+      "Certificado: 100% State Certified Clean (CA)",
+      "Origem: Packwoods - Los Angeles, EUA"
+    ],
+    images: ["/images/packwoods-black-jack-1.jpg"],
+    imageFit: "contain",
+    category: "Blunts",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 18,
+    reviews: [
+      { id: "pbj-r1", author: "Gustavo R.", rating: 5, date: "2026-04-24", comment: "Mano, esse Black Jack é parrudo de verdade. Puxada apimentada no começo e depois um docinho que fecha redondo, top demais." },
+      { id: "pbj-r2", author: "Larissa F.", rating: 5, date: "2026-04-17", comment: "Brisa pesadona na medida certa. Fiquei criativa, deu vontade de mexer em projeto antigo. Quem curte algo mais terroso vai amar." },
+      { id: "pbj-r3", author: "Diego A.", rating: 5, date: "2026-04-08", comment: "Cheguei meio cético no clássico, mas esse infused subiu o nível. Queima lenta e parelha, dá pra dividir numa boa entre uns brothers." },
+      { id: "pbj-r4", author: "Juliana T.", rating: 4, date: "2026-03-30", comment: "Achei bem caprichado o acabamento, tubinho protege bem. O kief por fora segura o sabor até o talo, gostei muito." },
+      { id: "pbj-r5", author: "Rafael O.", rating: 5, date: "2026-03-19", comment: "Daora demais pra fim de noite. Bate sereno, corpo solta e a cabeça fica numa boa, sem aquele apagão." },
+      { id: "pbj-r6", author: "Aline D.", rating: 5, date: "2026-03-07", comment: "O perfil apimentado é a marca registrada do Black Jack mesmo. Esse aqui entrega isso bonitinho, dá um respeito na primeira tragada." },
+      { id: "pbj-r7", author: "Bruno K.", rating: 5, date: "2026-02-25", comment: "Pelo preço promocional foi um achado. Os 2g rendem pra caramba e o sabor não cai no meio do caminho, recomendo geral." }
+    ],
+    promoTag: "39% OFF"
   }
 ];
 
