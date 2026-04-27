@@ -7821,6 +7821,59 @@ export const products: Product[] = [
   },  {
     id: "215",
     name: "Cannabis Lollipops - Northern Lights x Pineapple Express",
+  },  {
+    id: "217",
+    name: "Cannabis Lollipops - Green Apple",
+    slug: "cannabis-lollipops-green-apple",
+    price: 69.90,
+    originalPrice: 99.90,
+    description: "Cannabis Lollipops Green Apple da Dr. Greenlove Amsterdam são pirulitos artesanais com óleo de cannabis real e o sabor refrescante da strain Apple OG. Uma explosão azedinha e doce de maçã verde que combina perfeitamente com a vibe canábica suave e relaxante. Perfeitos pra um rolê discreto, sobremesa diferente ou pra dividir com a galera. Embalagem individual, fácil de levar e curtir a qualquer hora.",
+    details: [
+      "Tipo: Pirulito Cannabis",
+      "Quantidade: 18 unidades",
+      "Sabor: Green Apple (Maçã Verde)",
+      "Strain: Apple OG",
+      "Notas: Azedinho, doce e refrescante",
+      "Formato: Pirulito individual",
+      "Marca: Dr. Greenlove Amsterdam",
+      "Contém óleo de cannabis real",
+      "Efeitos principais: Relaxado, Feliz, Suave",
+      "Onset: 30-60 minutos",
+      "Duração: Efeito moderado",
+      "Sem fumaça, sem impacto pulmonar",
+      "Discreto e prático para qualquer ocasião"
+    ],
+    images: ["/images/cannabis-lollipops-green-apple.png"],
+    category: "Comestíveis",
+    inStock: true,
+    rating: 4.8,
+    reviewCount: 41,
+    reviews: [
+      {
+        id: "r1",
+        author: "Mariana C.",
+        rating: 5,
+        date: "2026-02-10",
+        comment: "Gente, esse sabor de maçã verde é viciante! Aquele azedinho gostoso que dá água na boca. Brisa veio leve e super agradável. Amei!"
+      },
+      {
+        id: "r2",
+        author: "Thiago R.",
+        rating: 5,
+        date: "2026-01-28",
+        comment: "Perfeito pra quem curte um docinho diferente. O Apple OG é uma vibe, brisa suave e o sabor lembra muito maçã verde de verdade. Top demais!"
+      },
+      {
+        id: "r3",
+        author: "Juliana P.",
+        rating: 4,
+        date: "2026-01-15",
+        comment: "Adorei o sabor, bem refrescante. A brisa demorou um pouco pra bater mas valeu a espera. Recomendo pra dividir no rolê com a galera."
+      }
+    ]
+  },  {
+    id: "215",
+    name: "Cannabis Lollipops - Northern Lights x Pineapple Express",
     slug: "cannabis-lollipops-northern-lights-pineapple",
     price: 99.90,
     originalPrice: 149.90,
