@@ -7771,25 +7771,26 @@ export const products: Product[] = [
     ]
   },  {
     id: "216",
-    name: "Cannabis Pirulito - Cheesecake x Morango x Chiclete",
+    name: "Cannabis Lollipops - Strawberry Cough",
     slug: "cannabis-pirulito-cheesecake-morango-chiclete",
-    price: 99.90,
+    price: 69.90,
     originalPrice: 149.90,
-    description: "Cannabis Pirulito Cheesecake x Morango x Chiclete é o trio doce que vai te conquistar logo na primeira lambida! Pirulitos artesanais Dr. Greenlove Amsterdam que misturam o cremoso do cheesecake, o doce suculento do morango e aquele toque nostálgico do chiclete, tudo em uma vibe canábica leve e divertida. Perfeitos pra um rolê discreto, sobremesa diferente ou pra dividir com a galera. Embalagem individual, fácil de levar e curtir a qualquer hora.",
+    description: "Cannabis Lollipops Strawberry Cough da Dr. Greenlove Amsterdam são pirulitos artesanais com óleo de cannabis real e o sabor marcante de morango da lendária strain Strawberry Cough. Uma explosão doce e frutada que une a suculência do morango a uma vibe canábica leve, divertida e relaxante. Perfeitos para um rolê discreto, sobremesa diferente ou para dividir com a galera. Embalagem individual, fácil de levar e curtir a qualquer hora.",
     details: [
       "Tipo: Pirulito Cannabis",
-      "Quantidade: 50 unidades",
-      "Sabores: Cheesecake, Morango, Chiclete",
-      "Notas: Cremoso, frutado e nostálgico",
+      "Quantidade: 18 unidades",
+      "Sabor: Strawberry Cough (Morango)",
+      "Notas: Doce, frutado e suculento",
       "Formato: Pirulito individual",
       "Marca: Dr. Greenlove Amsterdam",
+      "Contém óleo de cannabis real",
       "Efeitos principais: Relaxado, Feliz, Suave",
       "Onset: 30-60 minutos",
       "Duração: Efeito moderado",
       "Sem fumaça, sem impacto pulmonar",
       "Discreto e prático para qualquer ocasião"
     ],
-    images: ["/images/cannabis-pirulito-cheesecake-morango-chiclete-1.jpg"],
+    images: ["/images/cannabis-lollipops-strawberry-cough.png"],
     category: "Comestíveis",
     inStock: true,
     rating: 4.8,
@@ -7800,21 +7801,21 @@ export const products: Product[] = [
         author: "Rafaela S.",
         rating: 5,
         date: "2026-01-18",
-        comment: "Gente, o de cheesecake é simplesmente inacreditável! Sabor cremoso de verdade, parece que tô comendo a sobremesa. Brisa veio bem suave, adorei."
+        comment: "Gente, o sabor de morango é simplesmente inacreditável! Parece morango de verdade, super suculento. Brisa veio bem suave, adorei demais."
       },
       {
         id: "r2",
         author: "Vinícius L.",
         rating: 5,
         date: "2026-01-05",
-        comment: "Comprei pra dividir com os amigos no rolê e fez o maior sucesso. O de chiclete me lembrou minha infância, mas com aquele plus, sabe? Top demais."
+        comment: "Comprei pra dividir com os amigos no rolê e fez o maior sucesso. O Strawberry Cough é uma delícia, sabor marcante e brisa na medida. Top demais!"
       },
       {
         id: "r3",
         author: "Patrícia A.",
         rating: 4,
         date: "2025-12-22",
-        comment: "O sabor morango é o melhor na minha opinião, bem docinho e natural. Achei a brisa um pouco leve, mas pra quem tá começando é perfeito. Recomendo!"
+        comment: "Sabor de morango bem docinho e natural, dá pra sentir o cannabis no fundo. Achei a brisa um pouco leve, mas pra quem tá começando é perfeito. Recomendo!"
       }
     ]
   },  {
