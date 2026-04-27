@@ -7819,9 +7819,6 @@ export const products: Product[] = [
       }
     ]
   },  {
-    id: "215",
-    name: "Cannabis Lollipops - Northern Lights x Pineapple Express",
-  },  {
     id: "217",
     name: "Cannabis Lollipops - Green Apple",
     slug: "cannabis-lollipops-green-apple",
