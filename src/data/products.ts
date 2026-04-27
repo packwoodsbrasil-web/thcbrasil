@@ -7866,6 +7866,27 @@ export const products: Product[] = [
         rating: 4,
         date: "2026-01-15",
         comment: "Adorei o sabor, bem refrescante. A brisa demorou um pouco pra bater mas valeu a espera. Recomendo pra dividir no rolê com a galera."
+      },
+      {
+        id: "r4",
+        author: "Felipe M.",
+        rating: 5,
+        date: "2026-02-22",
+        comment: "Mano, esse pirulito é sensacional! Aquele azedinho da maçã verde com a brisa do Apple OG é combinação perfeita. Já tô na segunda caixa, viciei!"
+      },
+      {
+        id: "r5",
+        author: "Larissa B.",
+        rating: 5,
+        date: "2026-02-18",
+        comment: "Chegou rapidinho e super bem embalado. Sabor maravilhoso, parece bala de maçã verde da infância só que com aquele plus. Brisa gostosa e tranquila, amei!"
+      },
+      {
+        id: "r6",
+        author: "Rodrigo V.",
+        rating: 4,
+        date: "2026-02-05",
+        comment: "Produto top, sabor autêntico e nada artificial. Achei a brisa moderada, ideal pra quem não quer nada muito pesado. Vale demais o preço, recomendo!"
       }
     ]
   },  {
