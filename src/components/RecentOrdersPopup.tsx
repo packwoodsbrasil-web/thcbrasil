@@ -54,7 +54,7 @@ export function RecentOrdersPopup() {
       hideTimer = setTimeout(() => {
         setVisible(false);
         // schedule next after a gap
-        nextTimer = setTimeout(showOne, 12000 + Math.random() * 10000);
+        nextTimer = setTimeout(showOne, 35000 + Math.random() * 15000);
       }, 6000);
     };
 
