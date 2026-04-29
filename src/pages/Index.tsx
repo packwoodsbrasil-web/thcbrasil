@@ -32,7 +32,7 @@ const Index = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-white font-medium mb-10 animate-fade-in drop-shadow-lg" style={{ animationDelay: '0.2s', textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
-                Canetas, Vapes, Blunts, e Comestíveis THC Premium Com Entrega Para Todos o Brasil.
+                Canetas, Vapes, Blunts, e Comestíveis THC Premium Com Entrega Para Todo o Brasil.
               </p>
               <div className="flex flex-wrap gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
                 <Link to="/produtos">
