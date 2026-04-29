@@ -7819,7 +7819,7 @@ export const products: Product[] = [
       }
     ]
   },  {
-    id: "217",
+    id: "241",
     name: "Cannabis Lollipops - Green Apple",
     slug: "cannabis-lollipops-green-apple",
     price: 69.90,
