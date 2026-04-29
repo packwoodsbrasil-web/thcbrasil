@@ -7898,7 +7898,7 @@ export const products: Product[] = [
     description: "Cannabis Lollipops Northern Lights x Pineapple Express é o pirulito artesanal da Dr. Greenlove Amsterdam que une o sabor doce e tropical do abacaxi com o toque herbal e relaxante da Northern Lights. Cada pirulito traz uma experiência saborosa, discreta e prática, perfeita pra quem curte um docinho com vibe canábica sem precisar fumar. Embalagem individual, ideal pra levar pra qualquer rolê e curtir aquela brisa leve com gostinho de festa.",
     details: [
       "Tipo: Pirulito Cannabis",
-      "Quantidade: 50 unidades",
+      "Quantidade: 30 unidades",
       "Sabor: Northern Lights x Pineapple Express",
       "Notas: Abacaxi tropical, toque herbal canábico",
       "Formato: Pirulito individual",
