@@ -7910,6 +7910,7 @@ export const products: Product[] = [
       "Discreto e prático para qualquer ocasião"
     ],
     images: ["/images/cannabis-lollipops-northern-lights-pineapple-1.jpg"],
+    imageFit: "contain",
     category: "Comestíveis",
     inStock: true,
     rating: 4.7,
