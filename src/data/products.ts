@@ -10869,7 +10869,39 @@ export const products: Product[] = [
   }
 ];
 
-export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Kits"];
+products.push({
+  id: "242",
+  name: "Cogumelos Mágicos Cubensis 10g",
+  slug: "cogumelos-magicos-cubensis-10g",
+  price: 99.90,
+  originalPrice: 129.90,
+  description: "Cogumelos Mágicos Psilocybe Cubensis desidratados premium, colhidos no ponto certo e cuidadosamente secos para preservar toda potência da psilocibina e psilocina. Experiência alucinógena clássica com viagens introspectivas, visuais marcantes e sensação de conexão profunda. Ideal pra microdosagem terapêutica ou jornadas mais intensas com set & setting adequados. Embalagem lacrada de 10g, qualidade garantida e procedência confiável.",
+  details: [
+    "Espécie: Psilocybe Cubensis",
+    "Conteúdo: 10g desidratados",
+    "Princípios ativos: Psilocibina e Psilocina",
+    "Efeitos principais: Alucinógeno, Introspectivo, Eufórico",
+    "Uso recomendado: Microdosagem ou jornada completa",
+    "Forma: Cogumelos secos inteiros",
+    "Armazenamento: Local seco e ao abrigo da luz",
+    "Qualidade: Premium, cultivo controlado",
+    "Origem: Cultivo nacional especializado"
+  ],
+  images: ["/images/cogumelos-magicos-cubensis-1.webp"],
+  imageFit: "contain",
+  category: "Alucinógenos",
+  inStock: true,
+  rating: 5.0,
+  reviewCount: 3,
+  promoTag: "23% OFF",
+  reviews: [
+    { id: "cmc-r1", author: "Thiago M.", rating: 5, date: "2026-04-28", comment: "Mano, viagem incrível! Microdosei 0,3g e fiquei criativo o dia todo, sem ressaca nenhuma. Produto top de qualidade." },
+    { id: "cmc-r2", author: "Camila R.", rating: 5, date: "2026-04-15", comment: "Cogumelo bem seco, cheiro forte e característico. Jornada de 2g foi transformadora, recomendo demais com set certo." },
+    { id: "cmc-r3", author: "Bruno A.", rating: 5, date: "2026-03-30", comment: "Chegou rapidinho, lacrado direitinho. Potência absurda, valeu cada centavo. Já é meu fornecedor fixo." }
+  ]
+});
+
+export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Kits", "Alucinógenos"];
 
 export const getProductBySlug = (slug: string): Product | undefined => {
   return products.find((product) => product.slug === slug);
