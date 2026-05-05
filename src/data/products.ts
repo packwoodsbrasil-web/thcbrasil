@@ -10903,6 +10903,41 @@ products.push({
 
 export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Alucinógenos", "Kits"];
 
+products.push({
+  id: "243",
+  name: "Cogumelos Cubensis True Albino 10g",
+  slug: "cogumelos-cubensis-true-albino-10g",
+  price: 99.90,
+  originalPrice: 129.90,
+  description: "Cogumelos Psilocybe Cubensis True Albino desidratados, uma variedade rara e exclusiva conhecida pela coloração branca pura e potência elevada. Cultivo controlado com colheita no ponto ideal pra preservar ao máximo a psilocibina e psilocina. Experiência alucinógena intensa, com visuais marcantes, introspecção profunda e sensação de conexão. Indicado tanto pra microdosagem quanto pra jornadas completas com set & setting adequados. Embalagem lacrada de 10g, qualidade premium garantida.",
+  details: [
+    "Espécie: Psilocybe Cubensis True Albino",
+    "Conteúdo: 10g desidratados",
+    "Princípios ativos: Psilocibina e Psilocina",
+    "Efeitos principais: Alucinógeno, Introspectivo, Visual",
+    "Uso recomendado: Microdosagem ou jornada completa",
+    "Forma: Cogumelos secos inteiros",
+    "Armazenamento: Local seco e ao abrigo da luz",
+    "Qualidade: Premium, variedade rara",
+    "Origem: Cultivo nacional especializado"
+  ],
+  images: ["/images/cogumelos-cubensis-true-albino-1.webp"],
+  imageFit: "contain",
+  category: "Alucinógenos",
+  inStock: true,
+  rating: 5.0,
+  reviewCount: 8,
+  promoTag: "23% OFF",
+  reviews: [
+    { id: "ctra-r1", author: "Lucas P.", rating: 5, date: "2026-04-30", comment: "Mano, esse albino é outro nível! Visual lindo, todo branquinho, e a brisa bateu forte mesmo com 1,5g. Recomendo demais." },
+    { id: "ctra-r2", author: "Marina S.", rating: 5, date: "2026-04-22", comment: "Microdosei 0,2g por uma semana e a diferença no foco e no humor foi absurda. Produto sequinho, lacrado, chegou rapidinho." },
+    { id: "ctra-r3", author: "Rafael C.", rating: 5, date: "2026-04-10", comment: "Jornada de 3g, experiência transformadora total. Visuais marcantes, introspecção pesada. True albino é raiz, vale cada real." },
+    { id: "ctra-r4", author: "Beatriz N.", rating: 5, date: "2026-03-28", comment: "Qualidade premium de verdade. Cheiro característico forte, textura crocante perfeita. Já comprei duas vezes, fornecedor fixo." },
+    { id: "ctra-r5", author: "Diego F.", rating: 5, date: "2026-03-15", comment: "Brisa limpa, sem náusea nem ressaca. Set & setting certo + esse cogu = experiência mística garantida. Top demais." },
+    { id: "ctra-r6", author: "Juliana T.", rating: 5, date: "2026-02-26", comment: "Albino raro mesmo, achei só aqui. Potência elevada como prometido, embalagem discreta e segura. Muito satisfeita com a compra." }
+  ]
+});
+
 export const getProductBySlug = (slug: string): Product | undefined => {
   return products.find((product) => product.slug === slug);
 };
