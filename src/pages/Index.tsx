@@ -61,6 +61,7 @@ const Index = () => {
                   'Vapes': '/images/category-vapes.png',
                   'Blunts': '/images/category-blunts.jpg',
                   'Comestíveis': '/images/category-comestiveis.jpg',
+                  'Alucinógenos': '/images/category-alucinogenos.png',
                   'Kits': '/images/category-kits.png',
                 };
                 const bgImage = categoryImages[category];
