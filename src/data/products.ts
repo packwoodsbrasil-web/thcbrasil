@@ -10901,7 +10901,7 @@ products.push({
   ]
 });
 
-export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Kits", "Alucinógenos"];
+export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Alucinógenos", "Kits"];
 
 export const getProductBySlug = (slug: string): Product | undefined => {
   return products.find((product) => product.slug === slug);
