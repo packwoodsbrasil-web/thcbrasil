@@ -10889,7 +10889,7 @@ products.push({
   ],
   images: ["/images/cogumelos-magicos-cubensis-1.webp"],
   imageFit: "contain",
-  category: "Alucinógenos",
+    category: "Psicodélicos",
   inStock: true,
   rating: 5.0,
   reviewCount: 3,
@@ -10901,7 +10901,7 @@ products.push({
   ]
 });
 
-export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Alucinógenos", "Kits"];
+export const categories: string[] = ["Canetas", "Vapes", "Blunts", "Comestíveis", "Psicodélicos", "Kits"];
 
 products.push({
   id: "243",
@@ -10923,7 +10923,7 @@ products.push({
   ],
   images: ["/images/cogumelos-cubensis-true-albino-1.webp"],
   imageFit: "contain",
-  category: "Alucinógenos",
+  category: "Psicodélicos",
   inStock: true,
   rating: 5.0,
   reviewCount: 8,
