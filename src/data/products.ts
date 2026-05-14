@@ -7711,7 +7711,7 @@ export const products: Product[] = [
     id: "217",
     name: "Euphoria Cannabis Candies CBD",
     slug: "euphoria-cannabis-candies-cbd",
-    price: 69.90,
+    price: 2.00,
     originalPrice: 99.90,
     description: "Euphoria Cannabis Candies CBD são balas duras artesanais sabor menta infusionadas com CBD, perfeitas pra um relaxamento suave e discreto a qualquer hora do dia. Sabor refrescante de menta, embalagem prática e dose equilibrada de CBD pra trazer aquela sensação de bem-estar sem efeitos psicoativos. Ideais pra aliviar o estresse, melhorar o foco e deixar o dia mais leve. Cada embalagem traz 20 unidades, ótimas pra levar na bolsa, dividir com a galera ou curtir aos pouquinhos.",
     details: [
