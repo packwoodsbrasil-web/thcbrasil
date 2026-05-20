@@ -4875,7 +4875,8 @@ export const products: Product[] = [
       "Sabor: Bolo doce, baunilha, cacau cremoso",
       "Qualidade: 100% Potency Disposable",
       "Certificado: 100% State Certified Clean",
-      "Origem: Packwoods x Runtz - Califórnia, EUA"
+      "Origem: Packwoods x Runtz - Califórnia, EUA",
+      "Recarregável: após acabar, basta acoplar outro refil/pod compatível e continuar usando o mesmo dispositivo"
     ],
     images: ["/images/packwoods-runtz-red-velvet-cake-1.jpg"],
     category: "Canetas",
@@ -4911,7 +4912,8 @@ export const products: Product[] = [
       "Sabor: Pirulito doce, frutas mistas, chiclete",
       "Qualidade: 100% Potency Disposable",
       "Certificado: 100% State Certified Clean",
-      "Origem: Packwoods x Runtz - Califórnia, EUA"
+      "Origem: Packwoods x Runtz - Califórnia, EUA",
+      "Recarregável: após acabar, basta acoplar outro refil/pod compatível e continuar usando o mesmo dispositivo"
     ],
     images: ["/images/packwoods-runtz-blow-pop-1.jpg"],
     category: "Canetas",
@@ -4946,7 +4948,8 @@ export const products: Product[] = [
       "Sabor: Mirtilo doce, creme aveludado, sobremesa",
       "Qualidade: 100% Potency Disposable",
       "Certificado: 100% State Certified Clean",
-      "Origem: Packwoods x Runtz - Califórnia, EUA"
+      "Origem: Packwoods x Runtz - Califórnia, EUA",
+      "Recarregável: após acabar, basta acoplar outro refil/pod compatível e continuar usando o mesmo dispositivo"
     ],
     images: ["/images/packwoods-runtz-blue-berry-souffle-1.jpg"],
     category: "Canetas",
@@ -4984,7 +4987,8 @@ export const products: Product[] = [
       "Sabor: Morango doce, bolo cremoso, sobremesa",
       "Qualidade: 100% Potency Disposable",
       "Certificado: 100% State Certified Clean",
-      "Origem: Packwoods x Runtz - Califórnia, EUA"
+      "Origem: Packwoods x Runtz - Califórnia, EUA",
+      "Recarregável: após acabar, basta acoplar outro refil/pod compatível e continuar usando o mesmo dispositivo"
     ],
     images: ["/images/packwoods-runtz-strawberry-shortcake-long-1.jpg"],
     category: "Canetas",
@@ -5021,7 +5025,8 @@ export const products: Product[] = [
       "Sabor: Limão cítrico, torta cremosa, biscoito amanteigado",
       "Qualidade: 100% Potency Disposable",
       "Certificado: 100% State Certified Clean",
-      "Origem: Packwoods x Runtz - Califórnia, EUA"
+      "Origem: Packwoods x Runtz - Califórnia, EUA",
+      "Recarregável: após acabar, basta acoplar outro refil/pod compatível e continuar usando o mesmo dispositivo"
     ],
     images: ["/images/packwoods-runtz-key-lime-pie-1.jpg"],
     category: "Canetas",
