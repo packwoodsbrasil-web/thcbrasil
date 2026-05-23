@@ -54,8 +54,8 @@ const Privacy = () => {
           <h2 className="text-xl font-semibold mt-8 mb-4">5. Contato</h2>
           <p className="text-muted-foreground mb-6">
             Para questões relacionadas à privacidade, entre em contato conosco pelo e-mail:{" "}
-            <a href="mailto:sac@thcbrasil.com.br" className="text-primary hover:underline">
-              sac@thcbrasil.com.br
+            <a href="mailto:thcbrasil@gmail.com" className="text-primary hover:underline">
+              thcbrasil@gmail.com
             </a>
           </p>
         </div>
