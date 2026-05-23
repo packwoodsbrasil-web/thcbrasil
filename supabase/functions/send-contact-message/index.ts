@@ -47,7 +47,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     const emailResponse = await resend.emails.send({
       from: "THC BRASIL Contato <onboarding@resend.dev>",
-      to: ["sac.thcbrasil@gmail.com"],
+      to: ["sac@thcbrasil.com.br"],
       subject: `Nova mensagem de contato - ${name}`,
       reply_to: email,
       html: `
